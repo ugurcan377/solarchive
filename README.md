@@ -72,11 +72,11 @@ Packages contains different keys which represents different aspects of character
 ```json
 {
     "skills": {
-        "free fall": 30, // Skill without fields
-        "networking": 30, // Skill with fields which one is players choice
-        "networking": {"value": 40, "spec": "scientists"}, // A specific field
-        "academics": [40, 30], // Skill with multiple fields
-        "profession": [ // Skill with multiple specific fields
+        "free fall": 30, // "Skill without fields"
+        "networking": 30, // "Skill with fields which one is players choice"
+        "networking": {"value": 40, "spec": "scientists"}, // "A specific field"
+        "academics": [40, 30], // "Skill with multiple fields"
+        "profession": [ // "Skill with multiple specific fields"
             {"value": 50, "spec": "forensics"}, 
             {"value": 40, "spec": "police procedures"}
         ],

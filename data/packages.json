@@ -1,0 +1,3922 @@
+{
+    "aptitudes": {
+        "brawler": {
+            "cog": 10,
+            "coo": 20,
+            "int": 15,
+            "ref": 20,
+            "sav": 10,
+            "som": 20,
+            "wil": 10
+        },
+        "dilettante": {
+            "cog": 15,
+            "coo": 15,
+            "int": 15,
+            "ref": 15,
+            "sav": 15,
+            "som": 15,
+            "wil": 15
+        },
+        "extrovert": {
+            "cog": 10,
+            "coo": 20,
+            "int": 15,
+            "ref": 20,
+            "sav": 10,
+            "som": 20,
+            "wil": 10
+        },
+        "inquisitive": {
+            "cog": 15,
+            "coo": 15,
+            "int": 15,
+            "ref": 15,
+            "sav": 20,
+            "som": 10,
+            "wil": 15
+        },
+        "researcher": {
+            "cog": 20,
+            "coo": 15,
+            "int": 20,
+            "ref": 15,
+            "sav": 10,
+            "som": 10,
+            "wil": 15
+        },
+        "survivor": {
+            "cog": 10,
+            "coo": 15,
+            "int": 15,
+            "ref": 15,
+            "sav": 10,
+            "som": 20,
+            "wil": 20
+        },
+        "techie": {
+            "cog": 20,
+            "coo": 15,
+            "int": 10,
+            "ref": 15,
+            "sav": 15,
+            "som": 25,
+            "wil": 15
+        },
+        "thrill seeker": {
+            "cog": 10,
+            "coo": 20,
+            "int": 15,
+            "ref": 20,
+            "sav": 15,
+            "som": 15,
+            "wil": 10
+        }
+    },
+    "background": {
+        "colonist command": {
+            "motivations": {
+                "positive": ["hard work", "leadership", "survival"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "persuasion": 15,
+                    "profession": {"value": 30, "spec": "administration"},
+                    "protocol": 40
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "academics": 30,
+                    "free fall": 35,
+                    "interest": 20,
+                    "networking": 40,
+                    "persuasion": 40,
+                    "pilot": 30,
+                    "profession": {"value": 30, "spec": "administration"},
+                    "protocol": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"sav": 5},
+                "rep": 50,
+                "skills": {
+                    "academics": 40,
+                    "art": 40,
+                    "beam weapons": 30,
+                    "fray": 25,
+                    "free fall": 35,
+                    "interest": 30,
+                    "intimidation": 30,
+                    "networking": 40,
+                    "persuasion": 40,
+                    "pilot": 30,
+                    "profession": {"value": 30, "spec": "administration"},
+                    "protocol": 50
+                }
+
+            }
+        },
+        "colonist flight": {
+            "motivations": {
+                "positive": ["exploration", "personal career", "thrill seeking"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "profession": {"value": 30, "spec": "flight crew"},
+                    "spacecraft": 40
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "academics": {"value": 30, "spec": "astropyhsics"},
+                    "free fall": 40,
+                    "hardware": {"value": 35, "spec": "aerospace"},
+                    "interest": 20,
+                    "navigation": 40,
+                    "networking": 30,
+                    "pilot": {"value": 50, "spec": "spacecraft"},
+                    "profession": {"value": 30, "spec": "flight crew"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"ref": 5},
+                "rep": 50,
+                "skills": {
+                    "academics": {"value": 40, "spec": "astropyhsics"},
+                    "free fall": 40,
+                    "hardware": {"value": 35, "spec": "aerospace"},
+                    "interest": 30,
+                    "language": 30,
+                    "gunnery": 30,
+                    "navigation": 40,
+                    "networking": [30, 30],
+                    "pilot": {"value": 50, "spec": "spacecraft"},
+                    "profession": {"value": 30, "spec": "flight crew"},
+                    "fray": 20
+                }
+            }
+        },
+        "colonist security": {
+            "motivations": {
+                "positive": ["law and order", "survival"],
+                "negative": ["criminals", "autonomists"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "profession": {"value": 30, "spec": "security ops"},
+                    "beam weapons": 40,
+                    "free fall": 15
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "beam weapons": 50,
+                    "clubs": 35,
+                    "intimidation": 40,
+                    "language": 20,
+                    "free fall": 40,
+                    "interest": 30,
+                    "networking": 30,
+                    "profession": {"value": 40, "spec": "security ops"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"som": 5},
+                "rep": 50,
+                "skills": {
+                    "academics": 40,
+                    "beam weapons": 50,
+                    "fray": 25,
+                    "clubs": 35,
+                    "intimidation": 40,
+                    "language": 30,
+                    "investigation": 20,
+                    "free fall": 40,
+                    "interest": 30,
+                    "networking": 30,
+                    "profession": {"value": 50, "spec": "security ops"},
+                    "unarmed": 40
+                }
+            }
+        },
+        "colonist science": {
+            "motivations": {
+                "positive": ["hard work", "personal career", "science"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "academics": 40,
+                    "free fall": 15,
+                    "investigation": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "academics": 50,
+                    "free fall": 30,
+                    "investigation": 40,
+                    "interest": 15,
+                    "interfacing": 40,
+                    "networking": {"value": 40, "spec": "scientists"},
+                    "profession": {"value": 40, "spec": "lab technician"},
+                    "research": 40
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "rep": 50,
+                "skills": {
+                    "academics": [50, 40],
+                    "fray": 25,
+                    "hardware": 20,
+                    "programming": 35,
+                    "free fall": 30,
+                    "investigation": 50,
+                    "interest": 30,
+                    "interfacing": 40,
+                    "networking": {"value": 40, "spec": "scientists"},
+                    "profession": {"value": 40, "spec": "lab technician"},
+                    "research": 40
+                }
+            }
+        },
+        "colonist tech": {
+            "motivations": {
+                "positive": ["hard work", "problem solving", "survival"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "hardware": 40,
+                    "free fall": 15,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "academics": 30,
+                    "free fall": 30,
+                    "hardware": 50,
+                    "interest": 20,
+                    "interfacing": 40,
+                    "profession": 40,
+                    "programming": 40,
+                    "scrounging": 35
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "rep": 50,
+                "skills": {
+                    "academics": 40,
+                    "fray": 20,
+                    "hardware": [50, 40],
+                    "programming": 40,
+                    "free fall": 30,
+                    "scrounging": 25,
+                    "interest": 30,
+                    "interfacing": 40,
+                    "pilot": 25,
+                    "profession": 50,
+                    "research": 40,
+                    "language": 30
+                }
+            }
+        },
+        "drifter": {
+            "motivations": {
+                "positive": ["exploration", "hard work", "survival", "pragmatism"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "profession": 30,
+                    "free fall": 15,
+                    "scrounging": 40
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "free fall": 40,
+                    "hardware": 30,
+                    "interest": 20,
+                    "kinetic weapons": 20,
+                    "language": 30,
+                    "navigation": 20,
+                    "networking": 35,
+                    "profession": 40,
+                    "scrounging": 50
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "aptitude": {"int": 5},
+                "rep": 50,
+                "skills": {
+                    "art": 40,
+                    "fray": 25,
+                    "free fall": 40,
+                    "hardware": 30,
+                    "interest": 30,
+                    "kinetic weapons": 20,
+                    "language": 40,
+                    "navigation": 20,
+                    "networking": [30, 30],
+                    "profession": 40,
+                    "scrounging": 50,
+                    "protocol": 20
+                }
+            }
+        },
+        "earth survivor": {
+            "motivations": {
+                "positive": ["survival", "reclaiming earth"],
+                "negative": ["reclaiming earth", "titans"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "profession": {"value": 30, "spec": "post-apocalyptic survival"},
+                    "freerunning": 15,
+                    "scrounging": 40
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "profession": {"value": 40, "spec": "post-apocalyptic survival"},
+                    "freerunning": 30,
+                    "scrounging": 50,
+                    "interest": 30,
+                    "infiltration": 40,
+                    "kinetic weapons": 35,
+                    "language": 30,
+                    "pilot": {"value": 20, "spec": "groundcraft"}
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "aptitude": {"wil": 5},
+                "trait": "neural damage",
+                "skills": {
+                    "profession": [{"value": 30, "spec": "post-apocalyptic survival"}, 40],
+                    "freerunning": 30,
+                    "animal handling": 20,
+                    "demolitions": 20,
+                    "fray": 25,
+                    "scrounging": 50,
+                    "interest": 30,
+                    "infiltration": 40,
+                    "kinetic weapons": 40,
+                    "language": 30,
+                    "seeker weapons": 30,
+                    "pilot": {"value": 25, "spec": "groundcraft"}
+                }
+            }
+        },
+        "fall evacuee enclaver": {
+            "motivations": {
+                "positive": ["wealth", "reclaiming earth", "survival", "personal career"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "profession": 30,
+                    "academics": 30,
+                    "protocol": 25
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "academics": 40,
+                    "interest": 20,
+                    "interfacing": 35,
+                    "persuasion": 40,
+                    "profession": 40,
+                    "protocol": 30,
+                    "networking": 50,
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "aptitude": {"sav": 5},
+                "rep": 50,
+                "skills": {
+                    "academics": 40,
+                    "art": 30,
+                    "interest": 40,
+                    "fray": 20,
+                    "beam weapons": 20,
+                    "interfacing": 35,
+                    "kinesics": 25,
+                    "persuasion": 40,
+                    "profession": 40,
+                    "protocol": 40,
+                    "networking": [50, 20],
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                }
+            }
+        },
+        "fall evacuee underclass": {
+            "motivations": {
+                "positive": ["survival", "personal development"],
+                "negative": ["hypercapitalism"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "profession": 30,
+                    "networking": 40,
+                    "unarmed": 15
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "blades": 30,
+                    "interest": 20,
+                    "deception": 30,
+                    "language": 30,
+                    "persuasion": 40,
+                    "profession": 40,
+                    "networking": 50,
+                    "unarmed": 20,
+                    "pilot": {"value": 25, "spec": "groundcraft"}
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "aptitude": {"wil": 5},
+                "rep": 50,
+                "skills": {
+                    "academics": 30,
+                    "blades": 30,
+                    "interest": 40,
+                    "fray": 20,
+                    "deception": 30,
+                    "infiltration": 30,
+                    "language": 40,
+                    "persuasion": 40,
+                    "profession": 40,
+                    "networking": 50,
+                    "unarmed": 35,
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                }
+            }
+        },
+        "hyperelite media personality": {
+            "motivations": {
+                "positive": ["fame", "artistic expression", "personal career"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "credits": 5000,
+                "skills": {
+                    "art": 40,
+                    "networking": {"value": 40, "spec": "media"}
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "credits": 30000,
+                "skills": {
+                    "art": 40,
+                    "disguise": 25,
+                    "interest": 30,
+                    "interfacing": 30,
+                    "persuasion": 30,
+                    "protocol": 30,
+                    "profession": 20,
+                    "networking": {"value": 50, "spec": "media"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"sav": 5},
+                "rep": 50,
+                "credits": 60000,
+                "skills": {
+                    "art": 40,
+                    "disguise": 25,
+                    "fray": 15,
+                    "interest": 40,
+                    "interfacing": 30,
+                    "language": 30,
+                    "persuasion": 30,
+                    "protocol": 50,
+                    "profession": 40,
+                    "networking": [20, {"value": 50, "spec": "media"}]
+                }
+            }
+        },
+        "hyperelite scion": {
+            "motivations": {
+                "positive": ["family", "hypercapitalism", "wealth"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "credits": 5000,
+                "skills": {
+                    "academics": 30,
+                    "kinesics": 30,
+                    "protocol": 20,
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "credits": 20000,
+                "skills": {
+                    "academics": 40,
+                    "kinesics": 50,
+                    "art": 30,
+                    "protocol": 30,
+                    "interfacing": 30,
+                    "persuasion": 30,
+                    "interest": 20,
+                    "networking": {"value": 35, "spec": "hypercorps"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"sav": 5},
+                "rep": 50,
+                "credits": 50000,
+                "trait": "patron",
+                "skills": {
+                    "academics": 40,
+                    "kinesics": 50,
+                    "art": 40,
+                    "protocol": 40,
+                    "interfacing": 30,
+                    "persuasion": 30,
+                    "profession": 30,
+                    "intimidation": 20,
+                    "kinetic weapons": 20,
+                    "interest": 40,
+                    "networking": {"value": 40, "spec": "hypercorps"}
+                }
+            }
+        },
+        "indenture": {
+            "motivations": {
+                "positive": ["hard work", "survival"],
+                "negative": ["hypercorps", "indentured service"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "hardware": 40,
+                    "language": 15,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "hardware": 50,
+                    "free fall": 40,
+                    "scrounging": 45,
+                    "language": 30,
+                    "profession": 40,
+                    "interest": 20,
+                    "blades": 30,
+                    "demolitions": 30
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "aptitude": {"som": 5},
+                "rep": 50,
+                "skills": {
+                    "hardware": 50,
+                    "free fall": 40,
+                    "scrounging": 45,
+                    "language": 40,
+                    "profession": [40, 40],
+                    "networking": {"value": 20, "spec":"criminal"},
+                    "interest": 30,
+                    "interfacing": 30,
+                    "fray": 20,
+                    "blades": 30,
+                    "demolitions": 30
+                }
+            }
+        },
+        "infolife emergent uplift": {
+            "motivations": {
+                "positive": ["agi rights", "mercurial cause"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["anamalous mind", "real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 40,
+                    "infosec": 25,
+                    "interest": 30,
+                    "programming": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": ["anamalous mind", "real word naivite", "social stigma"],
+                "skills": {
+                    "academics": 30,
+                    "interfacing": 50,
+                    "hardware": 40,
+                    "infosec": 30,
+                    "networking": 30,
+                    "research": 30,
+                    "profession": 20,
+                    "interest": 40,
+                    "programming": 40
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "aptitude": {"cog": 5},
+                "rep": 50,
+                 "trait": ["anamalous mind", "real word naivite", "social stigma"],
+                "skills": {
+                    "any": [30, 30],
+                    "academics": [40, 40],
+                    "interfacing": 50,
+                    "hardware": 40,
+                    "infosec": 40,
+                    "networking": 30,
+                    "research": 35,
+                    "profession": 40,
+                    "interest": 40,
+                    "programming": 40
+                }
+            }
+        },
+        "infolife humanities agi": {
+            "motivations": {
+                "positive": ["agi rights", "personal development", "philanthropy"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 40,
+                    "kinesics": 35,
+                    "academics": {"value": 30, "spec": "psychology"}
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 50,
+                    "kinesics": 40,
+                    "persuasion": 40,
+                    "research": 30,
+                    "networking": 30,
+                    "impersonation": 25,
+                    "art": {"value": 20, "spec": "digital art"},
+                    "profession": {"value": 30, "spec": "psychotherapy"},
+                    "academics": {"value": 40, "spec": "psychology"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"sav": 5},
+                "rep": 50,
+                 "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 50,
+                    "kinesics": 50,
+                    "persuasion": 40,
+                    "interest": 40,
+                    "research": 30,
+                    "protocol": 30,
+                    "infosec": 30,
+                    "networking": 40,
+                    "impersonation": 30,
+                    "art": {"value": 40, "spec": "digital art"},
+                    "profession": {"value": 30, "spec": "psychotherapy"},
+                    "academics": {"value": 40, "spec": "psychology"}
+                }
+            }
+        },
+        "infolife machine agi": {
+            "motivations": {
+                "positive": ["agi rights", "sousveillance", "thrill seeking"],
+                "negative": ["disorganization"]
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 40,
+                    "programming": 35,
+                    "academics": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 50,
+                    "programming": 40,
+                    "infosec": 35,
+                    "academics": 40,
+                    "profession": 30,
+                    "pilot": 30,
+                    "art": 20,
+                    "hardware": {"value": 40, "spec": "electronics"},
+                    "hardware": {"value": 20, "spec": "robotics"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"ref": 5},
+                "rep": 50,
+                 "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 50,
+                    "programming": 50,
+                    "infosec": 40,
+                    "academics": [40, 40],
+                    "profession": 40,
+                    "pilot": 30,
+                    "research": 30,
+                    "art": 30,
+                    "flight": 30,
+                    "hardware": {"value": 40, "spec": "electronics"},
+                    "hardware": {"value": 30, "spec": "robotics"}
+                }
+            }
+        },
+        "infolife research agi": {
+            "motivations": {
+                "positive": ["agi rights", "education", "research"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "research": 40,
+                    "interfacing": 35,
+                    "academics": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 40,
+                    "programming": 30,
+                    "academics": [40, 30],
+                    "profession": 20,
+                    "investigation": 30,
+                    "research": 50,
+                    "hardware": 40,
+                    "networking": {"value": 25, "spec": "scientists"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "rep": 50,
+                 "trait": ["real word naivite", "social stigma"],
+                "skills": {
+                    "interfacing": 40,
+                    "programming": 40,
+                    "pilot": 30,
+                    "academics": [40, 40, 30],
+                    "profession": 40,
+                    "investigation": 40,
+                    "infosec": 30,
+                    "research": 50,
+                    "hardware": 40,
+                    "networking": {"value": 30, "spec": "scientists"}
+                }
+            }
+        },
+        "isolate seperatist": {
+            "motivations": {
+                "positive": ["bioconservatism", "religion", "artistic expression", "research"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "scrounging": 40,
+                    "free fall": 15,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "animal handling": 25,
+                    "scrounging": 40,
+                    "art": 40,
+                    "hardware": 40,
+                    "free fall": 30,
+                    "pilot": 30,
+                    "medicine": {"value": 30, "spec": "paramedic"},
+                    "profession": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"int": 5},
+                "rep": 50,
+                 "trait": ["real word naivite"],
+                "skills": {
+                    "animal handling": 25,
+                    "fray": 20,
+                    "interfacing": 20,
+                    "scrounging": 50,
+                    "free fall": 40,
+                    "art": 40,
+                    "hardware": 40,
+                    "free fall": 30,
+                    "academics": 30,
+                    "programming": 30,
+                    "interest": 30,
+                    "pilot": 40,
+                    "medicine": {"value": 30, "spec": "paramedic"},
+                    "profession": 50
+                }
+            }
+        },
+        "isolate seperatist": {
+            "motivations": {
+                "positive": ["bioconservatism", "religion", "artistic expression", "research"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "scrounging": 40,
+                    "free fall": 15,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "animal handling": 25,
+                    "scrounging": 40,
+                    "art": 40,
+                    "hardware": 40,
+                    "free fall": 30,
+                    "pilot": 30,
+                    "medicine": {"value": 30, "spec": "paramedic"},
+                    "profession": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"int": 5},
+                "rep": 50,
+                 "trait": ["real word naivite"],
+                "skills": {
+                    "animal handling": 25,
+                    "fray": 20,
+                    "interfacing": 20,
+                    "scrounging": 50,
+                    "free fall": 40,
+                    "art": 40,
+                    "hardware": 40,
+                    "free fall": 30,
+                    "academics": 30,
+                    "programming": 30,
+                    "interest": 30,
+                    "pilot": 40,
+                    "medicine": {"value": 30, "spec": "paramedic"},
+                    "profession": 50
+                }
+            }
+        },
+        "isolate survivalist": {
+            "motivations": {
+                "positive": ["bioconservatism", "religion", "survival"],
+                "negative": ["autonomists"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "kinetic weapons": 40,
+                    "free fall": 15,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "kinetic weapons": 50,
+                    "seeker weapons": 15,
+                    "hardware": 40,
+                    "academics": 20,
+                    "free fall": 30,
+                    "interest": 30,
+                    "profession": 40,
+                    "medicine": {"value": 30, "spec": "paramedic"},
+                    "pilot": 30
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"int": 5},
+                "rep": 50,
+                "skills": {
+                    "kinetic weapons": 50,
+                    "seeker weapons": 25,
+                    "hardware": 40,
+                    "academics": 30,
+                    "animal handling": 20,
+                    "demolitions": 20,
+                    "fray": 20,
+                    "navigation": 20,
+                    "free fall": 30,
+                    "interest": 30,
+                    "profession": [40],
+                    "medicine": {"value": 30, "spec": "paramedic"},
+                    "pilot": 30
+                }
+            }
+        },
+        "lost disturbed child": {
+            "motivations": {
+                "positive": ["neurodiversity", "sadism", "vengance"],
+                "negative": ["research"]
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                    "real world naivite"],
+                "psi": {"gamma": 2},
+                "skills": {
+                    "free fall": 15,
+                    "control": 35,
+                    "academics": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                    "real world naivite"],
+                "psi": {"gamma": 3, "chi": 1},
+                "skills": {
+                    "free fall": 30,
+                    "infiltration": 30,
+                    "language": 30,
+                    "profession": 20,
+                    "blades": 15,
+                    "fray": 15,
+                    "control": 50,
+                    "academics": 40,
+                    "deception": 40
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"wil": 5},
+                "rep": 50,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                    "real world naivite"],
+                "psi": {"gamma": 5, "chi": 2},
+                "skills": {
+                    "free fall": 30,
+                    "infiltration": 30,
+                    "language": 30,
+                    "profession": 40,
+                    "psi assualt": 40,
+                    "blades": 20,
+                    "fray": 20,
+                    "unarmed": 20,
+                    "control": 50,
+                    "academics": 40,
+                    "interest": 40,
+                    "deception": 40
+                }
+            }
+        },
+        "lost masked normalcy": {
+            "motivations": {
+                "positive": ["acceptance", "privacy", "self control"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["psi", "mental disorder", "mental disorder"],
+                "psi": {"chi": 2},
+                "skills": {
+                    "persuasion": 35,
+                    "academics": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": ["psi", "mental disorder", "mental disorder"],
+                "psi": {"chi": 4},
+                "skills": {
+                    "persuasion": 50,
+                    "kinesics": 45,
+                    "free fall": 30,
+                    "profession": 20,
+                    "language": 30,
+                    "academics": 40,
+                    "impersonation": 40
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run"],
+                "psi": {"chi": 4, "gamma": 2},
+                "skills": {
+                    "persuasion": 50,
+                    "sense": 50,
+                    "kinesics": 45,
+                    "free fall": 30,
+                    "profession": 30,
+                    "protocol": 30,
+                    "fray": 20,
+                    "language": 40,
+                    "interfacing": 30,
+                    "academics": 40,
+                    "interest": 40,
+                    "impersonation": 40
+                }
+            }
+        },
+        "original scum": {
+            "motivations": {
+                "positive": ["anarchism", "hedonism", "indivualism", "morphological freedom"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "free fall": 35,
+                    "art": 30,
+                    "medicine": {"value": 40, "spec": "biosculpting"}
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "free fall": 30,
+                    "networking": 35,
+                    "interest": 30,
+                    "language": 20,
+                    "art": 40,
+                    "persuasion": 40,
+                    "psychosurgery": 40,
+                    "medicine": {"value": 50, "spec": "biosculpting"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"wil": 5},
+                "skills": {
+                    "free fall": 30,
+                    "networking": [40, 20],
+                    "interest": 40,
+                    "language": 40,
+                    "kinesics": 20,
+                    "fray": 20,
+                    "spray weapons": 20,
+                    "art": 40,
+                    "persuasion": 40,
+                    "profession": 30,
+                    "psychosurgery": 40,
+                    "medicine": {"value": 50, "spec": "biosculpting"}
+                }
+            }
+        },
+        "reinstantiated civilian casualty": {
+            "motivations": {
+                "positive": ["reclaiming earth", "survival"],
+                "negative": ["titan tech"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "any": 40,
+                    "interfacing": 15,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "any": 50,
+                    "academics": 20,
+                    "interfacing": 45,
+                    "networking": 40,
+                    "profession": 40,
+                    "interest": 30,
+                    "research": 30,
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "rep": 50,
+                "aptitude": {"int": 5},
+                "trait": "edited memories",
+                "skills": {
+                    "any": 50,
+                    "academics": 40,
+                    "fray": 20,
+                    "kinesics": 20,
+                    "freerunning": 20,
+                    "interfacing": 45,
+                    "networking": 40,
+                    "profession": 40,
+                    "interest": [40, 20],
+                    "research": 30,
+                    "language": 30,
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                }
+            }
+        },
+        "reinstantiated infomorph": {
+            "motivations": {
+                "positive": ["reclaiming earth", "survival", "virtual reality"],
+                "negative": ["titans", "virtual reality"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "programming": 15,
+                    "interfacing": 40,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "programming": 45,
+                    "networking": 40,
+                    "interfacing": 50,
+                    "profession": 40,
+                    "interest": 30,
+                    "research": 30,
+                    "academics": 20,
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "rep": 50,
+                "aptitude": {"cog": 5},
+                "trait": "edited memories",
+                "skills": {
+                    "programming": 45,
+                    "networking": 40,
+                    "any": 40,
+                    "interfacing": 50,
+                    "profession": 40,
+                    "networking": 40,
+                    "interest": [50, 40],
+                    "infosec": 30,
+                    "fray": 10,
+                    "research": 30,
+                    "academics": 30,
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                }
+            }
+        },
+        "reinstantiated military casualty": {
+            "motivations": {
+                "positive": ["reclaiming earth", "survival"],
+                "negative": ["titans"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "freerunning": 15,
+                    "any combat": 40,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "freerunning": 35,
+                    "any combat": 40,
+                    "profession": 30,
+                    "gunnery": 30,
+                    "academics": 20,
+                    "fray": 20,
+                    "unarmed": 30,
+                    "profession": 40,
+                    "interest": 30,
+                    "pilot": {"value": 30, "spec": "groundcraft"}
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "rep": 50,
+                "aptitude": {"int": 5},
+                "trait": "edited memories",
+                "skills": {
+                    "freerunning": 35,
+                    "any combat": [40, 40],
+                    "profession": 30,
+                    "gunnery": 30,
+                    "academics": 30,
+                    "language": 30,
+                    "climbing": 30,
+                    "fray": 25,
+                    "unarmed": 40,
+                    "profession": 40,
+                    "interest": 50,
+                    "pilot": {"value": 15, "spec": "groundcraft"}
+                }
+            }
+        },
+        "street rat": {
+            "motivations": {
+                "positive": ["cartel/gang/family", "black markets", "survival", "wealth"],
+                "negative": ["law and order", "police"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "networking": {"value": 15, "spec": "criminals"},
+                    "unarmed": 40,
+                    "profession": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                    "clubs": 30,
+                    "fray": 20,
+                    "infiltration": 15,
+                    "unarmed": 40,
+                    "intimidation": 30,
+                    "profession": 30,
+                    "language": 40,
+                    "interest": 20,
+                    "pilot": {"value": 30, "spec": "groundcraft"},
+                    "networking": {"value": 30, "spec": "criminals"}
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"som": 5},
+                "skills": {
+                    "clubs": 30,
+                    "fray": 30,
+                    "infiltration": 25,
+                    "deception": 25,
+                    "unarmed": 40,
+                    "intimidation": 40,
+                    "profession": 40,
+                    "language": 40,
+                    "paliming": 20,
+                    "interest": [40, 30],
+                    "pilot": {"value": 30, "spec": "groundcraft"},
+                    "networking": {"value": 40, "spec": "criminals"}
+                }
+            }
+        },
+        "uplift escapee": {
+            "motivations": {
+                "positive": ["privacy", "uplift rights", "survival"],
+                "negative": ["hypercorps", "uplift slavery"]
+            },
+            "1": {
+                "moxie": 1,
+                "trait": "social stigma",
+                "skills": {
+                    "climbing": 40,
+                    "interest": 30,
+                    "infiltration": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": ["social stigma", "on the run"], 
+                "skills": {
+                    "climbing": 45,
+                    "infiltration": 50,
+                    "impersonation": 40,
+                    "language": 20,
+                    "profession": 30,
+                    "deception": 40,
+                    "interest": 40,
+                    "networking": 40
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"sav": 5},
+                "trait": ["social stigma", "on the run"],
+                "skills": {
+                    "climbing": 50,
+                    "infiltration": 50,
+                    "impersonation": 40,
+                    "fray": 25,
+                    "paliming": 25,
+                    "academics": 40,
+                    "language": 20,
+                    "profession": 30,
+                    "unarmed": 30,
+                    "deception": 40,
+                    "interest": 40,
+                    "networking": 40
+                }
+            }
+        },
+        "uplift feral": {
+            "motivations": {
+                "positive": ["mercurial cause", "uplift rights", "survival"],
+                "negative": ["hypercorps", "uplift slavery"]
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["social stigma", "anamalous mind", "heightened instinct"],
+                "skills": {
+                    "climbing": 40,
+                    "interest": 30,
+                    "unarmed": 35
+                    }
+                },
+            "3": {
+                "moxie": 2,
+                "trait": ["social stigma", "anamalous mind", "heightened instinct"],
+                "skills": {
+                    "climbing": 50,
+                    "unarmed": 50,
+                    "infiltration": 20,
+                    "fray": 40,
+                    "intimidation": 40,
+                    "interest": [45, 45]
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "aptitude": {"ref": 5},
+                "trait": ["social stigma", "anamalous mind", "heightened instinct"],
+                "skills": {
+                    "climbing": 50,
+                    "art": 30,
+                    "networking": 30,
+                    "scrounging": 20,
+                    "unarmed": 50,
+                    "infiltration": 50,
+                    "intimidation": 50,
+                    "fray": 40,
+                    "intimidation": 40,
+                    "interest": [40, 40, 40]
+                }
+            }
+        },
+        "uplift standard specimen": {
+            "motivations": {
+                "positive": ["mercurial cause", "uplift rights", "sapient cause"],
+                "negative": ["uplift slavery"]
+            },
+            "1": {
+                "moxie": 1,
+                "trait": "social stigma",
+                "skills": {
+                    "climbing": 45,
+                    "academics": 30,
+                    "interfacing": 20
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "trait": "social stigma", 
+                "skills": {
+                    "academics": 40,
+                    "interfacing": 30,
+                    "intimidation": 30,
+                    "kinesics": 35,
+                    "fray": 20,
+                    "climbing": 50,
+                    "profession": 30,
+                    "interest": 20,
+                    "networking": 40
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"coo": 5},
+                "trait": "social stigma",
+                "skills": {
+                    "academics": 40,
+                    "interfacing": 30,
+                    "intimidation": 30,
+                    "kinesics": 40,
+                    "fray": 20,
+                    "unarmed": 20,
+                    "climbing": 50,
+                    "profession": 40,
+                    "language": 30,
+                    "protocol": 30,
+                    "persuasion": 30,
+                    "interest": 40,
+                    "networking": 40
+                }
+            }
+        }
+    },
+    "faction": {
+       "anarchist": {
+            "motivations": {
+                "positive": ["community", "anarchism", "liberty", "morphological freedom"],
+                "negative": ["hypercapitalism", "authority"]
+            },
+            "1":  {
+                "skills": {
+                  "networking": {"value": 40, "spec": "autonomists"},
+                  "academics": {"value": 30, "spec": "political science"},
+                  "kinetic weapons": 30
+                }
+            },
+            "3": {
+                "@-rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "networking": {"value": 50, "spec": "autonomists"},
+                  "academics": {"value": 50, "spec": "political science"},
+                  "kinetic weapons": 20,   
+                  "free fall": 30,   
+                  "persuasion": 30,   
+                  "scrounging": 30,   
+                  "interest": 40,   
+                  "infosec": 30   
+                }
+            } 
+        },
+       "argonaut": {
+            "motivations": {
+                "positive": ["open source", "research", "technoprogressivism"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "academics": 40, 
+                  "investigation": 30, 
+                  "research": 30 
+                }
+            },
+            "3": {
+                "r-rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "networking": {"value": 40, "spec": "scientists"},
+                  "academics": 50, 
+                  "investigation": 40, 
+                  "profession": 40, 
+                  "programming": 40, 
+                  "interest": 30, 
+                  "research": 40 
+                }
+            } 
+        },
+        "barsoomian": {
+            "motivations": {
+                "positive": ["anarchism", "barsoomian movement", "community", "technoprogressivism"],
+                "negative": ["hypercorps"]
+            },
+            "1":  {
+                "skills": {
+                  "pilot": 40, 
+                  "navigation": 30, 
+                  "profession": 30 
+                }
+            },
+            "3": {
+                "@-rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "networking": {"value": 40, "spec": "autonomists"},
+                  "pilot": 40, 
+                  "interest": 40, 
+                  "navigation": 30, 
+                  "kinetic weapons": 30, 
+                  "scrounging": 30, 
+                  "hardware": 35, 
+                  "profession": 50 
+                }
+            } 
+        },
+        "belter": {
+            "motivations": {
+                "positive": ["morphological freedom", "hypercapitalism", "extropianism"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "free fall": 40, 
+                  "navigation": 30, 
+                  "profession": {"value": 30, "spec": "astroid mining"} 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "free fall": 50, 
+                  "interest": 40, 
+                  "navigation": 30, 
+                  "networking": 30, 
+                  "persuasion": 30, 
+                  "kinetic weapons": 30, 
+                  "pilot": {"value": 30, "spec": "spacecraft"},
+                  "profession": {"value": 50, "spec": "astroid mining"} 
+                }
+            } 
+        },
+        "bioconservative": {
+            "motivations": {
+                "positive": ["religion", "bioconservatism"],
+                "negative": ["agi rights", "uplift rights", "x-risks"]
+            },
+            "1":  {
+                "skills": {
+                  "freerunning": 30, 
+                  "interest": 40, 
+                  "pilot": 30
+                }
+            },
+            "3": {
+                "skills": {
+                  "freerunning": 40, 
+                  "interest": 50, 
+                  "pilot": 40, 
+                  "navigation": 30, 
+                  "scrounging": 30, 
+                  "profession": 40, 
+                  "kinetic weapons": 40, 
+                  "medicine": {"value": 30, "spec": "paramedic"} 
+                }
+            } 
+        },
+        "brinker": {
+            "motivations": {
+                "positive": ["religion", "self reliance", "solitude", "privacy", "exhumanism", "bioconservatism"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "pilot": {"value": 40, "spec": "spacecraft"},
+                  "scrounging": 30, 
+                  "profession": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "skills": {
+                  "pilot": {"value": 50, "spec": "spacecraft"},
+                  "hardware": {"value": 40, "spec": "industrial"},
+                  "scrounging": 40, 
+                  "free fall": 30, 
+                  "networking": 25, 
+                  "interest": 40, 
+                  "profession": 50 
+                }
+            } 
+        },
+        "criminal": {
+            "motivations": {
+                "positive": ["survival", "wealth", "thrill seeking"],
+                "negative": ["law and order"]
+            },
+            "1":  {
+                "skills": {
+                  "interest": {"value": 30, "spec": "criminal groups"},
+                  "paliming": 30, 
+                  "intimidation": 40 
+                }
+            },
+            "3": {
+                "g-rep": 50,
+                "skills": {
+                  "interest": {"value": 30, "spec": "criminal groups"},
+                  "networking": {"value": 40, "spec": "criminals"},
+                  "paliming": 30, 
+                  "deception": 30, 
+                  "infiltration": 30, 
+                  "profession": 40, 
+                  "unarmed": 35, 
+                  "intimidation": 40
+                }
+            } 
+        },
+        "europan": {
+            "motivations": {
+                "positive": ["exploration", "morphological freedom", "uplift rights"],
+                "negative": ["bioconservatism"]
+            },
+            "1":  {
+                "skills": {
+                  "pilot": {"value": 30, "spec": "submarine"},
+                  "academics": 30, 
+                  "swimming": 40 
+                }
+            },
+            "3": {
+                "moxie": 1,
+                "rep": 50,
+                "skills": {
+                  "pilot": {"value": 40, "spec": "submarine"},
+                  "academics": [40, 20], 
+                  "interfacing": 30, 
+                  "networking": 30, 
+                  "profession": 35, 
+                  "navigation": 40, 
+                  "swimming": 50
+                } 
+            } 
+        },
+        "exhuman": {
+            "motivations": {
+                "positive": ["exhumanism", "morphological freedom", "personal development", "research"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "interest": {"value": 30, "spec": "exhumans"},
+                  "medicine": {"value": 40, "spec": "biosculpting"},
+                  "psychosurgery": 30
+                }
+            },
+            "3": {
+                "moxie": 1,
+                "skills": {
+                  "interest": {"value": 50, "spec": "exhumans"},
+                  "medicine": [30, {"value": 40, "spec": "biosculpting"}],
+                  "academics": {"value": 40, "spec": "genetics"},
+                  "psychosurgery": 30, 
+                  "intimidation": 30, 
+                  "disguise": 15, 
+                  "unarmed": 40
+                }
+            } 
+        },
+        "extropian": {
+            "motivations": {
+                "positive": ["extropianism", "morphological freedom", "personal development"],
+                "negative": ["bioconservatism"]
+            },
+            "1":  {
+                "skills": {
+                  "interest": {"value": 30, "spec": "cutting edge technology"},
+                  "networking": {"value": 30, "spec": "autonomists"},
+                  "persuasion": 40 
+                }
+            },
+            "3": {
+                "@-rep": 50,
+                "c-rep": 50,
+                "skills": {
+                  "interest": {"value": 40, "spec": "cutting edge technology"},
+                  "networking": [{"value": 40, "spec": "hypercorps"}, {"value": 40, "spec": "autonomists"}],
+                  "persuasion": 50,
+                  "interfacing": 20,
+                  "kinesics": 30,
+                  "profession": 50
+                }
+            } 
+        },
+        "hypercorp": {
+            "motivations": {
+                "positive": ["hypercapitalism", "stability", "wealth"],
+                "negative": ["anarchism", "agi rights", "uplift rights"]
+            },
+            "1":  {
+                "skills": {
+                  "academics": {"value": 30, "spec": "economics"},
+                  "persuasion": 30, 
+                  "protocol": 40 
+                }
+            },
+            "3": {
+                "moxie": 1,
+                "c-rep": 50,
+                "skills": {
+                  "networking": [{"value": 40, "spec": "hypercorps"}, {"value": 20, "spec": "media"}],
+                  "academics": {"value": 50, "spec": "economics"},
+                  "persuasion": 40, 
+                  "interfacing": 40, 
+                  "profession": 40, 
+                  "protocol": 50 
+                }
+            } 
+        },
+        "jovian": {
+            "motivations": {
+                "positive": ["jovian republic", "bioconservatism"],
+                "negative": ["transhumanism", "agi rights", "uplift rights"]
+            },
+            "1":  {
+                "skills": {
+                  "pilot": 30, 
+                  "profession": 30, 
+                  "seeker weapons": 40 
+                }
+            },
+            "3": {
+                "moxie": 1,
+                "c-rep": 50,
+                "skills": {
+                  "networking": {"value": 40, "spec": "hypercorps"},
+                  "language": {"value": 40, "spec": "english"},
+                  "academics": {"value": 30, "spec": "military science"},
+                  "profession": {"value": 30, "spec": "military ops"},
+                  "kinetic weapons": 40,  
+                  "intimidation": 25, 
+                  "unarmed": 35, 
+                  "pilot": 30, 
+                  "seeker weapons": 40 
+                }
+            } 
+        },
+        "lunar": {
+            "motivations": {
+                "positive": ["bioconservatism", "hypercapitalism", "reclaiming earth", "preserving traditons"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "protocol": 30, 
+                  "language": 30, 
+                  "art": 40 
+                }
+            },
+            "3": {
+                "moxie": 1,
+                "c-rep": 50,
+                "skills": {
+                  "networking": {"value": 40, "spec": "hypercorps"},
+                  "academics": {"value": 30, "spec": "military science"},
+                  "protocol": 40, 
+                  "language": 40, 
+                  "kinesics": 40, 
+                  "interfacing": 30, 
+                  "art": 40 
+                }
+            } 
+        },
+        "mercurial infolife": {
+            "motivations": {
+                "positive": ["mercurial cause", "agi rights"],
+                "negative": ["assimilation", "bioconservatism", "sapient cause"]
+            },
+            "1":  {
+                "skills": {
+                  "interest": {"value": 30, "spec": "infolife clades"}, 
+                  "interfacing": 30, 
+                  "any": 40 
+                }
+            },
+            "3": {
+                "moxie": 1,
+                "rep": 50,
+                "skills": {
+                  "interest": [40, {"value": 50, "spec": "infolife clades"}], 
+                  "interfacing": 30, 
+                  "networking": 30, 
+                  "persuasion": 30, 
+                  "programming": 30, 
+                  "intimidation": 20, 
+                  "any": 50 
+                }
+            } 
+        },
+        "mercurial uplift": {
+            "motivations": {
+                "positive": ["mercurial cause", "uplift rights"],
+                "negative": ["assimilation", "bioconservatism", "sapient cause"]
+            },
+            "1":  {
+                "skills": {
+                  "interest": {"value": 30, "spec": "uplift clades"}, 
+                  "interfacing": 30, 
+                  "any": 40 
+                }
+            },
+            "3": {
+                "moxie": 1,
+                "rep": 50,
+                "skills": {
+                  "interest": [40, {"value": 50, "spec": "uplift clades"}], 
+                  "medicine": {"value": 30, "spec": "uplift clades"}, 
+                  "networking": 30, 
+                  "persuasion": 30, 
+                  "unarmed": 30, 
+                  "intimidation": 20, 
+                  "any": 50 
+                }
+            } 
+        },
+        "nano ecologist": {
+            "motivations": {
+                "positive": ["exploration", "nano-ecology", "research", "technoprogressivism"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "academics": {"value": 30, "spec": "ecology"}, 
+                  "freerunning": 30, 
+                  "programming": 40 
+                }
+            },
+            "3": {
+                "r-rep": 50,
+                "skills": {
+                  "academics": [{"value": 30, "spec": "ecology"}, {"value": 50, "spec": "nanotechnology"}], 
+                  "medicine": {"value": 30, "spec": "nanomedicine"}, 
+                  "networking": {"value": 40, "spec": "ecologists"}, 
+                  "freerunning": 30, 
+                  "investigation": 30, 
+                  "interfacing": 25, 
+                  "programming": 50 
+                }
+            } 
+        },
+        "orbital": {
+            "motivations": {
+                "positive": ["bioconservatism", "reclaiming earth", "precautionism"],
+                "negative": ["agi rights"]
+            },
+            "1":  {
+                "skills": {
+                  "pilot": 40, 
+                  "language": 30, 
+                  "free fall": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "pilot": 50, 
+                  "interest": 40, 
+                  "networking": 40, 
+                  "clubs": 20, 
+                  "intimidation": 20, 
+                  "interfacing": 25, 
+                  "language": 50, 
+                  "free fall": 35 
+                }
+            } 
+        },
+        "outster": {
+            "motivations": {
+                "positive": ["agi rights", "exploration", "morphological freedom", "research"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "interfacing": 40, 
+                  "interest": {"value": 30, "spec": "simulspace"}, 
+                  "free fall": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "interfacing": 50, 
+                  "interest": [{"value": 50, "spec": "simulspace"}, 40], 
+                  "pilot": {"value": 25, "spec": "spacecraft"}, 
+                  "free fall": 30,
+                  "programming": 40,
+                  "psychosurgery": 35,
+                  "infosec": 20
+                }
+            } 
+        },
+        "precautionist": {
+            "motivations": {
+                "positive": ["reclaiming earth", "precautionism"],
+                "negative": ["bioconservatism", "technoprogressivism"]
+            },
+            "1":  {
+                "skills": {
+                  "research": 40, 
+                  "academics": 30, 
+                  "infosec": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "research": 40, 
+                  "academics": 30, 
+                  "infosec": 30
+                }
+            } 
+        },
+        "preservationist": {
+            "motivations": {
+                "positive": ["research", "preservationism", "environmentalism"],
+                "negative": ["gatecrashing", "nano-ecology"]
+            },
+            "1":  {
+                "skills": {
+                  "academics": {"value": 40, "spec": "ecology"}, 
+                  "freerunning": 30, 
+                  "investigation": 30 
+                }
+            },
+            "3": {
+                "e-rep": 50,
+                "skills": {
+                  "academics": {"value": 50, "spec": "ecology"}, 
+                  "medicine": 30, 
+                  "art": 30, 
+                  "interest": 30, 
+                  "networking": {"value": 40, "spec": "ecologists"}, 
+                  "freerunning": 40, 
+                  "investigation": 40, 
+                  "navigation": 35 
+                }
+            } 
+        },
+        "reclaimer": {
+            "motivations": {
+                "positive": ["reclaiming earth", "bioconservatism"],
+                "negative": ["agi rights"]
+            },
+            "1":  {
+                "skills": {
+                  "hardware": 40, 
+                  "freerunning": 30, 
+                  "language": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "hardware": 50, 
+                  "freerunning": 30, 
+                  "infosec": 30, 
+                  "seeker weapons": 30, 
+                  "pilot": 25, 
+                  "demolitions": 20, 
+                  "networking": 20, 
+                  "language": [50, 40] 
+                }
+            } 
+        },
+        "ringer": {
+            "motivations": {
+                "positive": ["exploration", "research", "personal development", "morphological freedom"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "flight": 40, 
+                  "interest": 30, 
+                  "scrounging": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "flight": 50, 
+                  "beam weapons": 25, 
+                  "academics": 50, 
+                  "interest": 40, 
+                  "free fall": 30, 
+                  "networking": 30, 
+                  "pilot": {"value": 30, "spec": "spacecraft"},
+                  "scrounging": 30
+                }
+            } 
+        },
+        "sapient": {
+            "motivations": {
+                "positive": ["agi rights", "sapient cause", "uplift rights"],
+                "negative": ["bioconservatism"]
+            },
+            "1":  {
+                "skills": {
+                  "protocol": 40, 
+                  "interest": 30, 
+                  "kinesics": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "protocol": 50,
+                  "psychosurgery": 25,
+                  "networking": 30,
+                  "persuasion": 40,
+                  "medicine": {"value": 20, "spec": "uplifts"},
+                  "interest": [50, 40], 
+                  "kinesics": 40 
+                }
+            } 
+        },
+        "scum": {
+            "motivations": {
+                "positive": ["anarchism", "hedonism", "indivualism", "morphological freedom"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "networking": {"value": 40, "spec": "autonomists"},
+                  "art": 30, 
+                  "free fall": 30 
+                }
+            },
+            "3": {
+                "@-rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "networking": {"value": 40, "spec": "autonomists"},
+                  "medicine": {"value": 30, "spec": "biosculpting"},
+                  "art": 50, 
+                  "interest": 40, 
+                  "kinesics": 40, 
+                  "persuasion": 30, 
+                  "free fall": 40 
+                }
+            } 
+        },
+        "sifter": {
+            "motivations": {
+                "positive": ["hard work", "mercurian independence"],
+                "negative": ["hypercapitalism"]
+            },
+            "1":  {
+                "skills": {
+                  "pilot": {"value": 40, "spec": "groundcraft"},
+                  "profession": {"value": 40, "spec": "mining"},
+                  "navigation": 30 
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "pilot": {"value": 50, "spec": "groundcraft"},
+                  "profession": {"value": 50, "spec": "mining"},
+                  "navigation": 40,
+                  "climbing": 30,
+                  "paliming": 25,
+                  "unarmed": 20,
+                  "networking": 30,
+                  "interest": 40
+                }
+            } 
+        },
+        "singularity seeker": {
+            "motivations": {
+                "positive": ["exploration", "morphological freedom", "personal development", "research"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "interest": {"value": 40, "spec": "titan tech"},
+                  "infosec": 30,
+                  "interfacing": 30
+                }
+            },
+            "3": {
+                "skills": {
+                  "interest": {"value": 50, "spec": "titan tech"},
+                  "medicine": {"value": 30, "spec": "nanomedicine"},
+                  "infosec": 40,
+                  "programming": 40,
+                  "psychosurgery": 30,
+                  "academics": 40,
+                  "hardware": 40,
+                  "interfacing": 30
+                }
+            } 
+        },
+        "skimmer": {
+            "motivations": {
+                "positive": ["independence", "hard work", "thrill seeking"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "pilot": {"value": 40, "spec": "aircraft"},
+                  "flight": 30,
+                  "interest": 30
+                }
+            },
+            "3": {
+                "rep": 50,
+                "skills": {
+                  "pilot": [{"value": 40, "spec": "aircraft"}, {"value": 30, "spec": "spacecraft"}],
+                  "profession": {"value": 50, "spec": "gas mining"},
+                  "flight": 40,
+                  "gunnery": 30,
+                  "networking": 30,
+                  "navigation": 35,
+                  "interest": 40
+                }
+            } 
+        },
+        "socialite": {
+            "motivations": {
+                "positive": ["artistic expression", "fame", "hypercapitalism", "wealth"],
+                "negative": ["anarchism"]
+            },
+            "1":  {
+                "skills": {
+                  "networking": {"value": 40, "spec": "media"},
+                  "art": 30,
+                  "kinesics": 30
+                }
+            },
+            "3": {
+                "f-rep": 50,
+                "skills": {
+                  "networking": {"value": 40, "spec": "media"},
+                  "art": 40,
+                  "protocol": 40,
+                  "interest": 50,
+                  "deception": 25,
+                  "intimidation": 30,
+                  "persuasion": 30,
+                  "kinesics": 40
+                }
+            } 
+        },
+        "solarian": {
+            "motivations": {
+                "positive": ["exploration", "research", "personal development", "morphological freedom"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "medicine": {"value": 30, "spec": "nanomedicine"},
+                  "flight": 40,
+                  "interest": 30
+                }
+            },
+            "3": {
+                "rep": 50,
+                "moxie": 2,
+                "skills": {
+                  "medicine": {"value": 40, "spec": "nanomedicine"},
+                  "pilot": {"value": 25, "spec": "spacecraft"},
+                  "flight": 50,
+                  "navigation": 30,
+                  "networking": 30,
+                  "interest": [50, 40]
+                }
+            } 
+        },
+        "titanian": {
+            "motivations": {
+                "positive": ["research", "technosocialism"],
+                "negative": ["bioconservatism", "hypercapitalism"]
+            },
+            "1":  {
+                "skills": {
+                  "networking": {"value": 40, "spec": "autonomists"},
+                  "academics": 30, 
+                  "programming": 30 
+                }
+            },
+            "3": {
+                "@-rep": 50,
+                "skills": {
+                  "networking": {"value": 50, "spec": "autonomists"},
+                  "pilot": {"value": 30, "spec": "aircraft"},
+                  "academics": [50 , 40], 
+                  "persuasion": 30, 
+                  "research": 30, 
+                  "programming": 40, 
+                  "interfacing": 25 
+                }
+            } 
+        },
+        "ultimate": {
+            "motivations": {
+                "positive": ["ultimates", "hypercapitalism", "personal development"],
+                "negative": ["bioconservatism"]
+            },
+            "1":  {
+                "skills": {
+                  "freerunning": 30,
+                  "unarmed": 40,
+                  "academics": 30
+                }
+            },
+            "3": {
+                "c-rep": 50,
+                "skills": {
+                  "freerunning": 40,
+                  "climbing": 30,
+                  "kinetic weapons": 30,
+                  "intimidation": 30,
+                  "academics": [50, 40],
+                  "unarmed": 50,
+                  "blades": 25,
+                  "academics": 30
+                }
+            } 
+        },
+        "venusian": {
+            "motivations": {
+                "positive": ["uplift rights", "hypercapitalism", "personal development"],
+                "negative": []
+            },
+            "1":  {
+                "skills": {
+                  "networking": {"value": 30, "spec": "hypercorps"},
+                  "pilot": {"value": 40, "spec": "aircraft"},
+                  "academics": 30
+                }
+            },
+            "3": {
+                "c-rep": 50,
+                "moxie": 1,
+                "skills": {
+                  "networking": {"value": 40, "spec": "hypercorps"},
+                  "pilot": {"value": 40, "spec": "aircraft"},
+                  "beam weapons": 25,
+                  "navigation": 25,
+                  "kinesics": 30,
+                  "protocol": 30,
+                  "profession": 40,
+                  "academics": 50
+                }
+            } 
+        }
+    },
+    "focus": {
+        "academic": {
+            "motivations": {
+                "positive": ["education", "open source", "personal career", "personal development"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "academics": [40, 30],
+                    "research": 30
+                    }
+                },
+            "3": {
+                "r-rep": 50,
+                "skills": {
+                    "academics": [50, 40, 40],
+                    "investigation": 30,
+                    "language": 30,
+                    "perception": 20,
+                    "networking": {"value": 25, "spec": "scientists"},
+                    "profession": {"value": 20, "spec": "instruction"},
+                    "research": 40
+                    }
+                },
+            "5": {
+                "aptitude": {"cog": 5},
+                "r-rep": 50,
+                "skills": {
+                    "academics": [50, 40, 40],
+                    "investigation": 50,
+                    "language": 30,
+                    "perception": 30,
+                    "persuasion": 30,
+                    "networking": [{"value": 50, "spec": "scientists"}, 30],
+                    "profession": {"value": 50, "spec": "instruction"},
+                    "research": 45
+                }
+            }
+        },
+        "activist": {
+            "motivations": {
+                "positive": ["bioconservatism", "mercurial cause", "privacy", "terraforming", "venusian sovereignity"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "persuasion": 40,
+                    "interest": 30,
+                    "research": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "rep": 50,
+                "skills": {
+                    "persuasion": 40,
+                    "interest": 50,
+                    "fray": 20,
+                    "infosec": 20,
+                    "investigation": 20,
+                    "language": 20,
+                    "perception": 20,
+                    "networking": 30,
+                    "academics": 30,
+                    "research": 30
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "aptitude": {"sav": 5},
+                "rep": 50,
+                "skills": {
+                    "persuasion": 50,
+                    "interest": [50,20],
+                    "fray": 20,
+                    "infosec": 20,
+                    "investigation": 30,
+                    "language": 30,
+                    "perception": 20,
+                    "unarmed": 20,
+                    "networking": 40,
+                    "infiltration": 30,
+                    "academics": 30,
+                    "protocol": 30,
+                    "research": 40
+                }
+            }
+        },
+        "assassin": {
+            "motivations": {
+                "positive": ["personal career", "survival", "privacy"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "kinetic weapons": 40,
+                    "profession": {"value": 30, "spec": "assassin"},
+                    "unarmed": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "blades": 25,
+                    "kinetic weapons": 50,
+                    "infiltration": 40,
+                    "language": 40,
+                    "fray": 30,
+                    "perception": 20,
+                    "profession": {"value": 50, "spec": "assassin"},
+                    "unarmed": 40
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "skills": {
+                    "blades": 35,
+                    "kinetic weapons": 50,
+                    "spray weapons": 30,
+                    "infiltration": 50,
+                    "language": 40,
+                    "disguise": 40,
+                    "fray": 30,
+                    "freerunning": 30,
+                    "interest": 30,
+                    "art": 30,
+                    "perception": 30,
+                    "profession": {"value": 50, "spec": "assassin"},
+                    "unarmed": 50
+                }
+            }
+        },
+        "bodyguard": {
+            "motivations": {
+                "positive": ["duty", "survival", "privacy"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "kinesics": 40,
+                    "profession": {"value": 30, "spec": "bodyguard"},
+                    "unarmed": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "kinesics": 40,
+                    "language": 40,
+                    "perception": 40,
+                    "fray": 30,
+                    "intimidation": 30,
+                    "beam weapons": 30,
+                    "profession": {"value": 50, "spec": "bodyguard"},
+                    "unarmed": 35
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"ref": 5},
+                "skills": {
+                    "kinesics": 50,
+                    "language": 40,
+                    "perception": 50,
+                    "fray": 30,
+                    "intimidation": 30,
+                    "beam weapons": 30,
+                    "kinetic weapons": 30,
+                    "interest": 30,
+                    "profession": {"value": 50, "spec": "bodyguard"},
+                    "medicine": {"value": 25, "spec": "paramedic"},
+                    "unarmed": 50
+                }
+            }
+        },
+        "bot jammer": {
+            "motivations": {
+                "positive": ["diy", "maker movement", "thrill seeking"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "pilot": 40,
+                    "hardware": 30,
+                    "interest": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "pilot": 50,
+                    "flight": 40,
+                    "academics": 30,
+                    "perception": 20,
+                    "seeker weapons": 25,
+                    "hardware": 40,
+                    "interest": [30, 30]
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"ref": 5},
+                "skills": {
+                    "pilot": [50, 30, 30],
+                    "flight": 40,
+                    "profession": 40,
+                    "academics": 30,
+                    "perception": 30,
+                    "fray": 20,
+                    "navigation": 20,
+                    "seeker weapons": 25,
+                    "hardware": 40,
+                    "interest": [40, 40]
+                }
+            }
+        },
+        "combat async": {
+            "motivations": {
+                "positive": ["neurodiversity", "self control", "survival"],
+                "negative": ["bloodlust"]
+            },
+            "1": {
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "psi": 3,
+                "skills": {
+                    "profession": {"value": 30, "spec": "squad tactics"},
+                    "psi assualt": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "psi": 4,
+                "skills": {
+                    "profession": {"value": 50, "spec": "squad tactics"},
+                    "psi assualt": 50,
+                    "infiltration": 30,
+                    "perception": 20,
+                    "spray weapons": 20,
+                    "unarmed": 20,
+                    "perception": 20,
+                    "interest": 40,
+                    "fray": 20
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "psi": 8,
+                "skills": {
+                    "profession": {"value": 50, "spec": "squad tactics"},
+                    "psi assualt": 50,
+                    "infiltration": 40,
+                    "academics": 30,
+                    "control": 30,
+                    "perception": 30,
+                    "language": 30,
+                    "sense": 30,
+                    "spray weapons": 40,
+                    "unarmed": 30,
+                    "perception": 20,
+                    "interest": 40,
+                    "fray": 30
+                }
+            }
+        },
+        "con artist": {
+            "motivations": {
+                "positive": ["privacy", "survival", "vice"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "deception": 40,
+                    "persuasion": 30,
+                    "profession": {"value": 30, "spec": "con schemes"}
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "deception": 50,
+                    "persuasion": 40,
+                    "disguise": 30,
+                    "impersonation": 30,
+                    "language": 40,
+                    "paliming": 20,
+                    "perception": 20,
+                    "kinesics": 15,
+                    "profession": {"value": 50, "spec": "con schemes"}
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"sav": 5},
+                "skills": {
+                    "deception": 50,
+                    "persuasion": 50,
+                    "disguise": 40,
+                    "impersonation": 40,
+                    "language": 30,
+                    "infosec": 30,
+                    "interest": 30,
+                    "paliming": 40,
+                    "perception": 20,
+                    "kinesics": 25,
+                    "academics": {"value": 40, "spec": "psychology"},
+                    "profession": {"value": 50, "spec": "con schemes"}
+                }
+            }
+        },
+        "controller async": {
+            "motivations": {
+                "positive": ["neurodiversity", "self control", "exploration"],
+                "negative": []
+            },
+            "1": {
+                "moxie": 1,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "psi": 3,
+                "skills": {
+                    "academics": {"value": 30, "spec": "psychology"},
+                    "control": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "psi": 4,
+                "skills": {
+                    "academics": {"value": 40, "spec": "psychology"},
+                    "profession": {"value": 40, "spec": "psychotherapy"},
+                    "control": 50,
+                    "deception": 25,
+                    "persuasion": 35,
+                    "psychosurgery": 20,
+                    "perception": 30
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"wil": 5},
+                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "psi": 6,
+                "skills": {
+                    "academics": {"value": 40, "spec": "psychology"},
+                    "profession": {"value": 50, "spec": "psychotherapy"},
+                    "control": 50,
+                    "deception": 40,
+                    "intimidation": 25,
+                    "persuasion": 35,
+                    "psychosurgery": 25,
+                    "sense": 25,
+                    "interest": 30,
+                    "language": 30,
+                    "perception": 30
+                }
+            }
+        },
+        "covert ops": {
+            "motivations": {
+                "positive": ["explosions", "survival"],
+                "negative": ["titan tech"]
+            },
+            "1": {
+                "skills": {
+                    "infiltration": 40,
+                    "profession": {"value": 30, "spec": "squad tactics"},
+                    "blades": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "blades": 20,
+                    "demolitions": 25,
+                    "kinetic weapons": 40,
+                    "infiltration": 50,
+                    "language": 40,
+                    "fray": 20,
+                    "perception": 20,
+                    "profession": {"value": 50, "spec": "squad tactics"},
+                    "unarmed": 30
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"coo": 5},
+                "skills": {
+                    "blades": 30,
+                    "climbing": 30,
+                    "demolitions": 30,
+                    "kinetic weapons": 40,
+                    "infiltration": 50,
+                    "language": 40,
+                    "fray": 30,
+                    "perception": 20,
+                    "infosec": 25,
+                    "interest": [30, 30],
+                    "profession": {"value": 50, "spec": "squad tactics"},
+                    "unarmed": 40
+                }
+            }
+        },
+        "dealer": {
+            "motivations": {
+                "positive": ["hard work", "hypercapitalism", "personal career"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "persuasion": 40,
+                    "profession": 30,
+                    "kinesics": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "persuasion": 50,
+                    "networking": 40,
+                    "perception": 30,
+                    "interest": 40,
+                    "deception": 25,
+                    "beam weapons": 20,
+                    "profession": {"value": 50, "spec": "haggling"},
+                    "kinesics": 40
+                    }
+                },
+            "5": {
+                "rep": 100,
+                "aptitude": {"sav": 5},
+                "skills": {
+                    "persuasion": 50,
+                    "networking":  [50, 40, 20],
+                    "perception": 30,
+                    "interest": 20,
+                    "deception": 25,
+                    "fray": 15,
+                    "beam weapons": 20,
+                    "profession": [{"value": 50, "spec": "haggling"}, {"value": 40, "spec": "social engineering"}],
+                    "academics": {"value": 30, "spec": "economics"},
+                    "kinesics": 40
+                }
+            }
+        },
+        "ego hunter": {
+            "motivations": {
+                "positive": ["justice", "self reliance", "the hunt"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "investigation": 30,
+                    "profession": {"value": 30, "spec": "skip tracing"},
+                    "kinesics": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "investigation": 30,
+                    "unarmed": 30,
+                    "infosec": 15,
+                    "spray weapons": 25,
+                    "perception": 15,
+                    "profession": {"value": 50, "spec": "skip tracing"},
+                    "kinesics": 50,
+                    "language": 40,
+                    "research": 40
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"int": 5},
+                "skills": {
+                    "investigation": 40,
+                    "unarmed": 30,
+                    "infosec": 30,
+                    "networking": 20,
+                    "interest": [30, 30],
+                    "spray weapons": 30,
+                    "fray": 25,
+                    "perception": 20,
+                    "profession": {"value": 50, "spec": "skip tracing"},
+                    "kinesics": 50,
+                    "language": 40,
+                    "research": 50
+                }
+            }
+        },
+        "enforcer": {
+            "motivations": {
+                "positive": ["stability", "self reliance", "fascism", "cartel growth"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "unarmed": 30,
+                    "profession": {"value": 30, "spec": "enforcement"},
+                    "intimidation": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "unarmed": 30,
+                    "clubs": 30,
+                    "freerunning": 30,
+                    "perception": 20,
+                    "spray weapons": 25,
+                    "language": 40,
+                    "profession": {"value": 50, "spec": "enforcement"},
+                    "intimidation": 50
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"som": 5},
+                "skills": {
+                    "unarmed": 45,
+                    "clubs": 30,
+                    "freerunning": 30,
+                    "networking": 30,
+                    "perception": 20,
+                    "paliming": 20,
+                    "fray": 20,
+                    "spray weapons": 30,
+                    "interest": [40, 40],
+                    "language": 40,
+                    "profession": {"value": 50, "spec": "enforcement"},
+                    "intimidation": 50
+                }
+            }
+        },
+        "explorer": {
+            "motivations": {
+                "positive": ["alien contact", "education", "exploration", "survival"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "investigation": 30,
+                    "profession": {"value": 30, "spec": "gatecrashing"},
+                    "freerunning": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                    "investigation": 20,
+                    "perception": 20,
+                    "swimming": 20,
+                    "climbing": 30,
+                    "fray": 25,
+                    "academics": 40,
+                    "scrounging": 40,
+                    "profession": {"value": 50, "spec": "gatecrashing"},
+                    "freerunning": 35
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "moxie": 1,
+                "aptitude": {"som": 5},
+                "skills": {
+                    "investigation": 20,
+                    "perception": 30,
+                    "swimming": 30,
+                    "investigation": 20,
+                    "climbing": 40,
+                    "fray": 25,
+                    "infiltration": 25,
+                    "academics": 40,
+                    "interest": 30,
+                    "kinetic weapons": 30,
+                    "scrounging": 40,
+                    "profession": [30, {"value": 50, "spec": "gatecrashing"}],
+                    "freerunning": 40
+                }
+            }
+        },
+        "face": {
+            "motivations": {
+                "positive": ["fame", "hedonism", "personal career", "thrill seeking"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "kinesics": 30,
+                    "profession": {"value": 30, "spec": "social engineering"},
+                    "persuasion": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "kinesics": 30,
+                    "deception": 30,
+                    "perception": 30,
+                    "profession": {"value": 50, "spec": "social engineering"},
+                    "persuasion": 50,
+                    "language": 40,
+                    "networking": 40
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"sav": 5},
+                "skills": {
+                    "kinesics": 40,
+                    "deception": 40,
+                    "perception": 30,
+                    "interest": 30,
+                    "fray": 15,
+                    "profession": {"value": 50, "spec": "social engineering"},
+                    "academics": {"value": 30, "spec": "psychology"},
+                    "persuasion": 50,
+                    "language": 40,
+                    "protocol": 40,
+                    "networking": [40, 40]
+                }
+            }
+        },
+        "genehacker": {
+            "motivations": {
+                "positive": ["artistic expression", "research", "morphological freedom", "science", "uplift rights"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "medicine": [40, 30],
+                    "academics": {"value": 30, "spec": "genetics"}
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                    "medicine": [40, 50],
+                    "animal handling": 20,
+                    "perception": 20,
+                    "academics": [{"value": 50, "spec": "genetics"}, 40],
+                    "profession": {"value": 40, "spec": "lab tech"},
+                    "networking": {"value": 20, "spec": "scientists"}
+                    }
+                },
+            "5": {
+                "r-rep": 50,
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "medicine": [40, 50, 40],
+                    "animal handling": 40,
+                    "interest": 30,
+                    "investigation": 30,
+                    "interfacing": 20,
+                    "perception": 30,
+                    "academics": [{"value": 50, "spec": "genetics"}, 40],
+                    "profession": {"value": 40, "spec": "lab tech"},
+                    "networking": {"value": 20, "spec": "scientists"}
+                }
+            }
+        },
+        "hacker": {
+            "motivations": {
+                "positive": ["open source", "owning systems", "thrill seeking"],
+                "negative": ["hackers"]
+            },
+            "1": {
+                "skills": {
+                    "infosec": 40,
+                    "programming": 30,
+                    "profession": {"value": 30, "spec": "mesh security ops"}
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                    "infosec": 50,
+                    "programming": 40,
+                    "interfacing": 30,
+                    "research": 30,
+                    "perception": 20,
+                    "profession": {"value": 50, "spec": "mesh security ops"},
+                    "academics": {"value": 40, "spec": "computer science"},
+                    "hardware": {"value": 15, "spec": "electronics"},
+                    "networking": {"value": 20, "spec": "criminal"}
+                    }
+                },
+            "5": {
+                "r-rep": 50,
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "infosec": 50,
+                    "programming": 40,
+                    "interfacing": 50,
+                    "research": 40,
+                    "perception": 20,
+                    "infiltration": 20,
+                    "fray": 10,
+                    "profession": [{"value": 40, "spec": "mesh security ops"}, {"value": 30, "spec": "social engineering"}],
+                    "academics": [{"value": 40, "spec": "computer science"}, {"value": 40, "spec": "cryptography"}],
+                    "hardware": {"value": 25, "spec": "electronics"},
+                    "networking": {"value": 30, "spec": "criminal"}
+                }
+            }
+        },
+        "icon": {
+            "motivations": {
+                "positive": ["fame", "hedonism", "personal career", "thrill seeking", "art"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "kinesics": 30,
+                    "protocol": 30,
+                    "art": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "kinesics": 45,
+                    "disguise": 30,
+                    "perception": 30,
+                    "impersonation": 20,
+                    "protocol": 40,
+                    "persuasion": 40,
+                    "interest": 40,
+                    "art": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "f-rep": 50,
+                "aptitude": {"sav": 5},
+                "skills": {
+                    "kinesics": 45,
+                    "disguise": 40,
+                    "fray": 10,
+                    "perception": 20,
+                    "impersonation": 25,
+                    "networking": [25, {"value": 30, "spec": "socialites"}],
+                    "protocol": 40,
+                    "profession": 30,
+                    "persuasion": 40,
+                    "interest": 40,
+                    "art": [50, 30]
+                }
+            }
+        },
+        "investigator": {
+            "motivations": {
+                "positive": ["self reliance", "the hunt"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "investigation": 40,
+                    "profession": {"value": 30, "spec": "forensics"},
+                    "research": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "infosec": 40,
+                    "investigation": 50,
+                    "profession": [{"value": 50, "spec": "forensics"}, {"value": 40, "spec": "police procedures"}],
+                    "research": 40,
+                    "kinetic weapons": 20,
+                    "perception": 25,
+                    "kinesics": 30
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "aptitude": {"int": 5},
+                "skills": {
+                    "infosec": 30,
+                    "interest": 30,
+                    "intimidation": 30,
+                    "unarmed": 25,
+                    "language": 30,
+                    "investigation": 50,
+                    "profession": [{"value": 50, "spec": "forensics"}, {"value": 40, "spec": "police procedures"}],
+                    "research": 40,
+                    "kinetic weapons": 30,
+                    "fray": 20,
+                    "networking": 20,
+                    "perception": 20,
+                    "kinesics": 30
+                }
+            }
+        },
+        "journo": {
+            "motivations": {
+                "positive": ["sousveillance", "transparency"],
+                "negative": ["censorship"]
+            },
+            "1": {
+                "skills": {
+                    "investigation": 40,
+                    "profession": {"value": 30, "spec": "journalism"},
+                    "persuasion": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "investigation": 40,
+                    "research": 40,
+                    "intimidation": 20,
+                    "networking": 20,
+                    "perception": 35,
+                    "profession": {"value": 50, "spec": "journalism"},
+                    "art": {"value": 40, "spec": "performance"},
+                    "persuasion": 50
+                    }
+                },
+            "5": {
+                "rep": 100,
+                "aptitude": {"sav": 5},
+                "skills": {
+                    "investigation": 40,
+                    "research": 40,
+                    "intimidation": 30,
+                    "networking": 40,
+                    "fray": 20,
+                    "kinesics": 20,
+                    "perception": 25,
+                    "disguise": 25,
+                    "academics": 30,
+                    "interest": 30,
+                    "profession": {"value": 50, "spec": "journalism"},
+                    "art": {"value": 40, "spec": "performance"},
+                    "persuasion": 50
+                }
+            }
+        },
+        "medic": {
+            "motivations": {
+                "positive": ["helping others"],
+                "negative": ["violance"]
+            },
+            "1": {
+                "skills": {
+                    "medicine": [{"value": 40, "spec": "paramedic"}, 30],
+                    "profession": {"value": 30, "spec": "medical care"}
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                    "academics": 40,
+                    "networking": 20,
+                    "persuasion": 20,
+                    "perception": 35,
+                    "medicine": [{"value": 50, "spec": "paramedic"}, 40],
+                    "hardware": {"value": 25, "spec": "implants"},
+                    "profession": {"value": 50, "spec": "medical care"}
+                    }
+                },
+            "5": {
+                "r-rep": 50,
+                "moxie": 2,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "academics": [40, 30],
+                    "networking": 20,
+                    "fray": 30,
+                    "interest": 30,
+                    "persuasion": 20,
+                    "perception": 30,
+                    "interfacing": 15,
+                    "medicine": [{"value": 50, "spec": "paramedic"}, 40, 40],
+                    "hardware": {"value": 20, "spec": "implants"},
+                    "profession": {"value": 50, "spec": "medical care"}
+                }
+            }
+        },
+        "pirate": {
+            "motivations": {
+                "positive": ["survival", "thrill seeking", "wealth"],
+                "negative": ["authority"]
+            },
+            "1": {
+                "moxie": 1,
+                "skills": {
+                    "infiltration": 15,
+                    "pilot": {"value": 30, "spec": "spacecraft"},
+                    "interest": 30
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "g-rep": 50,
+                "skills": {
+                    "infiltration": 30,
+                    "scrounging": 30,
+                    "kinetic weapons": 20,
+                    "perception": 20,
+                    "fray": 20,
+                    "gunnery": 20,
+                    "profession": {"value": 50, "spec": "piracy"},
+                    "pilot": {"value": 40, "spec": "spacecraft"},
+                    "networking": {"value": 20, "spec": "criminals"},
+                    "interest": 30
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "g-rep": 50,
+                "aptitude": {"coo": 5},
+                "skills": {
+                    "infiltration": 30,
+                    "art": 30,
+                    "scrounging": 30,
+                    "kinetic weapons": 30,
+                    "language": 30,
+                    "perception": 20,
+                    "intimidation": 20,
+                    "fray": 20,
+                    "unarmed": 20,
+                    "gunnery": 30,
+                    "profession": {"value": 50, "spec": "piracy"},
+                    "pilot": {"value": 50, "spec": "spacecraft"},
+                    "networking": {"value": 30, "spec": "criminals"},
+                    "interest": 40
+                }
+            }
+        },
+        "psychosurgeon": {
+            "motivations": {
+                "positive": ["helping others", "neurodiversity"],
+                "negative": ["madness"]
+            },
+            "1": {
+                "skills": {
+                    "medicine": {"value": 30, "spec": "psychiatry"},
+                    "academics": {"value": 30, "spec": "psychology"},
+                    "psychosurgery": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "networking": 35,
+                    "persuasion": 20,
+                    "perception": 30,
+                    "medicine": {"value": 40, "spec": "psychiatry"},
+                    "profession": {"value": 40, "spec": "psychotherapy"},
+                    "academics": {"value": 50, "spec": "psychology"},
+                    "psychosurgery": 50
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "networking": 35,
+                    "investigation": 25,
+                    "persuasion": 30,
+                    "deception": 20,
+                    "kinesics": 50,
+                    "perception": 30,
+                    "interest": 30,
+                    "medicine": {"value": 40, "spec": "psychiatry"},
+                    "profession": {"value": 50, "spec": "psychotherapy"},
+                    "academics": [{"value": 50, "spec": "psychology"}, 30],
+                    "psychosurgery": 50
+                }
+            }
+        },
+        "savant async": {
+            "motivations": {
+                "positive": ["neurodiversity", "self control", "personal development", "introspection"],
+                "negative": []
+            },
+            "1": {
+
+                "trait": ["psi", "mental disorder"],
+                "psi": 4,
+                "skills": {
+                    "academics": 30,
+                    "investigation": 30
+                    }
+                },
+            "3": {
+                "moxie": 1, 
+                "rep": 50,
+                "trait": ["psi", "mental disorder"],
+                "psi": 5,
+                "skills": {
+                    "academics": 40,
+                    "perception": 40,
+                    "art": 30,
+                    "interest": 30,
+                    "networking": 30,
+                    "hardware": 15,
+                    "investigation": 50
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "trait": ["psi", "mental disorder"],
+                "psi": 5,
+                "skills": {
+                    "academics": 40,
+                    "perception": 50,
+                    "art": 40,
+                    "interest": 30,
+                    "deception": 30,
+                    "profession": 30,
+                    "language": 30,
+                    "networking": 25,
+                    "hardware": 25,
+                    "kinesics": 35,
+                    "investigation": 50
+                }
+            }
+        },
+        "scanner async": {
+            "motivations": {
+                "positive": ["neurodiversity", "self control", "exploration", "personal development"],
+                "negative": []
+            },
+            "1": {
+                "trait": ["psiv2", "mental disorder", "mental disorder"],
+                "psi": 3,
+                "skills": {
+                    "academics": 30,
+                    "sense": 30
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "trait": ["psiv2", "mental disorder", "mental disorder"],
+                "psi": 4,
+                "skills": {
+                    "academics": 30,
+                    "perception": 30,
+                    "interest": [30, 30],
+                    "impersonation": 35,
+                    "kinesics": 35,
+                    "sense": 50
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "moxie": 1,
+                "aptitude": {"int": 5},
+                "trait": ["psiv2", "mental disorder"],
+                "psi": 6,
+                "skills": {
+                    "academics": 40,
+                    "perception": 50,
+                    "investigation": 30,
+                    "profession": 30,
+                    "interest": 40,
+                    "language": 40,
+                    "impersonation": 35,
+                    "persuasion": 25,
+                    "kinesics": 35,
+                    "sense": 50
+                }
+            }
+        },
+        "scavenger": {
+            "motivations": {
+                "positive": ["survival", "wealth"],
+                "negative": ["authority"]
+            },
+            "1": {
+                "skills": {
+                    "hardware": 30,
+                    "profession": {"value": 30, "spec": "scavenging"},
+                    "scrounging": 40
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "rep": 50,
+                "skills": {
+                    "hardware": 40,
+                    "networking": 40,
+                    "pilot": 40,
+                    "perception": 35,
+                    "profession": {"value": 50, "spec": "scavenging"},
+                    "art": {"value": 30, "spec": "sculpture"},
+                    "scrounging": 50
+                    }
+                },
+            "5": {
+                "moxie": 2,
+                "rep": 50,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "hardware": [40, 30],
+                    "networking": [30, 30],
+                    "fray": 20,
+                    "pilot": 40,
+                    "interest": 30,
+                    "perception": 40,
+                    "academics": 25,
+                    "profession": {"value": 50, "spec": "scavenging"},
+                    "art": {"value": 40, "spec": "sculpture"},
+                    "scrounging": 50
+                }
+            }
+        },
+        "genehacker": {
+            "motivations": {
+                "positive": ["science", "research", "technoprogressivism"],
+                "negative": ["bioconservatism"]
+            },
+            "1": {
+                "skills": {
+                    "academics": [40, 30],
+                    "investigation": 30
+                    }
+                },
+            "3": {
+                "r-rep": 50,
+                "skills": {
+                    "academics": [30, 50],
+                    "investigation": 40,
+                    "perception": 40,
+                    "research": 40,
+                    "programming": 30,
+                    "profession": {"value": 30, "spec": "lab tech"},
+                    "networking": {"value": 35, "spec": "scientists"}
+                    }
+                },
+            "5": {
+                "r-rep": 50,
+                "moxie": 1,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "academics": [40, 50],
+                    "investigation": 50,
+                    "fray": 15,
+                    "perception": 40,
+                    "research": 40,
+                    "programming": 40,
+                    "language": 30,
+                    "profession": {"value": 40, "spec": "lab tech"},
+                    "hardware": {"value": 25, "spec": "electronics"},
+                    "networking": {"value": 40, "spec": "scientists"},
+                    "animal handling": 20
+
+                }
+            }
+        },
+        "smart animal handler": {
+            "motivations": {
+                "positive": ["research", "nano-ecology", "uplift rights"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "animal handling": 40,
+                    "medicine": {"value": 30, "spec": "veterinary"},
+                    "profession": {"value": 30, "spec": "smart animal training"}
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "moxie": 1,
+                "skills": {
+                    "animal handling": 50,
+                    "fray": 20,
+                    "intimidation": 20,
+                    "perception": 20,
+                    "kinesics": 40,
+                    "medicine": {"value": 40, "spec": "veterinary"},
+                    "academics": {"value": 40, "spec": "zoology"},
+                    "profession": {"value": 50, "spec": "smart animal training"}
+                    }
+                },
+            "5": {
+                "rep": 50,
+                "moxie": 1,
+                "aptitude": {"int": 5},
+                "skills": {
+                    "animal handling": 50,
+                    "fray": 30,
+                    "intimidation": 30,
+                    "perception": 30,
+                    "networking": 30,
+                    "kinesics": 30,
+                    "scrounging": 30,
+                    "medicine": {"value": 50, "spec": "veterinary"},
+                    "academics": [{"value": 40, "spec": "zoology"}, 30],
+                    "profession": {"value": 50, "spec": "smart animal training"}
+                }
+            }
+        },
+        "smuggler": {
+            "motivations": {
+                "positive": ["survival", "wealth", "personal career"],
+                "negative": ["authority"]
+            },
+            "1": {
+                "skills": {
+                    "networking": 30,
+                    "profession": {"value": 30, "spec": "smuggling"},
+                    "persuasion": 40
+                    }
+                },
+            "3": {
+                "moxie": 1,
+                "rep": 50,
+                "skills": {
+                    "networking": [40, 20],
+                    "deception": 40,
+                    "perception": 30,
+                    "kinesics": 25,
+                    "profession": {"value": 50, "spec": "smuggling"},
+                    "interest": {"value": 40, "spec": "black markets"},
+                    "persuasion": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "networking": [40, 40],
+                    "deception": 40,
+                    "perception": 30,
+                    "academics": 30,
+                    "interest": 30,
+                    "fray": 30,
+                    "kinesics": 25,
+                    "protocol": 25,
+                    "profession": {"value": 50, "spec": "smuggling"},
+                    "interest": {"value": 40, "spec": "black markets"},
+                    "persuasion": 50
+                }
+            }
+        },
+        "soldier": {
+            "motivations": {
+                "positive": ["survival", "duty", "personal development", "victory"],
+                "negative": ["peace"]
+            },
+            "1": {
+                "skills": {
+                    "unarmed": 30,
+                    "profession": {"value": 30, "spec": "squad tactics"},
+                    "kinetic weapons": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "unarmed": 40,
+                    "climbing": 25,
+                    "fray": 20,
+                    "freerunning": 20,
+                    "perception": 20,
+                    "throwing weapons": 40,
+                    "interest": 40,
+                    "profession": {"value": 50, "spec": "squad tactics"},
+                    "kinetic weapons": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"som": 5},
+                "skills": {
+                    "unarmed": 40,
+                    "blades": 30,
+                    "climbing": 40,
+                    "fray": 30,
+                    "freerunning": 30,
+                    "interest": [30, 30],
+                    "perception": 30,
+                    "throwing weapons": 30,
+                    "language": 40,
+                    "profession": {"value": 50, "spec": "squad tactics"},
+                    "kinetic weapons": 50
+                }
+            }
+        },
+        "spy": {
+            "motivations": {
+                "positive": ["secret identity"],
+                "negative": ["secrets"]
+            },
+            "1": {
+                "skills": {
+                    "infiltration": 30,
+                    "profession": {"value": 30, "spec": "spycraft"},
+                    "deception": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "infiltration": 40,
+                    "infosec": 40,
+                    "fray": 20,
+                    "perception": 30,
+                    "impersonation": 25,
+                    "profession": {"value": 50, "spec": "spycraft"},
+                    "academics": {"value": 40, "spec": "cryptography"},
+                    "deception": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"sav": 5},
+                "skills": {
+                    "infiltration": 40,
+                    "infosec": 40,
+                    "fray": 30,
+                    "paliming": 30,
+                    "perception": 40,
+                    "language": [30, 30],
+                    "impersonation": 25,
+                    "investigation": 25,
+                    "profession": {"value": 50, "spec": "spycraft"},
+                    "academics": {"value": 40, "spec": "cryptography"},
+                    "deception": 50
+                }
+            }
+        },
+        "techie": {
+            "motivations": {
+                "positive": ["diy", "education", "science", "sousveillance", "technoprogressivism"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "interfacing": 30,
+                    "profession": 30,
+                    "hardware": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "interfacing": 40,
+                    "infosec": 20,
+                    "networking": 20,
+                    "programming": 30,
+                    "perception": 20,
+                    "profession": 50,
+                    "academics": 40,
+                    "hardware": [50, 25]
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"cog": 5},
+                "skills": {
+                    "interfacing": 45,
+                    "infosec": 25,
+                    "networking": 35,
+                    "programming": 40,
+                    "language": 30,
+                    "interest": 30,
+                    "pilot": 30,
+                    "perception": 20,
+                    "fray": 20,
+                    "profession": 50,
+                    "academics": 40,
+                    "hardware": [50, 40]
+                }
+            }
+        },
+        "thief": {
+            "motivations": {
+                "positive": ["wealth"],
+                "negative": []
+            },
+            "1": {
+                "skills": {
+                    "infiltration": 30,
+                    "profession": {"value": 30, "spec": "thieving"},
+                    "paliming": 30
+                    }
+                },
+            "3": {
+                "g-rep": 50,
+                "skills": {
+                    "infiltration": 30,
+                    "climbing": 25,
+                    "fray": 20,
+                    "infosec": 20,
+                    "perception": 20,
+                    "interest": 40,
+                    "infiltration": 40,
+                    "profession": {"value": 50, "spec": "thieving"},
+                    "networking": {"value": 30, "spec": "criminals"},
+                    "paliming": 50
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "g-rep": 50,
+                "aptitude": {"coo": 5},
+                "skills": {
+                    "infiltration": 40,
+                    "language": 30,
+                    "art": 30,
+                    "climbing": 40,
+                    "fray": 30,
+                    "blades": 20,
+                    "infosec": 25,
+                    "perception": 30,
+                    "interest": 40,
+                    "infiltration": 40,
+                    "profession": {"value": 50, "spec": "thieving"},
+                    "networking": {"value": 30, "spec": "criminals"},
+                    "hardware": {"value": 15, "spec": "electronics"},
+                    "paliming": 50
+                }
+            }
+        },
+        "wrecker": {
+            "motivations": {
+                "positive": ["survival", "explosions"],
+                "negative": ["titans"]
+            },
+            "1": {
+                "skills": {
+                    "interest": {"value": 30, "spec": "titan tech"},
+                    "demolitions": 30,
+                    "seeker weapons": 40
+                    }
+                },
+            "3": {
+                "rep": 50,
+                "skills": {
+                    "interest": {"value": 50, "spec": "titan tech"},
+                    "profession": {"value": 40, "spec": "squad tactics"},
+                    "infiltration": 30,
+                    "perception": 30,
+                    "fray": 25,
+                    "demolitions": 40,
+                    "seeker weapons": 50,
+                    "kinetic weapons": 30
+                    }
+                },
+            "5": {
+                "moxie": 1,
+                "rep": 50,
+                "aptitude": {"coo": 5},
+                "skills": {
+                    "interest": [{"value": 50, "spec": "titan tech"}, 30],
+                    "profession": [{"value": 40, "spec": "squad tactics"}, {"value": 30, "spec": "wrecking machines"}],
+                    "infiltration": 30,
+                    "perception": 30,
+                    "fray": 40,
+                    "infosec": 40,
+                    "demolitions": 40,
+                    "seeker weapons": 50,
+                    "throwing weapons": 30,
+                    "kinetic weapons": 40
+                }
+            }
+        }
+    },
+    "customization": {
+        "artist": {
+            "skills": {
+                "art": 40,
+                "disguise": 30,
+                "interest": 30
+            }
+        },
+        "async": {
+            "trait": ["psi", "mental disorder", "psi chameleon"],
+            "psi": {"chi": 5},
+            "skills": {
+                "interest": 45
+            }
+        },
+        "async adept": {
+            "trait": ["psiv2", "mental disorder", "mental disorder"],
+            "psi": 7,
+            "skills": {
+                "psi related": 40
+            }
+        },
+        "atletics": {
+            "skills": {
+                "freerunning": 40,
+                "climbing": 30,
+                "swimming": 30
+            }
+        },
+        "computer training": {
+            "skills": {
+                "infosec": 40,
+                "programming": 30,
+                "interfacing": 30
+            }
+        },
+        "connected": {
+            "trait": ["allies"],
+            "credits": 30000,
+            "skills": {
+                "networking": 40
+            }
+        },
+        "essential skills": {
+            "skills": {
+                "perception": 40,
+                "fray": 30,
+                "networking": 30
+            }
+        },
+        "gearhead": {
+            "credits": 60000,
+            "skills": {
+                "hardware": 40
+            }
+        },
+        "heavy weapons training": {
+            "skills": {
+                "seeker weapons": 40,
+                "demolitions": 30,
+                "gunnery": 30
+            }
+        },
+        "jack of all trades": {
+            "skills": {
+                "any": [40, 30, 30]
+            }
+        },
+        "lucky": {
+            "moxie": 3,
+            "skills": {
+                "any": [25, 30]
+            }
+        },
+        "martial arts": {
+            "skills": {
+                "unarmed": 40,
+                "throwing weapons": 30,
+                "blades": 30
+            }
+        },
+        "mentalist": {
+            "psi": 4,
+            "skills": {
+                "psi related": [40, 40]
+            }
+        },
+        "networker": {
+            "rep": 100,
+            "skills": {
+                "networking": [30, 30, 30]
+            }
+        },
+        "paramedic": {
+            "skills": {
+                "medicine": [{"value": 40, "spec": "paramedic"}, {"value": 30, "spec": "nanomedicine"}],
+                "programming": 30
+            }
+        },
+        "atletics": {
+            "skills": {
+                "interest": [30, 40],
+                "scrounging": 30
+            }
+        },
+        "sneaker": {
+            "skills": {
+                "disguise": 40,
+                "impersonation": 30,
+                "infiltration": 30
+            }
+        },
+        "social butterfly": {
+            "skills": {
+                "deception": 40,
+                "persuasion": 30,
+                "protocol": 30
+            }
+        },
+        "spacer": {
+            "skills": {
+                "free fall": 40,
+                "kinesics": 30,
+                "medicine": 30
+            }
+        },
+        "student": {
+            "skills": {
+                "academics": 40,
+                "interest": 30,
+                "research": 30
+            }
+        },
+        "survival training": {
+            "skills": {
+                "kinetic weapons": 30,
+                "medicine": {"value": 40, "spec": "paramedic"},
+                "scrounging": 40
+            }
+        },
+        "tech training": {
+            "skills": {
+                "hardware": [40, 30],
+                "programming": 30
+            }
+        },
+        "weapons training": {
+            "skills": {
+                "kinetic weapons": 40,
+                "beam weapons": 30,
+                "spray weapons": 30
+            }
+        }
+    }
+}

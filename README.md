@@ -29,16 +29,18 @@ An aptitude object containes simply the name of the aptitude as key and a number
   
 **Example**
 ```json
-"aptitudes": {
-    "brawler": {
-        "aptitude": {
-            "cog": 10,
-            "coo": 20,
-            "int": 15,
-            "ref": 20,
-            "sav": 10,
-            "som": 20,
-            "wil": 10
+{
+    "aptitudes": {
+        "brawler": {
+            "aptitude": {
+                "cog": 10,
+                "coo": 20,
+                "int": 15,
+                "ref": 20,
+                "sav": 10,
+                "som": 20,
+                "wil": 10
+            }
         }
     }
 }

@@ -63,12 +63,12 @@ These three type uses the same format
 Package names uses this convention: lower-case, without colons or dashes  
 On Transhuman a package usually have different values like 1PP, 3PP, 5PP "1", "3", "5" keys are used to represent this values.  
 Packages contains different keys which represents different aspects of characters. The keys are "skills", "moxie", "rep", "aptitude", "trait", "credits" and "psi"  
-+ "aptitude" is an object which has described before
-+ "rep" is a number. "rep" denotes a network of players choice. If it was a specific network it will be "@-rep" for example
-+ "moxie" and "credits" are numbers
-+ "trait" is an array of strings
-+ "psi" is either a number or an object. If it's a number, player can select this number of sleights regardless of sleights type, and it's an object it tells the player how many sleights of which type they can choose. Exp. *"psi": {"chi": 3, "gamma": 3}*
-+ "skills" is an object it contains the name of skill as key and a number, array or object as value. The skills which does not have different fields are always represented with numbers. Skills that does have different fields are represented by either a number or an object. A number means player chooses the field and an object means a pre-selected specific field. If the skill value is an array this means multiple fields on that same skill.
++ aptitude is an object which has described before
++ rep is a number. "rep" denotes a network of players choice. If it was a specific network it will be "@-rep" for example
++ moxie and "credits" are numbers
++ trait is an array of strings
++ psi is either a number or an object. If it's a number, player can select this number of sleights regardless of sleights type, and it's an object it tells the player how many sleights of which type they can choose. Exp. *"psi": {"chi": 3, "gamma": 3}*
++ skills is an object it contains the name of skill as key and a number, array or object as value. The skills which does not have different fields are always represented with numbers. Skills that does have different fields are represented by either a number or an object. A number means player chooses the field and an object means a pre-selected specific field. If the skill value is an array this means multiple fields on that same skill.
 ```json
 {
     "skills": {
@@ -90,6 +90,25 @@ Packages contains different keys which represents different aspects of character
 
 ####Type: Customization
 Customization type is just like background, faction, focus types but it does not have motivations field and since all customization packages are worth 1PP it does not have package value objects.
+
+###Lifepath Format
+General format of lifepath file is like this
+```json
+{
+    "table_name": {
+        "attribute" : "value"
+    }
+}
+```
+Tables names are strings that denotes steps for the life path system. Like "3","3.1", "6.5" etc. the only exception is a table name called "gatecrashing"  
+There is no types like package_type but different steps may contain different attributes or values. It will be useful to think attributes as columns for each table. Because of that all values are arrays. Typical attributes are
++ values represent results of dice rolls. Result could be a number or a range between two numbers ex. *[1, 2, 3, 4, 5, [6, 10]]*
++ desc is a string explains what will happen for that result
++ package if a result gives player a package this attribute is used. Only used in steps 3, 6, 9
++ next in table\_name object means the next path for character Only used in step 3. If used in an object except the table\_name it means a roll has to be made in the table\_name which is in the value of next
++ morph is starting morph for character 
++ action means its'a branching table which tells how to continue. It has attributes like next, select, roll. Select means how many PP will the selected packages be and roll attribute is used if multiple rolls needed on the table designated in next
++ table is a generic column used store results of rolls from different tables. If it's a event table results will be objects with desc and effect attributes. Desc will explain what will happen to the character and effect how they will be effected from this. Will they gain a trait, new skill, lose money etc. 
 
 ##License and Attribution
 Distributed with one of the argonauts favorite licenses GNU GPLv2  

@@ -66,7 +66,7 @@ Packages contains different keys which represents different aspects of character
 + aptitude is an object which has described before
 + rep is a number. "rep" denotes a network of players choice. If it was a specific network it will be "@-rep" for example
 + moxie and "credits" are numbers
-+ trait is an array of strings
++ trait is an array of strings if there is different levels for a trait this notation is used trait, traitv2, traitv3 
 + psi is either a number or an object. If it's a number, player can select this number of sleights regardless of sleights type, and it's an object it tells the player how many sleights of which type they can choose. Exp. *"psi": {"chi": 3, "gamma": 3}*
 + skills is an object it contains the name of skill as key and a number, array or object as value. The skills which does not have different fields are always represented with numbers. Skills that does have different fields are represented by either a number or an object. A number means player chooses the field and an object means a pre-selected specific field. If the skill value is an array this means multiple fields on that same skill.
 ```json
@@ -109,6 +109,42 @@ There is no types like package_type but different steps may contain different at
 + morph is starting morph for character 
 + action means its'a branching table which tells how to continue. It has attributes like next, select, roll. Select means how many PP will the selected packages be and roll attribute is used if multiple rolls needed on the table designated in next
 + table is a generic column used store results of rolls from different tables. If it's a event table results will be objects with desc and effect attributes. Desc will explain what will happen to the character and effect how they will be effected from this. Will they gain a trait, new skill, lose money etc. 
+```json
+{
+    "1": {
+        "values": [1, 2, 3, 4, 5, 6, 7, 8, [9, 10]],
+        "table": ["Brawler", "Dilettante", "Extrovert", "Inquisitive", "Researcher", "Survivor", "Techie", "Thrill Seeker", "Choose or Re-roll"]
+    },
+    "3": {
+        "values": [[1, 6], [7, 9], 10],
+        "desc": ["Wholesome Youth", "Split Youth", "Fractured Youth"],
+        "action": [{"next": "3.1", "select": 3}, {"next": "3.1", "roll": 2, "select": 1}, {"next": "3.1", "roll": 3, "select": 1}]
+    },
+    "3.6": {
+        "values": [1, [2, 3], [4, 6], [7, 10]],
+        "desc": ["Pioneer dynasty", "Venusian colonist: privileged homesteader", "Venusian colony staff", "Mercurian slave labor"],
+        "package": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "indenture"],
+        "morph": ["exalt ", "splicer ", "", {"values": [[1, 7], [8, 10]], "table":["flat", "case"]}],
+        "next": ["6.5", "6.6", "", "6.7"]
+    },
+    "6.2": {
+        "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "package": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"]
+    },
+"7": {
+        "values": [[1, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52], [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86], [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
+        "table": [
+            {"desc": "Gain +1 Moxie and roll on the Story Event table ", "effect": {"moxie": 1, "next": "16"}},
+            {"desc": "You save an animal from danger. Gain the Animal Empathy trait ).", "effect": {"trait": "animal empathy"}},
+            {"desc": "You take up a sport. +10 to Climbing, Fray, Free Fall, Freerunning, or Swimming.", "effect": {"skills": {"fray": 10}}},
+            {"desc": "Your inability to improve holds you back from an important promotion/advancement. Gain the Slow Learner trait ).", "effect": {"trait": "slow learner"}},
+            {"desc": "You simply are not very comfortable with that whole resleeving thing. Gain the Morphing Disorder (Level 1) trait ).", "effect": {"trait": "morphing disorder"}},
+            {"desc": "You are not a slacker. You take on part-time jobs or additional training. +20 to one skill.", "effect": {"skills": {"any": 20}}},
+            {"desc": "You travel extensively. +10 to two different Language skills.", "effect": {"skills": {"language": [10, 10]}}},
+        ]
+    },
+}
+```
 
 ##License and Attribution
 Distributed with one of the argonauts favorite licenses GNU GPLv2  

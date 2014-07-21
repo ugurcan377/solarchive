@@ -1,7 +1,7 @@
 {
     "1": {
         "values": [1, 2, 3, 4, 5, 6, 7, 8, [9, 10]],
-        "table": ["Brawler", "Dilettante", "Extrovert", "Inquisitive", "Researcher", "Survivor", "Techie", "Thrill Seeker", "Choose or Re-roll"]
+        "table": ["Brawler", "Dilettante", "Extrovert", "Inquisitive", "Researcher", "Survivor", "Techie", "Thrill Seeker", {"next": "1"}]
     },
     "2": {
         "values": [[1, 100]],
@@ -49,7 +49,7 @@
         "values": [1, [2, 3], [4, 6], [7, 10]],  
         "desc": ["Pioneer dynasty", "Venusian colonist: privileged homesteader", "Venusian colony staff", "Mercurian slave labor"],
         "package": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "indenture"],
-        "morph": ["exalt ", "splicer ", "", {"values": [[1, 7], [8, 10]], "table":["flat", "case"]}],
+        "morph": ["exalt", "splicer", "", {"values": [[1, 7], [8, 10]], "table":["flat", "case"]}],
         "next": ["6.5", "6.6", "", "6.7"]
     },
     "3.7": {
@@ -133,7 +133,7 @@
     },
     "6.1": {
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "next": ["6.2", "6.3", "6.4", "6.5", "6.6", "6.7", "6.8", "6.9", "6.10", "6.11"],
+        "action": [{"next": "6.2"}, {"next": "6.3"}, {"next": "6.4"}, {"next": "6.5"}, {"next": "6.6"}, {"next": "6.7"}, {"next": "6.8"}, {"next": "6.9"}, {"next": "6.10"}, {"next": "6.11"}],
         "desc": ["Autonomist", "Civilian", "Criminal", "Elite", "Enclaver", "Indenture", "Military", "Scientist", "Spacer", "Techie"]
     },
     "6.2": {
@@ -142,39 +142,39 @@
     },
     "6.3": {
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["Activist", "Con Artist", "Dealer", "Face", "Investigator", "Journo", "Smart Animal Handler", "Soldier", "Techie", "Thief"]
+        "package": ["activist", "con artist", "dealer", "face", "investigator", "journo", "smart animal handler", "soldier", "techie", "thief"]
     },
     "6.4": {
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["Assassin", "Con Artist", "Covert", "Dealer", "Ego Hunter", "Enforcer", "Hacker", "Pirate", "Smuggler", "Thief"]
+        "package": ["assassin", "con artist", "covert", "dealer", "ego hunter", "enforcer", "hacker", "pirate", "smuggler", "thief"]
     },
     "6.5": {
         "values": [1, 2, [3, 4], [5, 6], 7, 8, 9, 10],
-        "package": ["Academic", "Dealer", "Face", "Icon", "Journo", "Medic", "Psychosurgeon", "Scientist"]
+        "package": ["academic", "dealer", "face", "icon", "journo", "medic", "psychosurgeon", "scientist"]
     },
     "6.6": {
         "values": [1, 2, [3, 4], 5, 6, 7, 8, 9, 10],
-        "package": ["Academic", "Con Artist", "Dealer", "Face", "Icon", "Investigator", "Journo", "Medic", "Psychosurgeon"]
+        "package": ["academic", "con artist", "dealer", "face", "icon", "investigator", "journo", "medic", "psychosurgeon"]
     },
     "6.7": {
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["Activist", "Bodyguard", "Bot Jammer", "Con Artist", "Enforcer", "Pirate", "Scavenger", "Smart Animal Handler", "Smuggler", "Thief"]
+        "package": ["activist", "bodyguard", "bot jammer", "con artist", "enforcer", "pirate", "scavenger", "smart animal handler", "smuggler", "thief"]
     },
     "6.8": {
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["Assassin", "Bodyguard", "Covert Ops", "Ego Hunter", "Enforcer", "Investigator", "Soldier", "Spy"]
+        "package": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
     },
     "6.9": {
         "values": [1, 2, 3, 4, 5, 6, [7, 8], 9, 10],
-        "package": ["Academic", "Explorer", "Genehacker", "Investigator", "Medic", "Psychosurgeon", "Scientist", "Smart Animal Handler", "Techie"]
+        "package": ["academic", "explorer", "genehacker", "investigator", "medic", "psychosurgeon", "scientist", "smart animal handler", "techie"]
     },
     "6.10": {
         "values": [1, 2, [3, 4], 5, 6, 7, [8, 9], 10],
-        "package": ["Bot Jammer", "Ego Hunter", "Explorer", "Pirate", "Scavenger", "Soldier", "Smuggler", "Spy"]
+        "package": ["bot jammer", "ego hunter", "explorer", "pirate", "scavenger", "soldier", "smuggler", "spy"]
     },
     "6.11": {
         "values": [1, 2, [3, 4], 5, 6, 7, [8, 9], 10],
-        "package": ["Assassin", "Bodyguard", "Covert Ops", "Ego Hunter", "Enforcer", "Investigator", "Soldier", "Spy"]
+        "package": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
     },
     "6.12": {
         "values": [[1, 4], [5, 8], [9, 12], [13, 16], [17, 20], [21, 24], [25, 28], [29, 32], [33, 39], [40, 46], [47, 50], [51, 54], [55, 61], [62, 65], [66, 69], [70, 73], [74, 77], [78, 81], [82, 85], [86, 89], [90, 93], [94, 100]],
@@ -294,7 +294,7 @@
     },
     "9.3": {
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "next": ["9.4", "9.5", "9.6", "9.7", "9.8", "9.9", "9.10", "9.11", "9.12", "9.13"],
+        "next": [{"next": "9.4"}, {"next": "9.5"}, {"next": "9.6"},{"next": "9.7"}, {"next": "9.8"}, {"next": "9.9"}, {"next": "9.10"}, {"next": "9.11"}, {"next": "9.12"}, {"next": "9.13"}],
         "desc": ["Autonomist", "Civilian", "Criminal", "Elite", "Enclaver", "Indenture", "Military", "Scientist", "Spacer", "Techie"]
     },
     "9.4": {

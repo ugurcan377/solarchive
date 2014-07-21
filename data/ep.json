@@ -271,7 +271,7 @@
     },
     "psi": {
         "sleights": {
-            "values": [[1, 6], [7, 0]],
+            "values": [[1, 6], [7, 10]],
             "desc": ["psi-chi", "psi-gamma"],
             "action": [{"next": "chi"}, {"next": "gamma"}]
         },
@@ -281,7 +281,7 @@
                 "qualia", "savant calculation", "sensory boost", "superior kinesics", "time sense", "unconscious lead", "xeno-empathy"]
         },
         "gamma": {
-            "values": [[01, 04], [05, 08], [09, 12], [13, 16], [17, 21], [22, 25], [26, 30], [31, 34], [35, 38], [39, 42], [43, 46], [47, 51], [52, 56], [57, 60], [61, 65], [66, 70], [71, 74], [75, 78], [79, 82], [83, 86], [87, 90], [91, 95], [96, 00]],
+            "values": [[1, 4], [5, 8], [9, 12], [13, 16], [17, 21], [22, 25], [26, 30], [31, 34], [35, 38], [39, 42], [43, 46], [47, 51], [52, 56], [57, 60], [61, 65], [66, 70], [71, 74], [75, 78], [79, 82], [83, 86], [87, 90], [91, 95], [96, 100]],
             "table": ["alienation", "aphasic touch ", "charisma", "cloud memory", "deep scan", "drive emotion", "ego sense", "empathic scan", "implant memory", "implant skill", "mimic", "mindlink", "omni awareness", "penetration", "psi shield", "psychic stab",
                 "scramble", "sense block", "sense infection", "spam", "static", "subliminal", "thought browse"]
         }

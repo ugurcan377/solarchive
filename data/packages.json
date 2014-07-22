@@ -74,7 +74,7 @@
         }
     },
     "background": {
-        "colonist command": {
+        "colonist command staff": {
             "motivations": {
                 "positive": ["hard work", "leadership", "survival"],
                 "negative": []
@@ -121,7 +121,7 @@
 
             }
         },
-        "colonist flight": {
+        "colonist flight staff": {
             "motivations": {
                 "positive": ["exploration", "personal career", "thrill seeking"],
                 "negative": []
@@ -165,7 +165,7 @@
                 }
             }
         },
-        "colonist security": {
+        "colonist security staff": {
             "motivations": {
                 "positive": ["law and order", "survival"],
                 "negative": ["criminals", "autonomists"]
@@ -211,7 +211,7 @@
                 }
             }
         },
-        "colonist science": {
+        "colonist science staff": {
             "motivations": {
                 "positive": ["hard work", "personal career", "science"],
                 "negative": []
@@ -256,7 +256,7 @@
                 }
             }
         },
-        "colonist tech": {
+        "colonist tech staff": {
             "motivations": {
                 "positive": ["hard work", "problem solving", "survival"],
                 "negative": []

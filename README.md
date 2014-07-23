@@ -119,15 +119,18 @@ There is no types like package_type but different steps may contain different at
 ```json
 {
     "1": {
+        "type": "general",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, [9, 10]],
         "table": ["Brawler", "Dilettante", "Extrovert", "Inquisitive", "Researcher", "Survivor", "Techie", "Thrill Seeker", "Choose or Re-roll"]
     },
     "3": {
+        "type": "branching",
         "values": [[1, 6], [7, 9], 10],
         "desc": ["Wholesome Youth", "Split Youth", "Fractured Youth"],
         "action": [{"next": "3.1", "select": 3}, {"next": "3.1", "roll": 2, "select": 1}, {"next": "3.1", "roll": 3, "select": 1}]
     },
     "3.6": {
+        "type": "background",
         "values": [1, [2, 3], [4, 6], [7, 10]],
         "desc": ["Pioneer dynasty", "Venusian colonist: privileged homesteader", "Venusian colony staff", "Mercurian slave labor"],
         "package": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "indenture"],
@@ -135,10 +138,12 @@ There is no types like package_type but different steps may contain different at
         "next": ["6.5", "6.6", "", "6.7"]
     },
     "6.2": {
+        "type": "background",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         "package": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"]
     },
-"7": {
+    "7": {
+        "type": "event",
         "values": [[1, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52], [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86], [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
         "table": [
             {"desc": "Gain +1 Moxie and roll on the Story Event table ", "effect": {"moxie": 1, "next": "16"}},

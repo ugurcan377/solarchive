@@ -102,6 +102,13 @@ General format of lifepath file is like this
 ```
 Tables names are strings that denotes steps for the life path system. Like "3","3.1", "6.5" etc. the only exception is a table name called "gatecrashing"  
 There is no types like package_type but different steps may contain different attributes or values. It will be useful to think attributes as columns for each table. Because of that all values are arrays. Typical attributes are
++ type is a string which explains the tables purpose. It's sole purpose is to save developers from the effort to determine which table has what attributes
+  + general is not for a specific purpose. Any table which have a plain values and table attributes are tagged with general
+  + branching is for tables requires extra action. It usually leads to another tables according to the result. It containes following attributes: values, desc, action
+  + background is only used for step 3. It has following attributes: values, desc, package, morph, next
+  * package is used when result is a package It has values and package as attributes. package is no different than table when using it. 
+  * event is used when it's an event table. It has same attributes with general but table is a list of objects and every object has the attributes desc and effect
+  * info is used for general system info. It's just used for plain key-value storage
 + values represent results of dice rolls. Result could be a number or a range between two numbers ex. *[1, 2, 3, 4, 5, [6, 10]]*
 + desc is a string explains what will happen for that result
 + package if a result gives player a package this attribute is used. Only used in steps 3, 6, 9
@@ -146,6 +153,9 @@ There is no types like package_type but different steps may contain different at
 }
 ```
 
+##Contributing
+If you want to contribute or just report bugs feel free to send a pull request or open a issue.  
+You can also drop me an email at ugurcanergn@gmail.com
 ##License and Attribution
 Distributed with one of the argonauts favorite licenses GNU GPLv2  
 Eclipse Phase is a trademark of Posthuman Studios LLC

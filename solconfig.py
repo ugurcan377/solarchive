@@ -20,3 +20,11 @@ def get_data_file(name):
         return None
     fpath = os.path.join(get_root_dir(), data_path, fn)
     return open(fpath)
+
+data_types = {
+    "general": ["values", "table"],
+    "package": ["values", "package"],
+    "branching": ["values", "desc", "action"],
+    "background": ["values", "desc", "package", "morph", "next"],
+    "event": ["values", "table"]
+}

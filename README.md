@@ -102,6 +102,7 @@ General format of lifepath file is like this
 ```
 Tables names are strings that denotes steps for the life path system. Like "3","3.1", "6.5" etc. the only exception is a table name called "gatecrashing"  
 There is no types like package_type but different steps may contain different attributes or values. It will be useful to think attributes as columns for each table. Because of that all values are arrays. Typical attributes are
++ title is the name of the step which is written in the Transhuman Sourcebook
 + type is a string which explains the tables purpose. It's sole purpose is to save developers from the effort to determine which table has what attributes
   + general is not for a specific purpose. Any table which have a plain values and table attributes are tagged with general
   + branching is for tables requires extra action. It usually leads to another tables according to the result. It containes following attributes: values, desc, action

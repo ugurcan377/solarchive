@@ -964,7 +964,7 @@
         "advantages": {"armor": [12, 12], "aptitude": {"coo": 5, "ref": 5, "int": 5, "any": 5}},
         "disadvantages": {},
         "notes": {"trait": "small size"},
-        "cp": 06,
+        "cp": 60,
         "credit": 60000
     },
     "ruster": {

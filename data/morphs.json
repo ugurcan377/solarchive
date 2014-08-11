@@ -1302,7 +1302,7 @@
         "durability": 35,
         "wt": 7,
         "advantages": {"aptitude": {"som": 10, "any": 5}},
-        "disadvantages": {"social stigma (pod)"},
+        "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 20,
         "credit": "high"

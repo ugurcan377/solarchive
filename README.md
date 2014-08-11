@@ -6,10 +6,12 @@ I deliberately seperated the system data from the program itself. You can find t
 While under active development i have most of data needed for package and life path creation system.  
 
 ##System Data Documentation
-You will see three different files under the data folder 
+You will see four different files under the data folder 
 + data/packages.json : Packages for package base character creation (p. 15-38, Transhuman)
 + data/lifepath.json : Steps for the life path character creation system (p. 53-73, Transhumen)
 + data/ep.json : Generic data related to EP system morph/skill lists etc.
++ data/morphs.json : Morph statistics which will be required to properly create a character  
+  (p. 6-111, Morph Recognition Guide)
 
 ###Packages Format
 General format of packages file is like this
@@ -145,7 +147,9 @@ There is no types like package_type but different steps may contain different at
     },
     "7": {
         "type": "event",
-        "values": [[1, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52], [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86], [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
+        "values": [[1, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52],  
+            [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86],  
+            [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
         "table": [
             {"desc": "Gain +1 Moxie and roll on the Story Event table ", "effect": {"moxie": 1, "next": "16"}},
             {"desc": "You save an animal from danger. Gain the Animal Empathy trait ).", "effect": {"trait": "animal empathy"}},
@@ -158,9 +162,56 @@ There is no types like package_type but different steps may contain different at
     },
 }
 ```
+###Morhps Format 
+General format for morphs file is like this
+```json
+"morph_name": {
+    "class": "",
+    "implants": [],
+    "movement": {},
+    "max_apt": 0,
+    "durability": 0,
+    "wt": 0,
+    "advantages": {},
+    "disadvantages": {},
+    "notes": {},
+    "cp": 0,
+    "credit": ""
+},
+```
+Morph names uses the same naming conventions: lower case, no dashes
+Contrary to other files all morhps contains the same fields:
+"class", "implants", "movement", "max_apt", "durability", "wt", "advantages", "disadvantages", "notes", "cp", "credit"
++ class is a string to determine the class (or type) of morphs. İt can be "biomorph", "synthmorph", "pod"
++ implants tells what of enhancements does the morph have. It is always an array of strings. Few exp. "basic biomods", "basic mesh inserts", "bioweave armor (light)", "cortical stack" etc. 
++ movement tells how the morph moves around the environment. It is an object of arrays, key will be the name of way the morph moves (if the rulebook does not state a specific way the key will be "normal") and the value of movement is [int, int]. Ex. "Walker 4/20" -> {"walker": [4, 20]}
++ max_apt is the maximum aptitude for a morph. It is always an integer
++ durability is always an integer.
++ wt stands for Wound Threshold, it is always an integer.
++ advantages and disadvantages contains the definations which will effect a character's properties in a posivite or negative way. It uses keys aptitude, skills and trait as its described above plus two extra keys
+    + armor key is used just like movement exp. 6/6 -> [6, 6]
+    + some (beak, bite, claw, ramming etc.) attack is a states the morph has a special way to attack it dv and ap keys and value of ap is an integer and value of dv is an object which has two keys of its own (roll and bonus). In Eclipse Phase an attack is defined like this 2d10+4 dv -5 ap -> {"ap": -5, "dv": {"roll": 2, "bonus": 4}}. In a mathematical way roll is the coefficient of d10 and bonus is the constant 
++ notes is just like advantages or disadvantages but in mixed way, it is usually defines properties which are just different from the norm. They mostly could not be categorised as positive or negative
++ cp is an integer states the cost of the morph in EP Customization Points
++ credit is price of morph inside EP setting. It could state a cost class as string (moderate, high, expansive etc.) or a number if there is minimum price for the morph
+```json
+"splicer": {
+    "class": "biomorph",
+    "implants": ["basic biomods", "basic mesh inserts", "cortical stack"],
+    "movement": {"normal": [4, 20]},
+    "max_apt": 25,
+    "durability": 30,
+    "wt": 6,
+    "advantages": {"aptitude": {"any": 5}},
+    "disadvantages": {},
+    "notes": {},
+    "cp": 10,
+    "credit": "high"
+},
+```
 
 ##Contributing
-If you want to contribute or just report bugs feel free to send a pull request or open a issue.  
+If you want to contribute or just report bugs feel free to send a pull request or open an issue.  
 You can also drop me an email at ugurcanergn@gmail.com
 ##License and Attribution
 Distributed with one of the argonauts favorite licenses GNU GPLv2  

@@ -10,7 +10,8 @@ data_path = "data"
 data_files = {
     "general": "ep.json",
     "lifepath": "lifepath.json",
-    "packages": "packages.json"
+    "packages": "packages.json",
+    "morphs": "morphs.json"
 }
 
 

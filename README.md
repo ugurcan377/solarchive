@@ -165,19 +165,21 @@ There is no types like package_type but different steps may contain different at
 ###Morhps Format 
 General format for morphs file is like this
 ```json
-"morph_name": {
-    "class": "",
-    "implants": [],
-    "movement": {},
-    "max_apt": 0,
-    "durability": 0,
-    "wt": 0,
-    "advantages": {},
-    "disadvantages": {},
-    "notes": {},
-    "cp": 0,
-    "credit": ""
-},
+{
+  "morph_name": {
+      "class": "",
+      "implants": [],
+      "movement": {},
+      "max_apt": 0,
+      "durability": 0,
+      "wt": 0,
+      "advantages": {},
+      "disadvantages": {},
+      "notes": {},
+      "cp": 0,
+      "credit": ""
+  }
+}
 ```
 Morph names uses the same naming conventions: lower case, no dashes
 Contrary to other files all morhps contains the same fields:
@@ -195,19 +197,21 @@ Contrary to other files all morhps contains the same fields:
 + cp is an integer states the cost of the morph in EP Customization Points
 + credit is price of morph inside EP setting. It could state a cost class as string (moderate, high, expansive etc.) or a number if there is minimum price for the morph
 ```json
-"splicer": {
-    "class": "biomorph",
-    "implants": ["basic biomods", "basic mesh inserts", "cortical stack"],
-    "movement": {"normal": [4, 20]},
-    "max_apt": 25,
-    "durability": 30,
-    "wt": 6,
-    "advantages": {"aptitude": {"any": 5}},
-    "disadvantages": {},
-    "notes": {},
-    "cp": 10,
-    "credit": "high"
-},
+{
+  "splicer": {
+      "class": "biomorph",
+      "implants": ["basic biomods", "basic mesh inserts", "cortical stack"],
+      "movement": {"normal": [4, 20]},
+      "max_apt": 25,
+      "durability": 30,
+      "wt": 6,
+      "advantages": {"aptitude": {"any": 5}},
+      "disadvantages": {},
+      "notes": {},
+      "cp": 10,
+      "credit": "high"
+  }
+}
 ```
 
 ##Contributing

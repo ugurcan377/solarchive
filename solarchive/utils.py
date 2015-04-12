@@ -1,4 +1,5 @@
 import random
+import solconfig
 
 
 def roll_d10():
@@ -19,11 +20,21 @@ def find_result(values, roll):
         return -1
 
 
-def determine_dice(values):
+def roll_values(values):
     v = values[-1]
     if type(v) == list:
         v = v[1]
     if v == 10:
-        return roll_d10
+        return roll_d10()
     if v == 100:
-        return roll_d100
+        return roll_d100()
+
+
+def roll_on_table(table):
+    roll = roll_values(table["values"])
+    step_type = table["type"]
+    result = find_result(table["values"], roll)
+    if step_type == "background":
+        return "background", table["package"][result], table["morph"][result], table["next"][result]
+    data_type = solconfig.data_types[step_type]
+    return data_type, table[data_type][result]

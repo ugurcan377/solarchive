@@ -1,76 +1,92 @@
 {
     "aptitudes": {
         "brawler": {
-            "cog": 10,
-            "coo": 20,
-            "int": 15,
-            "ref": 20,
-            "sav": 10,
-            "som": 20,
-            "wil": 10
+            "aptitude": {
+                "cog": 10,
+                "coo": 20,
+                "int": 15,
+                "ref": 20,
+                "sav": 10,
+                "som": 20,
+                "wil": 10
+            }
         },
         "dilettante": {
-            "cog": 15,
-            "coo": 15,
-            "int": 15,
-            "ref": 15,
-            "sav": 15,
-            "som": 15,
-            "wil": 15
+            "aptitude": {
+                "cog": 15,
+                "coo": 15,
+                "int": 15,
+                "ref": 15,
+                "sav": 15,
+                "som": 15,
+                "wil": 15
+            }
         },
         "extrovert": {
-            "cog": 10,
-            "coo": 20,
-            "int": 15,
-            "ref": 20,
-            "sav": 10,
-            "som": 20,
-            "wil": 10
+            "aptitude": {
+                "cog": 10,
+                "coo": 20,
+                "int": 15,
+                "ref": 20,
+                "sav": 10,
+                "som": 20,
+                "wil": 10
+            }
         },
         "inquisitive": {
-            "cog": 15,
-            "coo": 15,
-            "int": 15,
-            "ref": 15,
-            "sav": 20,
-            "som": 10,
-            "wil": 15
+            "aptitude": {
+                "cog": 15,
+                "coo": 15,
+                "int": 15,
+                "ref": 15,
+                "sav": 20,
+                "som": 10,
+                "wil": 15
+            }
         },
         "researcher": {
-            "cog": 20,
-            "coo": 15,
-            "int": 20,
-            "ref": 15,
-            "sav": 10,
-            "som": 10,
-            "wil": 15
+            "aptitude": {
+                "cog": 20,
+                "coo": 15,
+                "int": 20,
+                "ref": 15,
+                "sav": 10,
+                "som": 10,
+                "wil": 15
+            }
         },
         "survivor": {
-            "cog": 10,
-            "coo": 15,
-            "int": 15,
-            "ref": 15,
-            "sav": 10,
-            "som": 20,
-            "wil": 20
+            "aptitude": {
+                "cog": 10,
+                "coo": 15,
+                "int": 15,
+                "ref": 15,
+                "sav": 10,
+                "som": 20,
+                "wil": 20
+            }
         },
         "techie": {
-            "cog": 20,
-            "coo": 15,
-            "int": 10,
-            "ref": 15,
-            "sav": 15,
-            "som": 25,
-            "wil": 15
+            "aptitude": {
+                "cog": 20,
+                "coo": 15,
+                "int": 10,
+                "ref": 15,
+                "sav": 15,
+                "som": 25,
+                "wil": 15
+            }
         },
         "thrill seeker": {
-            "cog": 10,
-            "coo": 20,
-            "int": 15,
-            "ref": 20,
-            "sav": 15,
-            "som": 15,
-            "wil": 10
+            "aptitude": {
+                "cog": 10,
+                "coo": 20,
+                "int": 15,
+                "ref": 20,
+                "sav": 15,
+                "som": 15,
+                "wil": 10
+            }
         }
     },
     "background": {

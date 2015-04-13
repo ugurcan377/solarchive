@@ -12,7 +12,8 @@ general = get_data("general")
 lifepath = get_data("lifepath")
 packages = get_data("packages")
 morphs = get_data("morphs")
-all_data = [general, lifepath, packages, morphs]
+targets = {"aptitudes": "packages", "languages": "ep"}
+all_data = {"ep": general, "lifepath": lifepath, "packages": packages, "morphs": morphs}
 
 def search(data, query):
     for k, v in data.iteritems():
@@ -26,7 +27,7 @@ def search(data, query):
         return False
 
 def search_all(query):
-    for data in all_data:
+    for data in all_data.values():
         res = search(data, query)
         if res:
             return res

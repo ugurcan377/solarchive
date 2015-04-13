@@ -1,4 +1,6 @@
 import click
+from solarchive.lifepath import Lifepath
+
 
 @click.group()
 def cli():
@@ -7,7 +9,9 @@ def cli():
 @cli.command()
 def lifepath():
     """Create a character with the lifepath system"""
-    click.echo("Hello Firewall")
+    path = Lifepath()
+    path.start_path()
+    click.echo(path.char)
 
 if __name__ == '__main__':
     cli()

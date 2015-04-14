@@ -8,7 +8,7 @@
     },
     "2": {
         "title": "Choose Mother Tongue",
-        "type": "general",
+        "type": "branching",
         "target": "languages",
         "values": [[1, 100]],
         "action": [{"next": "languages"}]

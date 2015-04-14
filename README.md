@@ -106,15 +106,14 @@ Tables names are strings that denotes steps for the life path system. Like "3","
 There is no types like package_type but different steps may contain different attributes or values. It will be useful to think attributes as columns for each table. Because of that all values are arrays. Typical attributes are
 + title is the name of the step which is written in the Transhuman Sourcebook
 + type is a string which explains the tables purpose. It's sole purpose is to save developers from the effort to determine which table has what attributes
-  + general is not for a specific purpose. Any table which have a plain values and table attributes are tagged with general
+  + general is for tables which does not need specific action. Required attributes is values and tables. 
   + branching is for tables requires extra action. It usually leads to another tables according to the result. It containes following attributes: values, desc, action
-  + background is only used for step 3. It has following attributes: values, desc, package, morph, next
-  * package is used when result is a package It has values and package as attributes. package is no different than table when using it. 
+  + background is only used for step 3. It has following attributes: values, desc, table, morph, next
   * event is used when it's an event table. It has same attributes with general but table is a list of objects and every object has the attributes desc and effect
   * info is used for general system info. It's just used for plain key-value storage
 + values represent results of dice rolls. Result could be a number or a range between two numbers ex. *[1, 2, 3, 4, 5, [6, 10]]*
 + desc is a string explains what will happen for that result
-+ package if a result gives player a package this attribute is used. Only used in steps 3, 6, 9
++ target is a string explains what the values on table (or sometimes action) is. Is it a language, an aptitude package, a faction package or background package etc.  
 + next in table\_name object means the next path for character Only used in step 3. If used in an object except the table\_name it means a roll has to be made in the table\_name which is in the value of next
 + morph is starting morph for character 
 + action means its'a branching table which tells how to continue. It has attributes like next, select, roll. Select means how many PP will the selected packages be and roll attribute is used if multiple rolls needed on the table designated in next
@@ -122,34 +121,40 @@ There is no types like package_type but different steps may contain different at
 ```json
 {
     "1": {
+        "title": "Aptitude Template",
         "type": "general",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, [9, 10]],
-        "table": ["Brawler", "Dilettante", "Extrovert", "Inquisitive", "Researcher", "Survivor", "Techie", "Thrill Seeker", "Choose or Re-roll"]
+        "target": "aptitudes",
+        "table": ["brawler", "dilettante", "extrovert", "inquisitive", "researcher", "survivor", "techie", "thrill seeker", {"next": "1"}]
     },
     "3": {
+        "title": "Youth Path",
         "type": "branching",
         "values": [[1, 6], [7, 9], 10],
         "desc": ["Wholesome Youth", "Split Youth", "Fractured Youth"],
         "action": [{"next": "3.1", "select": 3}, {"next": "3.1", "roll": 2, "select": 1}, {"next": "3.1", "roll": 3, "select": 1}]
     },
     "3.6": {
+        "title": "Sunward Childhood",
         "type": "background",
+        "target": "background",
         "values": [1, [2, 3], [4, 6], [7, 10]],
         "desc": ["Pioneer dynasty", "Venusian colonist: privileged homesteader", "Venusian colony staff", "Mercurian slave labor"],
-        "package": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "indenture"],
-        "morph": ["exalt ", "splicer ", "", {"values": [[1, 7], [8, 10]], "table":["flat", "case"]}],
+        "table": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "indenture"],
+        "morph": ["exalt", "splicer", "", {"values": [[1, 7], [8, 10]], "table":["flat", "case"]}],
         "next": ["6.5", "6.6", "", "6.7"]
     },
     "6.2": {
-        "type": "background",
+        "title": "Autonomist",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"]
+        "table": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"]
     },
     "7": {
+        "title": "Pre-Fall Life Event",
         "type": "event",
-        "values": [[1, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52],  
-            [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86],  
-            [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
+        "values": [[1, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52], [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86], [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
         "table": [
             {"desc": "Gain +1 Moxie and roll on the Story Event table ", "effect": {"moxie": 1, "next": "16"}},
             {"desc": "You save an animal from danger. Gain the Animal Empathy trait ).", "effect": {"trait": "animal empathy"}},
@@ -158,6 +163,9 @@ There is no types like package_type but different steps may contain different at
             {"desc": "You simply are not very comfortable with that whole resleeving thing. Gain the Morphing Disorder (Level 1) trait ).", "effect": {"trait": "morphing disorder"}},
             {"desc": "You are not a slacker. You take on part-time jobs or additional training. +20 to one skill.", "effect": {"skills": {"any": 20}}},
             {"desc": "You travel extensively. +10 to two different Language skills.", "effect": {"skills": {"language": [10, 10]}}},
+            {"desc": "Regular attention to your health and exercise improves your abilities. Gain +5 SOM.", "effect": {"aptitude": {"som": 5}}},
+            "...",
+            {"desc": "You make some life decisions that prove prescient after the Fall. Gain 20,000 credits.", "effect": {"credits": 20000}}
         ]
     },
 }

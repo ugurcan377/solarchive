@@ -8,7 +8,7 @@
     },
     "2": {
         "title": "Choose Mother Tongue",
-        "type": "branching",
+        "type": "general",
         "values": [[1, 100]],
         "target": "languages",
         "action": [{"next": "languages"}]
@@ -21,80 +21,90 @@
         "action": [{"next": "3.1", "select": 3}, {"next": "3.1", "roll": 2, "select": 1}, {"next": "3.1", "roll": 3, "select": 1}]
     },
     "3.1": {
+        "title": "Background",
         "type": "branching",
         "values": [[1, 50], [51, 60], [61, 68], [69, 76], [77, 82], [83, 89], [90, 95], [96, 100]],
         "desc": ["Earthborn", "Orbital", "Lunar", "Martian Settler", "Sunward Hab", "Rimward Hab", "Migrant", "Created not Born"],
         "action": [{"next": "3.2"}, {"next": "3.3"}, {"next": "3.4"}, {"next": "3.5"}, {"next": "3.6"}, {"next": "3.7"}, {"next": "3.8"}, {"next": "3.9"}]
     },
     "3.2": {
+        "title": "Earth Childhood",
         "type": "background",
         "values": [1, 2, [3, 5], [6, 7], 8, 9, 10],
         "desc": ["Born with a silver nanoswarm in your blood", "Celebrity child", "Privileged: enclave born", "Precariat: poverty just a step away", "Troubled: raised among disaster or war", "Raised on the street", "Raised in a collective/communal grouping"],
-        "package": ["hyperelite scion", "hyperelite media personality", "fall evacuee enclaver", "reinstantiated civilian casualty", "fall evacuee underclass", "street rat", "reinstantiated civilian casualty"],
+        "table": ["hyperelite scion", "hyperelite media personality", "fall evacuee enclaver", "reinstantiated civilian casualty", "fall evacuee underclass", "street rat", "reinstantiated civilian casualty"],
         "morph": ["Exalt", "Sylph", "Splicer", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}, "Flat", "Flat", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}],
         "next": ["6.5", "6.5", "6.6", "6.3", {"values": [[1, 5], [6, 9], 10], "table": ["6.4", "6.3", "6.2"]}, "6.4", "6.2"]
     },
     "3.3": {
+        "title": "Orbital Childhood",
         "type": "background",
         "values": [1, 2, [3, 4], [5, 6], [7, 8], [9, 10]],
         "desc": ["Orbital elite", "A new star born above the Earth", "Orbital colonist; floating above the masses", "Orbital colony staff", "One of the lucky few to live above", "Orbital worker family"],
-        "package": ["hyperelite scion", "hyperelite media personality", "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture"],
+        "table": ["hyperelite scion", "hyperelite media personality", "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture"],
         "morph": ["Exalt", "Sylph", "Splicer", "", {"values": [[1, 4], [5, 9], 10], "table": ["Splicer", "Flat", "Bouncer"]}, {"values": [[1, 8], [9, 10]], "table": ["Flat", "Bouncer"]}],
         "next": ["6.5", "6.5", "6.6", "", "6.3", "6.7"]
     },
     "3.4": {
+        "title": "Lunar Childhood",
         "type": "background",
         "values": [1, [2, 3], [4, 5], [6, 7], [8, 10]], 
         "desc": ["Lunar elite", "Lunar colonist: privileged homesteader", "Lunar colony staff", "Raised with a view of Earth", "Lunar work force"],
-        "package": [{"values": [[1, 4], [5, 10]], "table":["hyperelite scion", "hyperelite media personality"]}, "fall evacuee enclaver", {"next": "3.10"}, "re-instantiated civilian casualty", "indenture"],
+        "table": [{"values": [[1, 4], [5, 10]], "table":["hyperelite scion", "hyperelite media personality"]}, "fall evacuee enclaver", {"next": "3.10"}, "re-instantiated civilian casualty", "indenture"],
         "morph": [{"values": [[1, 7], [8, 10]], "table":["exalt", "sylph"]}, "Splicer", "", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}, "Flat"],
         "next": ["6.5", "6.6", "", "6.3", "6.7"]
     },
     "3.5": {
+        "title": "Martian Childhood",
         "type": "background",
         "values": [1, [2, 3], [4, 5], 6, [7, 9], 10],  
         "desc": ["Martian elite", "Martian colonist privileged homesteader", "Martian colony staff", "Risk-taking Martian settler", "Martian slave labor", "Pre-Barsoomian Martian nomad"],
-        "package": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture", "drifter"],
+        "table": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture", "drifter"],
         "morph": ["olympian", "splicer", "", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}, "flat", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}],
         "next": ["6.5", "6.6", "", "6.3", "6.7", "6.2"]
     },
     "3.6": {
+        "title": "Sunward Childhood",
         "type": "background",
         "values": [1, [2, 3], [4, 6], [7, 10]],  
         "desc": ["Pioneer dynasty", "Venusian colonist: privileged homesteader", "Venusian colony staff", "Mercurian slave labor"],
-        "package": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "indenture"],
+        "table": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "indenture"],
         "morph": ["exalt", "splicer", "", {"values": [[1, 7], [8, 10]], "table":["flat", "case"]}],
         "next": ["6.5", "6.6", "", "6.7"]
     },
     "3.7": {
+        "title": "Rimward Childhood",
         "type": "background",
         "values": [1, 2, 3, [4, 5], [6, 8], [9, 10]],  
         "desc": ["Extropia founders", "Jovian colonist shelter among giants", "Titanian colonist", "Anarchist colonist", "Small colony outpost", "Asteroid miner"],
-        "package": ["fall evacuee enclaver", "isolate survivalist", "colonist science staff", "colonist tech staff", {"next": "3.10"}, "indenture"],
+        "table": ["fall evacuee enclaver", "isolate survivalist", "colonist science staff", "colonist tech staff", {"next": "3.10"}, "indenture"],
         "morph": ["bouncer", {"values": [[1, 5], [6, 8], [9, 10]], "table": ["flat", "splicer", "olympian"]}, {"values": [[1, 8], [9, 10]], "table":["Splicer", "menton"]}, {"values": [[1, 6], [7, 10]], "table":["Splicer", "bouncer"]}, "", {"values": [[1, 4], [5, 7], [8, 10]], "table": ["flat", "case", "bouncer"]}],
         "next": ["6.5", "6.8", "6.9", "6.2", "", "6.7"]
     },
     "3.8": {
+        "title": "Migrant Childhood",
         "type": "background",
         "values": [[1, 3], [4, 5], [6, 8], [9, 10]],  
         "desc": ["Wandering the system", "Found freedom in orbit", "Supply ship crew", "Migrant worker"],
-        "package": ["drifter", "original scum", "colonist flight staff", "indenture"],
+        "table": ["drifter", "original scum", "colonist flight staff", "indenture"],
         "morph": [{"values": [[1, 6], [7, 10]], "table":["splicer", "bouncer"]}, {"values": [[1, 5], [6, 8], [9, 10]], "table": ["splicer", "bouncer", {"next": "morphs"}]}, {"values": [[1, 4], [5, 7], [8, 10]], "table": ["splicer", "bouncer", "hibernoid"]}, {"values": [[1, 4], [5, 7], [8, 10]], "table": ["splicer", "case", "bouncer"]}],
         "next": ["6.10", "6.2", "6.10", "6.7"]
     },
     "3.9": {
+        "title": "Created Not Born",
         "type": "background",
         "values": [[1, 3], [4, 5], [6, 7], 8, 9, 10],  
         "desc": ["Almost human*", "More machine than man*", "Created by and for science*", "An experiment gone horribly wrong†", "Second-class citizenship was not for you", "Living proof that uplift works"],
-        "package": ["infolife humanities agi", "infolife machine agi", "infolife research agi", {"values": [[1, 5], [6, 10]], "table":["lost disturbed child", "lost masked normalcy"]}, "uplift escapee", "uplift standard specimen"],
+        "table": ["infolife humanities agi", "infolife machine agi", "infolife research agi", {"values": [[1, 5], [6, 10]], "table":["lost disturbed child", "lost masked normalcy"]}, "uplift escapee", "uplift standard specimen"],
         "morph": ["infomorph", "infomorph", "infomorph", "futura", "uplift‡", "uplift‡"],
         "next": ["6.3", "6.11", "6.9", "6.1", "6.3", "6.3"]
     },
     "3.10": {
+        "title": "Colonial Staff Family",
         "type": "background",
         "values": [1, [2, 3], [4, 5], [6, 7], [8, 10]],  
         "desc": ["Born to lead", "Space crew", "Peacekeeper", "Researcher", "You kept the habitat functioning"],
-        "package": ["colonist command staff", "colonist flight staff", "colonist security staff", "colonist science staff", "colonist tech staff"],
+        "table": ["colonist command staff", "colonist flight staff", "colonist security staff", "colonist science staff", "colonist tech staff"],
         "morph": [{"values": [[1, 7], [8, 10]], "table":["splicer", "exalt"]}, {"values": [[1, 5], [6, 10]], "table":["splicer", "bouncer"]}, {"values": [[1, 3], [4, 7], [8, 10]], "table": ["flat", "splicer", "olympian"]}, {"values": [[1, 6], [7, 10]], "table":["splicer", "menton"]}, {"values": [[1, 3], [4, 8], [9, 10]], "table": ["flat", "splicer", "bouncer"]}],
         "next": ["6.6", "6.1", "6.8", "6.9", "6.11"]
     },
@@ -154,65 +164,88 @@
         "action": [{"next": "prev", "select": 1}, {"next": "6.12", "select": 1}, {"next": "6.1", "select": 1}]
     },
     "6.1": {
+        "title": "New Path",
         "type": "branching",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         "action": [{"next": "6.2"}, {"next": "6.3"}, {"next": "6.4"}, {"next": "6.5"}, {"next": "6.6"}, {"next": "6.7"}, {"next": "6.8"}, {"next": "6.9"}, {"next": "6.10"}, {"next": "6.11"}],
         "desc": ["Autonomist", "Civilian", "Criminal", "Elite", "Enclaver", "Indenture", "Military", "Scientist", "Spacer", "Techie"]
     },
     "6.2": {
-        "type": "package",
+        "title": "Autonomist",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"]
+        "table": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"]
     },
     "6.3": {
-        "type": "package",
+        "title": "Civilian",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["activist", "con artist", "dealer", "face", "investigator", "journo", "smart animal handler", "soldier", "techie", "thief"]
+        "table": ["activist", "con artist", "dealer", "face", "investigator", "journo", "smart animal handler", "soldier", "techie", "thief"]
     },
     "6.4": {
-        "type": "package",
+        "title": "Criminal",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["assassin", "con artist", "covert", "dealer", "ego hunter", "enforcer", "hacker", "pirate", "smuggler", "thief"]
+        "table": ["assassin", "con artist", "covert", "dealer", "ego hunter", "enforcer", "hacker", "pirate", "smuggler", "thief"]
     },
     "6.5": {
-        "type": "package",
+        "title": "Elite",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, [3, 4], [5, 6], 7, 8, 9, 10],
-        "package": ["academic", "dealer", "face", "icon", "journo", "medic", "psychosurgeon", "scientist"]
+        "table": ["academic", "dealer", "face", "icon", "journo", "medic", "psychosurgeon", "scientist"]
     },
     "6.6": {
-        "type": "package",
+        "title": "Enclaver",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, [3, 4], 5, 6, 7, 8, 9, 10],
-        "package": ["academic", "con artist", "dealer", "face", "icon", "investigator", "journo", "medic", "psychosurgeon"]
+        "table": ["academic", "con artist", "dealer", "face", "icon", "investigator", "journo", "medic", "psychosurgeon"]
     },
     "6.7": {
-        "type": "package",
+        "title": "Indenture",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["activist", "bodyguard", "bot jammer", "con artist", "enforcer", "pirate", "scavenger", "smart animal handler", "smuggler", "thief"]
+        "table": ["activist", "bodyguard", "bot jammer", "con artist", "enforcer", "pirate", "scavenger", "smart animal handler", "smuggler", "thief"]
     },
     "6.8": {
-        "type": "package",
+        "title": "Military",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
+        "table": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
     },
     "6.9": {
-        "type": "package",
+        "title": "Scientist",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, [7, 8], 9, 10],
-        "package": ["academic", "explorer", "genehacker", "investigator", "medic", "psychosurgeon", "scientist", "smart animal handler", "techie"]
+        "table": ["academic", "explorer", "genehacker", "investigator", "medic", "psychosurgeon", "scientist", "smart animal handler", "techie"]
     },
     "6.10": {
-        "type": "package",
+        "title": "Spacer",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, [3, 4], 5, 6, 7, [8, 9], 10],
-        "package": ["bot jammer", "ego hunter", "explorer", "pirate", "scavenger", "soldier", "smuggler", "spy"]
+        "table": ["bot jammer", "ego hunter", "explorer", "pirate", "scavenger", "soldier", "smuggler", "spy"]
     },
     "6.11": {
-        "type": "package",
+        "title": "Techie",
+        "type": "general",
+        "target": "focus",
         "values": [1, 2, [3, 4], 5, 6, 7, [8, 9], 10],
-        "package": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
+        "table": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
     },
     "6.12": {
-        "type": "package",
+        "title": "Customizations",
+        "type": "general",
+        "target": "customization",
         "values": [[1, 4], [5, 8], [9, 12], [13, 16], [17, 20], [21, 24], [25, 28], [29, 32], [33, 39], [40, 46], [47, 50], [51, 54], [55, 61], [62, 65], [66, 69], [70, 73], [74, 77], [78, 81], [82, 85], [86, 89], [90, 93], [94, 100]],
-        "package": ["artist", "async", "async adept", "athletics", "computer training", "connected", "gearhead", "heavy weapons training", "jack of all trades", "lucky", "martial arts training", "mentalist†", "networker", "paramedic", "slacker", "sneaker", "social butterfly", "spacer", "student", "survival training", "tech training", "weapons training"]
+        "table": ["artist", "async", "async adept", "athletics", "computer training", "connected", "gearhead", "heavy weapons training", "jack of all trades", "lucky", "martial arts training", "mentalist†", "networker", "paramedic", "slacker", "sneaker", "social butterfly", "spacer", "student", "survival training", "tech training", "weapons training"]
     },
     "7": {
         "title": "Pre-Fall Life Event",
@@ -292,7 +325,7 @@
             {"desc": "You encounter an exsurgent and are permanently changed by the experience. Take the Async Adept package  for 1 PP as your Focus package in Step 9.", "effect": {"next": "9", "package": "async adept", "select": 1}},
             {"desc": "The near extinction of your species hardens your resolve. Gain +5 WIL.", "effect": {"aptitude": {"wil": 5}}},
             {"desc": "You hide and survive an encounter with exsurgents where others die. Gain the Psi Chameleon trait", "effect": {"trait": "psi chameleon"}},
-            {"desc": "You end up in possession of a rare Earth artifact worth 1d10 x 10,000 credits.", "effect": {"credits": 10000, "multiplier": 10}},
+            {"desc": "You end up in possession of a rare Earth artifact worth 1d10 x 10,000 credits.", "effect": {"credits": {"factor": 10000, "multiplier": 10}}},
             {"desc": "You make a bad call that gets people killed. Now you question your gut feelings. Lose –5 INT.", "effect": {"aptitude": {"wil": -5}}},
             {"desc": "You were horrified at the idea of resleeving, but the alternative seemed worse—or so you thought. Roll randomly on the Choosing a Morph table , and gain the Morphing Disorder (Level 3) trait", "effect": {"next": "morphs", "trait": "morphing disorderv3"}},
             {"desc": "A nanoviral infection leaves you permanently damaged. Gain the Neural Damage trait", "effect": {"trait": "neural damage"}},
@@ -323,77 +356,102 @@
         "action": [{"select": {"faction": 3, "focus": 1}}, {"select": {"faction": 3, "focus": 3}}, {"select": {"faction": 1, "focus": 3}}, {"select": {"faction": 1, "focus": 5}}]
     },
     "9.1": {
+        "title": "Focus Packages",
         "type": "branching",
         "values": [[1, 6], [7, 10]],
         "desc": ["stay on the path", "switch gears"],
         "action": [{"next": "prev"}, {"next": "6.1"}]
     },
     "9.2": {
+        "title": "Faction Packages",
         "type": "branching",
         "values": [[1, 6], [7, 10]],
         "desc": ["stay on the path", "mix it up"],
         "action": [{"next": "prev"}, {"next": "9.3"}]
     },
     "9.3": {
+        "title": "New Faction Path",
         "type": "branching",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
         "action": [{"next": "9.4"}, {"next": "9.5"}, {"next": "9.6"},{"next": "9.7"}, {"next": "9.8"}, {"next": "9.9"}, {"next": "9.10"}, {"next": "9.11"}, {"next": "9.12"}, {"next": "9.13"}],
         "desc": ["Autonomist", "Civilian", "Criminal", "Elite", "Enclaver", "Indenture", "Military", "Scientist", "Spacer", "Techie"]
     },
     "9.4": {
-        "type": "package",
+        "title": "Autonomist",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["anarchist", "argonaut", "barsoomian", "brinker", "criminal", "europan", "extropian", "ringer", "scum", "titanian"]
+        "table": ["anarchist", "argonaut", "barsoomian", "brinker", "criminal", "europan", "extropian", "ringer", "scum", "titanian"]
     },
     "9.5": {
-        "type": "package",
+        "title": "Civilian",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["belter", "bioconservative", "criminal", "hypercorp", "lunar", "orbital", "reclaimer", "sifter", "skimmer", "titanian"]
+        "table": ["belter", "bioconservative", "criminal", "hypercorp", "lunar", "orbital", "reclaimer", "sifter", "skimmer", "titanian"]
     },
     "9.6": {
-        "type": "package",
+        "title": "Criminal",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["anarchist", "belter", "brinker", "criminal", "exhuman", "extropian", "lunar", "orbital", "ringer", "scum"]
+        "table": ["anarchist", "belter", "brinker", "criminal", "exhuman", "extropian", "lunar", "orbital", "ringer", "scum"]
     },
     "9.7": {
-        "type": "package",
+        "title": "Elite",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["bioconservative", "brinker", "exhuman", "extropian", "hypercorp", "orbital", "socialite", "precautionist", "ultimate", "venusian"]
+        "table": ["bioconservative", "brinker", "exhuman", "extropian", "hypercorp", "orbital", "socialite", "precautionist", "ultimate", "venusian"]
     },
     "9.8": {
-        "type": "package",
+        "title": "Enclaver",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["bioconservative", "extropian", "hypercorp", "jovian", "lunar", "orbital", "socialite", "preservationist", "reclaimer", "venusian"]
+        "table": ["bioconservative", "extropian", "hypercorp", "jovian", "lunar", "orbital", "socialite", "preservationist", "reclaimer", "venusian"]
     },
     "9.9": {
-        "type": "package",
+        "title": "Indenture",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["anarchist", "barsoomian", "hypercorp", "lunar", "scum", "preservationist", "reclaimer", "sifter", "skimmer", "venusian"]
+        "table": ["anarchist", "barsoomian", "hypercorp", "lunar", "scum", "preservationist", "reclaimer", "sifter", "skimmer", "venusian"]
     },
     "9.10": {
-        "type": "package",
+        "title": "Military",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["bioconservative", "brinker", "criminal", "hypercorp", "jovian", "lunar", "orbital", "reclaimer", "precautionist", "ultimate"]
+        "table": ["bioconservative", "brinker", "criminal", "hypercorp", "jovian", "lunar", "orbital", "reclaimer", "precautionist", "ultimate"]
     },
     "9.11": {
-        "type": "package",
+        "title": "Scientist",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["argonaut", "europan", "exhuman", "hypercorp", "nano-ecologist", "precautionist", "singularity seeker", "solarian", "titanian", "venusian"]
+        "table": ["argonaut", "europan", "exhuman", "hypercorp", "nano-ecologist", "precautionist", "singularity seeker", "solarian", "titanian", "venusian"]
     },
     "9.12": {
-        "type": "package",
+        "title": "Spacer",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["belter", "brinker", "criminal", "extropian", "outster", "scum", "ringer", "singularity seeker", "skimmer", "solarian"]
+        "table": ["belter", "brinker", "criminal", "extropian", "outster", "scum", "ringer", "singularity seeker", "skimmer", "solarian"]
     },
     "9.13": {
-        "type": "package",
+        "title": "Techie",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["anarchist", "argonaut", "barsoomian", "extropian", "hypercorp", "nano-ecologist", "sifter", "singularity seeker", "titanian", "venusian"]
+        "table": ["anarchist", "argonaut", "barsoomian", "extropian", "hypercorp", "nano-ecologist", "sifter", "singularity seeker", "titanian", "venusian"]
     },    
     "9.14": {
-        "type": "package",
+        "title": "AGIs and Uplifts",
+        "type": "general",
+        "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "package": ["anarchist", "argonaut", "brinker", "criminal", "europan", "hypercorp", "mercurial", "sapient", "solarian", "venusian"]
+        "table": ["anarchist", "argonaut", "brinker", "criminal", "europan", "hypercorp", "mercurial", "sapient", "solarian", "venusian"]
     },
     "10": {
         "title": "Final Packages",
@@ -502,6 +560,7 @@
         ]
     },
     "gatecrashing": {
+        "title": "Gatecrashing Event",
         "type": "event",
         "values": [[1, 20], [21, 48], [49, 50], [51, 52], [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86], [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
         "table": [
@@ -555,7 +614,7 @@
             {"desc": "You single-handedly foil an impending outbreak, but the local authorities blame you for the carnage. Firewall helps you escape. Gain the On the Run trait", "effect": {"trait": "on the run"}},
             {"desc": "A previously dormant TITAN nanoplague rampages through your habitat. Roll randomly on the Choosing a Morph table", "effect": {"next": "morphs"}},
             {"desc": "Your ship stops to investigate/help a derelict ship and is never heard from again. Roll randomly on the Choosing a Morph table", "effect": {"next": "morphs"}},
-            {"desc": "You discover a lost cache on an isolated asteroid. Firewall actually lets you keep some of the find. Gain 1d10 x 5,000 credits.", "effect": {"credits": 5000, "multiplier": "1d10"}},
+            {"desc": "You discover a lost cache on an isolated asteroid. Firewall actually lets you keep some of the find. Gain 1d10 x 5,000 credits.", "effect": {"credits": {"factor": 5000, "multiplier": "1d10"}}},
             {"desc": "You step into an unknown fray and are lucky enough to pick the right side. Gain +10 i-rep.", "effect": {"i-rep": 10}},
             {"desc": "You uncover a conspiracy within your faction and Firewall steps in to help you deal with it. Gain +10 to one rep score.", "effect": {"rep": 10}},
             {"desc": "You are recruited to help Firewall cover up a secret or outbreak. Lose –10 to one rep score but gain +10 i-rep.", "effect": {"rep": -10, "@-rep": 10}},
@@ -569,6 +628,12 @@
             {"desc": "Thanks to a particular skill you have, Firewall has consulted with you for years without revealing themselves. They decide to fill you in on the full story. Gain or increase a Firewall-relevant Knowledge skill (such as Interest: Exsurgents or Academics: Nanotechnology) by +30.", "effect": {"skills": {"interest": {"value": 30, "spec": "exsurgents"}}}},
             {"desc": "A package you are hired to deliver turns out to be an alien artifact. When it causes problems, you go to a friend of a friend, who turns out to be a Firewall proxy. They solve the problem, but you fail to make the delivery. Gain the Enemy trait", "effect": {"trait": "enemy"}}
         ]
+    },
+    "13": {
+        "title": "Starting Credit",
+        "type": "general",
+        "values": [1, 2, [3, 5], [6, 8], 9, 10],
+        "table": [0, 5000, {"credits": 10000, "multiplier": "1d10", "factor": 1000}, {"credits": 20000, "multiplier": "1d10", "factor": 1000}, 40000, 50000]
     },
     "16": {
         "title": "Story Event",

@@ -18,7 +18,7 @@
         "type": "branching",
         "values": [[1, 6], [7, 9], 10],
         "desc": ["Wholesome Youth", "Split Youth", "Fractured Youth"],
-        "action": [{"next": "3.1", "select": 3}, {"next": "3.1", "roll": 2, "select": 1}, {"next": "3.1", "roll": 3, "select": 1}]
+        "action": [{"next": "3.1", "roll": 1, "select": 3}, {"next": "3.1", "roll": 2, "select": 1}, {"next": "3.1", "roll": 3, "select": 1}]
     },
     "3.1": {
         "title": "Background",
@@ -53,7 +53,7 @@
         "target": "background",
         "values": [1, [2, 3], [4, 5], [6, 7], [8, 10]],
         "desc": ["Lunar elite", "Lunar colonist: privileged homesteader", "Lunar colony staff", "Raised with a view of Earth", "Lunar work force"],
-        "table": [{"values": [[1, 4], [5, 10]], "table":["hyperelite scion", "hyperelite media personality"]}, "fall evacuee enclaver", {"next": "3.10"}, "re-instantiated civilian casualty", "indenture"],
+        "table": [{"values": [[1, 4], [5, 10]], "table":["hyperelite scion", "hyperelite media personality"]}, "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture"],
         "morph": [{"values": [[1, 7], [8, 10]], "table":["exalt", "sylph"]}, "Splicer", "", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}, "Flat"],
         "next": ["6.5", "6.6", "", "6.3", "6.7"]
     },

@@ -12,7 +12,7 @@ general = get_data("general")
 lifepath = get_data("lifepath")
 packages = get_data("packages")
 morphs = get_data("morphs")
-targets = {"aptitudes": "packages", "languages": "ep"}
+targets = {"aptitudes": "packages", "languages": "ep", "background": "packages"}
 all_data = {"ep": general, "lifepath": lifepath, "packages": packages, "morphs": morphs}
 
 def search(data, query):

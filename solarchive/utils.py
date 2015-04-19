@@ -9,6 +9,15 @@ def roll_d10():
 def roll_d100():
     return random.randint(1, 100)
 
+
+def clear_background(background, select):
+    select = str(select)
+    selects = ["1", "3", "5"]
+    selects.remove(select)
+    for s in selects:
+        background.pop(s, 0)
+    return background
+
 # def roll_on_table(table):
 #     roll = roll_values(table["values"])
 #     step_type = table["type"]

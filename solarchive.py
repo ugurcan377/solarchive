@@ -9,12 +9,16 @@ def cli():
     """The Eclipse Phase Companion Software"""
 
 @cli.command()
-def lifepath():
+@click.option("--debug", is_flag=True, help="Only print the last step")
+def lifepath(debug):
     """Create a character with the lifepath system"""
     path = Lifepath()
     path.start_path()
-    pprint(path.char)
-    #click.echo(path.char)
+    if debug:
+        pprint(path.char.get(path.STEPS, {}))
+    else:
+        pprint(path.char)
+        #click.echo(path.char)
 
 if __name__ == '__main__':
     cli()

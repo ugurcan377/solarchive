@@ -122,12 +122,12 @@
         "type": "event",
         "values": [[1, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52], [53, 54], [55, 56], [57, 58], [59, 60], [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86], [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
         "table": [
-            {"desc": "Gain +1 Moxie and roll on the Story Event table", "effect": {"moxie": 1, "next": "16"}}, 
+            {"desc": "Gain +1 Moxie and roll on the Story Event table", "effect": {"moxie": 1, "next": "16"}},
             {"desc": "Traumatic childhood accident. Gain the Mental Disorder (PTSD) trait.", "effect": {"trait": "mental disorder (ptsd)"}}, 
             {"desc": "You are not only good with your hands, you are good with both hands. Gain the Ambidexterity trait", "effect": {"trait": "ambidexterity"}}, 
             {"desc": "The people that raise you do not tolerate foolishness. Gain the Common Sense trait", "effect": {"trait": "common sense"}}, 
             {"desc": "You are raised in an abusive environment. Gain the Pain Tolerance (Level 1) trait", "effect": {"trait": "pain tolerance"}}, 
-            {"desc": "You fall in with the wrong crowd. Ignore your last roll on the Youth Path table and take the Street Rat package for the same amount of PP as you rolled. Proceed to Step 5.", "effect": {"package": "street rat"}}, 
+            {"desc": "You fall in with the wrong crowd. Ignore your last roll on the Youth Path table and take the Street Rat package for the same amount of PP as you rolled. Proceed to Step 5.", "effect": {"next": "change_background"}},
             {"desc": "You are kept at home and not allowed to play sports or with other kids. Lose –5 COO.", "effect": {"aptitude": {"coo": -5}}}, 
             {"desc": "You grow up in a maze-like urban area or a difficult rural area. Gain the Direction Sense trait", "effect": {"trait": "direction sense"}}, 
             {"desc": "You are raised in dangerous conditions where you have to adapt or die. Gain the Fast Learner trait", "effect": {"trait": "fast learner"}}, 
@@ -165,11 +165,23 @@
             {"desc": "Adult generations are never quite as on-top of technological changes, and you use that to your advantage. Gain +10 Infosec skill", "effect": {"skills": {"Infosec": 10}}}
         ]
     },
+    "5": {
+        "title": "Character Age",
+        "type": "general",
+        "values": [[1, 20], [21, 50], [51, 70], [71, 80], [81, 90], [91, 94], [95, 98], [99, 100]],
+        "table": [{"age": 20, "step": "8"}, {"age": 30}, {"age": 40}, {"age": 50}, {"age": 60}, {"age": 70}, {"age": 80}, {"age": 90, "next": "5.1"}, {"age": 100, "next": "5.1"}]
+    },
+    "5prime": {
+        "title": "Advanced Age Table",
+        "type": "general",
+        "values": [1, 2, 3, 4, [5, 10]],
+        "table": [{"aptitude": {"any": -10, "choices": ["som", "ref", "coo"]}, "next": "5prime", "max": 1}, {"aptitude": {"any": -5, "choices": ["som", "ref", "coo"]}, "next": "5prime"}, {"trait": "immortality blues"}, {"aptitude": {"any": -10, "choices": ["sav", "int", "cog", "wil"]}, "next": "5prime", "max": 3}, {}]
+    },
     "6": {
         "title": "Adult Pre-Fall Path",
         "type": "branching",
         "values": [[1, 3], [4, 6], [7, 10]],
-        "desc": ["stay on the path", "specialize", "switch gears"],
+        "desc": ["Stay on the path", "Specialize", "Switch gears"],
         "action": [{"next": "prev", "select": 1}, {"next": "6.12", "select": 1}, {"next": "6.1", "select": 1}]
     },
     "6.1": {
@@ -184,77 +196,88 @@
         "type": "general",
         "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"]
+        "table": ["academic", "activist", "bot jammer", "covert ops", "explorer", "genehacker", "hacker", "medic", "scientist", "techie"],
+        "next": "9.4"
     },
     "6.3": {
         "title": "Civilian",
         "type": "general",
         "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["activist", "con artist", "dealer", "face", "investigator", "journo", "smart animal handler", "soldier", "techie", "thief"]
+        "table": ["activist", "con artist", "dealer", "face", "investigator", "journo", "smart animal handler", "soldier", "techie", "thief"],
+        "next": "9.5"
     },
     "6.4": {
         "title": "Criminal",
         "type": "general",
         "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["assassin", "con artist", "covert", "dealer", "ego hunter", "enforcer", "hacker", "pirate", "smuggler", "thief"]
+        "table": ["assassin", "con artist", "covert", "dealer", "ego hunter", "enforcer", "hacker", "pirate", "smuggler", "thief"],
+        "next": "9.6"
     },
     "6.5": {
         "title": "Elite",
         "type": "general",
         "target": "focus",
         "values": [1, 2, [3, 4], [5, 6], 7, 8, 9, 10],
-        "table": ["academic", "dealer", "face", "icon", "journo", "medic", "psychosurgeon", "scientist"]
+        "table": ["academic", "dealer", "face", "icon", "journo", "medic", "psychosurgeon", "scientist"],
+        "next": "9.7"
     },
     "6.6": {
         "title": "Enclaver",
         "type": "general",
         "target": "focus",
         "values": [1, 2, [3, 4], 5, 6, 7, 8, 9, 10],
-        "table": ["academic", "con artist", "dealer", "face", "icon", "investigator", "journo", "medic", "psychosurgeon"]
+        "table": ["academic", "con artist", "dealer", "face", "icon", "investigator", "journo", "medic", "psychosurgeon"],
+        "next": "9.8"
     },
     "6.7": {
         "title": "Indenture",
         "type": "general",
         "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["activist", "bodyguard", "bot jammer", "con artist", "enforcer", "pirate", "scavenger", "smart animal handler", "smuggler", "thief"]
+        "table": ["activist", "bodyguard", "bot jammer", "con artist", "enforcer", "pirate", "scavenger", "smart animal handler", "smuggler", "thief"],
+        "next": "9.9"
     },
     "6.8": {
         "title": "Military",
         "type": "general",
         "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
+        "table": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"],
+        "next": "9.10"
     },
     "6.9": {
         "title": "Scientist",
         "type": "general",
         "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, [7, 8], 9, 10],
-        "table": ["academic", "explorer", "genehacker", "investigator", "medic", "psychosurgeon", "scientist", "smart animal handler", "techie"]
+        "table": ["academic", "explorer", "genehacker", "investigator", "medic", "psychosurgeon", "scientist", "smart animal handler", "techie"],
+        "next": "9.11"
     },
     "6.10": {
         "title": "Spacer",
         "type": "general",
         "target": "focus",
         "values": [1, 2, [3, 4], 5, 6, 7, [8, 9], 10],
-        "table": ["bot jammer", "ego hunter", "explorer", "pirate", "scavenger", "soldier", "smuggler", "spy"]
+        "table": ["bot jammer", "ego hunter", "explorer", "pirate", "scavenger", "soldier", "smuggler", "spy"],
+        "next": "9.12"
     },
     "6.11": {
         "title": "Techie",
         "type": "general",
         "target": "focus",
         "values": [1, 2, [3, 4], 5, 6, 7, [8, 9], 10],
-        "table": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"]
+        "table": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"],
+        "next": "9.13"
     },
     "6.12": {
         "title": "Customizations",
         "type": "general",
         "target": "customization",
         "values": [[1, 4], [5, 8], [9, 12], [13, 16], [17, 20], [21, 24], [25, 28], [29, 32], [33, 39], [40, 46], [47, 50], [51, 54], [55, 61], [62, 65], [66, 69], [70, 73], [74, 77], [78, 81], [82, 85], [86, 89], [90, 93], [94, 100]],
-        "table": ["artist", "async", "async adept", "athletics", "computer training", "connected", "gearhead", "heavy weapons training", "jack of all trades", "lucky", "martial arts training", "mentalist†", "networker", "paramedic", "slacker", "sneaker", "social butterfly", "spacer", "student", "survival training", "tech training", "weapons training"]
+        "table": ["artist", "async", "async adept", "athletics", "computer training", "connected", "gearhead", "heavy weapons training", "jack of all trades", "lucky", "martial arts training", "mentalist", "networker", "paramedic", "slacker", "sneaker", "social butterfly", "spacer", "student", "survival training", "tech training", "weapons training"],
+        "next": "6"
     },
     "7": {
         "title": "Pre-Fall Life Event",

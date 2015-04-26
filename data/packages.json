@@ -3423,7 +3423,7 @@
                 }
             }
         },
-        "genehacker": {
+        "scientist": {
             "motivations": {
                 "positive": ["science", "research", "technoprogressivism"],
                 "negative": ["bioconservatism"]
@@ -3855,7 +3855,7 @@
                 "any": [25, 30]
             }
         },
-        "martial arts": {
+        "martial arts training": {
             "skills": {
                 "unarmed": 40,
                 "throwing weapons": 30,
@@ -3880,7 +3880,7 @@
                 "programming": 30
             }
         },
-        "atletics": {
+        "slacker": {
             "skills": {
                 "interest": [30, 40],
                 "scrounging": 30

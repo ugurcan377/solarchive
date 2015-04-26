@@ -102,7 +102,7 @@
         "type": "background",
         "target": "background",
         "values": [[1, 3], [4, 5], [6, 7], 8, 9, 10],
-        "desc": ["Almost human*", "More machine than man*", "Created by and for science*", "An experiment gone horribly wrong†", "Second-class citizenship was not for you", "Living proof that uplift works"],
+        "desc": ["Almost human*", "More machine than man*", "Created by and for science*", "An experiment gone horribly wrong", "Second-class citizenship was not for you", "Living proof that uplift works"],
         "table": ["infolife humanities agi", "infolife machine agi", "infolife research agi", {"values": [[1, 5], [6, 10]], "table":["lost disturbed child", "lost masked normalcy"]}, "uplift escapee", "uplift standard specimen"],
         "morph": ["infomorph", "infomorph", "infomorph", "futura", "uplift‡", "uplift‡"],
         "next": ["6.3", "6.11", "6.9", "6.1", "6.3", "6.3"]
@@ -115,7 +115,7 @@
         "desc": ["Born to lead", "Space crew", "Peacekeeper", "Researcher", "You kept the habitat functioning"],
         "table": ["colonist command staff", "colonist flight staff", "colonist security staff", "colonist science staff", "colonist tech staff"],
         "morph": [{"values": [[1, 7], [8, 10]], "table":["splicer", "exalt"]}, {"values": [[1, 5], [6, 10]], "table":["splicer", "bouncer"]}, {"values": [[1, 3], [4, 7], [8, 10]], "table": ["flat", "splicer", "olympian"]}, {"values": [[1, 6], [7, 10]], "table":["splicer", "menton"]}, {"values": [[1, 3], [4, 8], [9, 10]], "table": ["flat", "splicer", "bouncer"]}],
-        "next": ["6.6", "6.1", "6.8", "6.9", "6.11"]
+        "next": ["6.6", "6.10", "6.8", "6.9", "6.11"]
     },
     "4": {
         "title": "Background Event",
@@ -212,7 +212,7 @@
         "type": "general",
         "target": "focus",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["assassin", "con artist", "covert", "dealer", "ego hunter", "enforcer", "hacker", "pirate", "smuggler", "thief"],
+        "table": ["assassin", "con artist", "covert ops", "dealer", "ego hunter", "enforcer", "hacker", "pirate", "smuggler", "thief"],
         "next": "9.6"
     },
     "6.5": {
@@ -243,7 +243,7 @@
         "title": "Military",
         "type": "general",
         "target": "focus",
-        "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        "values": [1, 2, 3, 4, 5, 6, [7, 9], 10],
         "table": ["assassin", "bodyguard", "covert ops", "ego hunter", "enforcer", "investigator", "soldier", "spy"],
         "next": "9.10"
     },
@@ -277,7 +277,7 @@
         "target": "customization",
         "values": [[1, 4], [5, 8], [9, 12], [13, 16], [17, 20], [21, 24], [25, 28], [29, 32], [33, 39], [40, 46], [47, 50], [51, 54], [55, 61], [62, 65], [66, 69], [70, 73], [74, 77], [78, 81], [82, 85], [86, 89], [90, 93], [94, 100]],
         "table": ["artist", "async", "async adept", "athletics", "computer training", "connected", "gearhead", "heavy weapons training", "jack of all trades", "lucky", "martial arts training", "mentalist", "networker", "paramedic", "slacker", "sneaker", "social butterfly", "spacer", "student", "survival training", "tech training", "weapons training"],
-        "next": "6"
+        "next": "6.1"
     },
     "7": {
         "title": "Pre-Fall Life Event",
@@ -294,7 +294,7 @@
             {"desc": "Regular attention to your health and exercise improves your abilities. Gain +5 SOM.", "effect": {"aptitude": {"som": 5}}},
             {"desc": "You decide you want to experiment. Roll randomly on the Choosing a Morph table but ignore pods.", "effect": {"next": "morphs", "ignore": "pods"}},
             {"desc": "You are fired and your new career hopes are now dashed. Re-roll your Adult Pre-Fall Path.", "effect": {"next": "6"}},
-            {"desc": "You pick up a new hobby. +20 to one Art or Interest skill.", "effect": {"skills": {"Interest": 20}}},
+            {"desc": "You pick up a new hobby. +20 to one Art or Interest skill.", "effect": {"skills": {"any": 20, "choices": ["art", "interest"]}}},
             {"desc": "An unfortunate habitat failure, traffic accident, or fire ends your life. Roll randomly on the Choosing a Morph table but ignore pods and uplifts.", "effect": {"next": "morphs", "ignore": ["pods", "uplifts"]}},
             {"desc": "You travel extensively: +20 to Navigation skill.", "effect": {"skills": {"navigation": 20}}},
             {"desc": "Your work requires you to change your morph. Roll randomly on the Choosing a Morph table but ignore pods and uplifts.", "effect": {"next": "morphs", "ignore": ["pods", "uplifts"]}},
@@ -334,12 +334,12 @@
         "table": [
             {"desc": "You somehow stay safe and untouched by the chaos and horror. Gain +1 Moxie and roll on the Story Event table", "effect":{"moxie": 1, "next": "16"}},
             {"desc": "You stay to the end, fighting a rear-guard action. Roll randomly on the Choosing a Morph table  and gain +1 Moxie.", "effect": {"moxie": 1, "next": "morphs"}},
-            {"desc": "You are trapped on Earth when the homeworld is interdicted and quarantined. Take the Earth Survivor package  as your Faction package in Step 9.", "effect": {"next": "9", "package": "earth survivor"}},
-            {"desc": "You exemplify yourself in destroying TITAN machines. Take the Wrecker package  as your Focus package in Step 9.", "effect": {"next": "9", "package": "wrecker"}},
-            {"desc": "Exposure to the Watts-MacLeod exsurgent virus opens your awareness to aspects of the world of which others are blind. Take the Savant Async package  as your Focus package in Step 9.", "effect": {"next": "9", "package": "savant async"}},
-            {"desc": "Infected with the Watts-MacLeod exsurgent virus, you learn to use your new powers forcefully. Take the Controller Async package  as your Focus package in Step 9.", "effect": {"next": "9", "package": "controller async"}},
-            {"desc": "After you are infected, you are trained to use your psi to kill. Take the Combat Async package  as your Focus package in Step 9.", "effect": {"next": "9", "package": "combat async"}},
-            {"desc": "Infection permanently changes your perceptions. Take the Scanner Async package  as your Focus package in Step 9.", "effect": {"next": "9", "package": "scanner async"}},
+            {"desc": "You are trapped on Earth when the homeworld is interdicted and quarantined. Take the Earth Survivor package  as your Faction package in Step 9.", "effect": {"package": "earth survivor"}},
+            {"desc": "You exemplify yourself in destroying TITAN machines. Take the Wrecker package  as your Focus package in Step 9.", "effect": {"package": "wrecker"}},
+            {"desc": "Exposure to the Watts-MacLeod exsurgent virus opens your awareness to aspects of the world of which others are blind. Take the Savant Async package  as your Focus package in Step 9.", "effect": {"package": "savant async"}},
+            {"desc": "Infected with the Watts-MacLeod exsurgent virus, you learn to use your new powers forcefully. Take the Controller Async package  as your Focus package in Step 9.", "effect": {"package": "controller async"}},
+            {"desc": "After you are infected, you are trained to use your psi to kill. Take the Combat Async package  as your Focus package in Step 9.", "effect": {"package": "combat async"}},
+            {"desc": "Infection permanently changes your perceptions. Take the Scanner Async package  as your Focus package in Step 9.", "effect": {"package": "scanner async"}},
             {"desc": "You rack up a major debt to pay a bribe to get yourself off-world. Gain the Debt (Level 3) trait ", "effect": {"trait": "debtv3"}},
             {"desc": "You assume that you died on Earth, but you don’t know for sure. Roll randomly on the Choosing a Morph table  and gain the Edited Memories trait", "effect": {"trait": "edited memories", "next": "morphs"}},
             {"desc": "You know that the TITANs killed or uploaded you, according to reports. Roll randomly on the Choosing a Morph table", "effect": {"next": "morphs"}},
@@ -348,13 +348,13 @@
             {"desc": "You hide your body away in cold storage on Earth before farcasting off to safety. Roll randomly on the Choosing a Morph table", "effect": {"next": "morphs"}},
             {"desc": "Your ego escapes the devastation of Earth, only to be locked away in cold storage for years. You are only recently resleeved. Roll randomly on the Choosing a Morph table  and gain the Real World Naiveté trait", "effect": {"next": "morphs", "trait": "real world naivete"}},
             {"desc": "Your ego survives the Fall but is locked in simulspace for years before you are resleeved. Roll randomly on the Choosing a Morph table  and gain +20 Interfacing skill.", "effect": {"next": "morphs", "skills": {"interfacing": 20}}},
-            {"desc": "After escaping the Fall, you are forced into indentured service before you are resleeved. Roll randomly on the Choosing a Morph table  but ignore all non-synthmorph results. Gain +20 to one Technical skill.", "effect": {"next": "synthmorphs"}},
+            {"desc": "After escaping the Fall, you are forced into indentured service before you are resleeved. Roll randomly on the Choosing a Morph table  but ignore all non-synthmorph results. Gain +20 to one Technical skill.", "effect": {"next": "synthmorph"}},
             {"desc": "You do what you can to help, but you still lose almost everyone in your life. Gain +1 Moxie.", "effect": {"moxie": 1}},
             {"desc": "You heroically sacrifice yourself so that others can escape. Gain +10 to one rep score and roll randomly on the Choosing a Morph table", "effect": {"next": "morphs", "rep": 10}},
             {"desc": "You risk your life in a desperate holding action. Gain the Brave trait", "effect": {"trait": "brave"}},
-            {"desc": "You are infected … but get better. Take the Async package  for 1 PP as your Focus package in Step 9.", "effect": {"next": "9", "package": "async", "select": 1}},
+            {"desc": "You are infected … but get better. Take the Async package  for 1 PP as your Focus package in Step 9.", "effect": {"package": "async", "select": 1}},
             {"desc": "You learn the hard way how susceptible you are to exsurgent influence. Gain the Psi Vulnerability trait", "effect": {"trait": "psi vulnerability"}},
-            {"desc": "You encounter an exsurgent and are permanently changed by the experience. Take the Async Adept package  for 1 PP as your Focus package in Step 9.", "effect": {"next": "9", "package": "async adept", "select": 1}},
+            {"desc": "You encounter an exsurgent and are permanently changed by the experience. Take the Async Adept package  for 1 PP as your Focus package in Step 9.", "effect": {"package": "async adept", "select": 1}},
             {"desc": "The near extinction of your species hardens your resolve. Gain +5 WIL.", "effect": {"aptitude": {"wil": 5}}},
             {"desc": "You hide and survive an encounter with exsurgents where others die. Gain the Psi Chameleon trait", "effect": {"trait": "psi chameleon"}},
             {"desc": "You end up in possession of a rare Earth artifact worth 1d10 x 10,000 credits.", "effect": {"credits": {"factor": 10000, "multiplier": 10}}},
@@ -385,7 +385,7 @@
         "type": "branching",
         "values": [[1, 2], [3, 5], [6, 7], [8, 10]],
         "desc": ["Faction paragon", "Equally balanced", "Defined by your actions", "You get the job done"],
-        "action": [{"select": {"faction": 3, "focus": 1}}, {"select": {"faction": 3, "focus": 3}}, {"select": {"faction": 1, "focus": 3}}, {"select": {"faction": 1, "focus": 5}}]
+        "action": [{"faction": 3, "focus": 1}, {"faction": 3, "focus": 3}, {"faction": 1, "focus": 3}, {"faction": 1, "focus": 5}]
     },
     "9.1": {
         "title": "Focus Packages",
@@ -462,7 +462,7 @@
         "type": "general",
         "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["argonaut", "europan", "exhuman", "hypercorp", "nano-ecologist", "precautionist", "singularity seeker", "solarian", "titanian", "venusian"]
+        "table": ["argonaut", "europan", "exhuman", "hypercorp", "nano ecologist", "precautionist", "singularity seeker", "solarian", "titanian", "venusian"]
     },
     "9.12": {
         "title": "Spacer",
@@ -476,7 +476,7 @@
         "type": "general",
         "target": "faction",
         "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-        "table": ["anarchist", "argonaut", "barsoomian", "extropian", "hypercorp", "nano-ecologist", "sifter", "singularity seeker", "titanian", "venusian"]
+        "table": ["anarchist", "argonaut", "barsoomian", "extropian", "hypercorp", "nano ecologist", "sifter", "singularity seeker", "titanian", "venusian"]
     },    
     "9.14": {
         "title": "AGIs and Uplifts",

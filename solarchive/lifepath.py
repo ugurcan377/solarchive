@@ -287,7 +287,7 @@ class Lifepath(object):
         faction_result, faction_index = self.roll_on_table(faction_table, with_index=True)
         if faction_result['next'] == 'prev':
             #FIXME What to do if next_focus is 6.12 ?
-            if next_focus['next']:
+            if next_focus['next'] == '6.1':
                 next_focus['next'] = random.choice(['9.4', '9.5', '9.6', '9.7', '9.8', '9.9', '9.10',
                                                     '9.11', '9.12', '9.13'])
             next_faction = self.get_from_target(next_focus["next"])

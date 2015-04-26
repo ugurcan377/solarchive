@@ -8,6 +8,7 @@ from solarchive.lifepath import Lifepath
 def cli():
     """The Eclipse Phase Companion Software"""
 
+
 @cli.command()
 @click.option("--debug", is_flag=True, help="Only print the last step")
 def lifepath(debug):

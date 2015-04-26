@@ -1,16 +1,15 @@
 import random
-import solconfig
 
 
 def roll_d10(with_bonus=False):
     if with_bonus:
-      return 10 % random.randint(1, 10)
+        return random.randint(1, 10) % 10
     return random.randint(1, 10)
 
 
 def roll_d100(with_bonus=False):
     if with_bonus:
-      return 100 % random.randint(1, 100)
+        return random.randint(1, 100) % 100
     return random.randint(1, 100)
 
 
@@ -22,10 +21,12 @@ def clear_package(package, select):
         package.pop(s, 0)
     return package
 
+
 def get_last_background(backgrounds):
     key_list = backgrounds.keys()
     key_list.sort()
     return key_list[-1]
+
 
 def get_pp(package):
     key_list = package.keys()

@@ -532,7 +532,7 @@
             {"desc": "You complete a major project of importance to your work/faction. Gain +10 to one rep score.", "effect": {"rep": 10}},
             {"desc": "A project of importance to your work/faction fails under your direction. Lose –10 to one rep score.", "effect": {"rep": -10}},
             {"desc": "You take up arms in a regional conflict. Gain +10 to one Combat skill.", "effect": {"skills": {"combat": 10}}},
-            {"desc": "Your work requires you to change your morph. Roll randomly on the Choosing a Morph table but ignore results that don’t fit your most recent path.", "effect": {"next": "mophs"}},
+            {"desc": "Your work requires you to change your morph. Roll randomly on the Choosing a Morph table but ignore results that don’t fit your most recent path.", "effect": {"next": "morphs"}},
             {"desc": "You make an unpopular choice that burns many bridges. Gain the Blacklisted trait", "effect": {"trait": "blacklisted"}},
             {"desc": "A friend or relative opts for true death, but bequeaths you their estate. Gain 25,000 credits.", "effect": {"credits": 25000}},
             {"desc": "You are the unfortunate butt of a widespread online meme, but it works to your advantage. Gain the You’re That Guy! trait", "effect": {"trait": "you're that guy"}},
@@ -588,7 +588,7 @@
             {"desc": "Unknown to you, someone takes an unfriendly interest in your affairs. Gain the Subverted Mind trait", "effect": {"trait": "subverted mind"}},
             {"desc": "You manage to get yourself killed three times in one week. At least you’re getting used to resleeving. Roll randomly on the Choosing a Morph table and gain the Phoenix (Level 2) trait", "effect": {"next": "morphs", "trait": "phoenixv2"}},
             {"desc": "Someone leaves you in charge of their spacecraft. Gain the Spacecraft trait", "effect": {"trait": "spacecraft"}},
-            {"desc": "You are complicit in a faction suffering a major setback. Gain the Black Mark (Level 2) trait", "effect": {"trait": "blck markv2"}}
+            {"desc": "You are complicit in a faction suffering a major setback. Gain the Black Mark (Level 2) trait", "effect": {"trait": "black markv2"}}
         ]
     },
     "gatecrashing": {

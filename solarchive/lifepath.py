@@ -4,7 +4,7 @@ from solarchive.utils import roll_d100, roll_d10, clear_package, get_last_backgr
 
 
 class Lifepath(object):
-    STEPS = 9
+    STEPS = 16
 
     def __init__(self):
         self.step = 1
@@ -253,6 +253,7 @@ class Lifepath(object):
                     "result": next_result.get("effect") or next_result,
                     })
         if package:
+            #TODO Insert these packages in step 9
             if select:
                 result_dict.update({'next': {'focus': package, 'select': select}})
             else:
@@ -314,4 +315,80 @@ class Lifepath(object):
                     'result': focus_package
                 },
             },
+        }
+
+    #TODO Calculate total package count then return to step 10
+    def step_10(self, table):
+        return {
+            "title": table.get('title', ''),
+            "desc": table.get("desc", ""),
+            "result": {},
+        }
+
+    def step_11(self, table):
+        result = self.roll_on_table(table)
+        have_more = result["effect"].pop("next", False)
+        result_dict = {
+            "title": table.get('title', ''),
+            "desc": result.get("desc", ""),
+            "result": result["effect"],
+            "extra": {}
+        }
+        if have_more:
+            if have_more == 'morphs':
+                morph = self.get_random_morph()
+                result_dict['extra'].update({'morph': morph})
+            else:
+                next_table = self.get_from_target(have_more)
+                next_result = self.roll_on_table(next_table)
+                next_have_more = next_result["effect"].pop("next", False)
+                next_package = next_result['effect'].pop('package', False)
+                next_select = next_result['effect'].pop('select', False)
+                if next_have_more:
+                    morph = self.get_random_morph()
+                    result_dict['extra'].update({'morph': morph})
+                if next_package:
+                    #TODO Insert these packages in step 10
+                    if next_select:
+                        result_dict.update({'prev': {'focus': next_package, 'select': next_select}})
+                    else:
+                        result_dict.update({'prev': {'focus': next_package}})
+                result_dict["extra"].update({
+                    "title": next_table.get('title', ''),
+                    "desc": next_result.get("desc", ""),
+                    "result": next_result.get("effect") or next_result,
+                    })
+
+        return result_dict
+
+    def step_12(self, table):
+        result = self.roll_on_table(table)
+        have_more = result["effect"].pop("next", False)
+        result_dict = {
+            "title": table.get('title', ''),
+            "desc": result.get("desc", ""),
+            "result": result["effect"],
+            "extra": {}
+        }
+        if have_more:
+            if have_more == 'morphs':
+                morph = self.get_random_morph()
+                result_dict['extra'].update({'morph': morph})
+
+        return result_dict
+
+    def step_13(self, table):
+        return {
+            "title": table.get('title', ''),
+            "desc": table.get("desc", ""),
+            "result": self.roll_on_table(table)
+        }
+
+    def step_16(self, table):
+        result = self.roll_on_table(table)
+        return {
+            "title": table.get('title', ''),
+            "desc": result.get("desc", ""),
+            "result": result["effect"],
+            "extra": {}
         }

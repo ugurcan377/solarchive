@@ -15,10 +15,11 @@ class Lifepath(object):
 
     def start_path(self):
         for i in range(self.STEPS):
-            self.char[self.step-1] = self.get_next_step()
-            if self.next_step:
-                self.step = self.next_step
-                self.next_step = None
+            if self.step <= self.STEPS:
+                self.char[self.step-1] = self.get_next_step()
+                if self.next_step:
+                    self.step = self.next_step
+                    self.next_step = None
 
     def get_table(self):
         return self.data.get(str(self.step))
@@ -204,7 +205,7 @@ class Lifepath(object):
             next_table = self.get_from_target(result["next"])
         next_result, next_index = self.roll_on_table(next_table, with_index=True)
         target_table = self.get_from_target(next_table["target"])
-        package = target_table[next_result]
+        package = clear_package(target_table[next_result], 1)
         return {
             "title": table.get('title', ''),
             "desc": table.get("desc", "")[index],

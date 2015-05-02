@@ -3783,155 +3783,201 @@
     },
     "customization": {
         "artist": {
-            "skills": {
-                "art": 40,
-                "disguise": 30,
-                "interest": 30
+            "1":{
+                "skills": {
+                    "art": 40,
+                    "disguise": 30,
+                    "interest": 30
+                }
             }
         },
         "async": {
-            "trait": ["psi", "mental disorder", "psi chameleon"],
-            "psi": {"chi": 5},
-            "skills": {
-                "interest": 45
+            "1":{
+                "trait": ["psi", "mental disorder", "psi chameleon"],
+                "psi": {"chi": 5},
+                "skills": {
+                    "interest": 45
+                }
             }
         },
         "async adept": {
-            "trait": ["psiv2", "mental disorder", "mental disorder"],
-            "psi": 7,
-            "skills": {
-                "psi related": 40
+            "1":{
+                "trait": ["psiv2", "mental disorder", "mental disorder"],
+                "psi": 7,
+                "skills": {
+                    "psi related": 40
+                }
             }
         },
         "athletics": {
-            "skills": {
-                "freerunning": 40,
-                "climbing": 30,
-                "swimming": 30
+            "1":{
+                "skills": {
+                    "freerunning": 40,
+                    "climbing": 30,
+                    "swimming": 30
+                }
             }
         },
         "computer training": {
-            "skills": {
-                "infosec": 40,
-                "programming": 30,
-                "interfacing": 30
+            "1":{
+                "skills": {
+                    "infosec": 40,
+                    "programming": 30,
+                    "interfacing": 30
+                }
             }
         },
         "connected": {
-            "trait": ["allies"],
-            "credits": 30000,
-            "skills": {
-                "networking": 40
+            "1":{
+                "trait": ["allies"],
+                "credits": 30000,
+                "skills": {
+                    "networking": 40
+                }
             }
         },
         "essential skills": {
-            "skills": {
-                "perception": 40,
-                "fray": 30,
-                "networking": 30
+            "1":{
+                "skills": {
+                    "perception": 40,
+                    "fray": 30,
+                    "networking": 30
+                }
             }
         },
         "gearhead": {
-            "credits": 60000,
-            "skills": {
-                "hardware": 40
+            "1":{
+                "credits": 60000,
+                "skills": {
+                    "hardware": 40
+                }
             }
         },
         "heavy weapons training": {
-            "skills": {
-                "seeker weapons": 40,
-                "demolitions": 30,
-                "gunnery": 30
+            "1":{
+                "skills": {
+                    "seeker weapons": 40,
+                    "demolitions": 30,
+                    "gunnery": 30
+                }
             }
         },
         "jack of all trades": {
-            "skills": {
-                "any": [40, 30, 30]
+            "1":{
+                "skills": {
+                    "any": [40, 30, 30]
+                }
             }
         },
         "lucky": {
-            "moxie": 3,
-            "skills": {
-                "any": [25, 30]
+            "1":{
+                "moxie": 3,
+                "skills": {
+                    "any": [25, 30]
+                }
             }
         },
         "martial arts training": {
-            "skills": {
-                "unarmed": 40,
-                "throwing weapons": 30,
-                "blades": 30
+            "1":{
+                "skills": {
+                    "unarmed": 40,
+                    "throwing weapons": 30,
+                    "blades": 30
+                }
             }
         },
         "mentalist": {
-            "psi": 4,
-            "skills": {
-                "psi related": [40, 40]
+            "1":{
+                "psi": 4,
+                "skills": {
+                    "psi related": [40, 40]
+                }
             }
         },
         "networker": {
-            "rep": 100,
-            "skills": {
-                "networking": [30, 30, 30]
+            "1":{
+                "rep": 100,
+                "skills": {
+                    "networking": [30, 30, 30]
+                }
             }
         },
         "paramedic": {
-            "skills": {
-                "medicine": [{"value": 40, "spec": "paramedic"}, {"value": 30, "spec": "nanomedicine"}],
-                "programming": 30
+            "1":{
+                "skills": {
+                    "medicine": [{"value": 40, "spec": "paramedic"}, {"value": 30, "spec": "nanomedicine"}],
+                    "programming": 30
+                }
             }
         },
         "slacker": {
-            "skills": {
-                "interest": [30, 40],
-                "scrounging": 30
+            "1":{
+                "skills": {
+                    "interest": [30, 40],
+                    "scrounging": 30
+                }
             }
         },
         "sneaker": {
-            "skills": {
-                "disguise": 40,
-                "impersonation": 30,
-                "infiltration": 30
+            "1":{
+                "skills": {
+                    "disguise": 40,
+                    "impersonation": 30,
+                    "infiltration": 30
+                }
             }
         },
         "social butterfly": {
-            "skills": {
-                "deception": 40,
-                "persuasion": 30,
-                "protocol": 30
+            "1":{
+                "skills": {
+                    "deception": 40,
+                    "persuasion": 30,
+                    "protocol": 30
+                }
             }
         },
         "spacer": {
-            "skills": {
-                "free fall": 40,
-                "kinesics": 30,
-                "medicine": 30
+            "1":{
+                "skills": {
+                    "free fall": 40,
+                    "kinesics": 30,
+                    "medicine": 30
+                }
             }
         },
         "student": {
-            "skills": {
-                "academics": 40,
-                "interest": 30,
-                "research": 30
+            "1":{
+                "skills": {
+                    "academics": 40,
+                    "interest": 30,
+                    "research": 30
+                }
             }
         },
         "survival training": {
-            "skills": {
-                "kinetic weapons": 30,
-                "medicine": {"value": 40, "spec": "paramedic"},
-                "scrounging": 40
+            "1":{
+                "skills": {
+                    "kinetic weapons": 30,
+                    "medicine": {"value": 40, "spec": "paramedic"},
+                    "scrounging": 40
+                }
             }
         },
         "tech training": {
-            "skills": {
-                "hardware": [40, 30],
-                "programming": 30
+            "1":{
+                "skills": {
+                    "hardware": [40, 30],
+                    "programming": 30
+                }
             }
         },
         "weapons training": {
-            "skills": {
-                "kinetic weapons": 40,
-                "beam weapons": 30,
-                "spray weapons": 30
+            "1":{
+                "skills": {
+                    "kinetic weapons": 40,
+                    "beam weapons": 30,
+                    "spray weapons": 30
+                }
             }
         }
     }

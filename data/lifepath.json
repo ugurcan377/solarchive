@@ -489,8 +489,8 @@
         "title": "Final Packages",
         "type": "branching",
         "values": [[1, 4], [5, 6], [7, 10]],
-        "desc": ["", "", ""],
-        "action": [{"next": "9.1", "select": {"focus": 1}}, {"next": "9.2", "select": {"faction": 1}}, {"next": "6.12", "select": {"customization": 1}}]
+        "desc": ["focus", "faction", "customization"],
+        "action": [{"next": "9.1"}, {"next": "9.2"}, {"next": "6.12"}]
     },
     "11": {
         "title": "Post-Fall Life Event",

@@ -10,13 +10,14 @@ def cli():
 
 
 @cli.command()
+@click.option("--step", default=16, help='Show this step on debug')
 @click.option("--debug", is_flag=True, help="Only print the last step")
-def lifepath(debug):
+def lifepath(debug, step):
     """Create a character with the lifepath system"""
     path = Lifepath()
     path.start_path()
     if debug:
-        pprint(path.char.get(path.STEPS, {}))
+        pprint(path.char.get(step, {}))
     else:
         pprint(path.char)
         #click.echo(path.char)

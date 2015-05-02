@@ -8,6 +8,7 @@ class Lifepath(object):
 
     def __init__(self):
         self.step = 1
+        self.pp = 0
         self.next_step = None
         self.char = {}
         self.data = lifepath
@@ -98,6 +99,7 @@ class Lifepath(object):
     def step_3(self, table):
         result, index = self.roll_on_table(table, with_index=True)
         backgrounds = {}
+        self.pp += int(result['roll']) * int(result['select'])
         for i in range(result["roll"]):
             next_table = self.get_from_target(result["next"])
             next_result = self.roll_on_table(next_table)
@@ -120,7 +122,8 @@ class Lifepath(object):
             backgrounds[i] = {
                 "title": final_table.get('title', ''),
                 "desc": final_table["desc"][final_index],
-                "background": clear_package(background, result["select"]),
+                "package": clear_package(background, result["select"]),
+                'pkg_type': 'background',
                 "morph": morph,
                 # ONLY THE FINAL NEXT VALUE COUNTS
                 "next": next,
@@ -147,11 +150,11 @@ class Lifepath(object):
                 next_index = 5
                 backgrounds = self.char[3]["result"]
                 last_bg_key = get_last_background(backgrounds)
-                pp = get_pp(backgrounds[last_bg_key]["background"])
+                pp = get_pp(backgrounds[last_bg_key]["package"])
                 self.char[3]["result"][last_bg_key] = {
                     "title": next_table.get('title', ''),
                     "desc": next_table["desc"][next_index],
-                    "background": clear_package(next_result, pp),
+                    "package": clear_package(next_result, pp),
                     "morph": next_table["morph"][next_index],
                     "next": next_table["next"][next_index],
                     }
@@ -166,7 +169,6 @@ class Lifepath(object):
 
         return result_dict
 
-    #TODO Implement Advanced Age modifiers
     def step_5(self, table):
         result, index = self.roll_on_table(table, with_index=True)
         if index == 0:
@@ -180,6 +182,7 @@ class Lifepath(object):
 
     def step_6(self, table):
         result, index = self.roll_on_table(table, with_index=True)
+        self.pp += 1
         if result["next"] == "prev":
             backgrounds = self.char[3]["result"]
             last_bg_key = get_last_background(backgrounds)
@@ -208,6 +211,8 @@ class Lifepath(object):
             "result": {
                 "title": next_table.get('title', ''),
                 "desc": next_result,
+                "package": next_result,
+                'pkg_type': next_table['target'],
                 "result": package
             },
             "next": current_table
@@ -253,7 +258,6 @@ class Lifepath(object):
                     "result": next_result.get("effect") or next_result,
                     })
         if package:
-            #TODO Insert these packages in step 9
             if select:
                 result_dict.update({'next': {'focus': package, 'select': select}})
             else:
@@ -263,8 +267,21 @@ class Lifepath(object):
 
     def step_9(self, table):
         result, index = self.roll_on_table(table, with_index=True)
+        self.pp += int(result['faction']) + int(result['focus'])
 
-        #TODO Reroll for same focus packages
+        focus_dict = self.step_9_focus(result['focus'])
+        faction_dict = self.step_9_faction(result['faction'], focus_dict['next'])
+
+        return {
+            "title": table.get('title', ''),
+            "desc": table.get("desc", "")[index],
+            "result": {
+                'faction': faction_dict,
+                'focus': focus_dict,
+            },
+        }
+
+    def step_9_focus(self, select):
         focus_table = self.get_from_target('9.1')
         focus_result, focus_index = self.roll_on_table(focus_table, with_index=True)
         if focus_result['next'] == 'prev':
@@ -282,47 +299,67 @@ class Lifepath(object):
             next_focus = self.get_from_target(branch_result["next"])
         next_focus_result = self.roll_on_table(next_focus)
         focus_target = self.get_from_target(next_focus['target'])
-        focus_package = clear_package(focus_target[next_focus_result], result['focus'])
+        focus_package = clear_package(focus_target[next_focus_result], select)
+        return {
+                'title': focus_table.get('title', ''),
+                'desc': '{}: {}'.format(focus_table['desc'][focus_index], next_focus_result),
+                'package': next_focus_result,
+                'pkg_type': 'focus',
+                'result': focus_package,
+                'next': next_focus['next']
+                }
 
+    def step_9_faction(self, select, next):
         faction_table = self.get_from_target('9.2')
         faction_result, faction_index = self.roll_on_table(faction_table, with_index=True)
         if faction_result['next'] == 'prev':
             #FIXME What to do if next_focus is 6.12 ?
-            if next_focus['next'] == '6.1':
-                next_focus['next'] = random.choice(['9.4', '9.5', '9.6', '9.7', '9.8', '9.9', '9.10',
+            if next == '6.1':
+                next = random.choice(['9.4', '9.5', '9.6', '9.7', '9.8', '9.9', '9.10',
                                                     '9.11', '9.12', '9.13'])
-            next_faction = self.get_from_target(next_focus["next"])
+            next_faction = self.get_from_target(next)
         elif faction_result["next"] == "9.3":
             branch_table = self.get_from_target("9.3")
             branch_result = self.roll_on_table(branch_table)
             next_faction = self.get_from_target(branch_result["next"])
         next_faction_result = self.roll_on_table(next_faction)
         faction_target = self.get_from_target(next_faction['target'])
-        faction_package = clear_package(faction_target[next_faction_result], result['faction'])
-
+        faction_package = clear_package(faction_target[next_faction_result], select)
         return {
-            "title": table.get('title', ''),
-            "desc": table.get("desc", "")[index],
-            "result": {
-                'faction': {
-                    'title': faction_table.get('title', ''),
-                    'desc': '{}: {}'.format(faction_table['desc'][faction_index], next_faction_result),
-                    'result': faction_package
+                'title': faction_table.get('title', ''),
+                'desc': '{}: {}'.format(faction_table['desc'][faction_index], next_faction_result),
+                'package': next_faction_result,
+                'pkg_type': 'faction',
+                'result': faction_package
                 },
-                'focus': {
-                    'title': focus_table.get('title', ''),
-                    'desc': '{}: {}'.format(focus_table['desc'][focus_index], next_focus_result),
-                    'result': focus_package
-                },
-            },
-        }
 
-    #TODO Calculate total package count then return to step 10
+
     def step_10(self, table):
+        result_dict = {}
+        roll_count = 10 - self.pp
+        for i in range(roll_count):
+            result, index = self.roll_on_table(table, with_index=True)
+            self.pp += 1
+            if result['next'] == '6.12':
+                next_table = self.get_from_target(result['next'])
+                next_result = self.roll_on_table(next_table)
+                target_table = self.get_from_target(next_table['target'])
+                result_dict[i] = {
+                    'package': next_result,
+                    'pkg_type': table['desc'][index],
+                    'result': target_table[next_result]
+                }
+            elif result['next'] == '9.1':
+                focus_dict = self.step_9_focus(select=1)
+                result_dict[i] = focus_dict
+            elif result['next'] == '9.2':
+                faction_dict = self.step_9_faction(select=1, next=self.char[9]['result']['focus']['next'])
+                result_dict[i] = faction_dict
+
         return {
             "title": table.get('title', ''),
             "desc": table.get("desc", ""),
-            "result": {},
+            "result": result_dict,
         }
 
     def step_11(self, table):
@@ -348,7 +385,6 @@ class Lifepath(object):
                     morph = self.get_random_morph()
                     result_dict['extra'].update({'morph': morph})
                 if next_package:
-                    #TODO Insert these packages in step 10
                     if next_select:
                         result_dict.update({'prev': {'focus': next_package, 'select': next_select}})
                     else:

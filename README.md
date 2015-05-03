@@ -228,7 +228,7 @@ Dataset:
 + Add weapons and armor
 + Add gear (packages)
 + Add morph implants
-+ Add trait explainations
++ Add trait explanations
 + Add habitat info
 
 Lifepath:

@@ -225,7 +225,7 @@ Contrary to other files all morhps contains the same fields:
 Dataset:
 + Add weapons and armor
 + Add gear (packages)
-+ Add morph implants
++ Add morph implants There is a list of them in Morph Recognition Guide
 + Add trait explanations
 + Add habitat info
 

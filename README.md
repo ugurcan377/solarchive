@@ -42,7 +42,8 @@ An aptitude object containes simply the name of the aptitude as key and a number
                 "sav": 10,
                 "som": 20,
                 "wil": 10
-            }
+            },
+            "longdesc": "lorem ipsum"
         }
     }
 }
@@ -52,6 +53,7 @@ These three type uses the same format
 ```json
 {
     "package_name": {
+        "longdesc": "lorem ipsum",
         "motivations": {
             "positive": [],
             "negative": []
@@ -68,7 +70,7 @@ Packages contains different keys which represents different aspects of character
 + aptitude is an object which has described before
 + rep is a number. "rep" denotes a network of players choice. If it was a specific network it will be "@-rep" for example
 + moxie and "credits" are numbers
-+ trait is an array of strings if there is different levels for a trait this notation is used trait, traitv2, traitv3 
++ trait is an array of strings if there is different levels for a trait this notation is used trait, traitv2, traitv3 + longdesc is the detailed description of the package as in the Transhuman sourcebook
 + psi is either a number or an object. If it's a number, player can select this number of sleights regardless of sleights type, and it's an object it tells the player how many sleights of which type they can choose. Exp. *"psi": {"chi": 3, "gamma": 3}*
 + skills is an object it contains the name of skill as key and a number, array or object as value. The skills which does not have different fields are always represented with numbers. Skills that does have different fields are represented by either a number or an object. A number means player chooses the field and an object means a pre-selected specific field. If the skill value is an array this means multiple fields on that same skill.
 ```json

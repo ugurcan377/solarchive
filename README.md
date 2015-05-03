@@ -225,7 +225,10 @@ Contrary to other files all morhps contains the same fields:
 Dataset:
 + Add detailed package descriptions
 + Add step stories
++ Add weapons and armor
 + Add gear (packages)
++ Add morph implants
++ Add trait explainations
 + Add habitat info
 
 Lifepath:

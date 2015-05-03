@@ -223,8 +223,6 @@ Contrary to other files all morhps contains the same fields:
 ```
 ##TO DO
 Dataset:
-+ Add detailed package descriptions
-+ Add step stories
 + Add weapons and armor
 + Add gear (packages)
 + Add morph implants

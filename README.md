@@ -224,14 +224,20 @@ Contrary to other files all morhps contains the same fields:
 }
 ```
 ##TO DO
-Dataset:
+####Dataset:
 + Add weapons and armor
 + Add gear (packages)
 + Add morph implants There is a list of them in Morph Recognition Guide
 + Add trait explanations
-+ Add habitat info
++ Add psi sleight explanations
 
-Lifepath:
+####Core Program:
++ Decide and implement for how to represent characters
++ Implement the original (CP based) character creation system
++ Implement the plain packages character creation system
++ Develop a search algorithm for the future knowledge base
+
+####Lifepath:
 + Prevent getting duplicate result when rolling on the same table more than once
 + STEP 3: Implement special clauses for table 3.9
 + STEP 5: Implement Advanced Age modifiers
@@ -240,9 +246,16 @@ Lifepath:
 + STEP 9: AGI/Uplift characters should use 9.14 as faction table
 + STEP 11: If result contains a package insert it to step 10
 
+####Web interface:
++ Design a user interface
++ Design a web api
++ Decide for backend technology (Probably Flask)
++ Decide for frontend technology (Probably react.js)
+
 ##Contributing
 If you want to contribute or just report bugs feel free to send a pull request or open an issue.  
 You can also drop me an email at ugurcanergn@gmail.com
 ##License and Attribution
-Distributed with one of the argonauts favorite licenses GNU GPLv2  
-Eclipse Phase is a trademark of Posthuman Studios LLC
+Source code is distributed with one of the argonauts favorite licenses GNU GPLv2  
+Eclipse Phase is a trademark of Posthuman Studios LLC  
+All material related to Eclipse Phase is licenced with Creative Commons 3.0 BY-NC-SA

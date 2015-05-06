@@ -230,6 +230,10 @@ Contrary to other files all morhps contains the same fields:
 + Add morph implants There is a list of them in Morph Recognition Guide
 + Add trait explanations
 + Add psi sleight explanations
+Maybe in a distant future:
++ Add habıtat info
++ Add exoplanet info
++ Add vehicle info
 
 ####Core Program:
 + Decide and implement for how to represent characters

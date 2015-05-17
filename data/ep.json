@@ -269,7 +269,7 @@
         "profession": {"linked": "cog"},
         "programming": {"linked": "cog", "nodefault": true},
         "protocol": {"linked": "sav"},
-        "+psi assault": {"linked": "wil", "nodefault": true},
+        "psi assault": {"linked": "wil", "nodefault": true},
         "psychosurgery": {"linked": "int"},
         "research": {"linked": "cog"},
         "scrounging": {"linked": "int"},
@@ -281,7 +281,7 @@
         "unarmed": { "linked": "som"}        
     },
     "psi": {
-        "sleights": {
+        "selection": {
             "type": "branching",
             "values": [[1, 6], [7, 10]],
             "desc": ["psi-chi", "psi-gamma"],
@@ -290,14 +290,531 @@
         "chi": {
             "type": "general",
             "values": [[1, 5], [6, 10], [11, 15], [16, 19], [20, 24], [25, 28], [29, 32], [33, 37], [38, 42], [43, 46], [47, 51], [52, 56], [57, 61], [62, 66], [67, 71], [72, 75], [76, 80], [81, 85], [86, 90], [91, 95], [96, 100]],
-            "table": ["ambience sense", "cognitive boost", "downtime", "eco-empathy", "emotion control", "enhanced creativity", "filter", "grok", "high pain threshold", "hyperthymesia", "instinct", "multitasking", "pattern recognition", "predictive boost", 
-                "qualia", "savant calculation", "sensory boost", "superior kinesics", "time sense", "unconscious lead", "xeno-empathy"]
+            "table": ["ambience sense", "cognitive boost", "downtime", "eco empathy", "emotion control", "enhanced creativity", "filter", "grok", "high pain threshold", "hyperthymesia", "instinct", "multitasking", "pattern recognition", "predictive boost", 
+                "qualia", "savant calculation", "sensory boost", "superior kinesics", "time sense", "unconscious lead", "xeno empathy"]
         },
         "gamma": {
             "type": "general",
             "values": [[1, 4], [5, 8], [9, 12], [13, 16], [17, 21], [22, 25], [26, 30], [31, 34], [35, 38], [39, 42], [43, 46], [47, 51], [52, 56], [57, 60], [61, 65], [66, 70], [71, 74], [75, 78], [79, 82], [83, 86], [87, 90], [91, 95], [96, 100]],
             "table": ["alienation", "aphasic touch ", "charisma", "cloud memory", "deep scan", "drive emotion", "ego sense", "empathic scan", "implant memory", "implant skill", "mimic", "mindlink", "omni awareness", "penetration", "psi shield", "psychic stab",
                 "scramble", "sense block", "sense infection", "spam", "static", "subliminal", "thought browse"]
+        },
+        "sleights": {
+            "chi": {
+                "ambience sense": {
+                    "desc": "This sleight provides the async with an instinctive\nKsense about an area and any potential threats nearby.\n",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "skill": {"value": 10, "target": ["investigation", "perception", "scrounging"]}
+                    }
+                },
+                "cognitive boost": {
+                    "desc": "The async can temporarily elevate their cognitive performance.",
+                    "type": "active",
+                    "range": "self",
+                    "action": "quick",
+                    "duration": "temp(turns)",
+                    "strain": -1,
+                    "effect": {
+                        "aptitude": {"value": 5, "target": "cog"}
+                    }
+                },
+                "downtime": {
+                    "desc": "This sleight provides the async with the ability to send\nthe mind into a fugue-state regenerative downtime,\nduring which the character’s psyche is repaired\nFor all sensory purposes,\nthe async is catatonic during downtime, completely\noblivious to the outside world. Only severe disturbances or physical shock (such as being wounded or\nhit by a shock weapon) will bring the async out of it.\n",
+                    "type": "active",
+                    "range": "self",
+                    "action": "task",
+                    "duration": "sustained",
+                    "strain": 0,
+                    "effect": {
+                        "explanation": "The\nasync must enter the downtime for at least 4 hours;\nevery 4 hours of downtime heals 1 point of stress\ndamage. Traumas, derangements, and disorders are\nunaffected by this sleight."
+                    }
+                },
+                "eco empathy": {
+                    "desc": "An async with this sleight can attempt to gain an intuitive understanding of non-sentient, non-terrestrial\norganisms occupying a producer niche in the local\necosystem (e.g., alien plant and fungus analogues). \nThe information gained is of a general and qualitative nature and\ndoesn’t include any data that would normally be\ngained by chemical or genetic analysis. For example,\nan eco-empathic async could tell that a given plant\nthrives only in riparian zones, relies on local insect\nanalogs for pollination, and has tubers that become\nedible if well cooked. They would not be able to tell\nthat the same plant has over a thousand chromosomes, that it exudes a chemical that is physically\naddicting to the insects, or that the tubers contain\nhigh concentrations of a toxic lectin that breaks down\nand becomes harmless if boiled.",
+                    "type": "active",
+                    "range": "self",
+                    "action": "complex",
+                    "duration": "instant",
+                    "strain": -1,
+                    "effect": {
+                        "explanation": "If the character succeeds in a COG x 2 Test, they gain\na basic understanding of the organism’s place in the\nlocal ecosystem, as well as whether it’s safe and nutritious for transhuman consumption."
+                    }
+                },
+                "emotion control": {
+                    "desc": "Emotion Control gives the async tight control over\ntheir emotional states. Unwanted emotions can be\nblocked out and others embraced. This has the benefit\nof protecting the async from emotional manipulation",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "skill": {"value": 30, "target": "intimidation"}
+                    }
+                },
+                "enhanced creativity": {
+                    "desc": "An async with Enhanced Creativity is more imaginative and more inclined to think outside the box. This level of ingenuity can sometimes\nseem strange and different, manifesting in odd or\ncreepy ways, especially with artwork.\n",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "explanation": "Apply a +20 modifier to any tests where creativity plays a major role."
+                    }
+                },
+                "filter": {
+                    "desc": "Filter allows the async to filter out distractions and\neliminate negative situational modifiers from distraction, up to the gamemaster’s discretion.\n",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {}
+                },
+                "grok": {
+                    "desc": "By using the Grok sleight, the async is able to intuitively understand how any unfamiliar object, vehicle,\nor device is used simply by looking at and handling\nit.This sleight\ndoes not provide any understanding of the principles\nor technologies involved—the psi user simply grasps\nhow to make it work.",
+                    "type": "active",
+                    "range": "self",
+                    "action": "complex",
+                    "duration": "instant",
+                    "strain": -1,
+                    "effect": {
+                        "explanation": "If the character succeeds in a COG × 2 Test, they\nachieve a basic ability to use the object, vehicle, or\ndevice, no matter how alien or bizarre. If a test is called for, the psi user\nreceives a +20 modifier to use the device (this bonus\nonly applies to unfamiliar devices, and/or tests the\ncharacter is defaulting on—it does not apply to devices\nwith which the character is familiar)."
+                    }
+                },
+                "high pain threshold": {
+                    "desc": "This sleight allows the async to block out, ignore, or otherwise isolate pain. ",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "explanation": "The async reduces negative modifiers from wounds by 10."
+                    }
+                },
+                "hyperthymesia": {
+                    "desc": "Hyperthymesia grants the async a superior autobiographical memory, allowing them to remember the\nmost trivial of events. A hyperthymestic async can be\nasked a random date and recall the day of the week\nit was, the events that occurred that day, what the\nweather was like, and many seemingly trivial details\nthat most people would not be able to recall.",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {}
+                },
+                "instinct": {
+                    "desc": "Instinct bolsters the async’s subconscious ability to\ngauge a situation and make a snap judgment that\nis just as accurate as a careful, considered decision.",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "explanation": "For Task Actions that involve analysis or planning\nalone (typically Mental skill actions), the async may\nreduce the timeframe by 90% without suffering a\nmodifier. For Task Actions that involve partial analysis/planning, they may reduce the timeframe by 30%\nwithout penalty."
+                    }
+                },
+                "multitasking": {
+                    "desc": "The async can handle vast amounts of information\nwithout overload and can perform more than one\nmental task at once.",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "explanation": "The character receives an extra\nComplex Action each Action Phase that may only be\nused for mental or mesh actions."
+                    }
+                },
+                "pattern recognition": {
+                    "desc": "The character is adept at spotting patterns and cor\nrelating the non-random elements of a jumble related\nitems jump out at them. This is useful for translating\nlanguages, breaking codes, or finding clues hidden\namong massive amounts of data. The character must\nhave a sufficiently large sample and time enough to\nstudy, as determined by the gamemaster. This might\nrange from a few hours of listening to a spoken\ntranshuman language to a few days of investigating\ninscriptions left by long-dead aliens or a week or more\nof researching a lengthy cipher. Languages may be\ncomprehended by reading or listening to them spoken.",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "skill": {"value": 20, "target": ["language", "investigation", "research"]},
+                        "explanation": "Apply a +20 modifier to any appropriate Language,\nInvestigation, Research, or codebreaking Tests (note\nthat this does not apply to Infosec Tests made by software to decrypt a code). The async may also use this\nability to more easily learn new languages, reducing\nthe training time by half."
+                    }
+                },
+                "predictive boost": {
+                    "desc": "The Bayesian probability machine features of the\nasync’s brain are boosted by this sleight, enhancing\ntheir ability to estimate and predict outcomes of events\naround them as they unfold in real-time and update\nthose predictions as information changes. In effect,\nthe character has a more intuitive sense for which\noutcomes are most likely. It also bolsters the async’s\ndecision-making in combat situations by making the\nbest course of action more clear",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "skill": {"value": 10, "target": "fray"},
+                        "stat": {"value": "1", "target": "init"},
+                        "explanation": "This grants the character\na +10 bonus on any skill tests that involve predicting the outcome of events."
+                    }
+                },
+                "qualia": {
+                    "desc": "The async can temporarily increase their intuitive grasp of things. ",
+                    "type": "active",
+                    "range": "self",
+                    "action": "quick",
+                    "duration": "temp(turns)",
+                    "strain": -1,
+                    "effect": {
+                        "aptitude": {"value": 5, "target": "int"}
+                    }
+                },
+                "savant calculation": {
+                    "desc": "The character possesses an incredible facility with\nintuitive mathematics. They can do everything from\ncalculate the odds exactly when gambling to predicting precisely where a leaf falling from a tree will land\nby observing the landscape and local wind currents.\nThe character specializes in calculation involving the\nactivity of complex chaotic systems and so can calculate answers that even the fastest computers could not,\nincluding things like patterns of rubble distribution\nfrom an explosion. However, this mathematic facility\nis largely intuitive, so the character does not know\nthe equations they are solving, they merely know the\nsolution to the problem.\n",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "explanation": "This sleight also provides a +30 modifier to any\nskill tests involving math (which the character is calculating, not a computer)."
+                    }
+                },
+                "sensory boost": {
+                    "desc": "An async uses this sleight to increase their natural\nor augmented sensory perception (visual, audio,\nolfactory, etc.) by enhanced cerebral processing",
+                    "type": "active",
+                    "range": "self",
+                    "action": "quick",
+                    "duration": "temp(turns)",
+                    "strain": -2,
+                    "effect": {
+                        "skill": {"value": 20, "target": "perception"}
+                    }
+                },
+                "superior kinesics": {
+                    "desc": "The async acquires more insight into people’s emotive\nsignals, gestures, facial expressions, and body language when it comes to predicting the person’s emotional state, intent, or reactions. ",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "effect": {
+                        "skill": {"value": 20, "target": "kinesics"}
+                    }
+                },
+                "time sense": {
+                    "desc": "An async with this ability can slow down their perception of time, making everything appear to move\nin slow motion or at reduced speed.",
+                    "type": "active",
+                    "range": "self",
+                    "action": "quick",
+                    "duration": "temp(turns)",
+                    "strain": -1,
+                    "effect": {
+                        "stat": {"value": 1, "target": "spd"},
+                        "explanation": "This extra Action Phase, however, can only be spent on mental and mesh actions."
+                    }
+                },
+                "unconscious lead": {
+                    "desc": "This sleight allows the async to override their consciousness and let their unconscious mind take point.\nWhile in this state, the async’s conscious mind is\nonly dimly aware of what is transgressing, and any\nmemories of this period will be hazy at best. The advantage is that the unconscious mind acts more quickly\nThe character remains aware and active, but is incapable of complex communication or other mental actions \nand is than motivated by instinct and primitive urges more than conscious thought.",
+                    "type": "active",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "temp(turns)",
+                    "strain": 0,
+                    "effect": {
+                        "stat": {"value": 1, "target": "spd"},
+                        "explanation": "Though it is recommended that the player retain control of\ntheir character while using Unconscious Lead, the \ngamemaster should feel free to direct the character’s actions as they see fit.\n "                        
+                    }
+                },
+                "xeno empathy": {
+                    "desc": "An async with this sleight can attempt to gain an intuitive understanding of any non-human, non-terrestrial\norganism. This sleight does not work on\nanimals or smart animals of terrestrial origin.",
+                    "type": "active",
+                    "range": "self",
+                    "action": "complex",
+                    "duration": "instant",
+                    "strain": -1,
+                    "effect": {
+                        "skill": {"value": 20, "target": ["animal handling", "kinesics", "deception", "intimidation", "persuasion"]},
+                        "explanation": "If the character succeeds in an INT x 2 Test,\nthey gain insight into the target’s motivations, needs,\nand mental/emotional state (if sapient) or the target’s\necological niche, instinctual drives, and likely behavioral responses (if non-sapient). "
+                    }
+                }
+            },
+            "gamma": {
+                "alienation": {
+                    "desc": "Alienation is an offensive sleight that create a sense of\ndisconnection between an ego and its morph—similar\nto that experienced when resleeved into a new body.\nThe ego finds their body cumbersome, strange, and\nalien, almost like they are a prisoner within it.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "temp(turns)",
+                    "strain": 0,
+                    "skill": "psi assault",
+                    "effect": {
+                        "explanation": "If the async beats the target in an Opposed Test, treat the\nresult as a failed Integration Test (p. 271) for the\ntarget. This effect lasts for the sleight’s duration."
+                    }
+                },
+                "aphasic touch": {
+                    "desc": "With a touch attack, the async temporarily blocks or scrambles the language-processing centers in the target’s brain. ",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "temp(turns)",
+                    "strain": 0,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": "For the duration of the effect, the target cannot speak, initiate mesh actions, or otherwise communicate or read."
+                    }
+                },
+                "charisma": {
+                    "desc": "The async uses this sleight to influence the target’s\nmind on a subconscious level so that the target perceives them to be charming, magnetic, and persuasive.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "quick",
+                    "duration": "temp(minutes)",
+                    "strain": -1,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": "The async uses this sleight to influence the target’s\nmind on a subconscious level so that the target perceives them to be charming, magnetic, and persuasive."
+                    }
+                },
+                "cloud memory": {
+                    "desc": "Cloud Memory allows the async to temporarily\ndisrupt the target’s ability to form long-term memories. The target will retain short-term memories during\nthis time, but will soon forget anything that occurred\nwhile this sleight was in effect.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "quick",
+                    "duration": "temp(minutes)",
+                    "strain": -1,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": "If the async wins the Opposed Test, the target’s\nmemory-saving ability is negated for the duration."
+                    }
+                },
+                "deep scan": {
+                    "desc": "Deep Scan is a more intrusive version of Thought\nBrowse (p. 228), made to extract information from the\ntargeted individual. The target is aware of this mental probing, though they will\nnot know what information the async acquired.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "sustained",
+                    "strain": 1,
+                    "skill": "sense",
+                    "effect": {
+                        "explanation": "If the Opposed Test succeeds, the\nasync telepathically invades the target’s mind and can\nprobe it for information. For every 10 full points of MoS\nthe async achieves on their test, they retrieve one piece\nof information. Each item takes one full Action Turn to\nretrieve, during which the sleight must be sustained."
+                    }
+                },
+                "drive emotion": {
+                    "desc": "This sleight allows the async to stimulate cortical areas\nof the target’s brain related to emotion. This allows the\nasync to induce, amplify, or tone down specific emotions, thereby manipulating the target.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "quick",
+                    "duration": "temp(minutes)",
+                    "strain": -1,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": " If the async beats\nthe target in an Opposed Test, they will act in accordance with the emotion for the duration and under\ncertain circumstances may suffer from certain penalties\n(up to +/–30), as determined by the gamemaster. For\nexample, an async might receive a +30 Intimidation Test\nmodifier against a target imbued withe fear."                    }
+                },
+                "ego sense": {
+                    "desc": "Ego Sense can be used to detect the presence and location of other sentient and biological life forms (i.e.,\negos) within the async’s range. The async will know if the target moves,\nif they do so during the sleight’s duration.",
+                    "type": "active",
+                    "range": "close",
+                    "action": "quick",
+                    "duration": "temp(minutes)",
+                    "strain": -1,
+                    "skill": "sense",
+                    "effect": {
+                        "explanation": "To detect these life forms,\nthe async makes a single Sense Test, opposed by each\nlife form within range. The async may suffer a modifier\nfor detecting small animals and insects, similar to the\nmodifier applied for targeting them in ranged combat\n(Combat Modifiers table, p. 193); likewise, a modifier\nfor detecting larger life forms may also be applied. If\nsuccessful, the async detects that the life form is nearby.\nEvery 10 full points of MoS will ascertain another piece\nof information regarding the detected life: direction\nfrom async, approximate size, type of creature, distance\nfrom async, etc."
+                    }
+                },
+                "empathic scan": {
+                    "desc": "Empathic Scan enables the async to sense the target’s base emotions.",
+                    "type": "active",
+                    "range": "close",
+                    "action": "quick",
+                    "duration": "sustained",
+                    "strain": -2,
+                    "skill": "sense",
+                    "effect": {
+                        "explanation": " If the async wins the Opposed Test,\nthey intuitively feel the target’s current emotional\nstate for as long as the sleight is sustained. At the\ngamemaster’s discretion, this knowledge may provide\na modifier (up to +30) for certain Social skill tests.\n"
+                    }
+                },
+                "implant memory": {
+                    "desc": "An async using this sleight can implant a memory\nof up to an hour’s length inside the target’s mind.\nThis memory very obviously does not belong to the\ntarget—there is no way they will confuse it for one\nof their own. The intent is not to fake memories, but\nto place one of the async’s memories in the target’s\nmind so that the target can access it just like any other\nmemory. This can be useful for “archiving” important\ndata with an ally, providing a literal alternate perspective, or simply making a “data dump” for the target\nto peruse.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "instant",
+                    "strain": 0,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": "Implant Memory requires an Opposed Test\nagainst unwilling participants. At the gamemaster’s\ndiscretion, particularly traumatic memories might\ninflict mental stress on the recipient (p. 214)."
+                    }
+                },
+                "implant skill": {
+                    "desc": "Similar to Implant Memory, this sleight allows the async\nto impart some of their expertise and implant it into\nthe target’s mind. For the duration of the sleight, the\ntarget benefits when using that skill. In some cases, the target has been known to\nuse the skill with the async’s flair and mannerisms.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "temp(turns)",
+                    "strain": 0,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": "If the async’s skill\nis between 31 and 60, the target receives a +10 bonus. If\nthe async’s skill is 61+, the target receives a +20 bonus.\nImplant Skill requires an Opposed Test against unwilling\nparticipants."
+                    }
+                },
+                "mimic": {
+                    "desc": "In a setting where changing your body and face is\nnot unusual, people learn to recognize habits and\npersonality quirks more often. The async must use\nthis sleight on a target and succeed in a Success Test.\nIf successful, the async acquires an “imprint” of the\ntarget’s mind that they can take advantage of when\nimpersonating that ego.",
+                    "type": "active",
+                    "range": "close",
+                    "action": "quick",
+                    "duration": "instant",
+                    "strain": 0,
+                    "skill": "sense",
+                    "effect": {
+                        "skill": {"value": 30, "target": "impersonation"}
+                    }
+                },
+                "mindlink": {
+                    "desc": "Mindlink allows two-way mental communication\nwith a target. This may be used on more than one\ntarget simultaneously, in which case the async can act\nas a telepathic “server” so that everyone mindlinked\nwith the async may also telepathically communicate\nwith each other (via the async, however, who overhears). Language is still a factor in mindlinked communications, but this barrier may be overcome by\ntransmitting sounds, images, emotions, and other sensations.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "quick",
+                    "duration": "sustained",
+                    "strain": 1,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": "Mindlink requires an Opposed Test against unwilling participants."
+                    }
+                },
+                "omni awareness": {
+                    "desc": "An async with Omni Awareness is hypersensitive to\nother biological life that is observing them. This sleight\ndoes not register partial or fleeting attention, it only\nnotices targets who are actively observing (even if\nthey are concealing their observation). This sleight is\neffective in spotting a tail, as well as finding potential\nmates in a bar.",
+                    "type": "active",
+                    "range": "close",
+                    "action": "quick",
+                    "duration": "temp(minutes)",
+                    "strain": -1,
+                    "skill": "sense",
+                    "effect": {
+                        "skill": {"value": 30, "target": "perception"},
+                        "explanation": "During this sleight’s duration, the async makes a Sense Test\nthat is opposed by any life that has focused their\nattention on them within the sleight’s range; if successful, the async knows they are being watched, but not by whom or what."
+                    }
+                },
+                "penetration": {
+                    "desc": "Penetration is a sleight that works in conjunction\nwith any offensive sleight that involves the Psi Assault\nskill. It allows the async to penetrate the Psi Shield of\nan opponent by concentrating their psi attack.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "quick",
+                    "duration": "instant",
+                    "strain": 1,
+                    "skill": "psi assault",
+                    "effect": {
+                        "explanation": "Every point of Armor Penetration applied to a psi attack\ninflicts 1 point of strain. The maximum AP that may\nbe applied equals the async’s Psi Assault skill divided\nby 10 (round down)."
+                    }
+                },
+                "psi shield": {
+                    "desc": "Psi Shield bolsters the async’s mind to psi attack and manipulation.",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "skill": "",
+                    "effect": {
+                        "explanation": "If the async is hit by a psi attack, they\nreceive WIL ÷ 5 (round up) points of armor, reducing\nthe amount of damage inflicted. They also receive a\n+10 modifier when resisting any other sleights."
+                    }
+                },
+                "psychic stab": {
+                    "desc": "Psychic Stab is an offensive sleight that seeks to inflict physical damage on the target’s brain and nervous system.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "instant",
+                    "strain": 0,
+                    "skill": "psi assault",
+                    "effect": {
+                        "explanation": "Each successful attack inflicts 1d10 + (WIL÷10, round up) damage. Increase the damage by +5 if\nan Excellent Success (MoS of 30+) is scored."
+                    }
+                },
+                "scramble": {
+                    "desc": "Scramble allows the async using the sleight to hide from another async using the Ego Sense or Omni Awareness sleights.",
+                    "type": "passive",
+                    "range": "self",
+                    "action": "automatic",
+                    "duration": "constant",
+                    "strain": 0,
+                    "skill": "",
+                    "effect": {
+                        "explanation": "Apply a +30 modifier to the defending async’s Opposed Test."
+                    }
+                },
+                "sense block": {
+                    "desc": "Sense Block disables and short circuits one of the target’s sensory cortices (chosen by the async), interfering\nwith and possibly negating a specific source of sensory\ninput for the chosen duration.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "temp(turns)",
+                    "strain": -1,
+                    "skill": "psi assault",
+                    "effect": {
+                        "skill": {"value": -30, "target": "perception"},
+                        "explanation": "Effect doubled to –60 if the async scores an Excellent Success"
+                    }
+                },
+                "sense infection": {
+                    "desc": "The async may determine whether a target is infected\nwith a biological nanovirus or nanoplague strain of\nthe exsurgent virus with a Sense Test. In no case is the name of the strain revealed\n(strains are named by Firewall, not by themselves),\nbut research or inquiries with the Eye might allow the\ncharacter to identify the feeling they get with a known,\nnamed strain.",
+                    "type": "active",
+                    "range": "close",
+                    "action": "complex",
+                    "duration": "instant",
+                    "strain": -1,
+                    "skill": "sense",
+                    "effect": {
+                        "explanation": "If successful,\nthe character automatically knows if the target is an\nasync. Other strains of the virus may, at the gamemaster’s discretion, provide a foreboding of their modus operandi."
+                    }
+                },
+                "spam": {
+                    "desc": "This sleight allows the async to overload and flood\none of the target’s sensory cortices (chosen by the\nasync), spamming them with confusing and distracting\nsensory input and thereby impairing them.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "temp(turns)",
+                    "strain": 0,
+                    "skill": "psi assault",
+                    "effect": {
+                        "skill": {"value": -10, "target": "any"},
+                        "explanation": "Effect doubled to –20 if the async scores an Excellent Success"
+                    }
+                },
+                "static": {
+                    "desc": "The async generates an anti-psi jamming field, impeding any use of ranged sleights within their range.",
+                    "type": "active",
+                    "range": "close",
+                    "action": "complex",
+                    "duration": "sustained",
+                    "strain": 0,
+                    "skill": "",
+                    "effect": {
+                        "explanation": "All such ranged sleights suffer a –30 modifier. This sleight\nhas no effect on self or touch-range sleights."
+                    }
+                },
+                "subliminal": {
+                    "desc": "The Subliminal sleight allows the async to influence\nanother person by implementing a single post-hypnotic\nsuggestion into the mind of the target. Suggestions may be implanted with a short\ntrigger condition (“when the alarm goes off, ignore it”).",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "instant",
+                    "strain": 2,
+                    "skill": "control",
+                    "effect": {
+                        "explanation": "If the async wins the Opposed Test, the recipient will carry out this suggestion as if it was their own idea. Implanted suggestions\nmust be short and simple; the gamemaster may require\nsuggestions be encompassed in a short sentence (for\nexample: “open the airlock,” or “hand over the weapon”).\nThe target may receive a bonus for resisting suggestions\nthat are immediately life threatening (“jump off the\nbridge”) or that violate their motivations or personal\nstrictures."
+                    }
+                },
+                "thought browse": {
+                    "desc": "Thought Browse is a less-intrusive form of mind\nreading that scans the target’s surface thoughts for\ncertain “keywords” like a particular word, phrase,\nsound, or image chosen by the async. Rather than\ndigging through the target’s ego as with the Deep\nScan sleight, Thought Browse merely verifies whether\na target has a particular person, place, event, or thing\nin mind, which can be used by a savvy investigator\nto draw conclusions without the need to invade the\nmind directly.",
+                    "type": "active",
+                    "range": "touch",
+                    "action": "complex",
+                    "duration": "sustained",
+                    "strain": -1,
+                    "skill": "sense",
+                    "effect": {
+                        "explanation": "Thought Browse may be sustained, allowing the async to continue scanning the target’s\nthoughts over time. The async must beat the target in an Opposed Test for each scanned item."
+                    }
+                }
+            }
         }
     }
 }

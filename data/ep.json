@@ -301,6 +301,7 @@
         },
         "sleights": {
             "chi": {
+                "type": "info",
                 "ambience sense": {
                     "desc": "This sleight provides the async with an instinctive\nKsense about an area and any potential threats nearby.\n",
                     "type": "passive",
@@ -536,6 +537,7 @@
                 }
             },
             "gamma": {
+                "type": "info",
                 "alienation": {
                     "desc": "Alienation is an offensive sleight that create a sense of\ndisconnection between an ego and its morph—similar\nto that experienced when resleeved into a new body.\nThe ego finds their body cumbersome, strange, and\nalien, almost like they are a prisoner within it.",
                     "type": "active",
@@ -815,6 +817,42 @@
                     }
                 }
             }
+        }
+    },
+    "disorder": {
+        "type": "general",
+        "values": [[01, 08], [09, 11], [12, 14], [15, 17], [18, 21], [22, 24], [25, 30], [31, 34], [35, 38], [39, 41], [42, 47], [48, 51], [52, 57], [58, 61], [62, 67], [68, 71], [72, 74], [75, 79], [80, 84], [85, 88], [89, 94], [95, 97], [98, 100]],
+        "table": ["addiction", "alien behavior disorder", "alien sensory disorder", "atavism", "attention deficit hyperactivity disorder", "autophagy", "bipolar disorder", "body dysmorphia", "borderline personality disorder", "cosmic anxiety disorder", "depression", "fugue", "general anxiety disorder", "hypochondria", "impulse control disorder", "insomnia", "megalomania", "multiple personality disorder", "obsessive compulsive disorder", "phobia", "post-traumatic stress disorder", "schizophrenia", "species dysmorphia"]
+    },
+    "trait":{
+        "selection": {
+            "type": "branching",
+            "values": [[1, 4], 5, [6, 9], 10],
+            "action": [{"next": "positive ego"}, {"next": "positive morph"}, {"next": "negative ego"}, {"next": "negative morph"}]
+        },
+        "positive ego": {
+            "type": "general",
+            "values": [[01, 02], [03, 04], 05, [06, 07], [08, 09], [10, 11], 12, [13, 14], [15, 16], [17, 18], [19, 20], 21, 22, [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], 33, 34, [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], 49, [50, 51], [52, 53], 54, [55, 56], [57, 58], 59, [60, 61], 62, [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], 75, [76, 77], [78, 79], [80, 81], [82, 83], [84, 85], 86, [87, 88], 89, 90, [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
+            "table": ["adaptability", "agi affinity", "agi socialization", "allies", "ambidextrous", "animal empathy", "async familiarity", "brave", "common sense", "danger sense", "digital ghost", "direction sense", "dominant strain", "drug exception", "ego plasticity", "eidetic memory", "entrepreneur", "established fork", "exceptional aptitude", "expert", "fast learner", "first impression", "gold star", "hardening", "heightened instinct", "home turf", "hyper linguist", "indenture holder", "information control", "intuitive cracker", "killer instinct", "machine intuition", "malleable mind", "math wiz", "minion/partner", "morph fever resistance", "murder simulator addict", "pain tolerance", "patron", "personal connection", "phoenix", "potent mind", "predator", "psi", "psi chameleon", "psi defense", "right at home", "situational awareness", "social animal", "social butterfly", "spacecraft", "tacnet sniper", "tenure", "trauma tolerance", "untarnished reputation", "you’re that guy!", "zoosemiotics"],
+            "cost": [[10, 20], 5, 10, 30, 10, 5, 5, 10, 10, 10, 10, 5, 10, 10, [10, 20, 30], 10, [10, 20, 30], 5, 20, 10, 10, 10, 10, 10, 10, 10, 10, 30, 10, [10, 20], 15, 10, [10, 20, 30], 10, 30, 10, 10, [10, 20], 30, 15, [10, 20], 5, 10, [20, 25], 10, 10, 10, 10, 15, 15, 30, 10, 10, [10, 20], 15, 10, 5]
+        },
+        "negative ego": {
+            "type": "general",
+            "values": [[01, 02], [03, 04], 05, 06, [07, 08], [09, 10], [11, 12], 13, [14, 15], 16, [17, 18], [19, 20], 21, 22, [23, 24], 25, [26, 27], [28, 29], [30, 31], [32, 33], [34, 35], 36, 37, 38, [39, 40], [41, 42], [43, 44], 45, 46, 47, [48, 49], 50, [51, 52], [53, 54], [55, 57], [58, 59], [60, 61], [62, 63], [64, 65], [66, 67], [68, 69], 70, [71, 72], [73, 74], [75, 76], 77, 78, [79, 80], [81, 82], [83, 84], 85, [86, 87], [88, 89], 90, 91, [92, 93], [94, 95], [96, 97], [98, 99], 100],
+            "table": ["addiction", "anomalous mind", "bad luck", "beta", "blacklisted", "black mark", "botched merge", "botched uplift", "combat paralysis", "curbed intelligence", "data footprint", "debt", "deferred indenture", "dependent", "deferred indenture", "domineering", "drug fiend", "edited memories", "emotive blindness", "enemy", "emotive blindness", "faulty education", "feeble", "frail sanity", "hoarder", "identifiable quirk", "identity crisis", "impaired balance", "intense relationship" "illiterate", "immortality blues", "incompetent", "lost fork", "low pain tolerance", "mental disorder", "modified behavior", "morphing disorder", "neural damage", "not a team player", "oblivious", "on the run", "overwhelmed by emotion", "phobia disorder", "poorly socialized", "psi vulnerability", "real world naiveté", "shut-in", "slow learner", "socially graceless", "social stigma", "solitary", "stalker", "stolen identity", "submissive", "subverted mind", "timid", "trusting heart", "uncontrollable urge", "vr vertigo", "wait, that was you?"],
+            "cost": [[5, 10, 20], 20, 30, 20, [5, 20], [10, 20, 30], 15, 30, 20, 10, 10, [10, 20, 30], [5, 15, 20], 5, 10, 10, 10, 10, 10, 10, 10, 10, 20, [10, 20], 10, 10, 10, [10, 20, 30], 10, 10, 10, [10, 20], 5, 20, 10, [5, 10, 20], [10, 20, 30], 10, 10, 10, 10, 10, 10, 10, 10, 10, 15, 10, 10, 10, 10, 10, 10, 5, 30, 10, 10 10, 10, 10]
+        },
+        "positive morph": {
+            "type": "general",
+            "values": [[01, 03], [04, 10], [11, 17], [18, 23], [24, 29], [30, 32], [33, 38], [39, 45], [46, 51], [52, 57], [58, 63], [64, 69], [70, 75], [76, 81], [82, 86], [87, 92], [93, 100]],
+            "table": ["coronal adaptation", "drug exception", "eidetic memory", "enlarged size", "exceptional aptitude", "high-temperature operation", "improved immune system", "innocuous", "limber", "natural immunity", "pain tolerance", "psi chameleon", "psi defense", "rapid healer", "skill artifact", "striking looks", "tough"],
+            "cost": [30, 10, 10, 10, 20, 10, [10, 20], 10, [10, 20], 10, [10, 20], 10, 10, 10, [10, 20], [10, 20], [10, 20, 30]]
+        },
+        "negative morph": {
+            "type": "general",
+            "values": [[01, 04], [05, 06], [07, 09], [10, 12], [13, 15], [16, 18], [19, 20], [20, 21], [22, 24], [25, 26], [27, 29], [30, 31], [32, 36], [37, 39], [40, 42], [43, 45], [46, 48], [49, 51], [52, 53], [54, 56], [57, 60], [61, 64], [65, 67], [68, 70], [71, 73], [74, 76], [77, 78], [79, 81], [82, 84], [85, 87], [88, 90], [91, 92], [93, 95], [96, 100]],
+            "table": ["addiction", "aged", "aggressive grm", "drug fiend", "fast metabolism", "frail", "genetic defect", "impaired hearing", "impaired linguistics", "impaired proprioception", "implant rejection", "lacks manipulators", "lemon", "low-gravity adaptation", "low pain tolerance", "memory artifact", "mild allergy", "neurochemical imbalance", "no cortical stack", "personality artifact", "planned obsolescence", "proprietary tech", "psi vulnerability", "reduced size", "severe allergy", "social stigma", "temperature intolerance", "unattractive", "uncanny valley", "uncontrollable urge", "unfit", "weak grip", "weak immune system", "zero-g nausea"],
+            "cost": [[5, 10, 20], 10, 10, 10, 5, [10, 20], [10, 20], 5, [10, 20], 10, [5, 15], 10, 10, 10, 20, 5, 5, 5, 10, 10, 5, 10, 10, 10, [10, 20], 10, 10, [10, 20, 30], 10, 10, 10, 10, 10, 10]
         }
     }
 }

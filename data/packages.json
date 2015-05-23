@@ -10,7 +10,7 @@
                 "som": 20,
                 "wil": 10
             },
-            "longdesc": "Even in a universe of talking apes and wormholes\nto other planets, there are always people who recog-\nnize the special skill set that goes along with a more\nphysical bent. You've honed yourself to be able to take\nthe greatest advantage of whatever physical gifts your\nmorph or shell may have."
+            "longdesc": "Even in a universe of talking apes and wormholes\nto other planets, there are always people who recognize the special skill set that goes along with a more\nphysical bent. You've honed yourself to be able to take\nthe greatest advantage of whatever physical gifts your\nmorph or shell may have."
         },
         "dilettante": {
             "aptitude": {
@@ -95,7 +95,7 @@
                 "som": 15,
                 "wil": 10
             },
-            "longdesc": "You've never said no to a dare, and your quick reac-\ntions haven't failed you so far. You may not always\nmake the best decisions, but you usually manage to\nland on your feet.\n"
+            "longdesc": "You've never said no to a dare, and your quick reactions haven't failed you so far. You may not always\nmake the best decisions, but you usually manage to\nland on your feet.\n"
         }
     },
     "background": {
@@ -716,7 +716,7 @@
             }
         },
         "infolife humanities agi": {
-            "longdesc": "You were designed to understand and interact with humans. Your programming is optimized for tasks such as per-\nsonal assistance, marketing, caretaking, and psychology.\n",
+            "longdesc": "You were designed to understand and interact with humans. Your programming is optimized for tasks such as personal assistance, marketing, caretaking, and psychology.\n",
             "motivations": {
                 "positive": ["agi rights", "personal development", "philanthropy"],
                 "negative": []
@@ -767,7 +767,7 @@
             }
         },
         "infolife machine agi": {
-            "longdesc": "What understands machines better than a machine mind? Your code is focused on interacting and controlling soft-\nware and hardware so that humans don't have to.\n",
+            "longdesc": "What understands machines better than a machine mind? Your code is focused on interacting and controlling software and hardware so that humans don't have to.\n",
             "motivations": {
                 "positive": ["agi rights", "sousveillance", "thrill seeking"],
                 "negative": ["disorganization"]
@@ -2363,7 +2363,7 @@
             }
         },
         "activist": {
-            "longdesc": "You fight for a cause that you fervently believe in. You are an active member of a group like the anti-assimilationist mer-\ncurials, anti-technology bioconservatives, pro-privacy Datacide, Luna's Steel Liberators, Venus's VTP, Mars's Barsoomians, or\nTitan's Oligarchs.\n",
+            "longdesc": "You fight for a cause that you fervently believe in. You are an active member of a group like the anti-assimilationist mercurials, anti-technology bioconservatives, pro-privacy Datacide, Luna's Steel Liberators, Venus's VTP, Mars's Barsoomians, or\nTitan's Oligarchs.\n",
             "motivations": {
                 "positive": ["bioconservatism", "mercurial cause", "privacy", "terraforming", "venusian sovereignity"],
                 "negative": []
@@ -2458,7 +2458,7 @@
             }
         },
         "bodyguard": {
-            "longdesc": "You protect your clients from harm and the stress and inconvenience of death. More often, you protect them from pester-\ning fans, activists, or others that seek their attention.\n",
+            "longdesc": "You protect your clients from harm and the stress and inconvenience of death. More often, you protect them from pestering fans, activists, or others that seek their attention.\n",
             "motivations": {
                 "positive": ["duty", "survival", "privacy"],
                 "negative": []
@@ -3231,7 +3231,7 @@
             }
         },
         "pirate": {
-            "longdesc": "Traveling wasn't something you did because you wanted to see new places and people. More often than not, you needed\nto skip out of a habitat to avoid arrest. Soon enough, your talent at evading authorities was parlayed into a more profit-\nable career 'liberating' cargo from automated haulers and finding the best place to sell the goods.\n",
+            "longdesc": "Traveling wasn't something you did because you wanted to see new places and people. More often than not, you needed\nto skip out of a habitat to avoid arrest. Soon enough, your talent at evading authorities was parlayed into a more profitable career 'liberating' cargo from automated haulers and finding the best place to sell the goods.\n",
             "motivations": {
                 "positive": ["survival", "thrill seeking", "wealth"],
                 "negative": ["authority"]

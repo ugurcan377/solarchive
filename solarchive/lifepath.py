@@ -144,7 +144,7 @@ class Lifepath(object):
         have_more = result["effect"].pop("next", False)
         result_dict = {
             "title": table.get('title', ''),
-            "desc": result.get("desc", ""),
+            "desc": table.get("desc", ""),
             "result": result["effect"],
             "extra": {}
         }
@@ -229,7 +229,7 @@ class Lifepath(object):
         ignore = result['effect'].pop('ignore', [])
         result_dict = {
             "title": table.get('title', ''),
-            "desc": result.get("desc", ""),
+            "desc": table.get("desc", ""),
             "result": result["effect"],
             "extra": {}
         }
@@ -246,7 +246,7 @@ class Lifepath(object):
         select = result['effect'].pop('select', False)
         result_dict = {
             "title": table.get('title', ''),
-            "desc": result.get("desc", ""),
+            "desc": table.get("desc", ""),
             "result": result["effect"],
             "extra": {}
         }
@@ -259,7 +259,7 @@ class Lifepath(object):
                 next_result = self.roll_on_table(next_table)
                 result_dict["extra"].update({
                     "title": next_table.get('title', ''),
-                    "desc": next_result.get("desc", ""),
+                    "desc": next_table.get("desc", ""),
                     "result": next_result.get("effect") or next_result,
                     })
         if package:
@@ -367,7 +367,7 @@ class Lifepath(object):
         have_more = result["effect"].pop("next", False)
         result_dict = {
             "title": table.get('title', ''),
-            "desc": result.get("desc", ""),
+            "desc": table.get("desc", ""),
             "result": result["effect"],
             "extra": {}
         }
@@ -391,8 +391,8 @@ class Lifepath(object):
                         result_dict.update({'prev': {'focus': next_package}})
                 result_dict["extra"].update({
                     "title": next_table.get('title', ''),
-                    "desc": next_result.get("desc", ""),
-                    "result": next_result.get("effect") or next_result,
+                    "desc": next_table.get("desc", ""),
+                    "result": next_result,
                     })
 
         return result_dict
@@ -402,7 +402,7 @@ class Lifepath(object):
         have_more = result["effect"].pop("next", False)
         result_dict = {
             "title": table.get('title', ''),
-            "desc": result.get("desc", ""),
+            "desc": table.get("desc", ""),
             "result": result["effect"],
             "extra": {}
         }
@@ -417,14 +417,14 @@ class Lifepath(object):
         return {
             "title": table.get('title', ''),
             "desc": table.get("desc", ""),
-            "result": self.roll_on_table(table)
+            "result": {"credits": self.roll_on_table(table)}
         }
 
     def step_16(self, table):
         result = self.roll_on_table(table)
         return {
             "title": table.get('title', ''),
-            "desc": result.get("desc", ""),
+            "desc": table.get("desc", ""),
             "result": result["effect"],
             "extra": {}
         }

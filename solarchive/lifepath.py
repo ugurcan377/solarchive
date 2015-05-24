@@ -80,7 +80,33 @@ class Lifepath(object):
         return next_result['desc']
 
     def compile_results(self):
-        pass
+        results = []
+        for step in self.char:
+            value = self.char[step]
+            if value:
+                result = value.get("result")
+                extra = value.get("extra")
+                if extra and extra.has_key("result"):
+                    results.append(extra["result"]["effect"])
+                if type(result) == list:
+                    map(lambda x: results.append(x), result)
+                elif result:
+                    results.append(result)
+
+        for index, result in enumerate(results):
+            if result.has_key("result"):
+                results[index] = result["result"].get("1") or result["result"].get("3") or result["result"].get("5")
+        return results
+
+    def get_last_morph(self):
+        morph = self.char[3]["result"][-1]["morph"]
+        for step in self.char:
+            value = self.char[step]
+            if value:
+                extra = value.get("extra")
+                if extra and extra.has_key("morph"):
+                    morph = extra["morph"]
+        return morph
 
     def step_1(self, table):
         result = self.roll_on_table(table)

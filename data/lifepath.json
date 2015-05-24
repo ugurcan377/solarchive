@@ -34,7 +34,7 @@
         "values": [1, 2, [3, 5], [6, 7], 8, 9, 10],
         "desc": ["Born with a silver nanoswarm in your blood", "Celebrity child", "Privileged: enclave born", "Precariat: poverty just a step away", "Troubled: raised among disaster or war", "Raised on the street", "Raised in a collective/communal grouping"],
         "table": ["hyperelite scion", "hyperelite media personality", "fall evacuee enclaver", "reinstantiated civilian casualty", "fall evacuee underclass", "street rat", "reinstantiated civilian casualty"],
-        "morph": ["Exalt", "Sylph", "Splicer", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}, "Flat", "Flat", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}],
+        "morph": ["exalt", "sylph", "splicer", {"values": [[1, 4], [5, 10]], "table":["splicer", "flat"]}, "flat", "flat", {"values": [[1, 4], [5, 10]], "table":["splicer", "flat"]}],
         "next": ["6.5", "6.5", "6.6", "6.3", {"values": [[1, 5], [6, 9], 10], "table": ["6.4", "6.3", "6.2"]}, "6.4", "6.2"]
     },
     "3.3": {
@@ -44,7 +44,7 @@
         "values": [1, 2, [3, 4], [5, 6], [7, 8], [9, 10]],
         "desc": ["Orbital elite", "A new star born above the Earth", "Orbital colonist; floating above the masses", "Orbital colony staff", "One of the lucky few to live above", "Orbital worker family"],
         "table": ["hyperelite scion", "hyperelite media personality", "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture"],
-        "morph": ["Exalt", "Sylph", "Splicer", "", {"values": [[1, 4], [5, 9], 10], "table": ["Splicer", "Flat", "Bouncer"]}, {"values": [[1, 8], [9, 10]], "table": ["Flat", "Bouncer"]}],
+        "morph": ["exalt", "sylph", "splicer", "", {"values": [[1, 4], [5, 9], 10], "table": ["splicer", "flat", "bouncer"]}, {"values": [[1, 8], [9, 10]], "table": ["flat", "bouncer"]}],
         "next": ["6.5", "6.5", "6.6", "", "6.3", "6.7"]
     },
     "3.4": {
@@ -54,7 +54,7 @@
         "values": [1, [2, 3], [4, 5], [6, 7], [8, 10]],
         "desc": ["Lunar elite", "Lunar colonist: privileged homesteader", "Lunar colony staff", "Raised with a view of Earth", "Lunar work force"],
         "table": [{"values": [[1, 4], [5, 10]], "table":["hyperelite scion", "hyperelite media personality"]}, "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture"],
-        "morph": [{"values": [[1, 7], [8, 10]], "table":["exalt", "sylph"]}, "Splicer", "", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}, "Flat"],
+        "morph": [{"values": [[1, 7], [8, 10]], "table":["exalt", "sylph"]}, "splicer", "", {"values": [[1, 4], [5, 10]], "table":["splicer", "flat"]}, "flat"],
         "next": ["6.5", "6.6", "", "6.3", "6.7"]
     },
     "3.5": {
@@ -64,7 +64,7 @@
         "values": [1, [2, 3], [4, 5], 6, [7, 9], 10],
         "desc": ["Martian elite", "Martian colonist privileged homesteader", "Martian colony staff", "Risk-taking Martian settler", "Martian slave labor", "Pre-Barsoomian Martian nomad"],
         "table": ["hyperelite scion", "fall evacuee enclaver", {"next": "3.10"}, "reinstantiated civilian casualty", "indenture", "drifter"],
-        "morph": ["olympian", "splicer", "", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}, "flat", {"values": [[1, 4], [5, 10]], "table":["Splicer", "Flat"]}],
+        "morph": ["olympian", "splicer", "", {"values": [[1, 4], [5, 10]], "table":["splicer", "flat"]}, "flat", {"values": [[1, 4], [5, 10]], "table":["splicer", "flat"]}],
         "next": ["6.5", "6.6", "", "6.3", "6.7", "6.2"]
     },
     "3.6": {
@@ -84,7 +84,7 @@
         "values": [1, 2, 3, [4, 5], [6, 8], [9, 10]],
         "desc": ["Extropia founders", "Jovian colonist shelter among giants", "Titanian colonist", "Anarchist colonist", "Small colony outpost", "Asteroid miner"],
         "table": ["fall evacuee enclaver", "isolate survivalist", "colonist science staff", "colonist tech staff", {"next": "3.10"}, "indenture"],
-        "morph": ["bouncer", {"values": [[1, 5], [6, 8], [9, 10]], "table": ["flat", "splicer", "olympian"]}, {"values": [[1, 8], [9, 10]], "table":["Splicer", "menton"]}, {"values": [[1, 6], [7, 10]], "table":["Splicer", "bouncer"]}, "", {"values": [[1, 4], [5, 7], [8, 10]], "table": ["flat", "case", "bouncer"]}],
+        "morph": ["bouncer", {"values": [[1, 5], [6, 8], [9, 10]], "table": ["flat", "splicer", "olympian"]}, {"values": [[1, 8], [9, 10]], "table":["splicer", "menton"]}, {"values": [[1, 6], [7, 10]], "table":["splicer", "bouncer"]}, "", {"values": [[1, 4], [5, 7], [8, 10]], "table": ["flat", "case", "bouncer"]}],
         "next": ["6.5", "6.8", "6.9", "6.2", "", "6.7"]
     },
     "3.8": {
@@ -146,7 +146,7 @@
             {"desc": "A dysfunctional home life keeps you from doing well in school. Lose –5 COG.", "effect": {"aptitude": {"cog": -5}}}, 
             {"desc": "Being a bully has its advantages. Gain +10 Intimidation skill.", "effect": {"skills": {"intimidation": 10}}}, 
             {"desc": "Your first experiments with forking prove to you that merging will not be easy. Gain the Divergent Personality trait", "effect": {"trait": "divergent personality"}}, 
-            {"desc": "You receive your first cortical stack at an early age—and luckily just in time. Roll randomly on the Choosing a Morph table", "effect": {"next": "mophs"}}, 
+            {"desc": "You receive your first cortical stack at an early age—and luckily just in time. Roll randomly on the Choosing a Morph table", "effect": {"next": "morphs"}},
             {"desc": "You are raised around animals. Gain +10 Animal Handling skill.", "effect": {"skills": {"animal handling": 10}}}, 
             {"desc": "Your parents raise you with some unusual ideas. Gain the Faulty Education trait", "effect": {"trait": "faulty education"}}, 
             {"desc": "You cheat your way through school. –10 to one skill.", "effect": {"skills": {"any": -10}}}, 

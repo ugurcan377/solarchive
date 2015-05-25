@@ -79,7 +79,7 @@ class Lifepath(object):
         next_result = self.roll_on_table(next_table)
         return next_result['desc']
 
-    def compile_results(self):
+    def fetch_results(self):
         results = []
         for step in self.char:
             value = self.char[step]
@@ -97,6 +97,34 @@ class Lifepath(object):
             if result.has_key("result"):
                 results[index] = result["result"].get("1") or result["result"].get("3") or result["result"].get("5")
         return results
+
+    # TODO Tinker a bit rewrite if cant be fixed easily
+    def merge_results(self, results):
+        merged = {"skills": {}, "aptitude": {}}
+
+        def add_item(into, key, value):
+            if not into.has_key(key):
+                into[key] = []
+            into[key].append(value)
+
+        for result in results:
+            for key, value in result.items():
+                if key not in ["aptitude", "skills", "longdesc"]:
+                    add_item(key, value, merged)
+                if key == "aptitude":
+                    [add_item(merged["aptitude"], k, v) for k, v in value.items()]
+                if key == "skills":
+                    for skill_name, skill_value in value.items():
+                        if not merged["skills"].has_key(skill_name):
+                            merged["skills"][skill_name] = []
+                        if type(skill_value) == list:
+                            merged["skills"][skill_name].extend(skill_value)
+                        else:
+                            merged["skills"][skill_name].append(skill_value)
+        return merged
+
+
+
 
     def get_last_morph(self):
         morph = self.char[3]["result"][-1]["morph"]

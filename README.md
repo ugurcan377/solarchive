@@ -245,7 +245,6 @@ Maybe in a distant future:
 
 ####Lifepath:
 + Prevent getting duplicate result when rolling on the same table more than once
-+ STEP 3: Implement special clauses for table 3.9
 + STEP 5: Implement Advanced Age modifiers
 + STEP 6: Implement special clauses for table 6.12
 + STEP 8: If result contains a package insert it to step 9

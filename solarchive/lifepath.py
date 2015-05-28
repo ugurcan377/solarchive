@@ -157,6 +157,7 @@ class Lifepath(object):
     def step_3(self, table):
         result, index = self.roll_on_table(table, with_index=True)
         backgrounds = []
+        ignore_others = False
         self.pp += int(result['roll']) * int(result['select'])
         for i in range(result["roll"]):
             next_table = self.get_from_target(result["next"])
@@ -173,13 +174,25 @@ class Lifepath(object):
             background = target_table[final_result]
             morph = final_table["morph"][final_index]
             if type(morph) == dict:
-                morph = self.roll_on_table(morph)
+                if morph.has_key("next"):
+                    morph = self.get_random_morph(morph.get("ignore"))
+                else:
+                    morph = self.roll_on_table(morph)
             next = final_table["next"][final_index]
             if type(next) == dict:
                 next = self.roll_on_table(next)
+            desc = final_table["desc"][final_index]
+            if desc.endswith("*"):
+                roll = roll_d10()
+                if desc.endswith("**"):
+                    roll = 1
+                if roll < 4:
+                    backgrounds = []
+                    ignore_others = True
+                    self.next_step = 9
             backgrounds.append({
                 "title": final_table.get('title', ''),
-                "desc": final_table["desc"][final_index],
+                "desc": desc,
                 "package": final_result,
                 "result": clear_package(background, result["select"]),
                 'pkg_type': 'background',
@@ -187,6 +200,8 @@ class Lifepath(object):
                 # ONLY THE FINAL NEXT VALUE COUNTS
                 "next": next,
                 })
+            if ignore_others:
+                break
         return {
             "title": table.get('title', ''),
             "desc": table.get("desc", "")[index],

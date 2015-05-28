@@ -12,7 +12,7 @@ class Character(object):
         self.aptitude = {}
         self.stats = {"moxie": 1, "speed": 1}
         self.skills = {}
-        self.rep = {}
+        self.rep = {"@-rep": 0, "c-rep": 0, "e-rep": 0, "f-rep": 0, "g-rep": 0, "i-rep": 0, "r-rep": 0}
         self.trait = []
         self.sleights = []
         self.gear = []

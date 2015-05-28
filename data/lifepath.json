@@ -102,9 +102,9 @@
         "type": "background",
         "target": "background",
         "values": [[1, 3], [4, 5], [6, 7], 8, 9, 10],
-        "desc": ["Almost human*", "More machine than man*", "Created by and for science*", "An experiment gone horribly wrong", "Second-class citizenship was not for you", "Living proof that uplift works"],
+        "desc": ["Almost human*", "More machine than man*", "Created by and for science*", "An experiment gone horribly wrong**", "Second-class citizenship was not for you", "Living proof that uplift works"],
         "table": ["infolife humanities agi", "infolife machine agi", "infolife research agi", {"values": [[1, 5], [6, 10]], "table":["lost disturbed child", "lost masked normalcy"]}, "uplift escapee", "uplift standard specimen"],
-        "morph": ["infomorph", "infomorph", "infomorph", "futura", "uplift‡", "uplift‡"],
+        "morph": ["infomorph", "infomorph", "infomorph", "futura", {"next": "morphs", "ignore": ["biomorph", "synthmorph", "pod", "infomorph"]}, {"next": "morphs", "ignore": ["biomorph", "synthmorph", "pod", "infomorph"]}],
         "next": ["6.3", "6.11", "6.9", "6.1", "6.3", "6.3"]
     },
     "3.10": {
@@ -348,7 +348,7 @@
             {"desc": "You hide your body away in cold storage on Earth before farcasting off to safety. Roll randomly on the Choosing a Morph table", "effect": {"next": "morphs"}},
             {"desc": "Your ego escapes the devastation of Earth, only to be locked away in cold storage for years. You are only recently resleeved. Roll randomly on the Choosing a Morph table  and gain the Real World Naiveté trait", "effect": {"next": "morphs", "trait": "real world naivete"}},
             {"desc": "Your ego survives the Fall but is locked in simulspace for years before you are resleeved. Roll randomly on the Choosing a Morph table  and gain +20 Interfacing skill.", "effect": {"next": "morphs", "skills": {"interfacing": 20}}},
-            {"desc": "After escaping the Fall, you are forced into indentured service before you are resleeved. Roll randomly on the Choosing a Morph table  but ignore all non-synthmorph results. Gain +20 to one Technical skill.", "effect": {"next": "synthmorph"}},
+            {"desc": "After escaping the Fall, you are forced into indentured service before you are resleeved. Roll randomly on the Choosing a Morph table  but ignore all non-synthmorph results. Gain +20 to one Technical skill.", "effect": {"next": "morphs", " ignore": ["biomorph", "uplift", "pod", "infomorph"]}},
             {"desc": "You do what you can to help, but you still lose almost everyone in your life. Gain +1 Moxie.", "effect": {"moxie": 1}},
             {"desc": "You heroically sacrifice yourself so that others can escape. Gain +10 to one rep score and roll randomly on the Choosing a Morph table", "effect": {"next": "morphs", "rep": 10}},
             {"desc": "You risk your life in a desperate holding action. Gain the Brave trait", "effect": {"trait": "brave"}},

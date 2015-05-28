@@ -60,9 +60,11 @@ class Lifepath(object):
         target_table = all_data[data_file][target]
         return target_table
 
-    def roll_on_table(self, table, with_index=False):
+    def roll_on_table(self, table, with_index=False, with_input=-1):
         values = table["values"]
         roll = self.roll_values(values)
+        if with_input > 0:
+            roll = with_input
         index = self.find_result_index(values, roll)
         if with_index:
             return self.get_result(table)[index], index
@@ -98,33 +100,30 @@ class Lifepath(object):
                 results[index] = result["result"].get("1") or result["result"].get("3") or result["result"].get("5")
         return results
 
-    # TODO Tinker a bit rewrite if cant be fixed easily
+    # TODO Variable names in this is really awful
     def merge_results(self, results):
         merged = {"skills": {}, "aptitude": {}}
 
         def add_item(into, key, value):
             if not into.has_key(key):
                 into[key] = []
-            into[key].append(value)
+            if type(value) == list:
+                into[key].extend(value)
+            else:
+                into[key].append(value)
 
         for result in results:
-            for key, value in result.items():
-                if key not in ["aptitude", "skills", "longdesc"]:
-                    add_item(key, value, merged)
-                if key == "aptitude":
-                    [add_item(merged["aptitude"], k, v) for k, v in value.items()]
-                if key == "skills":
-                    for skill_name, skill_value in value.items():
-                        if not merged["skills"].has_key(skill_name):
-                            merged["skills"][skill_name] = []
-                        if type(skill_value) == list:
-                            merged["skills"][skill_name].extend(skill_value)
-                        else:
-                            merged["skills"][skill_name].append(skill_value)
+            if result:
+                for key, value in result.items():
+                    if key not in ["aptitude", "skills", "longdesc"]:
+                        add_item(merged, key, value)
+                    if key == "aptitude":
+                        if type(value) != list:
+                            value_list = [value]
+                        [[add_item(merged["aptitude"], k, v) for k, v in val.items()] for val in value_list or value]
+                    if key == "skills":
+                        [add_item(merged["skills"], k, v) for k, v in value.items()]
         return merged
-
-
-
 
     def get_last_morph(self):
         morph = self.char[3]["result"][-1]["morph"]

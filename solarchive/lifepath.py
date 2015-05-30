@@ -16,7 +16,7 @@ class Lifepath(object):
     def start_path(self):
         for i in range(self.STEPS):
             if self.step <= self.STEPS:
-                self.char[self.step-1] = self.get_next_step()
+                self.char[self.step - 1] = self.get_next_step()
                 if self.next_step:
                     self.step = self.next_step
                     self.next_step = None
@@ -88,7 +88,7 @@ class Lifepath(object):
             if value:
                 result = value.get("result")
                 extra = value.get("extra")
-                if extra and extra.has_key("result"):
+                if extra and "result" in extra:
                     results.append(extra["result"]["effect"])
                 if type(result) == list:
                     map(lambda x: results.append(x), result)
@@ -96,7 +96,7 @@ class Lifepath(object):
                     results.append(result)
 
         for index, result in enumerate(results):
-            if result.has_key("result"):
+            if "result" in extra:
                 results[index] = result["result"].get("1") or result["result"].get("3") or result["result"].get("5")
         return results
 
@@ -105,7 +105,7 @@ class Lifepath(object):
         merged = {"skills": {}, "aptitude": {}}
 
         def add_item(into, key, value):
-            if not into.has_key(key):
+            if not key in into:
                 into[key] = []
             if type(value) == list:
                 into[key].extend(value)
@@ -131,7 +131,7 @@ class Lifepath(object):
             value = self.char[step]
             if value:
                 extra = value.get("extra")
-                if extra and extra.has_key("morph"):
+                if extra and "morph" in extra:
                     morph = extra["morph"]
         return morph
 
@@ -157,6 +157,7 @@ class Lifepath(object):
         result, index = self.roll_on_table(table, with_index=True)
         backgrounds = []
         ignore_others = False
+        agi_uplift = False
         self.pp += int(result['roll']) * int(result['select'])
         for i in range(result["roll"]):
             next_table = self.get_from_target(result["next"])
@@ -173,7 +174,7 @@ class Lifepath(object):
             background = target_table[final_result]
             morph = final_table["morph"][final_index]
             if type(morph) == dict:
-                if morph.has_key("next"):
+                if "next" in morph:
                     morph = self.get_random_morph(morph.get("ignore"))
                 else:
                     morph = self.roll_on_table(morph)
@@ -198,13 +199,14 @@ class Lifepath(object):
                 "morph": morph,
                 # ONLY THE FINAL NEXT VALUE COUNTS
                 "next": next,
-                })
+            })
             if ignore_others:
                 break
         return {
             "title": table.get('title', ''),
             "desc": table.get("desc", "")[index],
-            "result": backgrounds
+            "result": backgrounds,
+            "agi-uplift": agi_uplift
         }
 
     def step_4(self, table):
@@ -231,7 +233,7 @@ class Lifepath(object):
                     "result": clear_package(next_result, pp),
                     "morph": next_table["morph"][next_index],
                     "next": next_table["next"][next_index],
-                    }
+                }
             else:
                 next_table = self.data[have_more]
                 next_result = self.roll_on_table(next_table)
@@ -239,20 +241,40 @@ class Lifepath(object):
                     "title": next_table.get('title', ''),
                     "desc": next_result.get("desc", ""),
                     "result": next_result["effect"],
-                    })
+                })
 
         return result_dict
 
     def step_5(self, table):
-        result, index = self.roll_on_table(table, with_index=True)
+        result, index = self.roll_on_table(table, with_index=True, with_input=97)
+        result_dict = {"age": result["age"] + roll_d10()}
         if index == 0:
             self.next_step = 8
-        age = result["age"]
+        if result.get("next"):
+            next_table = self.get_from_target(result["next"])
+            next_result = self.advanced_age(next_table)
+            result_dict.update(next_result)
         return {
             "title": table.get('title', ''),
             "desc": table.get("desc", ""),
-            "result": {"age": age + roll_d10()}
+            "result": result_dict,
         }
+
+    def advanced_age(self, table):
+        result = {"aptitude": [], "trait": ""}
+        counters = {table["table"].index(x): x.pop("max") for x in table["table"] if "max" in x}
+        next_result = {"next": "5.1"}
+        while "next" in next_result:
+            next_result, next_index = self.roll_on_table(table, with_index=True)
+            if "aptitude" in next_result:
+                result["aptitude"].append(next_result["aptitude"])
+            if "trait" in next_result:
+                result["trait"] = next_result["trait"]
+            if next_index in counters:
+                counters[next_index] -= 1
+                if counters[next_index] <= 0:
+                    next_result.pop("next")
+        return {k: v for k,v in result.items() if v}  # Clear empty keys
 
     def step_6(self, table):
         result, index = self.roll_on_table(table, with_index=True)
@@ -329,7 +351,7 @@ class Lifepath(object):
                     "title": next_table.get('title', ''),
                     "desc": next_table.get("desc", ""),
                     "result": next_result.get("effect") or next_result,
-                    })
+                })
         if package:
             if select:
                 result_dict.update({'next': {'focus': package, 'select': select}})
@@ -370,22 +392,22 @@ class Lifepath(object):
         focus_target = self.get_from_target(next_focus['target'])
         focus_package = clear_package(focus_target[next_focus_result], select)
         return {
-                'title': focus_table.get('title', ''),
-                'desc': '{}: {}'.format(focus_table['desc'][focus_index], next_focus_result),
-                'package': next_focus_result,
-                'pkg_type': 'focus',
-                'result': focus_package,
-                'next': next_focus['next']
-                }
+            'title': focus_table.get('title', ''),
+            'desc': '{}: {}'.format(focus_table['desc'][focus_index], next_focus_result),
+            'package': next_focus_result,
+            'pkg_type': 'focus',
+            'result': focus_package,
+            'next': next_focus['next']
+        }
 
     def step_9_faction(self, select, next):
         faction_table = self.get_from_target('9.2')
         faction_result, faction_index = self.roll_on_table(faction_table, with_index=True)
         if faction_result['next'] == 'prev':
-            #FIXME What to do if next_focus is 6.12 ?
+            # FIXME What to do if next_focus is 6.12 ?
             if next == '6.1':
                 next = random.choice(['9.4', '9.5', '9.6', '9.7', '9.8', '9.9', '9.10',
-                                                    '9.11', '9.12', '9.13'])
+                                      '9.11', '9.12', '9.13'])
             next_faction = self.get_from_target(next)
         elif faction_result["next"] == "9.3":
             branch_table = self.get_from_target("9.3")
@@ -395,12 +417,12 @@ class Lifepath(object):
         faction_target = self.get_from_target(next_faction['target'])
         faction_package = clear_package(faction_target[next_faction_result], select)
         return {
-                'title': faction_table.get('title', ''),
-                'desc': '{}: {}'.format(faction_table['desc'][faction_index], next_faction_result),
-                'package': next_faction_result,
-                'pkg_type': 'faction',
-                'result': faction_package
-                }
+            'title': faction_table.get('title', ''),
+            'desc': '{}: {}'.format(faction_table['desc'][faction_index], next_faction_result),
+            'package': next_faction_result,
+            'pkg_type': 'faction',
+            'result': faction_package
+        }
 
     def step_10(self, table):
         result_list = []
@@ -461,7 +483,7 @@ class Lifepath(object):
                     "title": next_table.get('title', ''),
                     "desc": next_table.get("desc", ""),
                     "result": next_result,
-                    })
+                })
 
         return result_dict
 

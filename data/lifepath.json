@@ -168,14 +168,14 @@
     "5": {
         "title": "Character Age",
         "type": "general",
-        "values": [[1, 20], [21, 50], [51, 70], [71, 80], [81, 90], [91, 94], [95, 98], [99, 100]],
+        "values": [[1, 20], [21, 50], [51, 70], [71, 80], [81, 85], [86, 90], [91, 94], [95, 98], [99, 100]],
         "table": [{"age": 20, "step": "8"}, {"age": 30}, {"age": 40}, {"age": 50}, {"age": 60}, {"age": 70}, {"age": 80}, {"age": 90, "next": "5.1"}, {"age": 100, "next": "5.1"}]
     },
-    "5prime": {
+    "5.1": {
         "title": "Advanced Age Table",
         "type": "general",
         "values": [1, 2, 3, 4, [5, 10]],
-        "table": [{"aptitude": {"any": -10, "choices": ["som", "ref", "coo"]}, "next": "5prime", "max": 1}, {"aptitude": {"any": -5, "choices": ["som", "ref", "coo"]}, "next": "5prime"}, {"trait": "immortality blues"}, {"aptitude": {"any": -10, "choices": ["sav", "int", "cog", "wil"]}, "next": "5prime", "max": 3}, {}]
+        "table": [{"aptitude": {"any": -10, "choices": ["som", "ref", "coo"]}, "next": "5.1", "max": 2}, {"aptitude": {"any": -5, "choices": ["som", "ref", "coo"]}, "next": "5.1"}, {"trait": "immortality blues"}, {"aptitude": {"any": -10, "choices": ["sav", "int", "cog", "wil"]}, "next": "5.1", "max": 3}, {}]
     },
     "6": {
         "title": "Adult Pre-Fall Path",

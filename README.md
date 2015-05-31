@@ -247,7 +247,6 @@ Maybe in a distant future:
 + Prevent getting duplicate result when rolling on the same table more than once
 + STEP 6: Implement special clauses for table 6.12
 + STEP 8: If result contains a package insert it to step 9
-+ STEP 11: If result contains a package insert it to step 10
 
 ####Web interface:
 + Design a user interface

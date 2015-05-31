@@ -179,6 +179,7 @@ class Lifepath(object):
                 else:
                     morph = self.roll_on_table(morph)
             next = final_table["next"][final_index]
+            desc = final_table["desc"][final_index]
             if type(next) == dict:
                 next = self.roll_on_table(next)
             if next_result["next"] == "3.9":
@@ -186,7 +187,6 @@ class Lifepath(object):
                     agi_uplift = "infolife"
                 elif final_index > 3:
                     agi_uplift = "uplift"
-                desc = final_table["desc"][final_index]
                 if desc.endswith("*"):
                     roll = roll_d10()
                     if desc.endswith("**"):
@@ -458,7 +458,7 @@ class Lifepath(object):
 
         return {
             "title": table.get('title', ''),
-            "desc": table.get("desc", ""),
+            "desc": "",
             "result": result_list,
         }
 
@@ -485,10 +485,16 @@ class Lifepath(object):
                     morph = self.get_random_morph()
                     result_dict['extra'].update({'morph': morph})
                 if next_package:
-                    if next_select:
-                        result_dict.update({'prev': {'focus': next_package, 'select': next_select}})
-                    else:
-                        result_dict.update({'prev': {'focus': next_package}})
+                    final_packages = self.char[10]["result"]
+                    if len(final_packages) > 0:
+                        focus_target = self.get_from_target("focus")
+                        focus_package = clear_package(focus_target[next_package], next_select)
+                        final_packages[-1] = {
+                            "title": next_table.get("title", ""),
+                            "package": next_package,
+                            "pkg_type": "focus",
+                            "result": focus_package
+                        }
                 result_dict["extra"].update({
                     "title": next_table.get('title', ''),
                     "desc": next_table.get("desc", ""),

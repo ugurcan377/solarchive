@@ -157,7 +157,7 @@ class Lifepath(object):
         result, index = self.roll_on_table(table, with_index=True)
         backgrounds = []
         ignore_others = False
-        agi_uplift = False
+        agi_uplift = None
         self.pp += int(result['roll']) * int(result['select'])
         for i in range(result["roll"]):
             next_table = self.get_from_target(result["next"])
@@ -181,15 +181,20 @@ class Lifepath(object):
             next = final_table["next"][final_index]
             if type(next) == dict:
                 next = self.roll_on_table(next)
-            desc = final_table["desc"][final_index]
-            if desc.endswith("*"):
-                roll = roll_d10()
-                if desc.endswith("**"):
-                    roll = 1
-                if roll < 4:
-                    backgrounds = []
-                    ignore_others = True
-                    self.next_step = 9
+            if next_result["next"] == "3.9":
+                if final_index < 3:
+                    agi_uplift = "infolife"
+                elif final_index > 3:
+                    agi_uplift = "uplift"
+                desc = final_table["desc"][final_index]
+                if desc.endswith("*"):
+                    roll = roll_d10()
+                    if desc.endswith("**"):
+                        roll = 1
+                    if roll < 4:
+                        backgrounds = []
+                        ignore_others = True
+                        self.next_step = 9
             backgrounds.append({
                 "title": final_table.get('title', ''),
                 "desc": desc,
@@ -403,7 +408,10 @@ class Lifepath(object):
     def step_9_faction(self, select, next):
         faction_table = self.get_from_target('9.2')
         faction_result, faction_index = self.roll_on_table(faction_table, with_index=True)
-        if faction_result['next'] == 'prev':
+        agi_uplift = self.char[3]["agi-uplift"]
+        if agi_uplift:
+            next_faction = self.get_from_target("9.14")
+        elif faction_result['next'] == 'prev':
             # FIXME What to do if next_focus is 6.12 ?
             if next == '6.1':
                 next = random.choice(['9.4', '9.5', '9.6', '9.7', '9.8', '9.9', '9.10',
@@ -414,6 +422,8 @@ class Lifepath(object):
             branch_result = self.roll_on_table(branch_table)
             next_faction = self.get_from_target(branch_result["next"])
         next_faction_result = self.roll_on_table(next_faction)
+        if agi_uplift and next_faction_result == "mercurial":
+            next_faction_result += " {}".format(agi_uplift)
         faction_target = self.get_from_target(next_faction['target'])
         faction_package = clear_package(faction_target[next_faction_result], select)
         return {

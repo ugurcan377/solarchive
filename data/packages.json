@@ -10,7 +10,7 @@
                 "som": 20,
                 "wil": 10
             },
-            "longdesc": "Even in a universe of talking apes and wormholes\nto other planets, there are always people who recognize the special skill set that goes along with a more\nphysical bent. You've honed yourself to be able to take\nthe greatest advantage of whatever physical gifts your\nmorph or shell may have."
+            "longdesc": "Even in a universe of talking apes and wormholes to other planets, there are always people who recognize the special skill set that goes along with a more physical bent. You've honed yourself to be able to take the greatest advantage of whatever physical gifts your morph or shell may have."
         },
         "dilettante": {
             "aptitude": {
@@ -22,7 +22,7 @@
                 "som": 15,
                 "wil": 15
             },
-            "longdesc": "While you've never really stood out in any one area,\nyou've always been able to competently perform just\nabout any task you try.\n"
+            "longdesc": "While you've never really stood out in any one area, you've always been able to competently perform just about any task you try. "
         },
         "extrovert": {
             "aptitude": {
@@ -34,7 +34,7 @@
                 "som": 20,
                 "wil": 10
             },
-            "longdesc": "Who needs to be tough when you can convince others\nto fight for you? Who needs brilliance, when smart\npeople will fall over themselves to tell you everything\nthey know just for a little more time with you?\n"
+            "longdesc": "Who needs to be tough when you can convince others to fight for you? Who needs brilliance, when smart people will fall over themselves to tell you everything they know just for a little more time with you? "
 
         },
         "inquisitive": {
@@ -47,7 +47,7 @@
                 "som": 10,
                 "wil": 15
             },
-            "longdesc": "Your natural problem-solving and investigative bent\nmeans you often notice things others miss.\n"
+            "longdesc": "Your natural problem-solving and investigative bent means you often notice things others miss. "
         },
         "researcher": {
             "aptitude": {
@@ -59,7 +59,7 @@
                 "som": 10,
                 "wil": 15
             },
-            "longdesc": "Knowledge is power. The TITANs were little more\nthan code-knowledge applied to the right places at\nthe right time to produce power. You've dedicated\nyourself to a life of the mind for the benefits it brings.\n"
+            "longdesc": "Knowledge is power. The TITANs were little more than code-knowledge applied to the right places at the right time to produce power. You've dedicated yourself to a life of the mind for the benefits it brings. "
         },
         "survivor": {
             "aptitude": {
@@ -71,7 +71,7 @@
                 "som": 20,
                 "wil": 20
             },
-            "longdesc": "You may not be the smartest, strongest, or quickest,\nbut you've always been able to pull it together and\nscrape by in a tough situation.\n"
+            "longdesc": "You may not be the smartest, strongest, or quickest, but you've always been able to pull it together and scrape by in a tough situation. "
         },
         "techie": {
             "aptitude": {
@@ -83,7 +83,7 @@
                 "som": 25,
                 "wil": 15
             },
-            "longdesc": "Understanding how things work gives you an edge\nwhen you need to understand how to stop them or\nmake them work better. That's always been your gift:\na way with applied information, be it computer code\nor life-support machinery.\n"
+            "longdesc": "Understanding how things work gives you an edge when you need to understand how to stop them or make them work better. That's always been your gift: a way with applied information, be it computer code or life-support machinery. "
         },
         "thrill seeker": {
             "aptitude": {
@@ -95,12 +95,12 @@
                 "som": 15,
                 "wil": 10
             },
-            "longdesc": "You've never said no to a dare, and your quick reactions haven't failed you so far. You may not always\nmake the best decisions, but you usually manage to\nland on your feet.\n"
+            "longdesc": "You've never said no to a dare, and your quick reactions haven't failed you so far. You may not always make the best decisions, but you usually manage to land on your feet. "
         }
     },
     "background": {
         "colonist command staff": {
-            "longdesc": "You helped run one of the pre-Fall colonies, whether it was in Earth orbit, on Luna or Mars, or elsewhere in the system.\n",
+            "longdesc": "You helped run one of the pre-Fall colonies, whether it was in Earth orbit, on Luna or Mars, or elsewhere in the system. ",
             "motivations": {
                 "positive": ["hard work", "leadership", "survival"],
                 "negative": []
@@ -148,7 +148,7 @@
             }
         },
         "colonist flight staff": {
-            "longdesc": "You worked on, or even piloted, the ships that kept colonies supplied.\n",
+            "longdesc": "You worked on, or even piloted, the ships that kept colonies supplied. ",
             "motivations": {
                 "positive": ["exploration", "personal career", "thrill seeking"],
                 "negative": []
@@ -193,7 +193,7 @@
             }
         },
         "colonist security staff": {
-            "longdesc": "You secured pre-Fall colonies, keeping the rabble in line and guarding against hostile elements.\n",
+            "longdesc": "You secured pre-Fall colonies, keeping the rabble in line and guarding against hostile elements. ",
             "motivations": {
                 "positive": ["law and order", "survival"],
                 "negative": ["criminals", "autonomists"]
@@ -240,7 +240,7 @@
             }
         },
         "colonist science staff": {
-            "longdesc": "You conducted scientific research off-world, whether that was studying the sun's solar cycles, evaluating lichen growth on Mars, or creating new zero-g manufacturing processes.\n ",
+            "longdesc": "You conducted scientific research off-world, whether that was studying the sun's solar cycles, evaluating lichen growth on Mars, or creating new zero-g manufacturing processes.  ",
             "motivations": {
                 "positive": ["hard work", "personal career", "science"],
                 "negative": []
@@ -286,7 +286,7 @@
             }
         },
         "colonist tech staff": {
-            "longdesc": "You kept the colony in working order-a matter of survival more than convenience.\n",
+            "longdesc": "You kept the colony in working order-a matter of survival more than convenience. ",
             "motivations": {
                 "positive": ["hard work", "problem solving", "survival"],
                 "negative": []
@@ -333,7 +333,7 @@
             }
         },
         "drifter": {
-            "longdesc": "You may be a Martian nomad, an original scum swarm pioneer, a free trader, or just a wanderer. Your people have always gone\nwhere the work was, first on Earth and then into space, where hands or your kind of skills were needed. You may not be as\nhighly specialized as some people, but you know a little about a lot of things and have picked up what you need to get by.\n",
+            "longdesc": "You may be a Martian nomad, an original scum swarm pioneer, a free trader, or just a wanderer. Your people have always gone where the work was, first on Earth and then into space, where hands or your kind of skills were needed. You may not be as highly specialized as some people, but you know a little about a lot of things and have picked up what you need to get by. ",
             "motivations": {
                 "positive": ["exploration", "hard work", "survival", "pragmatism"],
                 "negative": []
@@ -381,7 +381,7 @@
             }
         },
         "earth survivor": {
-            "longdesc": "Unlike a small percentage of transhumanity, you did not escape off-world during the Fall, nor were you lucky enough\nto be killed. You survived for years, eking out an existence in the post-apocalyptic desolation of Earth while hiding\nfrom, and even fighting, the machines and twisted transhuman puppets that still lurked there. Only recently was your\nbody rescued by scrappers or reclaimers or your egocast unwisely accepted by a trusting receiver.\n",
+            "longdesc": "Unlike a small percentage of transhumanity, you did not escape off-world during the Fall, nor were you lucky enough to be killed. You survived for years, eking out an existence in the post-apocalyptic desolation of Earth while hiding from, and even fighting, the machines and twisted transhuman puppets that still lurked there. Only recently was your body rescued by scrappers or reclaimers or your egocast unwisely accepted by a trusting receiver. ",
             "motivations": {
                 "positive": ["survival", "reclaiming earth"],
                 "negative": ["reclaiming earth", "titans"]
@@ -428,7 +428,7 @@
             }
         },
         "fall evacuee enclaver": {
-            "longdesc": "You were one of the lucky ones who grew up in safety behind the walls and security systems that kept the masses of\nthe poor out. When the Fall happened, your connections (or your family's) ensured you were one of the first to leave\nup the beanstalk.\n",
+            "longdesc": "You were one of the lucky ones who grew up in safety behind the walls and security systems that kept the masses of the poor out. When the Fall happened, your connections (or your family's) ensured you were one of the first to leave up the beanstalk. ",
             "motivations": {
                 "positive": ["wealth", "reclaiming earth", "survival", "personal career"],
                 "negative": []
@@ -475,7 +475,7 @@
             }
         },
         "fall evacuee underclass": {
-            "longdesc": "Most of those who survived made it off-planet either by virtue of their birth or earning their way into one of the\nenclaves. You were either lucky enough to be in the small percentage of non-elites to be evacuated or you managed\nto bribe, scam, or sneak your way past security during the Fall and secure a position on a shuttle or beanstalk car.\n",
+            "longdesc": "Most of those who survived made it off-planet either by virtue of their birth or earning their way into one of the enclaves. You were either lucky enough to be in the small percentage of non-elites to be evacuated or you managed to bribe, scam, or sneak your way past security during the Fall and secure a position on a shuttle or beanstalk car. ",
             "motivations": {
                 "positive": ["survival", "personal development"],
                 "negative": ["hypercapitalism"]
@@ -523,7 +523,7 @@
             }
         },
         "hyperelite media personality": {
-            "longdesc": "People know you. In fact, there's a good chance that they see you on a regular basis. You're an X-caster, a blogger, a\n famous MARG gamer, a pundit, a performer, the spokesperson for a brand, an athlete, or some other form of celebrity.\n ",
+            "longdesc": "People know you. In fact, there's a good chance that they see you on a regular basis. You're an X-caster, a blogger, a  famous MARG gamer, a pundit, a performer, the spokesperson for a brand, an athlete, or some other form of celebrity.  ",
             "motivations": {
                 "positive": ["fame", "artistic expression", "personal career"],
                 "negative": []
@@ -570,7 +570,7 @@
             }
         },
         "hyperelite scion": {
-            "longdesc": "You were born into the wealth and privilege that financed transhumanity's expansion into space. It is your family\nname, rather than any talent or achievement, that makes you well known and in demand at social events.\n",
+            "longdesc": "You were born into the wealth and privilege that financed transhumanity's expansion into space. It is your family name, rather than any talent or achievement, that makes you well known and in demand at social events. ",
             "motivations": {
                 "positive": ["family", "hypercapitalism", "wealth"],
                 "negative": []
@@ -620,7 +620,7 @@
             }
         },
         "indenture": {
-            "longdesc": "You either won a lottery for the poor, where the prize was to go off-world, or you died during the Fall. Either way,\nyou found yourself working away in virtual slavery to a hypercorp. You worked hard constructing habitats, mining\nasteroids, or terraforming Mars.\n",
+            "longdesc": "You either won a lottery for the poor, where the prize was to go off-world, or you died during the Fall. Either way, you found yourself working away in virtual slavery to a hypercorp. You worked hard constructing habitats, mining asteroids, or terraforming Mars. ",
             "motivations": {
                 "positive": ["hard work", "survival"],
                 "negative": ["hypercorps", "indentured service"]
@@ -666,7 +666,7 @@
             }
         },
         "infolife emergent uplift": {
-            "longdesc": "You were a smart program on the verge of emergence when the programmers reshaped you, encoded you with\ntranshuman values and modes of thinking, and uplifted you to machine sapience. You possess a number of quirks that\nmake you stand out from traditionally programmed AGIs.\n",
+            "longdesc": "You were a smart program on the verge of emergence when the programmers reshaped you, encoded you with transhuman values and modes of thinking, and uplifted you to machine sapience. You possess a number of quirks that make you stand out from traditionally programmed AGIs. ",
             "motivations": {
                 "positive": ["agi rights", "mercurial cause"],
                 "negative": []
@@ -716,7 +716,7 @@
             }
         },
         "infolife humanities agi": {
-            "longdesc": "You were designed to understand and interact with humans. Your programming is optimized for tasks such as personal assistance, marketing, caretaking, and psychology.\n",
+            "longdesc": "You were designed to understand and interact with humans. Your programming is optimized for tasks such as personal assistance, marketing, caretaking, and psychology. ",
             "motivations": {
                 "positive": ["agi rights", "personal development", "philanthropy"],
                 "negative": []
@@ -767,7 +767,7 @@
             }
         },
         "infolife machine agi": {
-            "longdesc": "What understands machines better than a machine mind? Your code is focused on interacting and controlling software and hardware so that humans don't have to.\n",
+            "longdesc": "What understands machines better than a machine mind? Your code is focused on interacting and controlling software and hardware so that humans don't have to. ",
             "motivations": {
                 "positive": ["agi rights", "sousveillance", "thrill seeking"],
                 "negative": ["disorganization"]
@@ -817,7 +817,7 @@
             }
         },
         "infolife research agi": {
-            "longdesc": "Your software predecessors were programmed to gather and analyze data, assist in scientific projects, and conduct\nexperiments on their own. AIs such as yourself are valued members of research projects, universities, and data analysis\nhypercorps.\n",
+            "longdesc": "Your software predecessors were programmed to gather and analyze data, assist in scientific projects, and conduct experiments on their own. AIs such as yourself are valued members of research projects, universities, and data analysis hypercorps. ",
             "motivations": {
                 "positive": ["agi rights", "education", "research"],
                 "negative": []
@@ -865,7 +865,7 @@
             }
         },
         "isolate seperatist": {
-            "longdesc": "As happened many times throughout history, groups facing persecution fled to new territories where they could\npractice their beliefs in peace. You hail from one of these groups that traveled to the isolated reaches of the system to\nfind a place they could worship, experiment, or simply exist away from prying or hostile neighbors. As a result of your\npeoples' self-imposed isolation, you've learned to be far more self-sufficient than most.\n",
+            "longdesc": "As happened many times throughout history, groups facing persecution fled to new territories where they could practice their beliefs in peace. You hail from one of these groups that traveled to the isolated reaches of the system to find a place they could worship, experiment, or simply exist away from prying or hostile neighbors. As a result of your peoples' self-imposed isolation, you've learned to be far more self-sufficient than most. ",
             "motivations": {
                 "positive": ["bioconservatism", "religion", "artistic expression", "research"],
                 "negative": []
@@ -915,7 +915,7 @@
             }
         },
         "isolate survivalist": {
-            "longdesc": "Your family feared trouble on Earth, so they established a bunker off-world. They were right. Now they fear that\ntrouble may return and engulf the entire solar system.\n",
+            "longdesc": "Your family feared trouble on Earth, so they established a bunker off-world. They were right. Now they fear that trouble may return and engulf the entire solar system. ",
             "motivations": {
                 "positive": ["bioconservatism", "religion", "survival"],
                 "negative": ["autonomists"]
@@ -964,7 +964,7 @@
             }
         },
         "lost disturbed child": {
-            "longdesc": "The Lost project unwittingly created a generation of monsters. You are among the odd, deranged, twisted, psychotic,\nand powerful examples that escaped.\n",
+            "longdesc": "The Lost project unwittingly created a generation of monsters. You are among the odd, deranged, twisted, psychotic, and powerful examples that escaped. ",
             "motivations": {
                 "positive": ["neurodiversity", "sadism", "vengance"],
                 "negative": ["research"]
@@ -1021,7 +1021,7 @@
             }
         },
         "lost masked normalcy": {
-            "longdesc": "You survived the Lost project damaged but intact-or at least able to mask your inner demons from others. You are not\nas gifted-or as explosive-an async as some of the others, but you are also better at keeping yourself under control.\n",
+            "longdesc": "You survived the Lost project damaged but intact-or at least able to mask your inner demons from others. You are not as gifted-or as explosive-an async as some of the others, but you are also better at keeping yourself under control. ",
             "motivations": {
                 "positive": ["acceptance", "privacy", "self control"],
                 "negative": []
@@ -1071,7 +1071,7 @@
             }
         },
         "original scum": {
-            "longdesc": "More than just a drifter, you were a pioneer in the pursuit for morphological freedom.\n",
+            "longdesc": "More than just a drifter, you were a pioneer in the pursuit for morphological freedom. ",
             "motivations": {
                 "positive": ["anarchism", "hedonism", "indivualism", "morphological freedom"],
                 "negative": []
@@ -1118,7 +1118,7 @@
             }
         },
         "reinstantiated civilian casualty": {
-            "longdesc": "You died during the Fall. Either the TITAN machines overwhelmed your area or you fell victim to transhumanity's\n own use of WMDs or savage infighting. You might not even know how you died, as you were recovered from a\nbackup transmitted off-world. However it went down, it wasn't an experience you'd care to repeat. Luckily, you were\n resleeved quickly.\n",
+            "longdesc": "You died during the Fall. Either the TITAN machines overwhelmed your area or you fell victim to transhumanity's  own use of WMDs or savage infighting. You might not even know how you died, as you were recovered from a backup transmitted off-world. However it went down, it wasn't an experience you'd care to repeat. Luckily, you were  resleeved quickly. ",
             "motivations": {
                 "positive": ["reclaiming earth", "survival"],
                 "negative": ["titan tech"]
@@ -1166,7 +1166,7 @@
             }
         },
         "reinstantiated infomorph": {
-            "longdesc": "After your death during the Fall, you spent a substantial period of time in VR worlds before you were eventually resleeved.\n",
+            "longdesc": "After your death during the Fall, you spent a substantial period of time in VR worlds before you were eventually resleeved. ",
             "motivations": {
                 "positive": ["reclaiming earth", "survival", "virtual reality"],
                 "negative": ["titans", "virtual reality"]
@@ -1214,7 +1214,7 @@
             }
         },
         "reinstantiated military casualty": {
-            "longdesc": "You were killed during the Fall. You may have fallen during a sneak attack, died fighting the TITAN machines on the\nfront lines, or even been murdered by fellow humans as you tried to keep order in transhumanity's darkest hours. At\nleast your sacrifice was rewarded by a quick resleeving.\n",
+            "longdesc": "You were killed during the Fall. You may have fallen during a sneak attack, died fighting the TITAN machines on the front lines, or even been murdered by fellow humans as you tried to keep order in transhumanity's darkest hours. At least your sacrifice was rewarded by a quick resleeving. ",
             "motivations": {
                 "positive": ["reclaiming earth", "survival"],
                 "negative": ["titans"]
@@ -1264,7 +1264,7 @@
             }
         },
         "street rat": {
-            "longdesc": "You were raised in a gang, syndicate family, or cartel workforce. You are used to the ways of violence and routing\naround the law.\n",
+            "longdesc": "You were raised in a gang, syndicate family, or cartel workforce. You are used to the ways of violence and routing around the law. ",
             "motivations": {
                 "positive": ["cartel/gang/family", "black markets", "survival", "wealth"],
                 "negative": ["law and order", "police"]
@@ -1313,7 +1313,7 @@
             }
         },
         "uplift escapee": {
-            "longdesc": "Though you are as intelligent as a human, you were born and raised as a second-class citizen, corporate property, or\nworse: a test subject. Somehow you escaped or were liberated, and now you try to find yourself in a galaxy that often\nseems out to get you.\n ",
+            "longdesc": "Though you are as intelligent as a human, you were born and raised as a second-class citizen, corporate property, or worse: a test subject. Somehow you escaped or were liberated, and now you try to find yourself in a galaxy that often seems out to get you.  ",
             "motivations": {
                 "positive": ["privacy", "uplift rights", "survival"],
                 "negative": ["hypercorps", "uplift slavery"]
@@ -1363,7 +1363,7 @@
             }
         },
         "uplift feral": {
-            "longdesc": "The uplift process did not 'humanize' you as much as other uplifts. Your natural instincts dominate your behavior far\nmore than any attempts to socialize you to human norms.\n",
+            "longdesc": "The uplift process did not 'humanize' you as much as other uplifts. Your natural instincts dominate your behavior far more than any attempts to socialize you to human norms. ",
             "motivations": {
                 "positive": ["mercurial cause", "uplift rights", "survival"],
                 "negative": ["hypercorps", "uplift slavery"]
@@ -1408,7 +1408,7 @@
             }
         },
         "uplift standard specimen": {
-            "longdesc": "Though you must deal with prejudice, you are proof of the success of transhumanity's uplift project.\n",
+            "longdesc": "Though you must deal with prejudice, you are proof of the success of transhumanity's uplift project. ",
             "motivations": {
                 "positive": ["mercurial cause", "uplift rights", "sapient cause"],
                 "negative": ["uplift slavery"]
@@ -1462,7 +1462,7 @@
     },
     "faction": {
        "anarchist": {
-           "longdesc": "You've allied yourself with one of the many anarchist collectives working towards greater freedoms and independence.\n",
+           "longdesc": "You've allied yourself with one of the many anarchist collectives working towards greater freedoms and independence. ",
             "motivations": {
                 "positive": ["community", "anarchism", "liberty", "morphological freedom"],
                 "negative": ["hypercapitalism", "authority"]
@@ -1490,7 +1490,7 @@
             } 
         },
        "argonaut": {
-           "longdesc": "Scientific progress can be a two-edged sword. The fact that the argonauts embrace both the wonder and the dangers\nof new technologies and work towards their responsible use is one of the reasons you joined up.\n",
+           "longdesc": "Scientific progress can be a two-edged sword. The fact that the argonauts embrace both the wonder and the dangers of new technologies and work towards their responsible use is one of the reasons you joined up. ",
             "motivations": {
                 "positive": ["open source", "research", "technoprogressivism"],
                 "negative": []
@@ -1517,7 +1517,7 @@
             } 
         },
         "barsoomian": {
-            "longdesc": "Your times among the rural folk and nomads of Mars convinced you that Mars needs to be liberated from the hypercorps.\n",
+            "longdesc": "Your times among the rural folk and nomads of Mars convinced you that Mars needs to be liberated from the hypercorps. ",
             "motivations": {
                 "positive": ["anarchism", "barsoomian movement", "community", "technoprogressivism"],
                 "negative": ["hypercorps"]
@@ -1545,7 +1545,7 @@
             } 
         },
         "belter": {
-            "longdesc": "You hail from the lawless frontier of the Main Belt, home to miners, pirates, exiles, and outcasts of every stripe.\n",
+            "longdesc": "You hail from the lawless frontier of the Main Belt, home to miners, pirates, exiles, and outcasts of every stripe. ",
             "motivations": {
                 "positive": ["morphological freedom", "hypercapitalism", "extropianism"],
                 "negative": []
@@ -1573,7 +1573,7 @@
             } 
         },
         "bioconservative": {
-            "longdesc": "You think the ideology of transhumanism is dubious and suspect at best, and may in fact pose an extinction threat to\n the human species.\n",
+            "longdesc": "You think the ideology of transhumanism is dubious and suspect at best, and may in fact pose an extinction threat to  the human species. ",
             "motivations": {
                 "positive": ["religion", "bioconservatism"],
                 "negative": ["agi rights", "uplift rights", "x-risks"]
@@ -1599,7 +1599,7 @@
             } 
         },
         "brinker": {
-            "longdesc": "Some folk just aren't all that fond of too many other folk. Being in space and having to live cheek-to-jowl with others\nmakes it kinda hard. Your fellow brinkers understand you need a little 'me space' to go along with 'me time.'\n",
+            "longdesc": "Some folk just aren't all that fond of too many other folk. Being in space and having to live cheek-to-jowl with others makes it kinda hard. Your fellow brinkers understand you need a little 'me space' to go along with 'me time.' ",
             "motivations": {
                 "positive": ["religion", "self reliance", "solitude", "privacy", "exhumanism", "bioconservatism"],
                 "negative": []
@@ -1625,7 +1625,7 @@
             } 
         },
         "criminal": {
-            "longdesc": "As long as there are people there will always be rules, and where there are rules there are opportunities to make a\ntidy profit providing the sorts of things those rules prohibit. You prefer to think of yourself as a facilitator for those\nwho want to get around these restrictions.\n",
+            "longdesc": "As long as there are people there will always be rules, and where there are rules there are opportunities to make a tidy profit providing the sorts of things those rules prohibit. You prefer to think of yourself as a facilitator for those who want to get around these restrictions. ",
             "motivations": {
                 "positive": ["survival", "wealth", "thrill seeking"],
                 "negative": ["law and order"]
@@ -1652,7 +1652,7 @@
             } 
         },
         "europan": {
-            "longdesc": "You hail from the aquatic depths and under-ice habitats of Europa.\n",
+            "longdesc": "You hail from the aquatic depths and under-ice habitats of Europa. ",
             "motivations": {
                 "positive": ["exploration", "morphological freedom", "uplift rights"],
                 "negative": ["bioconservatism"]
@@ -1679,7 +1679,7 @@
             } 
         },
         "exhuman": {
-            "longdesc": "You are a supporter of discarding humanity's genetic shackles and elevating yourself to a newer, improved\nphysical form.\n",
+            "longdesc": "You are a supporter of discarding humanity's genetic shackles and elevating yourself to a newer, improved physical form. ",
             "motivations": {
                 "positive": ["exhumanism", "morphological freedom", "personal development", "research"],
                 "negative": []
@@ -1705,7 +1705,7 @@
             } 
         },
         "extropian": {
-            "longdesc": "You are an Extropian because you believe in the unfettered potential of transhumanity. Too many saw the Fall as a\ncautionary tale to slow down or even stop entirely, but you believe that the only way for transhumanity to survive is\nforwards and upwards to greater things.\n",
+            "longdesc": "You are an Extropian because you believe in the unfettered potential of transhumanity. Too many saw the Fall as a cautionary tale to slow down or even stop entirely, but you believe that the only way for transhumanity to survive is forwards and upwards to greater things. ",
             "motivations": {
                 "positive": ["extropianism", "morphological freedom", "personal development"],
                 "negative": ["bioconservatism"]
@@ -1731,7 +1731,7 @@
             } 
         },
         "hypercorp": {
-            "longdesc": "The Fall upset the natural ebb and flow of trade and innovation in such a way that transhumanity is just starting to\nrecover. Some fools believe that the Fall was a sign that old systems and practices needed to be changed, but people\nlike a sense of continuity. They like having their consumer goods and regular mesh programming, and that's what the\nhypercorps give them, a link to a shared human experience.\n",
+            "longdesc": "The Fall upset the natural ebb and flow of trade and innovation in such a way that transhumanity is just starting to recover. Some fools believe that the Fall was a sign that old systems and practices needed to be changed, but people like a sense of continuity. They like having their consumer goods and regular mesh programming, and that's what the hypercorps give them, a link to a shared human experience. ",
             "motivations": {
                 "positive": ["hypercapitalism", "stability", "wealth"],
                 "negative": ["anarchism", "agi rights", "uplift rights"]
@@ -1757,7 +1757,7 @@
             } 
         },
         "jovian": {
-            "longdesc": "You are one of the last remnants of true humanity in the galaxy. The rest of these so-called transhumans have allowed\nthemselves to become corrupted by the machines that brought about the fall of humanity and forced the evacuation\nof Earth. It is up to you and your fellows to make sure humanity survives.\n",
+            "longdesc": "You are one of the last remnants of true humanity in the galaxy. The rest of these so-called transhumans have allowed themselves to become corrupted by the machines that brought about the fall of humanity and forced the evacuation of Earth. It is up to you and your fellows to make sure humanity survives. ",
             "motivations": {
                 "positive": ["jovian republic", "bioconservatism"],
                 "negative": ["transhumanism", "agi rights", "uplift rights"]
@@ -1786,7 +1786,7 @@
             } 
         },
         "lunar": {
-            "longdesc": "Earth's moon is one of the last bastions of Earth culture, where old traditions are still respected. The rest of the system\nlooks to Luna for the latest in trends and fashions, and you are proud to be on the cutting edge of style.\n",
+            "longdesc": "Earth's moon is one of the last bastions of Earth culture, where old traditions are still respected. The rest of the system looks to Luna for the latest in trends and fashions, and you are proud to be on the cutting edge of style. ",
             "motivations": {
                 "positive": ["bioconservatism", "hypercapitalism", "reclaiming earth", "preserving traditons"],
                 "negative": []
@@ -1813,7 +1813,7 @@
             } 
         },
         "mercurial infolife": {
-            "longdesc": "You oppose the assimilation of AGIs into transhumanity, believing that each intelligence should forge their own path\nand culture.\n",
+            "longdesc": "You oppose the assimilation of AGIs into transhumanity, believing that each intelligence should forge their own path and culture. ",
             "motivations": {
                 "positive": ["mercurial cause", "agi rights"],
                 "negative": ["assimilation", "bioconservatism", "sapient cause"]
@@ -1840,7 +1840,7 @@
             } 
         },
         "mercurial uplift": {
-            "longdesc": "You oppose the assimilation of uplifts into transhumanity, believing that each intelligence should forge their own\n path and culture.\n",
+            "longdesc": "You oppose the assimilation of uplifts into transhumanity, believing that each intelligence should forge their own  path and culture. ",
             "motivations": {
                 "positive": ["mercurial cause", "uplift rights"],
                 "negative": ["assimilation", "bioconservatism", "sapient cause"]
@@ -1867,7 +1867,7 @@
             } 
         },
         "nano ecologist": {
-            "longdesc": "You support the use of nanotechnology as a less-invasive means of terraforming and transforming alien worlds.\n",
+            "longdesc": "You support the use of nanotechnology as a less-invasive means of terraforming and transforming alien worlds. ",
             "motivations": {
                 "positive": ["exploration", "nano-ecology", "research", "technoprogressivism"],
                 "negative": []
@@ -1893,7 +1893,7 @@
             } 
         },
         "orbital": {
-            "longdesc": "Living in orbit above Earth, among a melting pot of transhumanity's displaced cultures, you look down upon a daily\nreminder of our species' failures.\n",
+            "longdesc": "Living in orbit above Earth, among a melting pot of transhumanity's displaced cultures, you look down upon a daily reminder of our species' failures. ",
             "motivations": {
                 "positive": ["bioconservatism", "reclaiming earth", "precautionism"],
                 "negative": ["agi rights"]
@@ -1921,7 +1921,7 @@
             } 
         },
         "outster": {
-            "longdesc": "You are a denizen of the dark depths of space in the outer Kuiper Belt, delving into your own virtual worlds.\n",
+            "longdesc": "You are a denizen of the dark depths of space in the outer Kuiper Belt, delving into your own virtual worlds. ",
             "motivations": {
                 "positive": ["agi rights", "exploration", "morphological freedom", "research"],
                 "negative": []
@@ -1948,7 +1948,7 @@
             } 
         },
         "precautionist": {
-            "longdesc": "You adhere to the Precautionary Principle, believing that the only technology to be adopted should be that which is\nfirst proven safe.\n",
+            "longdesc": "You adhere to the Precautionary Principle, believing that the only technology to be adopted should be that which is first proven safe. ",
             "motivations": {
                 "positive": ["reclaiming earth", "precautionism"],
                 "negative": ["bioconservatism", "technoprogressivism"]
@@ -1971,7 +1971,7 @@
             } 
         },
         "preservationist": {
-            "longdesc": "You believe that alien worlds must be protected from contamination and that transhumanity is recklessly despoiling\nthousands of exoplanets as it expands through the gates.\n",
+            "longdesc": "You believe that alien worlds must be protected from contamination and that transhumanity is recklessly despoiling thousands of exoplanets as it expands through the gates. ",
             "motivations": {
                 "positive": ["research", "preservationism", "environmentalism"],
                 "negative": ["gatecrashing", "nano-ecology"]
@@ -1998,7 +1998,7 @@
             } 
         },
         "reclaimer": {
-            "longdesc": "You are dedicated to rescuing your species' homeworld from the ruin engulfing it.\n",
+            "longdesc": "You are dedicated to rescuing your species' homeworld from the ruin engulfing it. ",
             "motivations": {
                 "positive": ["reclaiming earth", "bioconservatism"],
                 "negative": ["agi rights"]
@@ -2026,7 +2026,7 @@
             } 
         },
         "ringer": {
-            "longdesc": "You have soared on the solar wind through Saturn's rings and called its many moons your home.\n",
+            "longdesc": "You have soared on the solar wind through Saturn's rings and called its many moons your home. ",
             "motivations": {
                 "positive": ["exploration", "research", "personal development", "morphological freedom"],
                 "negative": []
@@ -2054,7 +2054,7 @@
             } 
         },
         "sapient": {
-            "longdesc": "You support the full assimilation of uplifts and AGIs into transhumanity.\n",
+            "longdesc": "You support the full assimilation of uplifts and AGIs into transhumanity. ",
             "motivations": {
                 "positive": ["agi rights", "sapient cause", "uplift rights"],
                 "negative": ["bioconservatism"]
@@ -2081,7 +2081,7 @@
             } 
         },
         "scum": {
-            "longdesc": "You proudly call the exotic, edgy, and lawless ships of a scum swarm your home.\n",
+            "longdesc": "You proudly call the exotic, edgy, and lawless ships of a scum swarm your home. ",
             "motivations": {
                 "positive": ["anarchism", "hedonism", "indivualism", "morphological freedom"],
                 "negative": []
@@ -2108,7 +2108,7 @@
             } 
         },
         "sifter": {
-            "longdesc": "You worked the mobile mining operations on Mercury's scorched surface.\n",
+            "longdesc": "You worked the mobile mining operations on Mercury's scorched surface. ",
             "motivations": {
                 "positive": ["hard work", "mercurian independence"],
                 "negative": ["hypercapitalism"]
@@ -2136,7 +2136,7 @@
             } 
         },
         "singularity seeker": {
-            "longdesc": "You seek the means to ascend your ego to god-like levels of intelligence, by any means necessary.\n",
+            "longdesc": "You seek the means to ascend your ego to god-like levels of intelligence, by any means necessary. ",
             "motivations": {
                 "positive": ["exploration", "morphological freedom", "personal development", "research"],
                 "negative": []
@@ -2162,7 +2162,7 @@
             } 
         },
         "skimmer": {
-            "longdesc": "You have raced the winds in the upper clouds of the ice giants.\n",
+            "longdesc": "You have raced the winds in the upper clouds of the ice giants. ",
             "motivations": {
                 "positive": ["independence", "hard work", "thrill seeking"],
                 "negative": []
@@ -2188,7 +2188,7 @@
             } 
         },
         "socialite": {
-            "longdesc": "Whether you are an undying oligarch, a young wealthy heir destined never to climb the ladder, or a self-made\nentrepreneur or celebrity, you love the social life and glitterati spotlight.\n",
+            "longdesc": "Whether you are an undying oligarch, a young wealthy heir destined never to climb the ladder, or a self-made entrepreneur or celebrity, you love the social life and glitterati spotlight. ",
             "motivations": {
                 "positive": ["artistic expression", "fame", "hypercapitalism", "wealth"],
                 "negative": ["anarchism"]
@@ -2215,7 +2215,7 @@
             } 
         },
         "solarian": {
-            "longdesc": "You have skated the magnetic fields in the sun's corona with your pack of surya.\n",
+            "longdesc": "You have skated the magnetic fields in the sun's corona with your pack of surya. ",
             "motivations": {
                 "positive": ["exploration", "research", "personal development", "morphological freedom"],
                 "negative": []
@@ -2241,7 +2241,7 @@
             } 
         },
         "titanian": {
-            "longdesc": "You consider Titan's technosocialist cyberdemocracy the best path forward for transhumanity's future.\n",
+            "longdesc": "You consider Titan's technosocialist cyberdemocracy the best path forward for transhumanity's future. ",
             "motivations": {
                 "positive": ["research", "technosocialism"],
                 "negative": ["bioconservatism", "hypercapitalism"]
@@ -2267,7 +2267,7 @@
             } 
         },
         "ultimate": {
-            "longdesc": "You pursue the pinnacles of transhuman achievement, physically, mentally, and spiritually.\n",
+            "longdesc": "You pursue the pinnacles of transhuman achievement, physically, mentally, and spiritually. ",
             "motivations": {
                 "positive": ["ultimates", "hypercapitalism", "personal development"],
                 "negative": ["bioconservatism"]
@@ -2294,7 +2294,7 @@
             } 
         },
         "venusian": {
-            "longdesc": "You call the aerostats of the Venusian clouds your home.\n",
+            "longdesc": "You call the aerostats of the Venusian clouds your home. ",
             "motivations": {
                 "positive": ["uplift rights", "hypercapitalism", "personal development"],
                 "negative": []
@@ -2324,7 +2324,7 @@
     },
     "focus": {
         "academic": {
-            "longdesc": "You devote your efforts to the pursuit of knowledge.\n",
+            "longdesc": "You devote your efforts to the pursuit of knowledge. ",
             "motivations": {
                 "positive": ["education", "open source", "personal career", "personal development"],
                 "negative": []
@@ -2363,7 +2363,7 @@
             }
         },
         "activist": {
-            "longdesc": "You fight for a cause that you fervently believe in. You are an active member of a group like the anti-assimilationist mercurials, anti-technology bioconservatives, pro-privacy Datacide, Luna's Steel Liberators, Venus's VTP, Mars's Barsoomians, or\nTitan's Oligarchs.\n",
+            "longdesc": "You fight for a cause that you fervently believe in. You are an active member of a group like the anti-assimilationist mercurials, anti-technology bioconservatives, pro-privacy Datacide, Luna's Steel Liberators, Venus's VTP, Mars's Barsoomians, or Titan's Oligarchs. ",
             "motivations": {
                 "positive": ["bioconservatism", "mercurial cause", "privacy", "terraforming", "venusian sovereignity"],
                 "negative": []
@@ -2413,7 +2413,7 @@
             }
         },
         "assassin": {
-            "longdesc": "Death doesn't have the impact it used to, but sometimes it's enough to simply get someone out of the way for a little while.\n",
+            "longdesc": "Death doesn't have the impact it used to, but sometimes it's enough to simply get someone out of the way for a little while. ",
             "motivations": {
                 "positive": ["personal career", "survival", "privacy"],
                 "negative": []
@@ -2458,7 +2458,7 @@
             }
         },
         "bodyguard": {
-            "longdesc": "You protect your clients from harm and the stress and inconvenience of death. More often, you protect them from pestering fans, activists, or others that seek their attention.\n",
+            "longdesc": "You protect your clients from harm and the stress and inconvenience of death. More often, you protect them from pestering fans, activists, or others that seek their attention. ",
             "motivations": {
                 "positive": ["duty", "survival", "privacy"],
                 "negative": []
@@ -2502,7 +2502,7 @@
             }
         },
         "bot jammer": {
-            "longdesc": "Why resleeve when you can jam? You can field bots for every situation, like a mechanical puppetmaster.\n",
+            "longdesc": "Why resleeve when you can jam? You can field bots for every situation, like a mechanical puppetmaster. ",
             "motivations": {
                 "positive": ["diy", "maker movement", "thrill seeking"],
                 "negative": []
@@ -2544,7 +2544,7 @@
             }
         },
         "combat async": {
-            "longdesc": "Your psi abilities have been honed to a killing edge.\n",
+            "longdesc": "Your psi abilities have been honed to a killing edge. ",
             "motivations": {
                 "positive": ["neurodiversity", "self control", "survival"],
                 "negative": ["bloodlust"]
@@ -2595,7 +2595,7 @@
             }
         },
         "con artist": {
-            "longdesc": "You excel at working your way into people's confidence and turning that against them.\n",
+            "longdesc": "You excel at working your way into people's confidence and turning that against them. ",
             "motivations": {
                 "positive": ["privacy", "survival", "vice"],
                 "negative": []
@@ -2641,7 +2641,7 @@
             }
         },
         "controller async": {
-            "longdesc": "Your infection enables you to invade and influence the minds of others.\n",
+            "longdesc": "Your infection enables you to invade and influence the minds of others. ",
             "motivations": {
                 "positive": ["neurodiversity", "self control", "exploration"],
                 "negative": []
@@ -2690,7 +2690,7 @@
             }
         },
         "covert ops": {
-            "longdesc": "You are skilled at sneaking into places you don't belong for high-threat missions.\n",
+            "longdesc": "You are skilled at sneaking into places you don't belong for high-threat missions. ",
             "motivations": {
                 "positive": ["explosions", "survival"],
                 "negative": ["titan tech"]
@@ -2736,7 +2736,7 @@
             }
         },
         "dealer": {
-            "longdesc": "You are a free trader, black marketeer, or hypercorp salesperson. You have what it takes to close the deal.\n",
+            "longdesc": "You are a free trader, black marketeer, or hypercorp salesperson. You have what it takes to close the deal. ",
             "motivations": {
                 "positive": ["hard work", "hypercapitalism", "personal career"],
                 "negative": []
@@ -2779,7 +2779,7 @@
             }
         },
         "ego hunter": {
-            "longdesc": "You specialize in tracking people down who don't want to be found, no matter what morph they are currently sleeved in.\n",
+            "longdesc": "You specialize in tracking people down who don't want to be found, no matter what morph they are currently sleeved in. ",
             "motivations": {
                 "positive": ["justice", "self reliance", "the hunt"],
                 "negative": []
@@ -2825,7 +2825,7 @@
             }
         },
         "enforcer": {
-            "longdesc": "In basic terms, you're a thug, no matter if you work for a hypercorp, cartel head, or habitat overseer.\n",
+            "longdesc": "In basic terms, you're a thug, no matter if you work for a hypercorp, cartel head, or habitat overseer. ",
             "motivations": {
                 "positive": ["stability", "self reliance", "fascism", "cartel growth"],
                 "negative": []
@@ -2870,7 +2870,7 @@
             }
         },
         "explorer": {
-            "longdesc": "While others have to wait for months or years to get even a whiff of a Pandora Gate or one of the rare artifacts retrieved\nby gatecrashers, you've walked on alien worlds and maybe even held alien technology in your own hands.\n",
+            "longdesc": "While others have to wait for months or years to get even a whiff of a Pandora Gate or one of the rare artifacts retrieved by gatecrashers, you've walked on alien worlds and maybe even held alien technology in your own hands. ",
             "motivations": {
                 "positive": ["alien contact", "education", "exploration", "survival"],
                 "negative": []
@@ -2919,7 +2919,7 @@
             }
         },
         "face": {
-            "longdesc": "You have what it takes to deal with people and make them think they're getting what they want while you have them\nwrapped around your finger.\n",
+            "longdesc": "You have what it takes to deal with people and make them think they're getting what they want while you have them wrapped around your finger. ",
             "motivations": {
                 "positive": ["fame", "hedonism", "personal career", "thrill seeking"],
                 "negative": []
@@ -2963,7 +2963,7 @@
             }
         },
         "genehacker": {
-            "longdesc": "You're a biohacker. You meddle with genetics and biotechnology to see what you can create, to improve life and help\novercome biological flaws, or simply to keep your biological future in your own hands.\n",
+            "longdesc": "You're a biohacker. You meddle with genetics and biotechnology to see what you can create, to improve life and help overcome biological flaws, or simply to keep your biological future in your own hands. ",
             "motivations": {
                 "positive": ["artistic expression", "research", "morphological freedom", "science", "uplift rights"],
                 "negative": []
@@ -3004,7 +3004,7 @@
             }
         },
         "hacker": {
-            "longdesc": "Processes on the mesh heed your beck and call, whether you seek to penetrate systems or protect them.\n",
+            "longdesc": "Processes on the mesh heed your beck and call, whether you seek to penetrate systems or protect them. ",
             "motivations": {
                 "positive": ["open source", "owning systems", "thrill seeking"],
                 "negative": ["hackers"]
@@ -3051,7 +3051,7 @@
             }
         },
         "icon": {
-            "longdesc": "You are an artist, x-caster, socialite, or other person who has attracted a fan base.\n",
+            "longdesc": "You are an artist, x-caster, socialite, or other person who has attracted a fan base. ",
             "motivations": {
                 "positive": ["fame", "hedonism", "personal career", "thrill seeking", "art"],
                 "negative": []
@@ -3097,7 +3097,7 @@
             }
         },
         "investigator": {
-            "longdesc": "Your sleuthing skills include old-school detective work and modern data retrieval. You might be a private investigator, a\npolice detective, or an insurance claim agent.\n",
+            "longdesc": "Your sleuthing skills include old-school detective work and modern data retrieval. You might be a private investigator, a police detective, or an insurance claim agent. ",
             "motivations": {
                 "positive": ["self reliance", "the hunt"],
                 "negative": []
@@ -3142,7 +3142,7 @@
             }
         },
         "journo": {
-            "longdesc": "You are a walking recorder, seeking out the news and broadcasting what you find to the mesh.\n",
+            "longdesc": "You are a walking recorder, seeking out the news and broadcasting what you find to the mesh. ",
             "motivations": {
                 "positive": ["sousveillance", "transparency"],
                 "negative": ["censorship"]
@@ -3188,7 +3188,7 @@
             }
         },
         "medic": {
-            "longdesc": "You are a biotech specialist\n",
+            "longdesc": "You are a biotech specialist ",
             "motivations": {
                 "positive": ["helping others"],
                 "negative": ["violance"]
@@ -3231,7 +3231,7 @@
             }
         },
         "pirate": {
-            "longdesc": "Traveling wasn't something you did because you wanted to see new places and people. More often than not, you needed\nto skip out of a habitat to avoid arrest. Soon enough, your talent at evading authorities was parlayed into a more profitable career 'liberating' cargo from automated haulers and finding the best place to sell the goods.\n",
+            "longdesc": "Traveling wasn't something you did because you wanted to see new places and people. More often than not, you needed to skip out of a habitat to avoid arrest. Soon enough, your talent at evading authorities was parlayed into a more profitable career 'liberating' cargo from automated haulers and finding the best place to sell the goods. ",
             "motivations": {
                 "positive": ["survival", "thrill seeking", "wealth"],
                 "negative": ["authority"]
@@ -3283,7 +3283,7 @@
             }
         },
         "psychosurgeon": {
-            "longdesc": "You help people stay sane and/or be whatever they want to be in their mind.\n",
+            "longdesc": "You help people stay sane and/or be whatever they want to be in their mind. ",
             "motivations": {
                 "positive": ["helping others", "neurodiversity"],
                 "negative": ["madness"]
@@ -3327,7 +3327,7 @@
             }
         },
         "savant async": {
-            "longdesc": "Your infection gives you mental abilities beyond the reach of other transhumans.\n",
+            "longdesc": "Your infection gives you mental abilities beyond the reach of other transhumans. ",
             "motivations": {
                 "positive": ["neurodiversity", "self control", "personal development", "introspection"],
                 "negative": []
@@ -3378,7 +3378,7 @@
             }
         },
         "scanner async": {
-            "longdesc": "Your mind is altered in a way that provides you with preternatural senses.\n",
+            "longdesc": "Your mind is altered in a way that provides you with preternatural senses. ",
             "motivations": {
                 "positive": ["neurodiversity", "self control", "exploration", "personal development"],
                 "negative": []
@@ -3425,7 +3425,7 @@
             }
         },
         "scavenger": {
-            "longdesc": "The universe can be a hard place for those who are too different. This means that many traditional jobs are denied to\nthese kinds of people and they must find other ways of getting by, such as scavenging and taking odd jobs for meager\namounts of credit or the promise of a favor later on.\n",
+            "longdesc": "The universe can be a hard place for those who are too different. This means that many traditional jobs are denied to these kinds of people and they must find other ways of getting by, such as scavenging and taking odd jobs for meager amounts of credit or the promise of a favor later on. ",
             "motivations": {
                 "positive": ["survival", "wealth"],
                 "negative": ["authority"]
@@ -3469,7 +3469,7 @@
             }
         },
         "scientist": {
-            "longdesc": "You seek to understand how the universe works-or at least certain elements of it.\n",
+            "longdesc": "You seek to understand how the universe works-or at least certain elements of it. ",
             "motivations": {
                 "positive": ["science", "research", "technoprogressivism"],
                 "negative": ["bioconservatism"]
@@ -3513,7 +3513,7 @@
             }
         },
         "smart animal handler": {
-            "longdesc": "You raise and care for the smart animals that are a vital part of many transhuman settlements.\n",
+            "longdesc": "You raise and care for the smart animals that are a vital part of many transhuman settlements. ",
             "motivations": {
                 "positive": ["research", "nano-ecology", "uplift rights"],
                 "negative": []
@@ -3558,7 +3558,7 @@
             }
         },
         "smuggler": {
-            "longdesc": "There is an art to getting unapproved merchandise into and out of high security habitats, and you are a virtuoso. Even\ninner system habs hold restrictive views on unfettered capitalism. You don't consider yourself a criminal so much as a\nsubtle expediter of market forces, an angel of supply come to make a bargain with the devil of demand.\n",
+            "longdesc": "There is an art to getting unapproved merchandise into and out of high security habitats, and you are a virtuoso. Even inner system habs hold restrictive views on unfettered capitalism. You don't consider yourself a criminal so much as a subtle expediter of market forces, an angel of supply come to make a bargain with the devil of demand. ",
             "motivations": {
                 "positive": ["survival", "wealth", "personal career"],
                 "negative": ["authority"]
@@ -3603,7 +3603,7 @@
             }
         },
         "soldier": {
-            "longdesc": "You served as a soldier for a pre-Fall nation-state, hypercorp, or habitat polity, or you worked as a mercenary-for-hire-or\nyou simply were forced to take up arms as a conflict erupted around you.\n",
+            "longdesc": "You served as a soldier for a pre-Fall nation-state, hypercorp, or habitat polity, or you worked as a mercenary-for-hire-or you simply were forced to take up arms as a conflict erupted around you. ",
             "motivations": {
                 "positive": ["survival", "duty", "personal development", "victory"],
                 "negative": ["peace"]
@@ -3649,7 +3649,7 @@
             }
         },
         "spy": {
-            "longdesc": "You are a covert agent, skilled at infiltrating the opposition to ferret out secrets or further your own agenda.\n",
+            "longdesc": "You are a covert agent, skilled at infiltrating the opposition to ferret out secrets or further your own agenda. ",
             "motivations": {
                 "positive": ["secret identity"],
                 "negative": ["secrets"]
@@ -3694,7 +3694,7 @@
             }
         },
         "techie": {
-            "longdesc": "You are the person who keeps the machines running-or knows how to shut them down.\n",
+            "longdesc": "You are the person who keeps the machines running-or knows how to shut them down. ",
             "motivations": {
                 "positive": ["diy", "education", "science", "sousveillance", "technoprogressivism"],
                 "negative": []
@@ -3740,7 +3740,7 @@
             }
         },
         "thief": {
-            "longdesc": "You survive by stealing from others, whether by picking pockets or breaking and entering.\n",
+            "longdesc": "You survive by stealing from others, whether by picking pockets or breaking and entering. ",
             "motivations": {
                 "positive": ["wealth"],
                 "negative": []
@@ -3790,7 +3790,7 @@
             }
         },
         "wrecker": {
-            "longdesc": "You are optimized for killing machines. You either excelled at fighting TITAN constructs during the Fall or you continue to\n hunt them down in the aftermath.\n",
+            "longdesc": "You are optimized for killing machines. You either excelled at fighting TITAN constructs during the Fall or you continue to  hunt them down in the aftermath. ",
             "motivations": {
                 "positive": ["survival", "explosions"],
                 "negative": ["titans"]

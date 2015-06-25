@@ -688,7 +688,7 @@
         "values": [[1, 8], [9, 11], [12, 14], [15, 17], [18, 21], [22, 24], [25, 30], [31, 34], [35, 38], [39, 41], [42, 47], [48, 51], [52, 57], [58, 61], [62, 67], [68, 71], [72, 74], [75, 79], [80, 84], [85, 88], [89, 94], [95, 97], [98, 100]],
         "table": ["addiction", "alien behavior disorder", "alien sensory disorder", "atavism", "attention deficit hyperactivity disorder", "autophagy", "bipolar disorder", "body dysmorphia", "borderline personality disorder", "cosmic anxiety disorder", "depression", "fugue", "general anxiety disorder", "hypochondria", "impulse control disorder", "insomnia", "megalomania", "multiple personality disorder", "obsessive compulsive disorder", "phobia", "post-traumatic stress disorder", "schizophrenia", "species dysmorphia"]
     },
-    "trait":{
+    "trait_list":{
         "selection": {
             "type": "branching",
             "values": [[1, 4], 5, [6, 9], 10],
@@ -717,6 +717,520 @@
             "values": [[1, 4], [5, 6], [7, 9], [10, 12], [13, 15], [16, 18], [19, 20], [20, 21], [22, 24], [25, 26], [27, 29], [30, 31], [32, 36], [37, 39], [40, 42], [43, 45], [46, 48], [49, 51], [52, 53], [54, 56], [57, 60], [61, 64], [65, 67], [68, 70], [71, 73], [74, 76], [77, 78], [79, 81], [82, 84], [85, 87], [88, 90], [91, 92], [93, 95], [96, 100]],
             "table": ["addiction", "aged", "aggressive grm", "drug fiend", "fast metabolism", "frail", "genetic defect", "impaired hearing", "impaired linguistics", "impaired proprioception", "implant rejection", "lacks manipulators", "lemon", "low-gravity adaptation", "low pain tolerance", "memory artifact", "mild allergy", "neurochemical imbalance", "no cortical stack", "personality artifact", "planned obsolescence", "proprietary tech", "psi vulnerability", "reduced size", "severe allergy", "social stigma", "temperature intolerance", "unattractive", "uncanny valley", "uncontrollable urge", "unfit", "weak grip", "weak immune system", "zero-g nausea"],
             "cost": [[5, 10, 20], 10, 10, 10, 5, [10, 20], [10, 20], 5, [10, 20], 10, [5, 15], 10, 10, 10, 20, 5, 5, 5, 10, 10, 5, 10, 10, 10, [10, 20], 10, 10, [10, 20, 30], 10, 10, 10, 10, 10, 10]
+        }
+    },
+    "traits": {
+        "positive ego": {
+            "adaptability": {
+                "desc": ""
+            },
+            "agi affinity": {
+                "desc": ""
+            },
+            "agi socialization": {
+                "desc": ""
+            },
+            "allies": {
+                "desc": ""
+            },
+            "ambidextrous": {
+                "desc": ""
+            },
+            "animal empathy": {
+                "desc": ""
+            },
+            "async familiarity": {
+                "desc": ""
+            },
+            "brave": {
+                "desc": ""
+            },
+            "common sense": {
+                "desc": ""
+            },
+            "danger sense": {
+                "desc": ""
+            },
+            "digital ghost": {
+                "desc": ""
+            },
+            "direction sense": {
+                "desc": ""
+            },
+            "dominant strain": {
+                "desc": ""
+            },
+            "drug exception": {
+                "desc": ""
+            },
+            "ego plasticity": {
+                "desc": ""
+            },
+            "eidetic memory": {
+                "desc": ""
+            },
+            "entrepreneur": {
+                "desc": ""
+            },
+            "established fork": {
+                "desc": ""
+            },
+            "exceptional aptitude": {
+                "desc": ""
+            },
+            "expert": {
+                "desc": ""
+            },
+            "fast learner": {
+                "desc": ""
+            },
+            "first impression": {
+                "desc": ""
+            },
+            "gold star": {
+                "desc": ""
+            },
+            "hardening": {
+                "desc": ""
+            },
+            "heightened instinct": {
+                "desc": ""
+            },
+            "home turf": {
+                "desc": ""
+            },
+            "hyper linguist": {
+                "desc": ""
+            },
+            "indenture holder": {
+                "desc": ""
+            },
+            "information control": {
+                "desc": ""
+            },
+            "intuitive cracker": {
+                "desc": ""
+            },
+            "killer instinct": {
+                "desc": ""
+            },
+            "machine intuition": {
+                "desc": ""
+            },
+            "malleable mind": {
+                "desc": ""
+            },
+            "math wiz": {
+                "desc": ""
+            },
+            "minion/partner": {
+                "desc": ""
+            },
+            "morph fever resistance": {
+                "desc": ""
+            },
+            "murder simulator addict": {
+                "desc": ""
+            },
+            "pain tolerance": {
+                "desc": ""
+            },
+            "patron": {
+                "desc": ""
+            },
+            "personal connection": {
+                "desc": ""
+            },
+            "phoenix": {
+                "desc": ""
+            },
+            "potent mind": {
+                "desc": ""
+            },
+            "predator": {
+                "desc": ""
+            },
+            "psi": {
+                "desc": ""
+            },
+            "psi chameleon": {
+                "desc": ""
+            },
+            "psi defense": {
+                "desc": ""
+            },
+            "right at home": {
+                "desc": ""
+            },
+            "situational awareness": {
+                "desc": ""
+            },
+            "social animal": {
+                "desc": ""
+            },
+            "social butterfly": {
+                "desc": ""
+            },
+            "spacecraft": {
+                "desc": ""
+            },
+            "tacnet sniper": {
+                "desc": ""
+            },
+            "tenure": {
+                "desc": ""
+            },
+            "trauma tolerance": {
+                "desc": ""
+            },
+            "untarnished reputation": {
+                "desc": ""
+            },
+            "you’re that guy!": {
+                "desc": ""
+            },
+            "zoosemiotics": {
+                "desc": ""
+            }
+        },
+        "negative ego": {
+            "addiction": {
+                "desc": ""
+            },
+            "anomalous mind": {
+                "desc": ""
+            },
+            "bad luck": {
+                "desc": ""
+            },
+            "beta": {
+                "desc": ""
+            },
+            "blacklisted": {
+                "desc": ""
+            },
+            "black mark": {
+                "desc": ""
+            },
+            "botched merge": {
+                "desc": ""
+            },
+            "botched uplift": {
+                "desc": ""
+            },
+            "combat paralysis": {
+                "desc": ""
+            },
+            "curbed intelligence": {
+                "desc": ""
+            },
+            "data footprint": {
+                "desc": ""
+            },
+            "debt": {
+                "desc": ""
+            },
+            "deferred indenture": {
+                "desc": ""
+            },
+            "dependent": {
+                "desc": ""
+            },
+            "deferred indenture": {
+                "desc": ""
+            },
+            "domineering": {
+                "desc": ""
+            },
+            "drug fiend": {
+                "desc": ""
+            },
+            "edited memories": {
+                "desc": ""
+            },
+            "emotive blindness": {
+                "desc": ""
+            },
+            "enemy": {
+                "desc": ""
+            },
+            "emotive blindness": {
+                "desc": ""
+            },
+            "faulty education": {
+                "desc": ""
+            },
+            "feeble": {
+                "desc": ""
+            },
+            "frail sanity": {
+                "desc": ""
+            },
+            "hoarder": {
+                "desc": ""
+            },
+            "identifiable quirk": {
+                "desc": ""
+            },
+            "identity crisis": {
+                "desc": ""
+            },
+            "impaired balance": {
+                "desc": ""
+            },
+            "intense relationship": {
+                "desc": ""
+            },
+            "illiterate": {
+                "desc": ""
+            },
+            "immortality blues": {
+                "desc": ""
+            },
+            "incompetent": {
+                "desc": ""
+            },
+            "lost fork": {
+                "desc": ""
+            },
+            "low pain tolerance": {
+                "desc": ""
+            },
+            "mental disorder": {
+                "desc": ""
+            },
+            "modified behavior": {
+                "desc": ""
+            },
+            "morphing disorder": {
+                "desc": ""
+            },
+            "neural damage": {
+                "desc": ""
+            },
+            "not a team player": {
+                "desc": ""
+            },
+            "oblivious": {
+                "desc": ""
+            },
+            "on the run": {
+                "desc": ""
+            },
+            "overwhelmed by emotion": {
+                "desc": ""
+            },
+            "phobia disorder": {
+                "desc": ""
+            },
+            "poorly socialized": {
+                "desc": ""
+            },
+            "psi vulnerability": {
+                "desc": ""
+            },
+            "real world naiveté": {
+                "desc": ""
+            },
+            "shut-in": {
+                "desc": ""
+            },
+            "slow learner": {
+                "desc": ""
+            },
+            "socially graceless": {
+                "desc": ""
+            },
+            "social stigma": {
+                "desc": ""
+            },
+            "solitary": {
+                "desc": ""
+            },
+            "stalker": {
+                "desc": ""
+            },
+            "stolen identity": {
+                "desc": ""
+            },
+            "submissive": {
+                "desc": ""
+            },
+            "subverted mind": {
+                "desc": ""
+            },
+            "timid": {
+                "desc": ""
+            },
+            "trusting heart": {
+                "desc": ""
+            },
+            "uncontrollable urge": {
+                "desc": ""
+            },
+            "vr vertigo": {
+                "desc": ""
+            },
+            "wait, that was you?": {
+                "desc": ""
+            }
+        },
+        "positive morph": {
+            "coronal adaptation": {
+                "desc": ""
+            },
+            "drug exception": {
+                "desc": ""
+            },
+            "eidetic memory": {
+                "desc": ""
+            },
+            "enlarged size": {
+                "desc": ""
+            },
+            "exceptional aptitude": {
+                "desc": ""
+            },
+            "high-temperature operation": {
+                "desc": ""
+            },
+            "improved immune system": {
+                "desc": ""
+            },
+            "innocuous": {
+                "desc": ""
+            },
+            "limber": {
+                "desc": ""
+            },
+            "natural immunity": {
+                "desc": ""
+            },
+            "pain tolerance": {
+                "desc": ""
+            },
+            "psi chameleon": {
+                "desc": ""
+            },
+            "psi defense": {
+                "desc": ""
+            },
+            "rapid healer": {
+                "desc": ""
+            },
+            "skill artifact": {
+                "desc": ""
+            },
+            "striking looks": {
+                "desc": ""
+            },
+            "tough": {
+                "desc": ""
+            }
+        },
+        "negative morph": {
+            "addiction": {
+                "desc": ""
+            },
+            "aged": {
+                "desc": ""
+            },
+            "aggressive grm": {
+                "desc": ""
+            },
+            "drug fiend": {
+                "desc": ""
+            },
+            "fast metabolism": {
+                "desc": ""
+            },
+            "frail": {
+                "desc": ""
+            },
+            "genetic defect": {
+                "desc": ""
+            },
+            "impaired hearing": {
+                "desc": ""
+            },
+            "impaired linguistics": {
+                "desc": ""
+            },
+            "impaired proprioception": {
+                "desc": ""
+            },
+            "implant rejection": {
+                "desc": ""
+            },
+            "lacks manipulators": {
+                "desc": ""
+            },
+            "lemon": {
+                "desc": ""
+            },
+            "low-gravity adaptation": {
+                "desc": ""
+            },
+            "low pain tolerance": {
+                "desc": ""
+            },
+            "memory artifact": {
+                "desc": ""
+            },
+            "mild allergy": {
+                "desc": ""
+            },
+            "neurochemical imbalance": {
+                "desc": ""
+            },
+            "no cortical stack": {
+                "desc": ""
+            },
+            "personality artifact": {
+                "desc": ""
+            },
+            "planned obsolescence": {
+                "desc": ""
+            },
+            "proprietary tech": {
+                "desc": ""
+            },
+            "psi vulnerability": {
+                "desc": ""
+            },
+            "reduced size": {
+                "desc": ""
+            },
+            "severe allergy": {
+                "desc": ""
+            },
+            "social stigma": {
+                "desc": ""
+            },
+            "temperature intolerance": {
+                "desc": ""
+            },
+            "unattractive": {
+                "desc": ""
+            },
+            "uncanny valley": {
+                "desc": ""
+            },
+            "uncontrollable urge": {
+                "desc": ""
+            },
+            "unfit": {
+                "desc": ""
+            },
+            "weak grip": {
+                "desc": ""
+            },
+            "weak immune system": {
+                "desc": ""
+            },
+            "zero-g nausea": {
+                "desc": ""
+            }
         }
     }
 }

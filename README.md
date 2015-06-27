@@ -224,14 +224,12 @@ Contrary to other files all morhps contains the same fields:
 }
 ```
 ##TO DO
-####README
-+ Add psi documentation
 
 ####Dataset:
 + Add weapons and armor
 + Add gear (packages)
 + Add morph implants There is a list of them in Morph Recognition Guide
-+ Add trait explanations  
++ Add neutral traits
 Maybe in a distant future:
 + Add habıtat info
 + Add exoplanet info

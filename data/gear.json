@@ -47,6 +47,170 @@
             "cost": "expensive"
         }
     },
+    "bioware": {
+        "adrenal boost": {
+            "desc": ""
+        },
+        "bioweave armor (heavy)": {
+            "desc": ""
+        },
+        "bioweave armor (light)": {
+            "desc": ""
+        },
+        "carapace armor": {
+            "desc": ""
+        },
+        "chameleon skin": {
+            "desc": ""
+        },
+        "circadian regulation": {
+            "desc": ""
+        },
+        "claws": {
+            "desc": ""
+        },
+        "clean metabolism": {
+            "desc": ""
+        },
+        "digging claws": {
+            "desc": ""
+        },
+        "direction sense": {
+            "desc": ""
+        },
+        "drug glands": {
+            "desc": ""
+        },
+        "echolocation": {
+            "desc": ""
+        },
+        "eelware": {
+            "desc": ""
+        },
+        "efficient digestion": {
+            "desc": ""
+        },
+        "eidetic memory": {
+            "desc": ""
+        },
+        "emotional dampers": {
+            "desc": ""
+        },
+        "endocrine control": {
+            "desc": ""
+        },
+        "enhanced hearing": {
+            "desc": ""
+        },
+        "enhanced pheromones": {
+            "desc": ""
+        },
+        "enhanced respiration": {
+            "desc": ""
+        },
+        "enhanced respiration (specific)": {
+            "desc": ""
+        },
+        "enhanced smell": {
+            "desc": ""
+        },
+        "enhanced vision": {
+            "desc": ""
+        },
+        "fat storage": {
+            "desc": ""
+        },
+        "gills": {
+            "desc": ""
+        },
+        "gliding membrane": {
+            "desc": ""
+        },
+        "grip pads": {
+            "desc": ""
+        },
+        "hibernation": {
+            "desc": ""
+        },
+        "high-g adaptation": {
+            "desc": ""
+        },
+        "hyper linguist": {
+            "desc": ""
+        },
+        "hydrostatic pressure adaptation": {
+            "desc": ""
+        },
+        "lateral line": {
+            "desc": ""
+        },
+        "low pressure tolerance": {
+            "desc": ""
+        },
+        "math boost": {
+            "desc": ""
+        },
+        "multiple personalities": {
+            "desc": ""
+        },
+        "muscle augmentation": {
+            "desc": ""
+        },
+        "neurachem": {
+            "desc": ""
+        },
+        "poison gland": {
+            "desc": ""
+        },
+        "polarization vision": {
+            "desc": ""
+        },
+        "prehensile feet": {
+            "desc": ""
+        },
+        "prehensile tail": {
+            "desc": ""
+        },
+        "radiation tolerance": {
+            "desc": ""
+        },
+        "scent affinity": {
+            "desc": ""
+        },
+        "sex switch": {
+            "desc": ""
+        },
+        "skin pocket": {
+            "desc": ""
+        },
+        "swim bladder": {
+            "desc": ""
+        },
+        "temperature tolerance": {
+            "desc": ""
+        },
+        "temperature tolerance (cryonic)": {
+            "desc": ""
+        },
+        "temperature tolerance (improved cold)": {
+            "desc": ""
+        },
+        "toxin filters": {
+            "desc": ""
+        },
+        "ultraviolet vision": {
+            "desc": ""
+        },
+        "vacuum sealing": {
+            "desc": ""
+        },
+        "wings": {
+            "desc": ""
+        },
+        "winterist": {
+            "desc": ""
+        }
+    },
     "chemicals": {
         "atropine": {
             "desc": "",
@@ -225,6 +389,29 @@
             "cost": "low"
         }
     },
+    "cosmetic": {
+        "bodysculpting": {
+            "desc": ""
+        },
+        "nanotats": {
+            "desc": ""
+        },
+        "piercings": {
+            "desc": ""
+        },
+        "scarification": {
+            "desc": ""
+        },
+        "scent alteration": {
+            "desc": ""
+        },
+        "skindyes": {
+            "desc": ""
+        },
+        "subdermal implants": {
+            "desc": ""
+        },
+    },
     "covert and espionage technologies": {
         "chameleon cloak": {
             "desc": "",
@@ -321,6 +508,95 @@
         "shroud": {
             "desc": "",
             "cost": "high"
+        }
+    },
+    "cyberware": {
+        "access jacks": {
+            "desc": ""
+        },
+        "anti glare": {
+            "desc": ""
+        },
+        "cyberclaws": {
+            "desc": ""
+        },
+        "cybercortex": {
+            "desc": ""
+        },
+        "cyberlimb": {
+            "desc": ""
+        },
+        "cyberlimb plus": {
+            "desc": ""
+        },
+        "dead switch": {
+            "desc": ""
+        },
+        "electrical sense": {
+            "desc": ""
+        },
+        "emergency farcaster": {
+            "desc": ""
+        },
+        "gas jet system": {
+            "desc": ""
+        },
+        "ghostrider module": {
+            "desc": ""
+        },
+        "hand laser": {
+            "desc": ""
+        },
+        "hardened skeleton": {
+            "desc": ""
+        },
+        "implant masking": {
+            "desc": ""
+        },
+        "life recorder": {
+            "desc": ""
+        },
+        "memory lock": {
+            "desc": ""
+        },
+        "mnemonic augmentation": {
+            "desc": ""
+        },
+        "monitor module": {
+            "desc": ""
+        },
+        "multi tasking": {
+            "desc": ""
+        },
+        "optogenetics module": {
+            "desc": ""
+        },
+        "oxygen reserve": {
+            "desc": ""
+        },
+        "parallel processor": {
+            "desc": ""
+        },
+        "plasma sail implant": {
+            "desc": ""
+        },
+        "possum cache": {
+            "desc": ""
+        },
+        "puppet sock": {
+            "desc": ""
+        },
+        "radiation sense": {
+            "desc": ""
+        },
+        "reflex boosters": {
+            "desc": ""
+        },
+        "sense affinity": {
+            "desc": ""
+        },
+        "t-ray emitter": {
+            "desc": ""
         }
     },
     "everyday technologies": {
@@ -425,6 +701,67 @@
         "scout missile": {
             "desc": "",
             "cost": "moderate"
+        }
+    },
+    "flexbot upgrades": {
+        "advanced internal articulation": {
+            "desc": ""
+        },
+        "articulated gear mount": {
+            "desc": ""
+        },
+        "body mass converter": {
+            "desc": ""
+        },
+        "mass transfer": {
+            "desc": ""
+        },
+        "modularized gear": {
+            "desc": ""
+        },
+        "reconfigurable proprioception": {
+            "desc": ""
+        },
+        "squishbot": {
+            "desc": ""
+        }
+    },
+    "infomorph software": {
+        "autodelete": {
+            "desc": ""
+        },
+        "copylock": {
+            "desc": ""
+        },
+        "digital veil": {
+            "desc": ""
+        },
+        "emergency backup": {
+            "desc": ""
+        },
+        "hacking alert": {
+            "desc": ""
+        },
+        "persistence": {
+            "desc": ""
+        },
+        "active countermeasures": {
+            "desc": ""
+        },
+        "impersonate": {
+            "desc": ""
+        },
+        "increased speed": {
+            "desc": ""
+        },
+        "mental repair": {
+            "desc": ""
+        },
+        "mental stability": {
+            "desc": ""
+        },
+        "panopticon": {
+            "desc": ""
         }
     },
     "nanodrugs": {
@@ -567,6 +904,59 @@
             "cost": "high"
         }
     },
+    "nanoware": {
+        "digestive symbiotes": {
+            "desc": ""
+        },
+        "gait masking": {
+            "desc": ""
+        },
+        "implanted nanotoxins": {
+            "desc": ""
+        },
+        "long-term life support": {
+            "desc": ""
+        },
+        "medichines": {
+            "desc": ""
+        },
+        "mental speed": {
+            "desc": ""
+        },
+        "nanophages": {
+            "desc": ""
+        },
+        "nanotat id flux": {
+            "desc": ""
+        },
+        "neural enhancers": {
+            "desc": ""
+        },
+        "oracles": {
+            "desc": ""
+        },
+        "personal power plant": {
+            "desc": ""
+        },
+        "respirocytes": {
+            "desc": ""
+        },
+        "skeletal disguise": {
+            "desc": ""
+        },
+        "skillware": {
+            "desc": ""
+        },
+        "skinflex": {
+            "desc": ""
+        },
+        "skinlink": {
+            "desc": ""
+        },
+        "wrist mounted tools": {
+            "desc": ""
+        }
+    },
     "narcoalgorithms": {
         "ddr": {
             "desc": "",
@@ -677,6 +1067,113 @@
         "psikeout": {
             "desc": "",
             "cost": "expensive"
+        }
+    },
+    "robotic enhancements": {
+        "360 degree vision": {
+            "desc": ""
+        },
+        "brain box": {
+            "desc": ""
+        },
+        "chemical sniffer": {
+            "desc": ""
+        },
+        "cryonic protection": {
+            "desc": ""
+        },
+        "ego sharing": {
+            "desc": ""
+        },
+        "extra limbs": {
+            "desc": ""
+        },
+        "extreme heat shielding": {
+            "desc": ""
+        },
+        "extreme pressure adaptation": {
+            "desc": ""
+        },
+        "fractal digits": {
+            "desc": ""
+        },
+        "heavy combat armor": {
+            "desc": ""
+        },
+        "hidden compartment": {
+            "desc": ""
+        },
+        "holographic projector": {
+            "desc": ""
+        },
+        "industrial armor": {
+            "desc": ""
+        },
+        "internal rocket": {
+            "desc": ""
+        },
+        "invisibility": {
+            "desc": ""
+        },
+        "lidar": {
+            "desc": ""
+        },
+        "light combat armor": {
+            "desc": ""
+        },
+        "magnetic system": {
+            "desc": ""
+        },
+        "modular design": {
+            "desc": ""
+        },
+        "nanoscopic vision": {
+            "desc": ""
+        },
+        "pneumatic limbs": {
+            "desc": ""
+        },
+        "radar": {
+            "desc": ""
+        },
+        "radar absorbent": {
+            "desc": ""
+        },
+        "radar invisibility": {
+            "desc": ""
+        },
+        "radiation shielding": {
+            "desc": ""
+        },
+        "reduced signature": {
+            "desc": ""
+        },
+        "retracting/telescoping limb": {
+            "desc": ""
+        },
+        "shape adjusting": {
+            "desc": ""
+        },
+        "smart swarm": {
+            "desc": ""
+        },
+        "smart wings": {
+            "desc": ""
+        },
+        "sound system": {
+            "desc": ""
+        },
+        "structural enhancement": {
+            "desc": ""
+        },
+        "swarm compositions": {
+            "desc": ""
+        },
+        "synthetic mask": {
+            "desc": ""
+        },
+        "weapon mount": {
+            "desc": ""
         }
     },
     "robots": {
@@ -1079,6 +1576,28 @@
             "cost": "moderate"
         }
     },
+    "software": {
+        "cartography package": {
+            "desc": ""
+        },
+        "monitor ai": {
+            "desc": ""
+        }
+    },
+    "standard": {
+        "basic biomods": {
+            "desc": ""
+        },
+        "basic mesh inserts": {
+            "desc": ""
+        },
+        "cortical stack": {
+            "desc": ""
+        },
+        "cyberbrain": {
+            "desc": ""
+        }
+    },
     "survival gear": {
         "breadcrumb positioning": {
             "desc": "",
@@ -1203,6 +1722,35 @@
         "smart anchors": {
             "desc": "",
             "cost": "low"
+        }
+    },
+    "swarmanoid enhancements": {
+        "Gas-Jet System": {
+            "desc": ""
+        },
+        "Injectors": {
+            "desc": ""
+        },
+        "Internal-Rocket System": {
+            "desc": ""
+        },
+        "Jaws": {
+            "desc": ""
+        },
+        "Laser Link": {
+            "desc": ""
+        },
+        "Micro-Tools": {
+            "desc": ""
+        },
+        "Microwave Link": {
+            "desc": ""
+        },
+        "Recharge Pack": {
+            "desc": ""
+        },
+        "Ultrasound Link": {
+            "desc": ""
         }
     },
     "toxins": {

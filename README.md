@@ -12,6 +12,8 @@ You will see four different files under the data folder
 + data/ep.json : Generic data related to EP system morph/skill lists etc.
 + data/morphs.json : Morph statistics which will be required to properly create a character  
   (p. 6-111, Morph Recognition Guide)
++ data/traits.json : Basic trait list. Trait descriptions are plain text
++ data/gear.json : Gear information, Work in progress. Gear data is taken from Kindalas' character generation [spreadsheet](http://eclipsephase.com/downloads/Eclipse_Phase_Character_Sheet_v.95.xls)
 
 ###Packages Format
 General format of packages file is like this

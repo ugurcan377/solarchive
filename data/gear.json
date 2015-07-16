@@ -1,42 +1,228 @@
 {
-    "nanotoxins": {
-        "disruption": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "necrosis": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "neuropath": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "nutcracker": {
+    "ai & muses": {
+        "bot/vehicle ai": {
             "desc": "",
             "cost": "high"
+        },
+        "device ai": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "kaos ai": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "security ai": {
+            "desc": "",
+            "cost": "high"
+        },
+        "standard muse": {
+            "desc": "",
+            "cost": "high"
+        },
+        "animal keeper ai": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "sensor ai": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "technician ai": {
+            "desc": "",
+            "cost": "moderate"
         }
     },
-    "scorchers": {
-        "bedlam": {
+    "alien relics": {
+        "dream shells": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "fixor": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "scour rings": {
+            "desc": "",
+            "cost": "expensive"
+        }
+    },
+    "chemicals": {
+        "atropine": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "dmso": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "liquid thermite": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "notwater": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "scrapper's gel": {
+            "desc": "",
+            "cost": "low"
+        },
+        "slip": {
+            "desc": "",
+            "cost": "low"
+        },
+        "tracker's dye": {
+            "desc": "",
+            "cost": "trivial"
+        }
+    },
+    "communications": {
+        "fiberoptic cable": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "laser/microwave link": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "radio booster": {
+            "desc": "",
+            "cost": "low"
+        },
+        "neutrino transceiver": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "miniature radio farcaster": {
+            "desc": "",
+            "cost": "low"
+        },
+        "portable qe comm": {
+            "desc": "",
+            "cost": "low"
+        },
+        "low-qbit reservoir": {
             "desc": "",
             "cost": "high"
         },
-        "cauterizer": {
+        "high-qbit reservoir": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "mission recorder": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "motes": {
+            "desc": "",
+            "cost": "low"
+        },
+        "sensor motes": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "neutrino retreat": {
             "desc": "",
             "cost": "high"
         },
-        "nightmare": {
+        "radio beacon": {
+            "desc": "",
+            "cost": "low"
+        },
+        "satnet in a can": {
             "desc": "",
             "cost": "high"
         },
-        "shutter": {
+        "neo-cetacean translation device": {
+            "desc": "",
+            "cost": "low"
+        },
+        "hypersonic communicator": {
+            "desc": "",
+            "cost": "low"
+        }
+    },
+    "conventional drugs": {
+        "drive": {
+            "desc": "",
+            "cost": "low"
+        },
+        "klar": {
+            "desc": "",
+            "cost": "low"
+        },
+        "neem": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "bringit": {
+            "desc": "",
+            "cost": "low"
+        },
+        "grin": {
+            "desc": "",
+            "cost": "low"
+        },
+        "kick": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "mrdr": {
+            "desc": "",
+            "cost": "low"
+        },
+        "phlo": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "bananas furiosas": {
+            "desc": "",
+            "cost": "low"
+        },
+        "comfurt": {
+            "desc": "",
+            "cost": "low"
+        },
+        "buzz": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "mono no aware": {
+            "desc": "",
+            "cost": "low"
+        },
+        "orbital hash": {
+            "desc": "",
+            "cost": "low"
+        },
+        "alpha": {
             "desc": "",
             "cost": "high"
         },
-        "spasm": {
+        "hither": {
             "desc": "",
-            "cost": "high"
+            "cost": "low"
+        },
+        "juice": {
+            "desc": "",
+            "cost": "low"
+        },
+        "hydra": {
+            "desc": "",
+            "cost": "low"
+        },
+        "kong": {
+            "desc": "",
+            "cost": "low"
+        },
+        "raptor": {
+            "desc": "",
+            "cost": "low"
+        },
+        "staste": {
+            "desc": "",
+            "cost": "low"
         }
     },
     "covert and espionage technologies": {
@@ -137,6 +323,140 @@
             "cost": "high"
         }
     },
+    "everyday technologies": {
+        "ecto": {
+            "desc": "",
+            "cost": "low"
+        },
+        "holographic projectors": {
+            "desc": "",
+            "cost": "low"
+        },
+        "micrograv shoes": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "portable sensor": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "specs": {
+            "desc": "",
+            "cost": "low"
+        },
+        "tools (kit)": {
+            "desc": "",
+            "cost": "low"
+        },
+        "tools (shop)": {
+            "desc": "",
+            "cost": "high"
+        },
+        "tools (facility)": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "utilitool": {
+            "desc": "",
+            "cost": "low"
+        },
+        "viewers": {
+            "desc": "",
+            "cost": "low"
+        },
+        "standard battery": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "nuclear battery": {
+            "desc": "",
+            "cost": "low"
+        },
+        "grip tape": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "solar recharger": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "wireless energy transmitter": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "dust repellent": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "flying vest": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "fractal gloves": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "plasma sail": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "smart manipulators": {
+            "desc": "",
+            "cost": "high"
+        }
+    },
+    "exploration gear": {
+        "blue box portable gate control unit": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "gate probe": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "mapping missile": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "portable solarchive": {
+            "desc": "",
+            "cost": "low"
+        },
+        "scout missile": {
+            "desc": "",
+            "cost": "moderate"
+        }
+    },
+    "nanodrugs": {
+        "frequency": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "gravy": {
+            "desc": "",
+            "cost": "low"
+        },
+        "schizo": {
+            "desc": "",
+            "cost": "low"
+        },
+        "petals (trivial)": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "petals (low)": {
+            "desc": "",
+            "cost": "low"
+        },
+        "petals (moderate)": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "petals (high)": {
+            "desc": "",
+            "cost": "high"
+        }
+    },
     "nanoswarms": {
         "cleaners": {
             "desc": "",
@@ -191,6 +511,72 @@
             "cost": "moderate"
         }
     },
+    "nanotechnology": {
+        "healing vats": {
+            "desc": "",
+            "cost": "high"
+        },
+        "nanodetectors": {
+            "desc": "",
+            "cost": "low"
+        },
+        "desktop cornucopia machine": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "fabber": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "maker (low)": {
+            "desc": "",
+            "cost": "low"
+        },
+        "maker (moderate)": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "general hive": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "specialized hive": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "ego bridge": {
+            "desc": "",
+            "cost": "expensive"
+        }
+    },
+    "nanotoxins": {
+        "disruption": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "necrosis": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "neuropath": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "nutcracker": {
+            "desc": "",
+            "cost": "high"
+        }
+    },
+    "narcoalgorithms": {
+        "ddr": {
+            "desc": "",
+            "cost": "low"
+        },
+        "linkstate": {
+            "desc": "",
+            "cost": "low"
+        }
+    },
     "pathogens": {
         "degen": {
             "desc": "",
@@ -201,114 +587,80 @@
             "cost": "expensive"
         }
     },
-    "nanodrugs": {
-        "frequency": {
+    "programs": {
+        "ar illusions": {
             "desc": "",
             "cost": "moderate"
         },
-        "gravy": {
+        "encryption": {
             "desc": "",
             "cost": "low"
         },
-        "schizo": {
-            "desc": "",
-            "cost": "low"
-        },
-        "petals (trivial)": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "petals (low)": {
-            "desc": "",
-            "cost": "low"
-        },
-        "petals (moderate)": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "petals (high)": {
-            "desc": "",
-            "cost": "high"
-        }
-    },
-    "smart animals": {
-        "fur coat": {
-            "desc": "",
-            "cost": "low"
-        },
-        "smart dog": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "smart monkey": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "smart rat": {
-            "desc": "",
-            "cost": "low"
-        },
-        "smart roach": {
-            "desc": "",
-            "cost": "low"
-        },
-        "police baboon": {
+        "exploit": {
             "desc": "",
             "cost": "high"
         },
-        "rust hound": {
-            "desc": "",
-            "cost": "high"
-        },
-        "smart camel": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "smart horse": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "smart wolf": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "bees and gardener wasps": {
+        "facial/image recognition": {
             "desc": "",
             "cost": "low"
         },
-        "guard dog": {
-            "desc": "",
-            "cost": "high"
-        },
-        "smart hawk": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "smart racoon": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "smart cat": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "swarm cat": {
-            "desc": "",
-            "cost": "high"
-        },
-        "aquarium pet": {
+        "firewall": {
             "desc": "",
             "cost": "low"
         },
-        "poisonous marmoset swarm": {
+        "sniffer": {
             "desc": "",
             "cost": "moderate"
         },
-        "squidling": {
+        "spoof": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "tactical networks": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "tracking": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "xp (low)": {
             "desc": "",
             "cost": "low"
         },
-        "titanian caribou": {
+        "xp (moderate)": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "xp (high)": {
+            "desc": "",
+            "cost": "high"
+        },
+        "behavioral psych": {
+            "desc": "",
+            "cost": "high"
+        },
+        "event reconstruction software": {
+            "desc": "",
+            "cost": "high"
+        },
+        "fake brainprint plug-in": {
+            "desc": "",
+            "cost": "expensive"
+        },
+        "kinesics software": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "probability mapping": {
+            "desc": "",
+            "cost": "high"
+        },
+        "radio motion detector": {
+            "desc": "",
+            "cost": "low"
+        },
+        "relationship mapping": {
             "desc": "",
             "cost": "moderate"
         }
@@ -325,128 +677,6 @@
         "psikeout": {
             "desc": "",
             "cost": "expensive"
-        }
-    },
-    "sensor systems": {
-        "brain print scanner": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "fiber camera": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "fiberoptic microphone": {
-            "desc": "",
-            "cost": "low"
-        },
-        "flat camera": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "hyperspectral flat camera": {
-            "desc": "",
-            "cost": "high"
-        },
-        "ghost imagers": {
-            "desc": "",
-            "cost": "high"
-        },
-        "passive hyperspectral imager": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "active hyperspectral imager": {
-            "desc": "",
-            "cost": "high"
-        },
-        "hyperspectral microphone": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "id scanner": {
-            "desc": "",
-            "cost": "low"
-        },
-        "metal detector": {
-            "desc": "",
-            "cost": "low"
-        },
-        "motion detector": {
-            "desc": "",
-            "cost": "low"
-        },
-        "personal interaction sensor": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "quantum dot camera displays": {
-            "desc": "",
-            "cost": "high"
-        },
-        "quantum radar": {
-            "desc": "",
-            "cost": "high"
-        },
-        "sensor concealment": {
-            "desc": "",
-            "cost": "low"
-        },
-        "super-wide camera": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "hyperspectral super-wide camera": {
-            "desc": "",
-            "cost": "high"
-        }
-    },
-    "alien relics": {
-        "dream shells": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "fixor": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "scour rings": {
-            "desc": "",
-            "cost": "expensive"
-        }
-    },
-    "ai & muses": {
-        "bot/vehicle ai": {
-            "desc": "",
-            "cost": "high"
-        },
-        "device ai": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "kaos ai": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "security ai": {
-            "desc": "",
-            "cost": "high"
-        },
-        "standard muse": {
-            "desc": "",
-            "cost": "high"
-        },
-        "animal keeper ai": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "sensor ai": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "technician ai": {
-            "desc": "",
-            "cost": "moderate"
         }
     },
     "robots": {
@@ -591,190 +821,388 @@
             "cost": "expensive"
         }
     },
-    "conventional drugs": {
-        "drive": {
-            "desc": "",
-            "cost": "low"
-        },
-        "klar": {
-            "desc": "",
-            "cost": "low"
-        },
-        "neem": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "bringit": {
-            "desc": "",
-            "cost": "low"
-        },
-        "grin": {
-            "desc": "",
-            "cost": "low"
-        },
-        "kick": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "mrdr": {
-            "desc": "",
-            "cost": "low"
-        },
-        "phlo": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "bananas furiosas": {
-            "desc": "",
-            "cost": "low"
-        },
-        "comfurt": {
-            "desc": "",
-            "cost": "low"
-        },
-        "buzz": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "mono no aware": {
-            "desc": "",
-            "cost": "low"
-        },
-        "orbital hash": {
-            "desc": "",
-            "cost": "low"
-        },
-        "alpha": {
+    "scavenger tech": {
+        "disassembly tools": {
             "desc": "",
             "cost": "high"
         },
-        "hither": {
-            "desc": "",
-            "cost": "low"
-        },
-        "juice": {
-            "desc": "",
-            "cost": "low"
-        },
-        "hydra": {
-            "desc": "",
-            "cost": "low"
-        },
-        "kong": {
-            "desc": "",
-            "cost": "low"
-        },
-        "raptor": {
-            "desc": "",
-            "cost": "low"
-        },
-        "staste": {
-            "desc": "",
-            "cost": "low"
-        }
-    },
-    "chemicals": {
-        "atropine": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "dmso": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "liquid thermite": {
+        "mobile lab": {
             "desc": "",
             "cost": "moderate"
         },
-        "notwater": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "scrapper's gel": {
+        "specimen container": {
             "desc": "",
             "cost": "low"
         },
-        "slip": {
-            "desc": "",
-            "cost": "low"
-        },
-        "tracker's dye": {
-            "desc": "",
-            "cost": "trivial"
-        }
-    },
-    "exploration gear": {
-        "blue box portable gate control unit": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "gate probe": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "mapping missile": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "portable solarchive": {
-            "desc": "",
-            "cost": "low"
-        },
-        "scout missile": {
+        "superthermite charges": {
             "desc": "",
             "cost": "moderate"
         }
     },
-    "nanotechnology": {
-        "healing vats": {
+    "scorchers": {
+        "bedlam": {
             "desc": "",
             "cost": "high"
         },
-        "nanodetectors": {
-            "desc": "",
-            "cost": "low"
-        },
-        "desktop cornucopia machine": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "fabber": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "maker (low)": {
-            "desc": "",
-            "cost": "low"
-        },
-        "maker (moderate)": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "general hive": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "specialized hive": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "ego bridge": {
-            "desc": "",
-            "cost": "expensive"
-        }
-    },
-    "xenoarcheology gear": {
-        "adaptive interface": {
+        "cauterizer": {
             "desc": "",
             "cost": "high"
         },
-        "faraday container": {
+        "nightmare": {
+            "desc": "",
+            "cost": "high"
+        },
+        "shutter": {
+            "desc": "",
+            "cost": "high"
+        },
+        "spasm": {
+            "desc": "",
+            "cost": "high"
+        }
+    },
+    "sensor systems": {
+        "brain print scanner": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "fiber camera": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "fiberoptic microphone": {
             "desc": "",
             "cost": "low"
         },
-        "scourers": {
+        "flat camera": {
             "desc": "",
             "cost": "moderate"
+        },
+        "hyperspectral flat camera": {
+            "desc": "",
+            "cost": "high"
+        },
+        "ghost imagers": {
+            "desc": "",
+            "cost": "high"
+        },
+        "passive hyperspectral imager": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "active hyperspectral imager": {
+            "desc": "",
+            "cost": "high"
+        },
+        "hyperspectral microphone": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "id scanner": {
+            "desc": "",
+            "cost": "low"
+        },
+        "metal detector": {
+            "desc": "",
+            "cost": "low"
+        },
+        "motion detector": {
+            "desc": "",
+            "cost": "low"
+        },
+        "personal interaction sensor": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "quantum dot camera displays": {
+            "desc": "",
+            "cost": "high"
+        },
+        "quantum radar": {
+            "desc": "",
+            "cost": "high"
+        },
+        "sensor concealment": {
+            "desc": "",
+            "cost": "low"
+        },
+        "super-wide camera": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "hyperspectral super-wide camera": {
+            "desc": "",
+            "cost": "high"
+        }
+    },
+    "services": {
+        "anonymous account": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "backup": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "backup insurance (low)": {
+            "desc": "",
+            "cost": "low"
+        },
+        "backup insurance (mod)": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "body bank": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "fake ego id": {
+            "desc": "",
+            "cost": "high"
+        },
+        "simulspace subscription": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "small animal care": {
+            "desc": "",
+            "cost": "low"
+        },
+        "large animal care": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "animal training": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "blind spot/route": {
+            "desc": "",
+            "cost": "high"
+        },
+        "passive id protection": {
+            "desc": "",
+            "cost": "low"
+        },
+        "active id protection": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "privacy suite": {
+            "desc": "",
+            "cost": "low"
+        },
+        "private sensor feed": {
+            "desc": "",
+            "cost": "low"
+        }
+    },
+    "smart animals": {
+        "fur coat": {
+            "desc": "",
+            "cost": "low"
+        },
+        "smart dog": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "smart monkey": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "smart rat": {
+            "desc": "",
+            "cost": "low"
+        },
+        "smart roach": {
+            "desc": "",
+            "cost": "low"
+        },
+        "police baboon": {
+            "desc": "",
+            "cost": "high"
+        },
+        "rust hound": {
+            "desc": "",
+            "cost": "high"
+        },
+        "smart camel": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "smart horse": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "smart wolf": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "bees and gardener wasps": {
+            "desc": "",
+            "cost": "low"
+        },
+        "guard dog": {
+            "desc": "",
+            "cost": "high"
+        },
+        "smart hawk": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "smart racoon": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "smart cat": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "swarm cat": {
+            "desc": "",
+            "cost": "high"
+        },
+        "aquarium pet": {
+            "desc": "",
+            "cost": "low"
+        },
+        "poisonous marmoset swarm": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "squidling": {
+            "desc": "",
+            "cost": "low"
+        },
+        "titanian caribou": {
+            "desc": "",
+            "cost": "moderate"
+        }
+    },
+    "survival gear": {
+        "breadcrumb positioning": {
+            "desc": "",
+            "cost": "low"
+        },
+        "electrogravitic net": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "electronic rope": {
+            "desc": "",
+            "cost": "low"
+        },
+        "emergency bubble": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "emergency distress beacon": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "flashlight": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "nanobandage": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "repair spray": {
+            "desc": "",
+            "cost": "low"
+        },
+        "shelter dome": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "spindle": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "spindle climber": {
+            "desc": "",
+            "cost": "low"
+        },
+        "breather": {
+            "desc": "",
+            "cost": "low"
+        },
+        "breather w/ extra power": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "breather bladder": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "basic cold weather gear": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "survival cold weather gear": {
+            "desc": "",
+            "cost": "low"
+        },
+        "pressure tent (2 person)": {
+            "desc": "",
+            "cost": "low"
+        },
+        "pressure tent (4 person)": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "bio-defense unit": {
+            "desc": "",
+            "cost": "high"
+        },
+        "bio-defense swarm": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "defense beacons": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "emergency rations": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "filter straw": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "healing pod": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "life support pack": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "small air mask": {
+            "desc": "",
+            "cost": "trivial"
+        },
+        "large air mask": {
+            "desc": "",
+            "cost": "low"
+        },
+        "small oxygen candles": {
+            "desc": "",
+            "cost": "low"
+        },
+        "large oxygen candles": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "hibernation pod": {
+            "desc": "",
+            "cost": "moderate"
+        },
+        "smart anchors": {
+            "desc": "",
+            "cost": "low"
         }
     },
     "toxins": {
@@ -801,84 +1229,6 @@
         "twitch": {
             "desc": "",
             "cost": "low"
-        }
-    },
-    "programs": {
-        "ar illusions": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "encryption": {
-            "desc": "",
-            "cost": "low"
-        },
-        "exploit": {
-            "desc": "",
-            "cost": "high"
-        },
-        "facial/image recognition": {
-            "desc": "",
-            "cost": "low"
-        },
-        "firewall": {
-            "desc": "",
-            "cost": "low"
-        },
-        "sniffer": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "spoof": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "tactical networks": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "tracking": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "xp (low)": {
-            "desc": "",
-            "cost": "low"
-        },
-        "xp (moderate)": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "xp (high)": {
-            "desc": "",
-            "cost": "high"
-        },
-        "behavioral psych": {
-            "desc": "",
-            "cost": "high"
-        },
-        "event reconstruction software": {
-            "desc": "",
-            "cost": "high"
-        },
-        "fake brainprint plug-in": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "kinesics software": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "probability mapping": {
-            "desc": "",
-            "cost": "high"
-        },
-        "radio motion detector": {
-            "desc": "",
-            "cost": "low"
-        },
-        "relationship mapping": {
-            "desc": "",
-            "cost": "moderate"
         }
     },
     "vehicles": {
@@ -1039,368 +1389,19 @@
             "cost": "expensive"
         }
     },
-    "scavenger tech": {
-        "disassembly tools": {
+    "xenoarcheology gear": {
+        "adaptive interface": {
             "desc": "",
             "cost": "high"
         },
-        "mobile lab": {
+        "faraday container": {
+            "desc": "",
+            "cost": "low"
+        },
+        "scourers": {
             "desc": "",
             "cost": "moderate"
-        },
-        "specimen container": {
-            "desc": "",
-            "cost": "low"
-        },
-        "superthermite charges": {
-            "desc": "",
-            "cost": "moderate"
-        }
-    },
-    "everyday technologies": {
-        "ecto": {
-            "desc": "",
-            "cost": "low"
-        },
-        "holographic projectors": {
-            "desc": "",
-            "cost": "low"
-        },
-        "micrograv shoes": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "portable sensor": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "specs": {
-            "desc": "",
-            "cost": "low"
-        },
-        "tools (kit)": {
-            "desc": "",
-            "cost": "low"
-        },
-        "tools (shop)": {
-            "desc": "",
-            "cost": "high"
-        },
-        "tools (facility)": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "utilitool": {
-            "desc": "",
-            "cost": "low"
-        },
-        "viewers": {
-            "desc": "",
-            "cost": "low"
-        },
-        "standard battery": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "nuclear battery": {
-            "desc": "",
-            "cost": "low"
-        },
-        "grip tape": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "solar recharger": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "wireless energy transmitter": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "dust repellent": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "flying vest": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "fractal gloves": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "plasma sail": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "smart manipulators": {
-            "desc": "",
-            "cost": "high"
-        }
-    },
-    "communications": {
-        "fiberoptic cable": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "laser/microwave link": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "radio booster": {
-            "desc": "",
-            "cost": "low"
-        },
-        "neutrino transceiver": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "miniature radio farcaster": {
-            "desc": "",
-            "cost": "low"
-        },
-        "portable qe comm": {
-            "desc": "",
-            "cost": "low"
-        },
-        "low-qbit reservoir": {
-            "desc": "",
-            "cost": "high"
-        },
-        "high-qbit reservoir": {
-            "desc": "",
-            "cost": "expensive"
-        },
-        "mission recorder": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "motes": {
-            "desc": "",
-            "cost": "low"
-        },
-        "sensor motes": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "neutrino retreat": {
-            "desc": "",
-            "cost": "high"
-        },
-        "radio beacon": {
-            "desc": "",
-            "cost": "low"
-        },
-        "satnet in a can": {
-            "desc": "",
-            "cost": "high"
-        },
-        "neo-cetacean translation device": {
-            "desc": "",
-            "cost": "low"
-        },
-        "hypersonic communicator": {
-            "desc": "",
-            "cost": "low"
-        }
-    },
-    "survival gear": {
-        "breadcrumb positioning": {
-            "desc": "",
-            "cost": "low"
-        },
-        "electrogravitic net": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "electronic rope": {
-            "desc": "",
-            "cost": "low"
-        },
-        "emergency bubble": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "emergency distress beacon": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "flashlight": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "nanobandage": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "repair spray": {
-            "desc": "",
-            "cost": "low"
-        },
-        "shelter dome": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "spindle": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "spindle climber": {
-            "desc": "",
-            "cost": "low"
-        },
-        "breather": {
-            "desc": "",
-            "cost": "low"
-        },
-        "breather w/ extra power": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "breather bladder": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "basic cold weather gear": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "survival cold weather gear": {
-            "desc": "",
-            "cost": "low"
-        },
-        "pressure tent (2 person)": {
-            "desc": "",
-            "cost": "low"
-        },
-        "pressure tent (4 person)": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "bio-defense unit": {
-            "desc": "",
-            "cost": "high"
-        },
-        "bio-defense swarm": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "defense beacons": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "emergency rations": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "filter straw": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "healing pod": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "life support pack": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "small air mask": {
-            "desc": "",
-            "cost": "trivial"
-        },
-        "large air mask": {
-            "desc": "",
-            "cost": "low"
-        },
-        "small oxygen candles": {
-            "desc": "",
-            "cost": "low"
-        },
-        "large oxygen candles": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "hibernation pod": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "smart anchors": {
-            "desc": "",
-            "cost": "low"
-        }
-    },
-    "services": {
-        "anonymous account": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "backup": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "backup insurance (low)": {
-            "desc": "",
-            "cost": "low"
-        },
-        "backup insurance (mod)": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "body bank": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "fake ego id": {
-            "desc": "",
-            "cost": "high"
-        },
-        "simulspace subscription": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "small animal care": {
-            "desc": "",
-            "cost": "low"
-        },
-        "large animal care": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "animal training": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "blind spot/route": {
-            "desc": "",
-            "cost": "high"
-        },
-        "passive id protection": {
-            "desc": "",
-            "cost": "low"
-        },
-        "active id protection": {
-            "desc": "",
-            "cost": "moderate"
-        },
-        "privacy suite": {
-            "desc": "",
-            "cost": "low"
-        },
-        "private sensor feed": {
-            "desc": "",
-            "cost": "low"
-        }
-    },
-    "narcoalgorithms": {
-        "ddr": {
-            "desc": "",
-            "cost": "low"
-        },
-        "linkstate": {
-            "desc": "",
-            "cost": "low"
         }
     }
 }
+    

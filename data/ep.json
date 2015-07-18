@@ -219,67 +219,460 @@
     },
     "skill categories": {
         "type": "info",
-        "combat": ["beam weapons", "blades", "clubs", "exotic melee", "exotic ranged", "fray", "gunnery", "kinetic weapons", "seeker weapons", "spray weapons", "throwing weapons", "unarmed"],
+        "combat": ["beam weapons", "blades", "clubs", "exotic melee weapon", "exotic ranged weapon", "fray", "gunnery", "kinetic weapons", "seeker weapons", "spray weapons", "throwing weapons", "unarmed"],
         "knowledge": ["academics", "art", "language", "interest", "profession"],
-        "mental": ["investigation", "navigation", "perception", "scrounging", "all psi skills"],
+        "mental": ["investigation", "navigation", "perception", "scrounging", "control", "psi assault", "sense"],
         "physical": ["climbing", "flight", "free fall", "freerunning", "infiltration", "palming", "swimming"],
-        "psi": ["control", "psi assault", "sense"],
         "social": ["animal handling", "deception", "impersonation", "intimidation", "kinesics", "networking", "persuasion", "protocol"],
         "technical": ["demolitions", "hardware", "infosec", "interfacing", "medicine", "programming", "psychosurgery", "research"],
         "vehicle": ["pilot"]
     },
-    "skill list": {
+    "skills": {
         "type": "info",
-        "academics": {"linked": "cog"},
-        "animal handling": {"linked": "sav"},
-        "art": {"linked": "int"},
-        "beam weapons": {"linked": "coo"},
-        "blades": {"linked": "som"},
-        "climbing": {"linked": "som"},
-        "clubs": {"linked": "som"},
-        "control": {"linked": "wil"},
-        "deception": {"linked": "sav"},
-        "demolitions": {"linked": "cog", "nodefault": true},
-        "disguise": {"linked": "int"},
-        "exotic melee weapon": {"linked": "som"},
-        "exotic ranged weapon": {"linked": "coo"},
-        "flight": {"linked": "som"},
-        "fray": {"linked": "ref"},
-        "free fall": {"linked": "ref"},
-        "freerunning": {"linked": "som"},
-        "gunnery": {"linked": "int"},
-        "hardware": {"linked": "cog"},
-        "impersonation": {"linked": "sav"},
-        "infiltration": {"linked": "coo"},
-        "infosec": {"linked": "cog", "nodefault": true},
-        "interest": {"linked": "cog"},
-        "interfacing": {"linked": "cog"},
-        "intimidation": {"linked": "sav"},
-        "investigation": {"linked": "int"},
-        "kinesics": {"linked": "sav"},
-        "kinetic weapons": {"linked": "coo"},
-        "language": {"linked": "int"},
-        "medicine": {"linked": "cog"},
-        "navigation": {"linked": "int"},
-        "networking": {"linked": "sav"},
-        "palming": {"linked": "coo"},
-        "perception": {"linked": "int"},
-        "persuasion": {"linked": "sav"},
-        "pilot": {"linked": "ref"},
-        "profession": {"linked": "cog"},
-        "programming": {"linked": "cog", "nodefault": true},
-        "protocol": {"linked": "sav"},
-        "psi assault": {"linked": "wil", "nodefault": true},
-        "psychosurgery": {"linked": "int"},
-        "research": {"linked": "cog"},
-        "scrounging": {"linked": "int"},
-        "seeker weapons": {"linked": "coo"},
-        "sense": {"linked": "int", "nodefault": true},
-        "spray weapons": {"linked": "coo"},
-        "swimming": {"linked": "som"},
-        "throwing weapons": {"linked": "coo"},
-        "unarmed": { "linked": "som"}        
-    },
+        "academics": {
+            "category": "knowledge",
+            "linked": "cog",
+            "desc": {
+                "usage": "Academics is used when a character wishes to call upon a specific body of knowledge. For example, Academics: Chemistry could be used to identify a particular substance, understand an unusual chemical reaction, or deter- mine what elements are needed to nanofabricate something that requires exotic materials. At the gamemaster’s discretion, some Academics-related tests might not be defaultable, given that only someone who has been educated in that subject is likely to be able to tackle it.",
+                "spec": "As appropriate to the field",
+                "desc": "Academics covers any sort of spe- cialized non-applied knowledge you can only get through intensive education. Most theoretical and applied sciences, social sciences, transhu- manities, etc. are covered by this skill. Most of the other skills listed in this chapter could also be taken as an Academics field, reflecting a working theoretical knowledge of the skill—for example, Academics: Armorer or Academics: Interrogation. "
+            }
+        },
+        "animal handling": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "Animal Handling is used when- ever you are trying to manipulate an animal, whether your intent is to calm it down, keep it from attacking, intimidate it, acquire its trust, or goad it into attack- ing. Your Margin of Success determines how effective you are at convincing the creature. At the gamemas- ter’s discretion, modifiers may be applied to the test. Likewise, winning an animal over may sometimes take time and so could be handled as a Task Action with a timeframe of five minutes or more.",
+                "spec": "Per animal species (dogs, horses, smart rats, etc.)",
+                "desc": "Skilled animal handlers are able to train and control a wide variety of natural and transgenic animals, including partial uplifts. Though many animal species went extinct during the Fall, a few ark and zoo habitats keep some species alive, and many others can be resurrected from genetic samples. Exotic animals are considered a sign of prestige among the hypercorp elites, and guard animals are occasionally used to protect high-security installations. Likewise, many habitats and settlements employ small armies of partially uplifted, genetically modified, and behavior- controlled creatures for sanitation or other purposes. Many new and strange breeds of animal are created daily to serve a variety of roles."
+            }
+        },
+        "art": {
+            "category": "knowledge",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "As appropriate to the field",
+                "desc": ""
+            }
+        },
+        "beam weapons": {
+            "category": "combat",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "blades": {
+            "category": "combat",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "climbing": {
+            "category": "physical",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "clubs": {
+            "category": "combat",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "control": {
+            "category": "mental",
+            "linked": "wil",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "deception": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "demolitions": {
+            "category": "technical",
+            "nodefault": true,
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "disguise": {
+            "category": "physical",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "exotic melee weapon": {
+            "category": "combat",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "exotic ranged weapon": {
+            "category": "combat",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "flight": {
+            "category": "physical",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "fray": {
+            "category": "combat",
+            "linked": "ref",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "free fall": {
+            "category": "physical",
+            "linked": "ref",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "freerunning": {
+            "category": "physical",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "gunnery": {
+            "category": "combat",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "hardware": {
+            "category": "technical",
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "impersonation": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "infiltration": {
+            "category": "physical",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "infosec": {
+            "category": "technical",
+            "nodefault": true,
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "interest": {
+            "category": "knowledge",
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "As appropriate to the field",
+                "desc": ""
+            }
+        },
+        "interfacing": {
+            "category": "technical",
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "intimidation": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "investigation": {
+            "category": "mental",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "kinesics": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "kinetic weapons": {
+            "category": "combat",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "language": {
+            "category": "knowledge",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "As appropriate to the field",
+                "desc": ""
+            }
+        },
+        "medicine": {
+            "category": "technical",
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "navigation": {
+            "category": "mental",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "networking": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "palming": {
+            "category": "physical",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "perception": {
+            "category": "mental",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "persuasion": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "pilot": {
+            "category": "vehicle",
+            "linked": "ref",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "profession": {
+            "category": "knowledge",
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "As appropriate to the field",
+                "desc": ""
+            }
+        },
+        "programming": {
+            "category": "technical",
+            "nodefault": true,
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "protocol": {
+            "category": "social",
+            "linked": "sav",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "psi assault": {
+            "category": "mental",
+            "nodefault": true,
+            "linked": "wil",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "psychosurgery": {
+            "category": "technical",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "research": {
+            "category": "technical",
+            "linked": "cog",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "scrounging": {
+            "category": "mental",
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "seeker weapons": {
+            "category": "combat",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "sense": {
+            "category": "mental",
+            "nodefault": true,
+            "linked": "int",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "spray weapons": {
+            "category": "combat",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "swimming": {
+            "category": "physical",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "throwing weapons": {
+            "category": "combat",
+            "linked": "coo",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
+            }
+        },
+        "unarmed": {
+            "category": "combat",
+            "linked": "som",
+            "desc": {
+                "usage": "",
+                "spec": "",
+                "desc": ""
             }
         }
     },

@@ -115,7 +115,7 @@ class Lifepath(object):
         for result in results:
             if result:
                 for key, value in result.items():
-                    if key not in ["aptitude", "skills", "longdesc"]:
+                    if key not in ["aptitude", "skills", "desc"]:
                         add_item(merged, key, value)
                     if key == "aptitude":
                         if type(value) != list:

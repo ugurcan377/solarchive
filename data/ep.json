@@ -233,81 +233,81 @@
             "category": "knowledge",
             "linked": "cog",
             "desc": {
-                "usage": "Academics is used when a character wishes to call upon a specific body of knowledge. For example, Academics: Chemistry could be used to identify a particular substance, understand an unusual chemical reaction, or deter- mine what elements are needed to nanofabricate something that requires exotic materials. At the gamemaster’s discretion, some Academics-related tests might not be defaultable, given that only someone who has been educated in that subject is likely to be able to tackle it.",
-                "spec": "As appropriate to the field",
-                "desc": "Academics covers any sort of spe- cialized non-applied knowledge you can only get through intensive education. Most theoretical and applied sciences, social sciences, transhu- manities, etc. are covered by this skill. Most of the other skills listed in this chapter could also be taken as an Academics field, reflecting a working theoretical knowledge of the skill—for example, Academics: Armorer or Academics: Interrogation. "
+                "usage": "academics is used when a character wishes to call upon a specific body of knowledge. for example, academics: chemistry could be used to identify a particular substance, understand an unusual chemical reaction, or determine what elements are needed to nanofabricate something that requires exotic materials. at the gamemaster’s discretion, some academics-related tests might not be defaultable, given that only someone who has been educated in that subject is likely to be able to tackle it.",
+                "spec": "as appropriate to the field",
+                "desc": "academics covers any sort of specialized non-applied knowledge you can only get through intensive education. most theoretical and applied sciences, social sciences, transhumanities, etc. are covered by this skill. most of the other skills listed in this chapter could also be taken as an academics field, reflecting a working theoretical knowledge of the skill—for example, academics: armorer or academics: interrogation. "
             }
         },
         "animal handling": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "Animal Handling is used when- ever you are trying to manipulate an animal, whether your intent is to calm it down, keep it from attacking, intimidate it, acquire its trust, or goad it into attack- ing. Your Margin of Success determines how effective you are at convincing the creature. At the gamemas- ter’s discretion, modifiers may be applied to the test. Likewise, winning an animal over may sometimes take time and so could be handled as a Task Action with a timeframe of five minutes or more.",
-                "spec": "Per animal species (dogs, horses, smart rats, etc.)",
-                "desc": "Skilled animal handlers are able to train and control a wide variety of natural and transgenic animals, including partial uplifts. Though many animal species went extinct during the Fall, a few ark and zoo habitats keep some species alive, and many others can be resurrected from genetic samples. Exotic animals are considered a sign of prestige among the hypercorp elites, and guard animals are occasionally used to protect high-security installations. Likewise, many habitats and settlements employ small armies of partially uplifted, genetically modified, and behavior- controlled creatures for sanitation or other purposes. Many new and strange breeds of animal are created daily to serve a variety of roles."
+                "usage": "animal handling is used whenever you are trying to manipulate an animal, whether your intent is to calm it down, keep it from attacking, intimidate it, acquire its trust, or goad it into attacking. your margin of success determines how effective you are at convincing the creature. at the gamemaster’s discretion, modifiers may be applied to the test. likewise, winning an animal over may sometimes take time and so could be handled as a task action with a timeframe of five minutes or more.",
+                "spec": "per animal species (dogs, horses, smart rats, etc.)",
+                "desc": "skilled animal handlers are able to train and control a wide variety of natural and transgenic animals, including partial uplifts. though many animal species went extinct during the fall, a few ark and zoo habitats keep some species alive, and many others can be resurrected from genetic samples. exotic animals are considered a sign of prestige among the hypercorp elites, and guard animals are occasionally used to protect high-security installations. likewise, many habitats and settlements employ small armies of partially uplifted, genetically modified, and behaviorcontrolled creatures for sanitation or other purposes. many new and strange breeds of animal are created daily to serve a variety of roles."
             }
         },
         "art": {
             "category": "knowledge",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "As appropriate to the field",
-                "desc": ""
+                "usage": "the art skill can be used to either create a new work of art or to duplicate an existing piece of art in the hopes of passing it off as your own. the skill can also determine the approximate value of a piece of art either on the open market, for monetary exchange systems, or in terms of reputa-tion for the artist.",
+                "spec": "as appropriate to the field",
+                "desc": "art confers the ability to create and eval-uate artistic endeavors. this is a particularly useful skill in eclipse phase, especially in the post-scarcity economies where creativity and vision can be a key component to a character’s reputation."
             }
         },
         "beam weapons": {
             "category": "combat",
             "linked": "coo",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "a player uses their beam weapons skill whenever attacking with a beam weapon in combat. beam weapons may also be used for tests involving maintenance of the weapon, but not for repairing or modifying the weapon (that would be hardware: armorer skill).",
+                "spec": "lasers, microwave weapons, particle, beam weapons, plasma rifles",
+                "desc": "the beam weapons skill covers theusage and maintenance of standard coherent beamenergy weapons such as lasers, particle beam weapons, plasma rifles, and microwave weapons "
             }
         },
         "blades": {
             "category": "combat",
             "linked": "som",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "a player uses their blades skill whenever attacking with a blade weapon in melee combat (p. 191). blades may also be used for tests involving maintenance of the weapon, but not for repairing or modifying the weapon (that would be hardware: armorer skill). this skill is used for blade weapons implanted in the body at the end of an appendage (hands, forearms, feet, octomorph arms, etc.), but the exotic melee weapon skill is used for blades implanted in other parts of the body.",
+                "spec": "axes, implant blades, knives, swords",
+                "desc": "the blades skill covers the usage and maintenance of standard bladed weapons"
             }
         },
         "climbing": {
             "category": "physical",
             "linked": "som",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "this skill is used whenever a character wishes to scale a climbable surface. for heights greater than one story, climbing is handled as a task action with a timeframe equivalent to one meter per combat turn. for rappelling, the timeframe for descent is 50 meters per action turn. climbing gear (grip pads, p. 305; traction pads, p. 317; spindle climber, p. 333) provides appropriate modifiers.",
+                "spec": "assisted, freehand, rappelling",
+                "desc": "climbing is the skill of ascending and descending sheer surfaces with or without the aid of specialized equipment."
             }
         },
         "clubs": {
             "category": "combat",
             "linked": "som",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "players use their clubs skill whenever they want to attack with a blunt weapon in melee combat (p. 191). the clubs skill may also be used for tests involving maintenance of the weapon, but not for repairing or modifying the weapon (that would be hardware: armorer skill).",
+                "spec": "batons, hammers, staffs ",
+                "desc": "the clubs skill covers the usage and maintenance of standard blunt melee weapons such as batons or sticks "
             }
         },
         "control": {
             "category": "mental",
             "linked": "wil",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use control when taking a psionic tour through a foreign ego—messing around included. see psi, p. 220 ",
+                "spec": "by sleight",
+                "desc": "control is the use of psi to manipulate individuals or actively penetrate their mental processes. this skill is only available to characters with the psi trait"
             }
         },
         "deception": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use this skill whenever you want to deceive someone with words or gestures. a successful skill test means that you have passed off your deception convincingly. at the gamemaster’s discretion, someone who is actively alert for signs of deception may make an opposed test using the kinesics skill.",
+                "spec": "acting, bluffing, fast talk",
+                "desc": "deception is your ability to act, bluff, con, fast talk, lie, misrepresent, and pretend. accomplished users of deception are able to convince anyone of nearly anything. this skill does not include using a physical disguise or passing yourself off as another person (the disguise and impersonate skills cover those areas)."
             }
         },
         "demolitions": {
@@ -315,108 +315,108 @@
             "nodefault": true,
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use it when making, placing, and disarming explosives and explosive devices. see demolitions, p. 197",
+                "spec": "commercial explosives, disarming, improvised explosives",
+                "desc": "demolitions covers the use of controlled explosives. "
             }
         },
         "disguise": {
             "category": "physical",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use disguise to fool someone into thinking you’re someone you’re not. this can be used to hide your identity or to make yourself look like someone in particular. when used against someone who knows your true look or the appearance of the person you are imitating, this is handled as an opposed test against perception or investigation.",
+                "spec": "cosmetic, theatrical",
+                "desc": "disguise is the art of physically altering your appearance so that you look like someone else. this includes both the use of props (wigs, contacts, skin pigments) and the altering of subtle physical characteristics (gait, posture, poise). "
             }
         },
         "exotic melee weapon": {
             "category": "combat",
             "linked": "som",
             "desc": {
-                "usage": "",
+                "usage": "use the exotic melee weapon skill when attacking someone with an exotic melee weapon in melee combat (see p. 191).",
                 "spec": "",
-                "desc": ""
+                "desc": "the exotic melee weapon skill covers the use and maintenance of all melee weapons not covered by the clubs or blades skills "
             }
         },
         "exotic ranged weapon": {
             "category": "combat",
             "linked": "coo",
             "desc": {
-                "usage": "",
+                "usage": "use this skill whenever attacking with an exotic ranged weapon in ranged combat (see p. 191)",
                 "spec": "",
-                "desc": ""
+                "desc": "exotic ranged weapon skill includes the use and maintenance of all ranged weapons not covered by the beam, kinetic, seeker, spray, or throwing weapons skills."
             }
         },
         "flight": {
             "category": "physical",
             "linked": "som",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use this skill whenever you need to make an aerial maneuver, land in difficult conditions, maintain your course in steep winds, or otherwise keep from crashing or falling.",
+                "spec": "diving, landing, takeoff, specific maneuvers",
+                "desc": "flight is the skill of using your body to fly. this skill is used when sleeved in or jamming a winged or otherwise flight-capable morph (manual and remote-control flight are handled using pilot skill)."
             }
         },
         "fray": {
             "category": "combat",
             "linked": "ref",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "whenever a character is physically attacked by an opponent in melee combat, roll fray to avoid getting hit (see step 2: declare defense, p. 191). fray may also be used to dodge other events that may harm the character, such as avoiding a charging vehicle or jumping out of the way of a collapsing stack of crates.",
+                "spec": "blades, clubs, full defense, unarmed",
+                "desc": "fray is the ability to get out of the way of incoming attacks, debris, or inconvenient passers-by. characters that have a high fray score are able to react quicker than others when dodging or maneuvering."
             }
         },
         "free fall": {
             "category": "physical",
             "linked": "ref",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use whenever you need to maneuver in a zero-g situation, such as propelling yourself across a large open space or making sure you don’t accidentally send yourself spinning off into space. free fall is also used when moving with spacesuit maneuvering jets and when parachuting.",
+                "spec": "microgravity, parachuting, vacsuits",
+                "desc": "free fall is about moving in free-fall and microgravity environments."
             }
         },
         "freerunning": {
             "category": "physical",
             "linked": "som",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use freerunning whenever you need to overcome an obstacle via movement, such as hurdling a railing, rolling across the hood of a car, jumping across a pit, or swinging around a pole. freerunning is also used for sprinting (p. 191) and full defense against attacks (p. 198).",
+                "spec": "balance, gymnastics, jumping, running",
+                "desc": "freerunning is part running, part gymnastics. it is about moving fast, maneuvering over/under/ around/through obstacles, and placing your body where it needs to go. freerunning/parkour is a popular pastime in habitats where open space is limited."
             }
         },
         "gunnery": {
             "category": "combat",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use gunnery when attacking with a vehicle-mounted weapon or weapon emplacement in ranged combat (p. 191).",
+                "spec": "artillery, missiles",
+                "desc": "gunnery skill covers the use and maintenance of large, vehicular, or non-portable weapons systems. firing these weapons is more like playing a video game than firing a gun."
             }
         },
         "hardware": {
             "category": "technical",
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "hardware is primarily used to repair devices, vehicles, habitat systems, or synthetic morphs. see building, repairing, and modifying below.",
+                "spec": "as appropriate to the field",
+                "desc": "this skill encompasses the ability to build, repair, physically hack, and upgrade equipment of a specific type."
             }
         },
         "impersonation": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "sometimes it’s fun to pretend you’re someone else, and sometimes it’s profitable or lifesaving. use this skill whenever you attempt to convince someone that you are actually someone else through some sort of social or online interaction. forks use this skill when passing themselves off as their alpha ego. impersonate is handled as an opposed test against the kinesics skill.",
+                "spec": "avatar, face-to-face, verbal",
+                "desc": "impersonation is the skill of trying to pass yourself off as someone else in social situations, including virtual ones. this includes copying mannerisms and speech patterns and using accumulated information to convince others that you are that person. in a universe where appearance is highly variable, the question of identity is largely one of both trust and picking up on behavioral quirks and verbal cues to recognize a given individual."
             }
         },
         "infiltration": {
             "category": "physical",
             "linked": "coo",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use infiltration whenever you need to physically hide or move with stealth to avoid someone sensing you, whether you are hiding behind a tree, sneaking past a guard, or blending into a crowd. infiltration can also be used to follow people (shadowing) without them detecting you. infiltration is an opposed test against the perception of whomever you are hiding from. the gamemaster may wish to roll such tests in secret so the player does not know whether they have succeeded or failed.",
+                "spec": "blending in, hiding, shadowing, sneaking",
+                "desc": "the art of escaping detection."
             }
         },
         "infosec": {
@@ -424,144 +424,144 @@
             "nodefault": true,
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "infosec is used both for hacking into electronic devices and mesh networks and for protecting them. see the mesh chapter, p. 234, for more details.",
+                "spec": "brute-force hacking, decryption, probing, security, sniffing, spoofing",
+                "desc": "infosec is short for information security. it encompasses training in electronic intrusion and counterintrusion techniques as well as encryption and decryption. "
             }
         },
         "interest": {
             "category": "knowledge",
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "As appropriate to the field",
-                "desc": ""
+                "usage": "use the interest skill whenever you need to recall or use knowledge related to the particular interest in question.",
+                "spec": "as appropriate to the field",
+                "desc": "interest includes just about any topic that captures your attention that isn’t covered by another skill. this includes hobbies, obsessions, causes, pastimes, and other recreational pursuits."
             }
         },
         "interfacing": {
             "category": "technical",
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use interfacing to understand an electronic device you are not familiar with, use a program according to its normal operating parameters, manipulate electronic files of various types (including images, video, xp, and audio files), scan for wireless devices, and otherwise interact with and command your ecto, muse, and other computerized devices. some interfacing actions may be task actions with a timeframe determined by the gamemaster. for more detail, see the mesh chapter, p. 234.",
+                "spec": "forgery, scanning, stealthing, by program",
+                "desc": "interfacing is about using computerized electronic devices and software."
             }
         },
         "intimidation": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use intimidation to scare someone into submission, browbeat them into getting your way, command them to follow your orders, or berate them into giving up information. influence is handled as an opposed test, pitted against the target’s wil + wil + sav.",
+                "spec": "interrogation, physical, verbal",
+                "desc": "intimidation is convincing someone to do what you want based on direct threats (implied or actual) or sheer force of personality."
             }
         },
         "investigation": {
             "category": "mental",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use investigation to draw conclusions from assorted details. for example, investigation could be used to determine the likely sequence of events at a crime scene, determine a possible social connection between two people, or deduce how an enemy made their escape. investigation is a great way to provide clues to players, especially when the subject matter is something their character might know well but the player does not.",
+                "spec": "evidence analysis, logical deductions, physical investigation, physical tracking",
+                "desc": "investigation is the art of analyzing evidence, piecing together clues, solving mysteries, and making logical deductions from groups of facts. investigation differs from perception in that it is the conscious search for clues or pieces of a puzzle."
             }
         },
         "kinesics": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "kinesics is the art of empathy and nonvocal communication.",
+                "spec": "judge intent, nonvocal communication",
+                "desc": "use kinesics to read body language, tells, social cues, and other subconscious indicators. it can also be used to emote more effectively. kinesics is used defensively whenever someone is trying to deceive you; make an opposed test against that person’s deception or impersonation skill. though synthetic morphs are also designed to emote, reading them is not as easy. apply a –30 modifier when judging a synthetic morph inhabited by a character or agi. likewise, standard ais are also difficult to read; apply a –60 modifier when judging a synthetic morph or pod operated by an ai."
             }
         },
         "kinetic weapons": {
             "category": "combat",
             "linked": "coo",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use this skill whenever attacking with a kinetic weapon in ranged combat",
+                "spec": "assault rifles, machine guns, pistols, sniper rifles, submachine guns",
+                "desc": "kinetic weapons covers the use and maintenance of standard kinetic projectile weapons like firearms and railguns ",
             }
         },
         "language": {
             "category": "knowledge",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "As appropriate to the field",
-                "desc": ""
+                "usage": "use the language skill whenever you want to speak, understand, or read something in a language at which you are skilled. most speaking and reading comprehension tests can be considered simple success tests if your skill is over 50, unless the gamemaster rules the subject is sufficiently complex that a non-native speaker would have trouble understanding it.",
+                "spec": "as appropriate to the field",
+                "desc": "language covers the speaking and reading of languages other than the player’s native tongue. a speaker is considered fluent at a skill level of 50; anything above this indicates further refinement in technical vocabulary, accents, and knowledge of dialects."
             }
         },
         "medicine": {
             "category": "technical",
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use medicine whenever you need to apply medical care beyond the immediate help provided by first responders. this includes conducting physical exams, diagnosing ailments, treating problems and illnesses, surgery, using biotech and nanotech medical tools, and long-term care. see healing and repair, p. 208.",
+                "spec": "as appropriate to the field",
+                "desc": "medicine is the applied care and maintenance of biological beings and life."
             }
         },
         "navigation": {
             "category": "mental",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use navigation whenever you need to plot out a course, determine a direction, or otherwise keep from getting lost.",
+                "spec": "astrogation, map making, map reading",
+                "desc": "navigation is the art of finding your way, whether using ar maps, a compass, the stars, or an astrogation ai."
             }
         },
         "networking": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use networking to gather information or call on services using your reputation (see reputation and social networks, p. 285).",
+                "spec": "as appropriate to the field",
+                "desc": "networking is your skill at working your contacts, trading favors, and keeping your finger on the pulse of a particular faction or cultural grouping."
             }
         },
         "palming": {
             "category": "physical",
             "linked": "coo",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use palming any time you are trying to conceal an item on your person, shoplift, pick a pocket, surreptitiously discard something, or perform a magic trick. palming is an opposed test against the perception of any onlookers. the gamemaster may wish to make this roll secretly.",
+                "spec": "pickpocketing, shoplifting, tricks",
+                "desc": "palming is the skill of handling items quickly and nimbly without others noticing. palming is not only about dexterous manipulation of objects but also relies heavily on obfuscation, timing, and misdirection."
             }
         },
         "perception": {
             "category": "mental",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use perception whenever you want to take a detailed account of your surroundings (see detailed perception, p. 190). perception can also be considered an automatic action (see basic perception, p. 190) and so the gamemaster may call for a perception test to determine if you notice something; it is recommended that such tests be rolled secretly by the gamemaster. perception is also used as an opposed test whenever someone around you is trying to be sneaky with infiltration or palming.",
+                "spec": "aural, olfactory, tactile, taste, visual",
+                "desc": "perception is the use of your physical senses (including cybernetic) and awareness of the physical world around you. perception differs from investigation in that it is noticing things by chance, rather than actively searching for something."
             }
         },
         "persuasion": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use persuasion any time you are trying to bargain with, convince, or manipulate someone. this can include motivating your subordinates or peers to take action, seducing a companion, winning a political debate, or negotiating a contract, among other things. persuasion is handled as an opposed test against the target’s wil + wil + sav when one person is simply trying to win over another. if both parties are trying to convince each other, make it an opposed test between persuasion skills.",
+                "spec": "diplomacy, morale boosting, negotiating, seduction",
+                "desc": "persuasion is the art of convincing someone to do what you want through the use of words and gestures. this does not include persuasion through threats or force (that is covered by intimidation) or by lying (covered by deception)."
             }
         },
         "pilot": {
             "category": "vehicle",
             "linked": "ref",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "you use pilot skill whenever you need to maneuver, control, or avoid crashing a vehicle, whether you are in the pilot’s seat, remote controlling a robot, or directly jamming a vehicle with vr. each vehicle has a handling modifier that applies to this test, along with other situational modifiers (see bots, synthmorphs, and vehicles, p. 195).",
+                "spec": "as appropriate to the field",
+                "desc": "pilot is your skill at driving/flying a vehicle of a particular type."
             }
         },
         "profession": {
             "category": "knowledge",
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "As appropriate to the field",
-                "desc": ""
+                "usage": "use profession to perform workrelated tasks for a specific trade (i.e. mining, balancing accounts, designing a security system, etc.) or to reference specialized knowledge that someone trained in that profession might have.",
+                "spec": "as appropriate to the field",
+                "desc": "profession skills indicate training in a profession practiced in eclipse phase. this can indicate either formal training or informal, on-the-job type training and includes both legal and extralegal trades."
             }
         },
         "programming": {
@@ -569,18 +569,18 @@
             "nodefault": true,
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use programming to write new programs, modify or patch existing software, break copy protection, find or introduce exploitable flaws, write viruses or worms, design virtual settings, and so on. see the mesh chapter, p. 234. programming is also applied when using nanofabrication devices",
+                "spec": "ai code, malware, nanofabrication, piracy, simulspace code",
+                "desc": "programming is your talent at writing and modifying software code."
             }
         },
         "protocol": {
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use protocol whenever you need to choose your words carefully, determine who is the appropriate person to speak to, impress someone with your grasp of customs, or otherwise fit into a specific social/cultural grouping. part etiquette, part streetwise, protocol allows you to navigate treacherous social waters and put people at ease. if the character is dealing with a suspicious or hostile audience, make this an opposed test against the target’s wil + wil + sav.",
+                "spec": "anarchist, brinker, criminal, factor, hypercorp, infomorph, mercurial, reclaimer, preservationist, scum, ultimate",
+                "desc": "protocol is the art of making a good impression in social settings. this includes keeping up with the latest memes, trends, gossip, interests and habits of various (sub)cultural groups."
             }
         },
         "psi assault": {
@@ -588,45 +588,45 @@
             "nodefault": true,
             "linked": "wil",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use psi assault when attacking another ego’s mind in psi combat.",
+                "spec": "by sleight",
+                "desc": "psi assault is the skill of damaging another ego’s mind. it can only be purchased by characters with the psi trait "
             }
         },
         "psychosurgery": {
             "category": "technical",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use psychosurgery to attempt the tricky process of editing someone’s mind (see psychosurgery, p. 229). psychosurgery can be used beneficially to help patients who remember their deaths, feel disconnected after remorphing, or have experienced other sorts of mental traumas. this skill may also be used to interrogate, torture, or otherwise mess with captive minds in a vr environment.",
+                "spec": "memory manipulation, personality editing, psychotherapy",
+                "desc": "psychosurgery is the use of machineaided psychological techniques to repair, damage, or manipulate the psyche."
             }
         },
         "research": {
             "category": "technical",
             "linked": "cog",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use the research skill whenever you need to look up the answer to a question, find databases, search archives, or track down anything online. research is typically a task action with the timeframe and difficulty modifier determined by the gamemaster. see online research, p. 249.",
+                "spec": "tracking, by information type",
+                "desc": "research is the skill for looking up information on the mesh: searching, sifting, mining, and interpreting data. this includes knowing where to look, what links to follow, and how to optimize your queries."
             }
         },
         "scrounging": {
             "category": "mental",
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use scrounging to dumpster-dive a meal, search ruins for relics, find bargains at a bazaar, forage berries in the forest, locate a spacesuit in an abandoned ship, etc. scrounging is typically handled as a task action with a timeframe and difficulty modifier determined by the gamemaster.",
+                "spec": "bazaars, forests, habitats, ruins",
+                "desc": "scrounging is your ability to find things, particularly things of use or value that are concealed, buried, or hard to find. this includes knowing where to look and what to look for. scrounging differs from both perception and investigation in that it is about finding items hidden among others, and in most cases about finding something in particular (food, valuables, etc.)."
             }
         },
         "seeker weapons": {
             "category": "combat",
             "linked": "coo",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use this skill when attacking with a seeker in ranged combat (p. 191).",
+                "spec": "armband, pistol, rifle, underbarrel",
+                "desc": "seeker weapons covers the use and maintenance of seeker launchers and seeker missiles (p. 340)."
             }
         },
         "sense": {
@@ -634,45 +634,45 @@
             "nodefault": true,
             "linked": "int",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "sense is the use of psi to scan egos. only characters with the psi trait may purchase this skill.",
+                "spec": "by sleight",
+                "desc": "see psi, p. 220."
             }
         },
         "spray weapons": {
             "category": "combat",
             "linked": "coo",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "a player uses their spray weapons skill whenever they are attacking with a spray weapon in ranged combat (p. 191).",
+                "spec": "buzzer, freezer, shard, shredder, torch",
+                "desc": "the spray weapons skill covers the use and maintenance of cone-effect ranged weapons "
             }
         },
         "swimming": {
             "category": "physical",
             "linked": "som",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use swimming whenever you need to move and survive in water or another liquid environment. swimming in a non-threatening environment can be handled as a simple success test. swimming over a long distance could be handled as a task action. diving off a cliff into a lake, preventing yourself from being swept away in a raging river current, or making sure you’ve set a proper gas mix for a deep-sea dive, among other things, requires a success test.",
+                "spec": "diving, freestyle, underwater diving",
+                "desc": "swimming is the art of moving and not drowning within fluids. it includes floating, surface swimming, snorkeling, diving, and related equipment use."
             }
         },
         "throwing weapons": {
             "category": "combat",
             "linked": "coo",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use throwing weapons skill whenever you are attacking with a throwing weapon in ranged combat (p. 191). ",
+                "spec": "grenades, knives, rocks",
+                "desc": "throwing weapons skill covers the use and maintenance of standard throwing weapons, like grenades "
             }
         },
         "unarmed": {
             "category": "combat",
             "linked": "som",
             "desc": {
-                "usage": "",
-                "spec": "",
-                "desc": ""
+                "usage": "use unarmed combat whenever you want to attack someone with your fists, feet, elbows, knees, or other body parts in melee combat (p. 191).",
+                "spec": "implant weaponry, kick, punch, subdual",
+                "desc": "unarmed combat is your ability to attack and defend without using weapons."
             }
         }
     },

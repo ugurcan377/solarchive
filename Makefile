@@ -1,2 +1,2 @@
 babel:
-	babel app/js/src/app.js --out-file app/js/build/app.js
+	babel static/app/js/src/app.js --out-file static/app/js/build/app.js

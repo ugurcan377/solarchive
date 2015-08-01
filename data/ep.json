@@ -480,7 +480,7 @@
             "desc": {
                 "usage": "use this skill whenever attacking with a kinetic weapon in ranged combat",
                 "spec": "assault rifles, machine guns, pistols, sniper rifles, submachine guns",
-                "desc": "kinetic weapons covers the use and maintenance of standard kinetic projectile weapons like firearms and railguns ",
+                "desc": "kinetic weapons covers the use and maintenance of standard kinetic projectile weapons like firearms and railguns "
             }
         },
         "language": {

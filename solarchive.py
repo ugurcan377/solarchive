@@ -2,7 +2,7 @@
 from pprint import pprint
 import click
 from solarchive.lifepath import Lifepath
-
+from solarchive.application import app
 
 @click.group()
 def cli():
@@ -23,6 +23,15 @@ def lifepath(debug, step):
             pprint(path.char)
     else:
         click.echo(path.char)
+
+@cli.command()
+@click.option("--debug", is_flag=True, help="Start server with debug mode")
+def web(debug):
+    if debug:
+        app.run(debug=True)
+    else:
+        app.run()
+
 
 if __name__ == '__main__':
     cli()

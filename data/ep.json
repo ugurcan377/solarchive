@@ -220,12 +220,14 @@
     "skill categories": {
         "type": "info",
         "combat": ["beam weapons", "blades", "clubs", "exotic melee weapon", "exotic ranged weapon", "fray", "gunnery", "kinetic weapons", "seeker weapons", "spray weapons", "throwing weapons", "unarmed"],
+        "computer": [ "infosec", "interfacing", "programming", "research"],
         "knowledge": ["academics", "art", "language", "interest", "profession"],
         "mental": ["investigation", "navigation", "perception", "scrounging", "control", "psi assault", "sense"],
         "physical": ["climbing", "flight", "free fall", "freerunning", "infiltration", "palming", "swimming"],
         "social": ["animal handling", "deception", "impersonation", "intimidation", "kinesics", "networking", "persuasion", "protocol"],
         "technical": ["demolitions", "hardware", "infosec", "interfacing", "medicine", "programming", "psychosurgery", "research"],
-        "vehicle": ["pilot"]
+        "vehicle": ["pilot"],
+        "weapon": ["beam weapons", "blades", "clubs", "exotic melee weapon", "exotic ranged weapon", "kinetic weapons", "seeker weapons", "spray weapons", "throwing weapons"],
     },
     "skills": {
         "type": "info",

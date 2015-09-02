@@ -228,10 +228,15 @@ Contrary to other files all morhps contains the same fields:
 ##TO DO
 
 ####Dataset:
-+ Add weapons and armor
-+ Add gear (packages)
-+ Add morph implants There is a list of them in Morph Recognition Guide
-+ Add neutral traits  
++ Import below from singularity dataset
+    + Add weapons and armor
+    + Add gear (packages)
+    + Add morph implants There is a list of them in Morph Recognition Guide
++ Add neutral traits
++ Add trait specs !important
++ Fix optional skills !important
++ Change v[0-9] usage with (Level [0-9]) for traits !important
++ Change credit with cost in morphs !important  
 Maybe in a distant future:
 + Add habıtat info
 + Add exoplanet info
@@ -256,7 +261,7 @@ Maybe in a distant future:
 
 ##Contributing
 If you want to contribute or just report bugs feel free to send a pull request or open an issue.  
-You can also drop me an email at ugurcanergn@gmail.com
+You can also shoot me a email at ugurcanergn@gmail.com
 ##License and Attribution
 Source code is distributed with one of the argonauts favorite licenses GNU GPLv2  
 Eclipse Phase is a trademark of Posthuman Studios LLC  

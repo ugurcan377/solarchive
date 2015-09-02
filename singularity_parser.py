@@ -31,7 +31,7 @@ def parse_skills(skill_str):
                     else:
                         category = name
                         name = "any"
-                tmp = {"value": value}
+                tmp = {"value": int(value)}
                 if choices:
                     tmp["choices"] = choices
                 if spec:
@@ -51,6 +51,23 @@ def parse_skills(skill_str):
         return {}
 
 
+def parse_traits(trait_str):
+    if trait_str == "NONE":
+        return ""
+    trait_list = []
+    split_traits = trait_str.split(",")
+    for trait in split_traits:
+        if trait and trait != " ":
+            if "=" in trait:
+                name, spec = trait.split("=")
+                trait_list.append({"name": name, "spec": spec})
+            else:
+                trait_list.append(trait)
+    if len(trait_list) == 1:
+        return trait_list[0]
+    else:
+        return trait_list
+
 def get_gears(grouped):
     gears = {}
     for line in grouped["GEAR"]:
@@ -68,7 +85,7 @@ def get_gears(grouped):
             "replace_curre": replace_curre,
             "durability": dur,
             "speed": speed,
-            "aptitudes": apts,
+            "aptitude": apts,
             "skills": skills,
             "morphs_allowed": morphs_allowed,
             "cost": cost
@@ -82,11 +99,11 @@ def get_backgrounds(grouped):
         backgrounds[name] = {
             #"desc": desc,
             "skills": parse_skills(skill_modifiers),
-            "moxy_adj": moxy_adj,
-            "traits": traits,
+            "moxie": moxy_adj,
+            "trait": parse_traits(traits),
             "morphs": morphs,
-            "credit_mod": credit_mod,
-            "rep_mod": rep_mod,
+            "credits": credit_mod,
+            "rep": int(rep_mod),
         }
     return backgrounds
 
@@ -97,11 +114,11 @@ def get_factions(grouped):
         factions[name] = {
             #"desc": desc,
             "skills": parse_skills(skill_modifiers),
-            "moxy_adj": moxy_adj,
-            "traits": traits,
+            "moxie": moxy_adj,
+            "trait": parse_traits(traits),
             "morphs": morphs,
-            "credit_mod": credit_mod,
-            "rep_mod": rep_mod,
+            "credits": credit_mod,
+            "rep": int(rep_mod),
         }
     return factions
 

@@ -1,3 +1,5 @@
+import re
+
 # Comment out line 2128 2129
 f = open("epdata.txt")
 raw_data = f.readlines()
@@ -68,26 +70,89 @@ def parse_traits(trait_str):
     else:
         return trait_list
 
+
+def parse_morphs(morph_str):
+    if not morph_str or morph_str == "ANY":
+        return ""
+    return [morph for morph in morph_str.split(",")]
+
+
+def parse_ap(ap_str):
+    ap_str = ap_str.replace('--', '0')
+    if ap_str == "AVx2":
+        return ap_str
+    elif ap_str == "double":
+        return "AVx2"
+    elif 'or' in ap_str:
+        return [int(x) for x in ap_str.split(" or ")]
+    elif re.match('-?[0-9]', ap_str):
+        return int(ap_str)
+    return ap_str
+
+
+def parse_dv(dv_str):
+    if dv_str in ["--", "no damage"]:
+        return 0
+    elif dv_str.strip() == "Pain (see desc) or 2d10":
+        return "Pain or 2d10"
+    return dv_str
+
+
+def parse_linked_skill(skill_str):
+    if skill_str == "Unarmed Combat":
+        return "Unarmed"
+    elif ":" in skill_str:
+        strip_skill = [x.strip() for x in skill_str.split(":")]
+        return {"name": strip_skill[0], "spec": strip_skill[1]}
+    return skill_str
+
+
+def parse_armor(armor_str):
+    if armor_str:
+        return [int(x) for x in armor_str.split("/")]
+    else:
+        return ""
+
+
+def parse_replace_curre(rep_str):
+    if rep_str == "TRUE":
+        return False
+    elif rep_str == "FALSE":
+        return True
+    else:
+        return ""
+
+
+def parse_aptitudes(apt_str):
+    apt_dict = {}
+    if apt_str:
+        split_apts = apt_str.split(",")
+        for apt in split_apts:
+            if apt:
+                value, name = apt.split(":")
+                apt_dict[name] = int(value)
+    return apt_dict
+
+
 def get_gears(grouped):
     gears = {}
     for line in grouped["GEAR"]:
         gear, name, gear_type, ap, dv, firing_mode, ammo, linked_skill,\
         armor, replace_curre, dur, speed, apts, skills, morphs_allowed, cost, desc = line
         gears[name] = {
-            "type": gear_type,
-            #"desc": desc,
-            "ap": ap,
-            "dv": dv,
+            "type": [x for x in gear_type.split(",")],
+            "desc": desc,
+            "ap": parse_ap(ap),
+            "dv": parse_dv(dv),
             "firing_mode": firing_mode,
             "ammo": ammo,
-            "linked_skill": linked_skill,
-            "armor": armor,
-            "replace_curre": replace_curre,
+            "linked_skill": parse_linked_skill(linked_skill),
+            "armor": parse_armor(armor),
+            "cumulative_armor": parse_replace_curre(replace_curre),
             "durability": dur,
             "speed": speed,
-            "aptitude": apts,
-            "skills": skills,
-            "morphs_allowed": morphs_allowed,
+            "aptitude": parse_aptitudes(apts),
+            "morphs": parse_morphs(morphs_allowed),
             "cost": cost
         }
     return gears
@@ -97,12 +162,12 @@ def get_backgrounds(grouped):
     for line in grouped["BACKGROUND"]:
         background, name, desc, skill_modifiers, moxy_adj, traits, morphs, credit_mod, rep_mod, _, _, _, _, _, _, _, _ = line
         backgrounds[name] = {
-            #"desc": desc,
+            "desc": desc,
             "skills": parse_skills(skill_modifiers),
             "moxie": moxy_adj,
             "trait": parse_traits(traits),
-            "morphs": morphs,
-            "credits": credit_mod,
+            "morphs": parse_morphs(morphs),
+            "credits": int(credit_mod),
             "rep": int(rep_mod),
         }
     return backgrounds
@@ -112,15 +177,30 @@ def get_factions(grouped):
     for line in grouped["FACTION"]:
         faction, name, desc, skill_modifiers, moxy_adj, traits, morphs, credit_mod, rep_mod, _, _, _, _, _, _, _, _ = line
         factions[name] = {
-            #"desc": desc,
+            "desc": desc,
             "skills": parse_skills(skill_modifiers),
             "moxie": moxy_adj,
             "trait": parse_traits(traits),
-            "morphs": morphs,
-            "credits": credit_mod,
+            "morphs": parse_morphs(morphs),
+            "credits": int(credit_mod),
             "rep": int(rep_mod),
         }
     return factions
+
+
+def show_field(data_type, field):
+    if data_type == "gear":
+        for k,v in gear_dict.iteritems():
+            if v[field] not in ["", {}]:
+                print k, " > ",v["type"], " > ", v[field]
+    else:
+        if data_type == "background":
+            data = background_dict
+        else:
+            data = faction_dict
+        for k, v in data.iteritems():
+            print k, " > ", v[field]
+
 
 grouped_data = group(fc_data)
 gear_dict = get_gears(grouped_data)

@@ -236,7 +236,7 @@ Contrary to other files all morhps contains the same fields:
 + Add trait specs !important
 + Fix optional skills !important
 + Change v[0-9] usage with (Level [0-9]) for traits !important
-+ Change credit with cost in morphs !important  
++ Change credit with cost in morphs !important
 Maybe in a distant future:
 + Add habıtat info
 + Add exoplanet info

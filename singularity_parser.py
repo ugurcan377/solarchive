@@ -164,7 +164,7 @@ def get_backgrounds(grouped):
         backgrounds[name] = {
             "desc": desc,
             "skills": parse_skills(skill_modifiers),
-            "moxie": moxy_adj,
+            "moxie": int(moxy_adj),
             "trait": parse_traits(traits),
             "morphs": parse_morphs(morphs),
             "credits": int(credit_mod),
@@ -179,7 +179,7 @@ def get_factions(grouped):
         factions[name] = {
             "desc": desc,
             "skills": parse_skills(skill_modifiers),
-            "moxie": moxy_adj,
+            "moxie": int(moxy_adj),
             "trait": parse_traits(traits),
             "morphs": parse_morphs(morphs),
             "credits": int(credit_mod),
@@ -202,7 +202,37 @@ def show_field(data_type, field):
             print k, " > ", v[field]
 
 
+def generate_json(json_dict):
+    from jinja2 import Template
+    template = Template('''{
+    {% for elem in keys -%}
+    "{{elem}}": {
+        {% for k,v in elements[elem].iteritems() -%}
+            {% if v is string -%}
+            "{{k}}": "{{v}}",
+            {% else -%}
+            "{{k}}": {{v}},
+            {% endif -%}
+        {% endfor -%}
+        },
+    {% endfor -%}
+    }''')
+    sorted_keys = json_dict.keys()
+    sorted_keys.sort()
+    return template.render(elements=json_dict, keys=sorted_keys)
+
+
 grouped_data = group(fc_data)
 gear_dict = get_gears(grouped_data)
 background_dict = get_backgrounds(grouped_data)
 faction_dict = get_factions(grouped_data)
+
+f = open("/home/sentinel/workspace/solarchive/gear.json", "w")
+f.write(generate_json(json_dict=gear_dict))
+f.close()
+f = open("/home/sentinel/workspace/solarchive/background.json", "w")
+f.write(generate_json(json_dict=background_dict))
+f.close()
+f = open("/home/sentinel/workspace/solarchive/faction.json", "w")
+f.write(generate_json(json_dict=faction_dict))
+f.close()

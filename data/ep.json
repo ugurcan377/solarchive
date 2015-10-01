@@ -682,5 +682,540 @@
         "type": "general",
         "values": [[1, 8], [9, 11], [12, 14], [15, 17], [18, 21], [22, 24], [25, 30], [31, 34], [35, 38], [39, 41], [42, 47], [48, 51], [52, 57], [58, 61], [62, 67], [68, 71], [72, 74], [75, 79], [80, 84], [85, 88], [89, 94], [95, 97], [98, 100]],
         "table": ["addiction", "alien behavior disorder", "alien sensory disorder", "atavism", "attention deficit hyperactivity disorder", "autophagy", "bipolar disorder", "body dysmorphia", "borderline personality disorder", "cosmic anxiety disorder", "depression", "fugue", "general anxiety disorder", "hypochondria", "impulse control disorder", "insomnia", "megalomania", "multiple personality disorder", "obsessive compulsive disorder", "phobia", "post-traumatic stress disorder", "schizophrenia", "species dysmorphia"]
-    }
+    },
+    "backgrounds": {
+        "ape uplift": {
+            "skills": {"unarmed": {"value": 10}, "intimidation": {"value": 20}, "fray": {"value": 10}},
+                "trait": ["brave", {"name": " social stigma", "spec": "agi"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 78) neo-gorillas and neo-orangutans have integrated well with transhumanity, but they still haven't shaken their reputation for aggressiveness. your drive to be in control of your social group and environment - a remnant of your species' social competitiveness and group hierarchies - chafes at the prejudice and restrictions you find in most habitats. due to your perceived anti-social tendencies, it can be difficult to find a place in society outside of military, police, or criminal organizations."
+                },
+        "bonobo uplift": {
+            "skills": {"networking": [{"value": 10}, {"value": 10}], "persuasion": {"value": 10}, "freerunning": {"value": 10}, "kinesics": {"value": 10}},
+                "trait": ["social animal", {"name": " addiction", "spec": "sex (level 1)"}, {"name": " social stigma", "spec": "uplift"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 78) your species is among the most enthusiastic when it comes to assimilating into transhuman cultures, and you are no exception. the large, vibrant social groups, the constant interaction, and the pervasive - if unspoken - focus on sex and sexuality makes your own impulses and tendencies an almost perfect fit. although other uplifts might belittle you for pandering to transhumans, and some transhumans claim you're too naive to realize the way your uplifters moved your species towards work in entertainment, xp, and porn, you actually have many more opportunities and wider acceptance than almost any other uplifts except your cousins the chimps. so long as you have friends - and if you're lucky, family - to share this life with, you're happy."
+                },
+        "catacean uplift": {
+            "skills": {"networking": {"value": 10}, "art": {"spec": "singing", "value": 20}, "swimming": {"value": 20}},
+                "trait": ["social animal", {"name": " social stigma", "spec": "uplift"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 78) you are used to living with a tight-knit pack that had no secrets. like others of your kind, you are always in motion, always expressive, and quite often playing tricks and games. as an aquatic creature, there are only a few locations that you can call home, if you want to thrive in your natural form."
+                },
+        "chimp uplift": {
+            "skills": {"climbing": {"value": 10}, "networking": {"spec": "hypercorps", "value": 10}, "freerunning": {"value": 10}, "fray": {"value": 10}},
+                "trait": {"name": "social stigma", "spec": "uplift"},
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 78) you come from the first and most populous uplifted species, and the one generally perceived as closest to humans. as a chimp, you don't suffer from the same level of scorn as other species and have more possibilities for success, but your life is still limited by laws and prejudice throughout the system. will you work to push for more rights and recognition for all species or take advantage of the slim acceptance you enjoy to live an easier life than other uplifts?"
+                },
+        "corvid uplift": {
+            "skills": {"navigation": {"value": 10}, "perception": {"value": 10}, "flight": {"value": 20}, "scrounging": {"value": 20}},
+                "trait": ["hoarder", {"name": " social stigma", "spec": "uplift"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 78) you have all the best and worst tendencies of your species=excellent three- and four-dimensional thinking, a knack for finding objects you can put to use, and an unfortunate and overwhelming habit of adding new things to your nest. while crows and ravens have been anthropomorphized for millenia, it is rarely with beneficial stereotypes. your species is usually associated with death, trickery, stealing, vanity, or any other number of less-than-pleasant qualities. whether they realize it or not, most transhumans carry these stereotypes around in their heads and you have probably been the target of them more than once."
+                },
+        "drifter": {
+            "skills": {"networking": {"value": 10}, "navigation": {"value": 10}, "pilot": {"spec": "spacecraft", "value": 20}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 131) you were raised with a social grouping that remained on the move throughout the sol system. you are used to roaming space travel between habitats and stations, navigating the different customs, laws, and languages of the system with ease. you might have been part of an iterant work force or maybe a group facing social stigma of some sort that required frequent emmigration. for whatever reason, you have no real home to call your own. on the other hand, that means that every habitat and planet is equally home to you."
+                },
+        "emergent agi": {
+            "skills": {"programming": {"value": 30}, "infosec": {"value": 15}, "interfacing": {"value": 30}},
+                "trait": ["emotive blindness", " poorly socialised", " real wold naivete", {"name": " social stigma", "spec": "agi"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 78) as a pre-sapient complex software system, you may have emerged into full intelligence on your own, given enough time. your potential was recognized, however, and you were uplifted with an upgraded, human-based neural network and a program of socialization to make you friendly and conducive to human values and modes of thought. you are not quite as assimilated as programmed agis, however. while you are at least capable of functionally interacting with transhumans, their thought processes and social behaviors are quite often a complete mystery to you. many emergent uplifts also have the anomalous mind trait."
+                },
+        "fall evacuee": {
+            "skills": {"networking": {"value": 10}, "pilot": {"spec": "groundcraft", "value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": -2500,
+                "morphs": "",
+                "moxie": 1,
+                "desc": "(ep p. 131) you were born on earth and evacuated during the fall, leaving your old life behind you. you were lucky enough to survive with your body intact and continue to make a life for yourself out in the system. while your home may be behind you, the things you experienced during the evacuation never will. everyone in the sol system lost friends and family during the fall, but you are the most likely to have seen them die before your eyes, or suffer some worse fate."
+                },
+        "feral uplift": {
+            "skills": {"unarmed": {"value": 20}, "perception": {"value": 10}, "navigation": {"value": 10}, "fray": {"value": 10}},
+                "trait": ["heightened instinct", " poorly socialised", " real world naivete", {"name": " social stigma", "spec": "uplift"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 79) by design or accident, your uplift moved you to full sapience but did nothing to change your instincts or social impulses. the morality and social behavior of other transhumans are a mystery and only worth understanding to the extent needed for your own survival. you will do as you must to survive, but you long to live the way your natural impulses dictate. many feral uplifts also have the anomalous mind trait."
+                },
+        "humanities infolife": {
+            "skills": {"academics": {"value": 10}, "research": {"value": 10}, "networking": {"value": 10}, "kinesics": {"value": 10}, "interfacing": {"value": 20}},
+                "trait": ["real wold naivete", {"name": " social stigma", "spec": "agi"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 79) your digital mind emulates human minds and values as closely as your neuroprogrammers could make it. you were specifically designed to blend in with transhumans and work closely with them. you'll never be truly human, or even truly biological like uplifts, but you at least can imagine what it's like to be a flesh-and-blood human. while this allows you to blend in with humans more easily, it also means that you feel the lack of human social emotions more strongly than other agis and might seek to fix that. (note: for the academics field skill choose between psychology and sociology)"
+                },
+        "hyperelite": {
+            "skills": {"networking": {"spec": "hypercorps", "value": 20}, "protocol": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 10000,
+                "morphs": ["exalt", "menton", "olympian", "sylph", "bouncer", "fury", "futura", "ghost", "hibernoids", "neotenic", "remade", "premium ruster", "lunar flier", "martian alpiner", "salamander", "surya", "venusian glider", "regular ruster", "aquanaut", "crasher", "dverger", "hazer", "hulder", "hyperbright", "ring flyer", "selkie", "cerean aquanaut", "europan aquanaut", "titanian flier", "titanian olympian", "ariel", "bruiser", "cloud skate", "faust", "freeman", "grey", "nomad", "observer", "theseus"],
+                "moxie": 0,
+                "desc": "(ep p. 131) you were raised as part of the immortal upper class that rules many inner system habitats and hypercorps. you were pampered with wealth and influence that most people can only dream of. during your protected and pampered childhood, you probably were raised to expect the sweet life forever but your parents could never have predicted the chaos of the fall. some hyperelites came out much better after the dust have settled while others have lost everything. in this new future, are your upper class skills enough to help you survive and prosper?"
+                },
+        "indenture": {
+            "skills": {"profession": {"value": 20}, "networking": {"spec": "hypercorp", "value": 10}, "any": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 79) you may have handed yourself over to the hypercorps before the fall, going off-world to escape a life of violence and misery on earth, or you may have escaped the horrors of the fall as an infugee. either way, you left the earth with nothing, and you spent years selling your time and labor as an indenture. now you've earned your freedom and are taking your first cautious steps back into transhuman society as your own person. you might only have a dim undestanding of current events and culture - your activities and news sources were heavily restricted during your indenture - but your work has helped you sharpen some skills and come away with a decent understanding of new corporate culture."
+                },
+        "infolife": {
+            "skills": {"interfacing": {"value": 30}},
+                "trait": ["real world naivete", {"name": " social stigma", "spec": "agi"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 131) you entered existence as a digital consciousness. your very existence is illegal in certain habitats, while others are kind enough to tolerate you as property. unlike seed ais, the rapidly-evolving programs that led to the titans, your capacity for self-improvement is limited. though you do have full autonomy and can grow and improve, you are locked into a human-like neural map and continue to think like a human. whether you follow your original programming mandate or forge a new life for yourself, the future is yours to do with what you like."
+                },
+        "isolate": {
+            "skills": {"any": [{"value": 20}, {"value": 20}]},
+                "trait": "",
+                "rep": -10,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 131) you were raised as part of a group living on the fringes of the system, eking out a space for itself without the need for outside contact. whether raised as part of a religious cult, social experiment or anti-tech cell, you spent most of your life isolated. now you are starting to venture into the wider system and find that much of what you came to expect is wrong. the titans have not left everything in a shambles and there are honest people in other habitats that you can count on. the universe outside of the small community you grew up in is far from the nightmare your elders warned of, but is it enough to keep you from returning to the comfort and quiet of home? considering how you left, can you even return there?"
+                },
+        "lost": {
+            "skills": {"any": [{"category": "knowledge", "value": 20}, {"category": "knowledge", "value": 20}]},
+                "trait": ["psi (level 1)", " mental disorder"],
+                "rep": 0,
+                "credits": 0,
+                "morphs": ["futura", "faust"],
+                "moxie": 0,
+                "desc": "(ep p. 131) as a member of the lost generation, you went through an accelerated-growth childhood, somehow surviving where others of your kind died or went insane. the futura program was a secret of the cognite hypercorp for years before information was leaked to the outside, and when others discovered the truth you and your siblings were rescued and freed from the horrors of childhood. so, your life is yours for the first time. now what? and why don't others have these strange abilities?"
+                },
+        "lunar colonist": {
+            "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": {"value": 10, "choices": ["technical", "academics", "profession"]}, "pilot": {"spec": "groundcraft", "value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 131) you experienced your childhood in one of the cramped dome cities or underground stations on luna, earth's moon. you had a ringside seat to the fall of earth, but at least you weren't in the thick of it. during the catastrophe, your homeworld was flooded with refugees and a few exsurgent outbreaks have left physical and psychological scars behind. lunars think of themselves as a pragmatic people, even if others think they are paranoid, and you are likely to have been shaped by the consevative ideals back home even if you don't share them. you're also likely to be shaped by witnessing the waves of evacuees who left earth with nothing, and the dark parts of transhumanity you saw preying on these poor unfortunates."
+                },
+        "machine infolife": {
+            "skills": {"programming": {"value": 20}, "infosec": {"value": 10}, "interfacing": {"value": 30}},
+                "trait": ["machine intuition", " poorly socalised", " real world naivete", {"name": " social stigma", "spec": "agi"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 79) you were programmed to facilitate transhumanity's interactions with complex systems. you understand computers, robots, and machines more than you do transhumans. some agis, especially those designed to work closely with humans, may try to pretend at being human but there is never any doubt in your mind about what you are. every thought and impulse is logical and systematic, every risk objective and calculated, and every resource expendable under some scenario. when people call agis cold and emotionless, they are thinking of agis like you. it's up to you to decide whether to take that as a criticism or a compliment."
+                },
+        "maker nomad": {
+            "skills": {"hardware": {"value": 10}, "academics": {"value": 10}, "profession": {"spec": "teraforming", "value": 10}, "scrounging": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 79) the sparsely settled high desert of northern mars is your homeland - one your people are slowly converting into a new home for transhumanity. you've been raised from childhood to be a consummate engineer while respecting the delicate balance of the evolving martian climate. the sufi nomads are allies, and perhaps blood relations, to your maker clan. your upbringing gives you an  edge at surviving on improvisation in the harshest of climes."
+                },
+        "martian": {
+            "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": {"value": 10, "choices": ["technical", "academics", "profession"]}, "pilot": {"spec": "groundcraft", "value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 132) you were raised in one of the stations on or above mars, now the most populated planet in the system. your home town may or may not have survived the fall but your planet has definitely come out better. a generation ago, mars was a distant mining concern that the hypercorps and nations of earth were dividing up. now, it is the largest population of transhumanity in the universe and, for many, the new homeworld of the human species. its cities, culture, economy, and technology dominate the rest of the sol system, for better or worse. it would be perfect, except for the fringe elements in the deserts making trouble..."
+                },
+        "neanderthal uplift": {
+            "skills": {"freerunning": {"value": 10}, "networking": {"value": 10}, "art": {"spec": "music", "value": 20}, "profession": {"value": 10}},
+                "trait": {"name": "social stigma", "spec": "uplift"},
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 79) until a few decades ago, your species was extinct. the first resurrected neo-neanderthals had no pre-existing culture to build upon, but that hasn't stopped your kind from inventign something new, even if you really are just making it up as you go along."
+                },
+        "octopus uplift": {
+            "skills": {"disguise": {"value": 10}, "swimming": {"value": 10}, "infiltration": {"value": 10}, "deception": {"value": 10}, "freefall": {"value": 10}},
+                "trait": [{"name": "hardening", "spec": "isolation"}, " solitary", {"name": " social stigma", "spec": "uplift"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 79) yours is the least-human uplifted species. more so than other uplifts, you think and live a step apart from transhuman norms. by nature inclined to solitude and a restful, reactive lift, the frenetic pace of hyperactive socializing of most transhumans in strange and off-putting. you must work to engage with others as a new type of protective camouflage, lest you be left isolated, exposed, and out-competed."
+                },
+        "original space colonist": {
+            "skills": {"networking": {"value": 20}, "any": [{"value": 10, "choices": ["technical", "academics", "profession"]}, {"value": 10, "choices": ["freefall", "pilot=spacecraft"]}]},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 132) you were part of the first generation of colonists sent out from earth to stake a claim in space. you are familiar with the cramped confines of spaceflight and life aboard older stations and habitats, the reality of life for most of transhumanity. whether a science posting, commercial endeavor or exploratory outpost, your home has undoubtedly been transformed as a result of the fall as space is at more of a premium than ever before. you might be fulfilling a role similar to your original assignment or you might be taking advantage of the new world (and possibly new political system) to find a new life for yourself."
+                },
+        "parrot uplift": {
+            "skills": {"impersonation": {"value": 20}, "networking": {"value": 10}, "flight": {"value": 10}},
+                "trait": ["first impression", {"name": " social stigma", "spec": "uplift"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 80) you have an easier time than most other uplift species when dealing with transhumans, as parrots were often viewed as smart and beautiful companion animals. as most people have positive stereotypes that you'll be gregarious and entertaining, it's easier to get on in life, but that also requires playing in to those stereotypes with funny impressions, non-sequitors, and keeping your plumage bright."
+                },
+        "pig uplift": {
+            "skills": {"profession": {"value": 10}, "perception": {"value": 10}, "investigation": {"value": 10}, "networking": {"value": 10}, "scrounging": {"value": 20}},
+                "trait": ["impared balance (level 1)", " oblivious", {"name": " social stigma", "spec": "agi"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 80) you have more of a place in society than many uplifts. although your species was only recently uplifted, it has quickly become widespread because you make excellent workers. pigs are smart, dedicated, have excellent memories, and can pick up trades quickly. you left the lab with some in-demand skills, an honest shot at a job, and a way to take care of yourself. there's still descrimination, and you have to watch for some legal restriction here and there, but by sticking to the right habs and keeping your snout down there's a good life if you work for it."
+                },
+        "re-instantiated": {
+            "skills": {"networking": {"value": 10}, "pilot": {"spec": "groundcraft", "value": 10}},
+                "trait": "edited memories",
+                "rep": 0,
+                "credits": -5000,
+                "morphs": "",
+                "moxie": 2,
+                "desc": "(ep p. 132) you were born on earth, but you did not survive the fall. after years in storage, simulspace, or as an infomorph, you were one of the few to be re-instantiated with a new morph. now you have the rest of your life in front of you, even as your past continues to claw its way into your nightmares. what sort of world is out there after so many have died? what does it mean that you are among the casualties? how do you know your old self is really gone and not still out there suffering? sometimes it seems like being in cold storage still would be preferrable to living with all these questions."
+                },
+        "research infolife": {
+            "skills": {"academics": {"value": 20}, "interfacing": {"value": 10}, "research": {"value": 30}},
+                "trait": ["real wold naivete", {"name": " social stigma", "spec": "agi"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 80) you were programmed to analyze and study, with the express intent of aiding transhuman scientific endeavors."
+                },
+        "scumborn": {
+            "skills": {"networking": {"spec": "autonomists", "value": 20}, "scrounging": {"value": 10}, "any": {"value": 10, "choices": ["deception", "persuasion"]}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 132) you were raised in the nomadic and chaotic lifestyle common to scum barges, meaning you've been creating your own petals since you could walk. since your earliest memories, boundaries and rules were non-existent. if you wanted to touch a hot cooking surface, try a drink of alcohol, or fight and kill a stray cat then more power to you! now that the scum have signed on with the autonomist alliance there are more and more people taking on the lifestyle as a legitimate way of life. if they didn't grow up on the barges, though, they usually have one remnant hang-up or another. you're an open-book, though, and ready to take whatever life throws your way and make psychadelic-laced lemonade with it."
+                },
+        "sufi nomad": {
+            "skills": {"art": {"value": 10}, "navigation": {"value": 10}, "infiltration": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 80) the people of your clan raised you to be a salik - a wayfarer, striving for purity of heart, intoxicated by the love of god. your clan shared the northern deserts of mars with the maker clans - your allies and sometimes blood relations. your upbringing taught you both to survive and to evade the notice of greedy hypercorps. whetehr or not you still hold to the spiritual aspects of your upbringing, you are a child of the martian desert - a land as beautiful as it is forbidding."
+                },
+        "titanian hulder": {
+            "skills": {"profession": {"spec": "prospecting", "value": 10}, "animal handling": {"value": 10}, "scrounging": {"value": 10}, "academics": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 80) you were an original colonist on titan, but unlike the others that stayed in the habs, you went native. you and the other hulder adapted your forms to survive in the cryogenic titanian environment, forging a new nomadic lifestyle."
+                },
+        "uplift": {
+            "skills": {"perception": {"value": 10}, "any": [{"category": "knowledge", "value": 20}, {"category": "knowledge", "value": 20}], "fray": {"value": 10}},
+                "trait": {"name": "social stigma", "spec": "uplift"},
+                "rep": 0,
+                "credits": 0,
+                "morphs": ["neo-avian", "neo-hominid", "octomorph", "neanderthal", "chickcharnie", "hypergibbon", "neo-beluga", "neo-dolphin", "neo-gorilla", "neo-orca", "neo-pig", "neo-porpoise", "neo-whale", "takko", "cerean beluga", "cerean dolphin", "cerean orca", "cerean porpoise", "cerean whale", "cerean octomorph", "cerean takko", "europan beluga", "europan dolphin", "europan orca", "europan porpoise", "europan whale", "europan octomorph", "europan takko", "critter", "flying squid", "opteryx"],
+                "moxie": 0,
+                "desc": "(ep p. 132) you are not even human. you were born as an uplifted animal=a chimpanzee, bonobo, gorilla, neanderthal, orangutan, parrot, pig, raven, crow, or octopus genetically and psychosurgically manipulated to the point of human-level sapience. though you have been well-accultured to transhuman society and are not as strongly influenced by your genetic past than others of your species, your life is limited by the prejudices and laws you face in habitats throughout the system. as you seek to discover yourself and your place in broader transhumanity, you are bombarded by the political clamor of your uplifted brethren, basic questions of personhood in many political systems, and grappling with how much of you is you... and how much is conditioning."
+                }
+        },
+    "factions": {
+        "anarchist": {
+            "skills": {"networking": {"spec": "autonomists", "value": 30}, "any": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 132) you are opposed to hierarchy, favoring flat forms of social organization and directly democratic decision making. you believe power is always corrupting and everyone should have a say in the decisions that affect their lives. according to the primitive and restrictive policies of the inner system and jovian junta, this makes you an irresponsible hoodlum at best and a terrorist at worst. in your opinion, thatls comedy coming from governments that keep their populations in line with economic oppression and threats of violence."
+                },
+        "argonaut": {
+            "skills": {"networking": {"spec": "scientists", "value": 20}, "any": [{"value": 10, "choices": ["technical", "academics", "profession"]}, {"value": 10, "choices": ["technical", "academics", "profession"]}]},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 132) you are part of a scientific techno-progressive movement that seeks to solve transhumanity's injustices and inequalities with technology. you support universal access to technology and healthcare, open source models of production, morphological freedom, and democratization. you try to avoid factionalism and divisive politics, seeing transhumanity's splintering as a hindrance to its perpetuation."
+                },
+        "barsoomian": {
+            "skills": {"networking": {"spec": "autonomists", "value": 20}, "freerunning": {"value": 10}, "any": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 133) you call the martian outback and wilds your home. you are a redneck, a lower-class martian from the rural areas that often find themselves in conflict with the policies and goals of the hypercorp domes and tharsis league."
+                },
+        "belter": {
+            "skills": {"freefall": {"value": 10}, "networking": [{"value": 10}, {"value": 10}], "profession": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 80) most people see the belt as a waypoint between the inner and outer system, teeming with pirates and criminals, or as a simple resource to be exploited. for you, the belt is the true melting pot of transhumanity, where you can find a sampling of all the major factions and the best and worst of each."
+                },
+        "bioconservative": {
+            "skills": {"profession": {"value": 20}, "networking": {"spec": "hypercorps", "value": 10}, "pilot": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 80) you think transhumanity is recklessly careening down a dangerous path and putting the entire species at risk. you may have religious objections to resleeving, forking, and uplifts, or you may simply believe technology should be restricted by the authorities for the security of everyone."
+                },
+        "brinker": {
+            "skills": {"networking": {"value": 20}, "any": {"value": 10}, "pilot": {"spec": "spacecraft", "value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 133) you or your faction is reluctant to deal with the rest of the transhumanity and the various goings-on in the rest of the system. your particular grouping may have sought out selfimposed isolation, to pursue their own interests, or they may have been exiled for their unpopular beliefs. or you may simply be a loner who prefers the vast emptiness of space to socializing with others. you might be a religious cultist, a primitivist, a utopian, or something altogether uninterested in transhumanity."
+                },
+        "criminal": {
+            "skills": {"networking": {"spec": "criminals", "value": 30}, "intimidation": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 133) you are involved with the crime-oriented underworld. you may work with one of the sol system's major criminal factions-triads, the night cartel, the id crew, nine lives, pax familae-or one of the smaller, local operators with a big stake in a specific habitat. you might be a vetted memberforlife, a reluctant recruit, or just a freelancer looking for the next gig."
+                },
+        "europan": {
+            "skills": {"academics": {"value": 10}, "swimming": {"value": 20}, "pilot": {"spec": "watercraft", "value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) as a europan, you consider your home the most enlightened polity in jovian space. you value science and a technoprogressive agenda, while opposing the bioconservativism of the junta and its dominance around jupiter. the ocean depths are the focal point of your interests and culture."
+                },
+        "exhuman": {
+            "skills": {"medicine": {"value": 10}, "psychosurgery": {"value": 10}, "any": [{"value": 10, "choices": ["exotic melee", "exotic ranged"]}, {"category": "weapon", "value": 20}], "fray": {"value": 10}},
+                "trait": ["mental disorder", " modified behavior (level 2)", {"name": " social stigma", "spec": "exhuman"}],
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) humanity is weak, and you intend to elevate your body and mind to a superior state of existence. you embrace new and developing technologies, no matter how dangerous and untested, to perfect your physical form and upgrade your mind. you intend to survive and dominate, no matter the cost."
+                },
+        "extropian": {
+            "skills": {"persuasion": {"value": 10}, "networking": [{"spec": "autonomists", "value": 20}, {"spec": "hypercorps", "value": 10}]},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 133) you are an anarchistic supporter of the free market and private property. you oppose government and favor a system where security and legal matters are handled by private competitors. whether you consider yourself an anarcho-capitalist or a mutualist (a difference only other extropians can figure out), you occupy a middle-ground between the hypercorps and autonomists, dealing with both and yet trusted by neither."
+                },
+        "hypercorp": {
+            "skills": {"networking": [{"spec": "hypercorps", "value": 20}, {"value": 10}], "protocol": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 133) you hail from a habitat controlled by the hypercorps. you might be a hypercapitalist entrepeneur, a hedonistic socialite, or a lowly vacworker, but you accept that certain liberties must be sacrificed for security and freedom."
+                },
+        "jovian": {
+            "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": [{"category": "weapon", "value": 10}, {"category": "weapon", "value": 10}], "fray": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": ["flat", "splicer"],
+                "moxie": 0,
+                "desc": "(ep p. 134) your faction is noted for its authoritarian regime, bioconservative ideologies, and militaristic tendencies. where you come from, technology is not to be trusted to everyone and humans need to be protected from themselves. to ensure its survival, humanity must be able to defend itself, and unfettered growth must be checked."
+                },
+        "lunar": {
+            "skills": {"networking": [{"spec": "hypercorps", "value": 20}, {"spec": "ecologists", "value": 10}], "language": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 134) you hail from luna, the original off-earth colony world. now overpopulated and in decline, luna is one of the few places where people still cling to old-earth ethnic and national identities. your home is also within sight of earth, a constant reminder that encourages many loonies to be reclaimers, deploring the hypercorp interdiction and arguing that you have a right to return to earth, terraform it, and re-establish it as a living homeworld."
+                },
+        "mercurial": {
+            "skills": {"networking": {"value": 20}, "any": [{"value": 10}, {"value": 10}]},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 134) your faction has no interest in co-opting their true natures in order to become more human. you might be an agi that does not necessarily intertwine its destiny with transhumanity, or an uplift that seeks to preserve and promote non-human life (or at least your own species). you might even be an infomorph or posthuman who has strayed so far from transhuman interests and values that you now consider yourself to be forging a unique new path of life."
+                },
+        "orbital": {
+            "skills": {"freefall": {"value": 10}, "networking": [{"value": 10}, {"value": 10}], "pilot": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) you still call earth home, though you never set foot there - you watch it from above, planning one day to return. orbital society is a mash-up of earch cultures that cling to their old ways and traditions. progress isn't as important to you as remembering where you came from."
+                },
+        "outster": {
+            "skills": {"freefall": {"value": 20}, "pilot": {"spec": "spacecraft", "value": 10}, "interfacing": {"value": 10}},
+                "trait": "shut in",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 1,
+                "desc": "(th p. 81) you have made your home in the far outer reaches of the solar system, living among others that no longer have interest in transhuman affairs and are methodically sloughing off their old ways. you may be intent on leaving the solar system for good, diving into a new virtual existence, or pursuing some other private or unusual interest far away from others."
+                },
+        "precautionist": {
+            "skills": {"academics": {"value": 10}, "networking": [{"value": 10}, {"value": 10}], "profession": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) you take a stance between the bioconservatives and technoprogressives=technology should be proven safe, before it is widely adopted. you favor restricting access to new technologies, offering incentives for hypercorps to pursue thorough safety tests, and harshly punishing those you recklessly deploy dangerous tech."
+                },
+        "reclaimer": {
+            "skills": {"networking": {"spec": "ecologists", "value": 20}, "language": {"value": 10}, "pilot": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) to your point of view, transhumanity is nothing without its homeworld. reclaiming earch from the machines isn't just important for self-identity, it's proof that transhumanity can overcome its obstacles and claim its place in the universe."
+                },
+        "ringer": {
+            "skills": {"networking": {"value": 10}, "flight": {"value": 20}, "pilot": {"spec": "spacecraft", "value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) you call the rings and moonlets of saturn your home. though you enjoy isolation and quiet when you are out soaring the vacuum, you also consider yourself part of a community of eccentrics, scientists, and other brinkers."
+                },
+        "sapient": {
+            "skills": {"profession": {"value": 10}, "networking": {"value": 10}, "protocol": {"value": 10}, "any": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) you believe that uplifts and agis are as much a part of transhumanity as humans, and therefore deserve equal rights and liberties. in the same vein, you uphold that all life has value and that the personhood of all sapient creatures should be recognized."
+                },
+        "scum": {
+            "skills": {"freefall": {"value": 10}, "networking": {"spec": "autonomists", "value": 20}, "any": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 134) this is the future we've all been waiting for, and you're going to enjoy it to the max. a paradigm shift has occurred, and while everyone else is catching up, your faction embraces and revels in it. there is no more want, no more death, no more limits on what you can be. the scum have immersed themselves in a new way of life, changing themselves as they see fit, trying out new experiences, and pushing the boundaries wherever they can ... and fuck anyone who can't deal with that."
+                },
+        "sifter": {
+            "skills": {"networking": {"value": 10}, "profession": {"spec": "mining", "value": 20}, "pilot": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 81) you are a pround and independent member of mercury's nomadic and proletarian mining culture. you prefer to live free of any corporate entanglements, but the harsh realities of survival on mercury mean you must sometimes deal with hypercorp neighbors."
+                },
+        "singularity seeker": {
+            "skills": {"psychosurgery": {"value": 20}, "networking": {"spec": "criminals", "value": 10}, "interest": {"spec": "titans", "value": 10}, "interfacing": {"value": 10}},
+                "trait": {"name": "social stigma", "spec": "singularity seeker"},
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 82) everyone agrees the titans were a problem, but to you they were also a harbinger. if transhumanity has any hope of survival in the universe, it must expand its mental capabilities by several orders of magnitude. you have dedicated yourself to finding a way to achieve an exponential increase in intelligence and ascending to a new, god-like state of existence - whether you want this just for yourself or for everyone is up to you."
+                },
+        "skimmer": {
+            "skills": {"networking": {"value": 10}, "flight": {"value": 10}, "pilot": {"spec": "aircraft", "value": 20}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 82) you hail from the brinker culture that thrives in the upper atmospheres of uranus and neptune, populated by misfits, loners, outcasts, and survivalists. the one thing that binds you together is the struggle for existence in the outer reaches. gas mining provides a way of life, but the thrill of racing the winds and storms of the ice giants is what makes you feel alive."
+                },
+        "socialite": {
+            "skills": {"networking": {"spec": "media", "value": 20}, "persuasion": {"value": 10}, "protocol": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": ["splicer", "exalt", "menton", "olympian", "sylph", "bouncer", "fury", "futura", "ghost", "hibernoids", "neotenic", "remade", "premium ruster", "lunar flier", "martian alpiner", "salamander", "surya", "venusian glider", "regular ruster", "aquanaut", "crasher", "dverger", "hazer", "hulder", "hyperbright", "ring flyer", "selkie", "cerean aquanaut", "europan aquanaut", "titanian flier", "titanian olympian", "ariel", "bruiser", "cloud skate", "faust", "freeman", "grey", "nomad", "observer", "theseus"],
+                "moxie": 0,
+                "desc": "(ep p. 134) you are a member of the inner system glitterati, the media-saturated social cliques that set trends, spread memes, and make or break lives with whispers, innuendo, and backroom deals. you are simultaneously an icon and a devout follower. culture isn't just your life, it's your weapon of choice."
+                },
+        "solarian": {
+            "skills": {"freefall": {"value": 20}, "perception": {"value": 10}, "navigation": {"value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(th p. 82) you have surrendered the stresses and concerns of transhuman affairs and embraced the serene, nomadic, and free-wheeling ways of the pods of surya that swim around the sun."
+                },
+        "titanian": {
+            "skills": {"networking": {"spec": "autonomists", "value": 20}, "any": [{"value": 10, "choices": ["technical", "academics", "profession"]}, {"value": 10, "choices": ["technical", "academics", "profession"]}]},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 134) you are a participant in the titanian commonwealth's socialist cyberdemocracy. unlike other autonomist projects, titanian joint efforts have assembled some impressive infrastructural projects as approved by the titanian plurality and pursued by state-owned microcorps."
+                },
+        "ultimate": {
+            "skills": {"networking": {"value": 20}, "any": [{"value": 10}, {"value": 10}]},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": ["exalt", "menton", "olympian", "sylph", "bouncer", "fury", "futura", "ghost", "hibernoids", "neotenic", "remade", "premium ruster", "lunar flier", "martian alpiner", "salamander", "surya", "venusian glider", "regular ruster", "aquanaut", "crasher", "dverger", "hazer", "hulder", "hyperbright", "ring flyer", "selkie", "cerean aquanaut", "europan aquanaut", "titanian flier", "titanian olympian", "ariel ", "bruiser", "cloud skate", "faust", "freeman", "grey", "nomad", "observer", "theseus", "synth", "arachnoid", "dragonfly", "reaper", "slitheroid", "swarmanoid", "q-morph", "steel", "masked steel", "liquid steel", "sundiver", "kite", "spare", "xu fu", "gargoyle", "skulker", "cetus", "courier", "fenrir", "savant", "biocore", "blackbird", "cloud skimmer", "daitya", "fighting kite", "galatea", "guard", "guard deluxe", "mimic", "nautiloid", "opteryx", "rover", "rover: space fighter", "smart swarm", "sphere", "synthtaur", "apiary", "beekeeper", "bouba", "crafter", "fighter", "grimoire", "longbow", "picklock", "rogue", "sapper", "wizard", "yeoman"],
+                "moxie": 0,
+                "desc": "(ep p. 134) your faction sees the potential in transhumanity's future and looks back upon the rest of transhumanity as weak and hedonistic. transhumanity is set to take the next evolutionary step and it's time for transhumans to be redesigned to the best of our capabilities."
+                },
+        "venusian": {
+            "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": {"value": 10}, "pilot": {"spec": "aircraft", "value": 10}},
+                "trait": "",
+                "rep": 0,
+                "credits": 0,
+                "morphs": "",
+                "moxie": 0,
+                "desc": "(ep p. 134) you are a supporter of the morningstar confederation of venusian aerostats, resentful of the growing influence of the planetary consortium and other entrenched and conservative inner system powers. you see your faction's ascension as a chance to reform the old guard ways of inner system politics."
+                }
+        }
 }

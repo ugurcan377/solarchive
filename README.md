@@ -228,15 +228,9 @@ Contrary to other files all morhps contains the same fields:
 ##TO DO
 
 ####Dataset:
-+ Import below from singularity dataset
-    + Add weapons and armor
-    + Add gear (packages)
-    + Add morph implants There is a list of them in Morph Recognition Guide
 + Add neutral traits
 + Add trait specs !important
 + Fix optional skills !important
-+ Change v[0-9] usage with (Level [0-9]) for traits !important
-+ Change credit with cost in morphs !important
 Maybe in a distant future:
 + Add habıtat info
 + Add exoplanet info

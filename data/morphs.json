@@ -10,7 +10,7 @@
         "disadvantages": {},
         "notes": {"trait": "non human biochemistry"},
         "cp": 50,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "arachnoid": {
         "class": "synthmorph",
@@ -23,7 +23,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 45,
-        "credit": 40000
+        "cost": 40000
     },
     "ariel": {
         "class": "biomorph",
@@ -36,7 +36,7 @@
         "disadvantages": {"trait": "temperature intolerance (warm)"},
         "notes": {"trait": "non mammalian biochemistry"},
         "cp": 50,
-        "credit": 50000
+        "cost": 50000
     },
     "ayah": {
         "class": "pod",
@@ -49,7 +49,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 25,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "basic pod": {
         "class": "pod",
@@ -62,7 +62,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 5,
-        "credit": "moderate"
+        "cost": "moderate"
     },
     "biocore": {
         "class": "synthmorph",
@@ -75,7 +75,7 @@
         "disadvantages": {"trait": "social stigma (clanking masses)"},
         "notes": {},
         "cp": 50,
-        "credit": 60000
+        "cost": 60000
     },
     "blackbird": {
         "class": "synthmorph",
@@ -88,7 +88,7 @@
         "disadvantages": {},
         "notes": {"trait": "small size"},
         "cp": 45,
-        "credit": 45000
+        "cost": 45000
     },
     "bouncer": {
         "class": "biomorph",
@@ -101,7 +101,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "bruiser": {
         "class": "biomorph",
@@ -114,7 +114,7 @@
         "disadvantages": {},
         "notes": {"trait": "large size"},
         "cp": 60,
-        "credit": 60000
+        "cost": 60000
     },
     "case": {
         "class": "synthmorph",
@@ -127,7 +127,7 @@
         "disadvantages": {"aptitude": {"any": -5}, "trait": ["lemon", "social stigma (clanking masses)"]},
         "notes": {},
         "cp": 5,
-        "credit": "moderate"
+        "cost": "moderate"
     },
     "cetus": {
         "class": "synthmorph",
@@ -140,7 +140,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 45,
-        "credit": 40000
+        "cost": 40000
     },
     "chickcharnie": {
         "class": "pod",
@@ -153,7 +153,7 @@
         "disadvantages": {},
         "notes": {"trait": "non mammalian biochemistry"},
         "cp": 35,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "cloud skate": {
         "class": "biomorph",
@@ -166,7 +166,7 @@
         "disadvantages": {"trait": "temperature intolerance (warm)"},
         "notes": {},
         "cp": 55,
-        "credit": 60000
+        "cost": 60000
     },
     "cloud skimmer": {
         "class": "synthmorph",
@@ -179,7 +179,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 65,
-        "credit": 70000
+        "cost": 70000
     },
     "courier": {
         "class": "synthmorph",
@@ -192,7 +192,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 0,
-        "credit": ""
+        "cost": ""
     },
     "crasher": {
         "class": "biomorph",
@@ -205,7 +205,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 70,
-        "credit": 40000
+        "cost": 40000
     },
     "critter": {
         "class": "pod",
@@ -218,7 +218,7 @@
         "disadvantages": {"trait": "lacks manipulators"},
         "notes": {"trait": "non human biochemistry"},
         "cp": 15,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "daitya": {
         "class": "synthmorph",
@@ -231,7 +231,7 @@
         "disadvantages": {},
         "notes": {"trait": "large size"},
         "cp": 80,
-        "credit": 80000
+        "cost": 80000
     },
     "digger": {
         "class": "pod",
@@ -244,7 +244,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "dragonfly": {
         "class": "synthmorph",
@@ -257,7 +257,7 @@
         "disadvantages": {},
         "notes": {"trait": "small size"},
         "cp": 20,
-        "credit": "high"
+        "cost": "high"
     },
     "dvergr": {
         "class": "biomorph",
@@ -270,7 +270,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 50,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "exalt": {
         "class": "biomorph",
@@ -283,7 +283,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "faust": {
         "class": "biomorph",
@@ -296,7 +296,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 85,
-        "credit": 100000
+        "cost": 100000
     },
     "fenrir": {
         "class": "synthmorph",
@@ -309,7 +309,7 @@
         "disadvantages": {},
         "notes": {"trait": "large size"},
         "cp": -1,
-        "credit": 100000
+        "cost": 100000
     },
     "fighting kite": {
         "class": "synthmorph",
@@ -323,7 +323,7 @@
         "disadvantages": {},
         "notes": {"trait": "small size"},
         "cp": 35,
-        "credit": 40000
+        "cost": 40000
     },
     "flat": {
         "class": "biomorph",
@@ -336,7 +336,7 @@
         "disadvantages": {"trait": "genetic defects"},
         "notes": {},
         "cp": 0,
-        "credit": "high"
+        "cost": "high"
     },
     "flexbot": {
         "class": "synthmorph",
@@ -349,7 +349,7 @@
         "disadvantages": {},
         "notes": {"trait": "small size"},
         "cp": 20,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "flying squid": {
         "class": "pod",
@@ -358,11 +358,11 @@
         "max_apt": 30,
         "durability": 40,
         "wt": 8,
-        "advantages": {"aptitude": {"coo": 5, "som": 5, "any": 5}, "skills": {"swimming": 30}, "trait": "limberv2", "beak attack": {"dv": {"roll": 1, "bonus": 1}, "ap": -1}},
+        "advantages": {"aptitude": {"coo": 5, "som": 5, "any": 5}, "skills": {"swimming": 30}, "trait": "limber (level 2)", "beak attack": {"dv": {"roll": 1, "bonus": 1}, "ap": -1}},
         "disadvantages": {},
         "notes": {"trait": ["non mammalian biochemistry"]},
         "cp": 55,
-        "credit": 60000
+        "cost": 60000
     },
     "freeman": {
         "class": "biomorph",
@@ -375,7 +375,7 @@
         "disadvantages": {"aptitude": {"wil": -5}},
         "notes": {},
         "cp": 10,
-        "credit": "high"
+        "cost": "high"
     },
     "fury": {
         "class": "biomorph",
@@ -389,7 +389,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 75,
-        "credit": 40000
+        "cost": 40000
     },
     "futura": {
         "class": "biomorph",
@@ -402,7 +402,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": 50000
+        "cost": 50000
     },
     "galatea": {
         "class": "synthmorph",
@@ -415,7 +415,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 65,
-        "credit": 70000
+        "cost": 70000
     },
     "gargoyle": {
         "class": "synthmorph",
@@ -428,7 +428,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "ghost": {
         "class": "biomorph",
@@ -441,7 +441,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 70,
-        "credit": 40000
+        "cost": 40000
     },
     "grey": {
         "class": "biomorph",
@@ -454,7 +454,7 @@
         "disadvantages": {"trait": "uncanny valley"},
         "notes": {},
         "cp": 25,
-        "credit": 30000
+        "cost": 30000
     },
     "griefer": {
         "class": "synthmorph",
@@ -467,7 +467,7 @@
         "disadvantages": {"aptitude": {"any": [-5, -5]}, "trait": ["lemon", "social stigma (griefer)", "no cortical stack"]},
         "notes": {},
         "cp": 5,
-        "credit": "moderate"
+        "cost": "moderate"
     },
     "guard": {
         "class": "synthmorph",
@@ -481,7 +481,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 60,
-        "credit": 60000
+        "cost": 60000
     },
     "hazer": {
         "class": "biomorph",
@@ -494,7 +494,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 35,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "hibernoid": {
         "class": "biomorph",
@@ -507,7 +507,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 25,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "hulder": {
         "class": "biomorph",
@@ -520,7 +520,7 @@
         "disadvantages": {"trait": "temperature intolerance (warm)"},
         "notes": {"trait": "non mammalian biochemistry"},
         "cp": 50,
-        "credit": 40000
+        "cost": 40000
     },
     "hyperbright": {
         "class": "biomorph",
@@ -533,7 +533,7 @@
         "disadvantages": {"trait": ["uncanny valley", "addiction (cumfurt)", "fast metabolism"]},
         "notes": {},
         "cp": 70,
-        "credit": 40000
+        "cost": 40000
     },
     "hypergibbon": {
         "class": "pod",
@@ -546,7 +546,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {"trait": "non human biochemistry"},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "infomorph": {
         "class": "",
@@ -560,7 +560,7 @@
         "disadvantages": {"trait": "no physical form"},
         "notes": {},
         "cp": 0,
-        "credit": 0
+        "cost": 0
     },
     "jenkin": {
         "class": "pod",
@@ -570,10 +570,10 @@
         "durability": 35,
         "wt": 7,
         "advantages": {"aptitude": {"int": 5, "ref": 5, "som": 5}, "bite attack": {"ap": -1, "dv": {"roll": 1, "bonus": 1}}},
-        "disadvantages": {"trait": ["social stigma (pod)", "unattractivev2"]},
+        "disadvantages": {"trait": ["social stigma (pod)", "unattractive (level 2)"]},
         "notes": {},
         "cp": 20,
-        "credit": 40000
+        "cost": 40000
     },
     "kite": {
         "class": "synthmorph",
@@ -586,7 +586,7 @@
         "disadvantages": {},
         "notes": {"trait": "small size"},
         "cp": 30,
-        "credit": "high"
+        "cost": "high"
     },
     "lunar flyer": {
         "class": "biomorph",
@@ -599,7 +599,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 35,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "martian alpiner": {
         "class": "biomorph",
@@ -612,7 +612,7 @@
         "disadvantages": {"trait": ["fast metabolism", "planned obsolesence"]},
         "notes": {},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "menton": {
         "class": "biomorph",
@@ -625,7 +625,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "mimic": {
         "class": "synthmorph",
@@ -638,7 +638,7 @@
         "disadvantages": {"trait": "social stigma (clanking masses)"},
         "notes": {"trait": "small size"},
         "cp": 25,
-        "credit": 30000
+        "cost": 30000
     },
     "nautiloid": {
         "class": "synthmorph",
@@ -651,7 +651,7 @@
         "disadvantages": {},
         "notes": {"trait": "very large size"},
         "cp": 155,
-        "credit": 150000
+        "cost": 150000
     },
     "neo avian": {
         "class": "biomorph",
@@ -664,7 +664,7 @@
         "disadvantages": {},
         "notes": {"trait": ["small size", "non mammalian biochemistry"]},
         "cp": 25,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "neo beluga": {
         "class": "biomorph",
@@ -677,7 +677,7 @@
         "disadvantages": {"trait": "no sense of smell"},
         "notes": {"trait": ["large size", "non human biochemistry"]},
         "cp": 45,
-        "credit": 40000
+        "cost": 40000
     },
     "neo dolphin": {
         "class": "biomorph",
@@ -690,7 +690,7 @@
         "disadvantages": {"trait": "no sense of smell"},
         "notes": {"trait": "non human biochemistry"},
         "cp": 40,
-        "credit": 35000
+        "cost": 35000
     },
     "neo gorilla": {
         "class": "biomorph",
@@ -703,7 +703,7 @@
         "disadvantages": {},
         "notes": {"trait": "non human biochemistry"},
         "cp": 35,
-        "credit": 30000
+        "cost": 30000
     },
     "neo hominid": {
         "class": "biomorph",
@@ -716,7 +716,7 @@
         "disadvantages": {},
         "notes": {"trait": "non human biochemistry"},
         "cp": 25,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "neo neanderthal": {
         "class": "biomorph",
@@ -729,7 +729,7 @@
         "disadvantages": {},
         "notes": {"trait": "non human biochemistry"},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "neo orca": {
         "class": "biomorph",
@@ -742,7 +742,7 @@
         "disadvantages": {"trait": "no sense of smell"},
         "notes": {"trait": ["large size", "non human biochemistry"]},
         "cp": 60,
-        "credit": 50000
+        "cost": 50000
     },
     "neo pig": {
         "class": "biomorph",
@@ -755,7 +755,7 @@
         "disadvantages": {},
         "notes": {"trait": "non human biochemistry"},
         "cp": 20,
-        "credit": "high"
+        "cost": "high"
     },
     "neo porpoise": {
         "class": "biomorph",
@@ -768,7 +768,7 @@
         "disadvantages": {"trait": "no sense of smell"},
         "notes": {"trait": "non human biochemistry"},
         "cp": 35,
-        "credit": 30000
+        "cost": 30000
     },
     "neotenic": {
         "class": "biomorph",
@@ -781,7 +781,7 @@
         "disadvantages": {"trait": "social stigma (neotenic)"},
         "notes": {"trait": "small size"},
         "cp": 25,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "neo whale": {
         "class": "biomorph",
@@ -794,7 +794,7 @@
         "disadvantages": {"trait": "no sense of smell"},
         "notes": {"trait": ["very large size", "non human biochemistry"]},
         "cp": 75,
-        "credit": 75000
+        "cost": 75000
     },
     "nomad": {
         "class": "biomorph",
@@ -807,7 +807,7 @@
         "disadvantages": {"trait": "uncanny valley"},
         "notes": {},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "novacrab": {
         "class": "pod",
@@ -820,7 +820,7 @@
         "disadvantages": {},
         "notes": {"trait": "non mammalian biochemistry"},
         "cp": 60,
-        "credit": 30000
+        "cost": 30000
     },
     "observer": {
         "class": "biomorph",
@@ -833,7 +833,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "octomorph": {
         "class": "biomorph",
@@ -842,11 +842,11 @@
         "max_apt": 30,
         "durability": 30,
         "wt": 6,
-        "advantages": {"aptitude": {"coo": 5, "int": 5, "any": 5}, "trait": ["360 degree vision", "limberv2"], "beak attack": {"dv": {"roll": 1, "bonus": 0}, "ap": -1}},
+        "advantages": {"aptitude": {"coo": 5, "int": 5, "any": 5}, "trait": ["360 degree vision", "limber (level 2)"], "beak attack": {"dv": {"roll": 1, "bonus": 0}, "ap": -1}},
         "disadvantages": {},
         "notes": {"trait": "non mammalian biochemistry"},
         "cp": 50,
-        "credit": 30000
+        "cost": 30000
     },
     "olympian": {
         "class": "biomorph",
@@ -859,7 +859,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "opteryx": {
         "class": "synthmorph",
@@ -872,7 +872,7 @@
         "disadvantages": {},
         "notes": {"trait": "small size"},
         "cp": 40,
-        "credit": 40000
+        "cost": 40000
     },
     "pleasure pod": {
         "class": "pod",
@@ -885,7 +885,7 @@
         "disadvantages": {"trait": "social stigma (pleasure pod)"},
         "notes": {},
         "cp": 20,
-        "credit": "high"
+        "cost": "high"
     },
     "q morph": {
         "class": "synthmorph",
@@ -898,7 +898,7 @@
         "disadvantages": {"trait": "works only on venus"},
         "notes": {"trait": "large size"},
         "cp": 100,
-        "credit": 60000
+        "cost": 60000
     },
     "reaper": {
         "class": "synthmorph",
@@ -912,7 +912,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 100,
-        "credit": 50000
+        "cost": 50000
     },
     "remade": {
         "class": "biomorph",
@@ -925,7 +925,7 @@
         "disadvantages": {"trait": "uncanny valley"},
         "notes": {},
         "cp": 60,
-        "credit": 40000
+        "cost": 40000
     },
     "ring flyer": {
         "class": "biomorph",
@@ -938,7 +938,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 70,
-        "credit": 40000
+        "cost": 40000
     },
     "ripwing": {
         "class": "pod",
@@ -951,7 +951,7 @@
         "disadvantages": {"trait": ["social stigma (neogenetic)", "social stigma (pod)"]},
         "notes": {"trait": "non mammalian biochemistry"},
         "cp": 40,
-        "credit": 30000
+        "cost": 30000
     },
     "rover": {
         "class": "synthmorph",
@@ -965,7 +965,7 @@
         "disadvantages": {},
         "notes": {"trait": "small size"},
         "cp": 60,
-        "credit": 60000
+        "cost": 60000
     },
     "ruster": {
         "class": "biomorph",
@@ -978,7 +978,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 25,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "salamander": {
         "class": "biomorph",
@@ -991,7 +991,7 @@
         "disadvantages": {},
         "notes": {"trait": "non mammalian biochemistry"},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "samsa": {
         "class": "pod",
@@ -1002,10 +1002,10 @@
         "durability": 50,
         "wt": 10,
         "advantages": {"armor": [11, 11], "skills": {"intimidation": 20}, "aptitude": {"som": 10, "ref": 5, "coo": 5, "any": 5}},
-        "disadvantages": {"trait": ["social stigma (pod)", "unattractivev2"]},
+        "disadvantages": {"trait": ["social stigma (pod)", "unattractive (level 2)"]},
         "notes": {},
         "cp": 60,
-        "credit": 60000
+        "cost": 60000
     },
     "savant": {
         "class": "synthmorph",
@@ -1018,7 +1018,7 @@
         "disadvantages": {"trait": "social stigma (clanking masses)"},
         "notes": {},
         "cp": 65,
-        "credit": 40000
+        "cost": 40000
     },
     "scurrier": {
         "class": "pod",
@@ -1031,7 +1031,7 @@
         "disadvantages": {"trait": ["alien biochemistry", "social stigma (alien)", "social stigma (pod)"]},
         "notes": {"trait": "small size"},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "security pod": {
         "class": "pod",
@@ -1044,7 +1044,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "selkie": {
         "class": "biomorph",
@@ -1057,7 +1057,7 @@
         "disadvantages": {},
         "notes": {"trait": "non human biochemistry"},
         "cp": 55,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "shaper": {
         "class": "pod",
@@ -1070,7 +1070,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 45,
-        "credit": 40000
+        "cost": 40000
     },
     "slitheroid": {
         "class": "synthmorph",
@@ -1083,7 +1083,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "spare": {
         "class": "synthmorph",
@@ -1096,7 +1096,7 @@
         "disadvantages": {"trait": "social stigma (clanking masses)"},
         "notes": {"trait": "small size"},
         "cp": 5,
-        "credit": "moderate"
+        "cost": "moderate"
     },
     "specialist pod": {
         "class": "pod",
@@ -1109,7 +1109,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 25,
-        "credit": "high"
+        "cost": "high"
     },
     "sphere": {
         "class": "synthmorph",
@@ -1122,7 +1122,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 65,
-        "credit": 70000 
+        "cost": 70000 
     },
     "splicer": {
         "class": "biomorph",
@@ -1135,7 +1135,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 10,
-        "credit": "high"
+        "cost": "high"
     },
     "steel morph": {
         "class": "synthmorph",
@@ -1148,7 +1148,7 @@
         "disadvantages": {"trait": ["social stigma (clanking masses)", "uncanny valley"]},
         "notes": {},
         "cp": 50,
-        "credit": 30000
+        "cost": 30000
     },
     "sundiver": {
         "class": "synthmorph",
@@ -1162,7 +1162,7 @@
         "disadvantages": {},
         "notes": {"trait": "large size"},
         "cp": 70,
-        "credit": 40000
+        "cost": 40000
     },
     "surya": {
         "class": "biomorph",
@@ -1175,7 +1175,7 @@
         "disadvantages": {},
         "notes": {"trait": ["non human biochemistry", "very large size"]},
         "cp": 50,
-        "credit": 30000
+        "cost": 30000
     },
     "swarmanoid": {
         "class": "synthmorph",
@@ -1188,7 +1188,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 25,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "sylph": {
         "class": "biomorph",
@@ -1201,7 +1201,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "synth": {
         "class": "synthmorph",
@@ -1214,7 +1214,7 @@
         "disadvantages": {"trait": ["social stigma (clanking masses)", "uncanny valley"]},
         "notes": {},
         "cp": 30,
-        "credit": "high"
+        "cost": "high"
     },
     "synthtaur": {
         "class": "synthmorph",
@@ -1227,7 +1227,7 @@
         "disadvantages": {},
         "notes": {"trait": "large size"},
         "cp": 70,
-        "credit": 80000
+        "cost": 80000
     },
     "takko": {
         "class": "synthmorph",
@@ -1240,7 +1240,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 60,
-        "credit": 45000
+        "cost": 45000
     },
     "theseus": {
         "class": "biomorph",
@@ -1253,7 +1253,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "vacuum pod": {
         "class": "pod",
@@ -1266,7 +1266,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 30,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "venusian glider": {
         "class": "biomorph",
@@ -1279,7 +1279,7 @@
         "disadvantages": {},
         "notes": {},
         "cp": 40,
-        "credit": "expensive"
+        "cost": "expensive"
     },
     "whiplash": {
         "class": "pod",
@@ -1292,7 +1292,7 @@
         "disadvantages": {"trait": ["alien biochemistry", "social stigma (alien)", "social stigma (pod)"]},
         "notes": {},
         "cp": 50,
-        "credit": 50000
+        "cost": 50000
     },
     "worker pod": {
         "class": "pod",
@@ -1305,7 +1305,7 @@
         "disadvantages": {"trait": "social stigma (pod)"},
         "notes": {},
         "cp": 20,
-        "credit": "high"
+        "cost": "high"
     },
     "xu fu": {
         "class": "synthmorph",
@@ -1318,6 +1318,6 @@
         "disadvantages": {},
         "notes": {},
         "cp": 60,
-        "credit": 50000
+        "cost": 50000
     }
 }

@@ -971,7 +971,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
                     "real world naivite"],
                 "psi": {"gamma": 2},
                 "skills": {
@@ -982,7 +982,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
                     "real world naivite"],
                 "psi": {"gamma": 3, "chi": 1},
                 "skills": {
@@ -1001,7 +1001,7 @@
                 "moxie": 1,
                 "aptitude": {"wil": 5},
                 "rep": 50,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
                     "real world naivite"],
                 "psi": {"gamma": 5, "chi": 2},
                 "skills": {
@@ -1052,7 +1052,7 @@
             "5": {
                 "moxie": 1,
                 "rep": 50,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder", "on the run"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run"],
                 "psi": {"chi": 4, "gamma": 2},
                 "skills": {
                     "persuasion": 50,
@@ -2550,7 +2550,7 @@
                 "negative": ["bloodlust"]
             },
             "1": {
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 3,
                 "skills": {
                     "profession": {"value": 30, "spec": "squad tactics"},
@@ -2559,7 +2559,7 @@
                 },
             "3": {
                 "rep": 50,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 4,
                 "skills": {
                     "profession": {"value": 50, "spec": "squad tactics"},
@@ -2575,7 +2575,7 @@
                 },
             "5": {
                 "rep": 50,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 8,
                 "skills": {
                     "profession": {"value": 50, "spec": "squad tactics"},
@@ -2648,7 +2648,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 3,
                 "skills": {
                     "academics": {"value": 30, "spec": "psychology"},
@@ -2657,7 +2657,7 @@
                 },
             "3": {
                 "rep": 50,
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 4,
                 "skills": {
                     "academics": {"value": 40, "spec": "psychology"},
@@ -2672,7 +2672,7 @@
             "5": {
                 "rep": 50,
                 "aptitude": {"wil": 5},
-                "trait": ["psiv2", "mental disorder", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 6,
                 "skills": {
                     "academics": {"value": 40, "spec": "psychology"},
@@ -3384,7 +3384,7 @@
                 "negative": []
             },
             "1": {
-                "trait": ["psiv2", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder"],
                 "psi": 3,
                 "skills": {
                     "academics": 30,
@@ -3393,7 +3393,7 @@
                 },
             "3": {
                 "rep": 50,
-                "trait": ["psiv2", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder"],
                 "psi": 4,
                 "skills": {
                     "academics": 30,
@@ -3408,7 +3408,7 @@
                 "rep": 50,
                 "moxie": 1,
                 "aptitude": {"int": 5},
-                "trait": ["psiv2", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder"],
                 "psi": 6,
                 "skills": {
                     "academics": 40,
@@ -3855,7 +3855,7 @@
         },
         "async adept": {
             "1":{
-                "trait": ["psiv2", "mental disorder", "mental disorder"],
+                "trait": ["psi (level 2)", "mental disorder", "mental disorder"],
                 "psi": 7,
                 "skills": {
                     "psi related": 40

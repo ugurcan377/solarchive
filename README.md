@@ -228,10 +228,8 @@ Contrary to other files all morhps contains the same fields:
 ##TO DO
 
 ####Dataset:
-+ Add neutral traits
-+ Add trait specs !important
-+ Fix optional skills !important
 Maybe in a distant future:
++ Add neutral traits
 + Add habıtat info
 + Add exoplanet info
 + Add vehicle info
@@ -250,8 +248,6 @@ Maybe in a distant future:
 ####Web interface:
 + Design a user interface
 + Design a web api
-+ Decide for backend technology (Probably Flask)
-+ Decide for frontend technology (Probably react.js)
 
 ##Contributing
 If you want to contribute or just report bugs feel free to send a pull request or open an issue.  

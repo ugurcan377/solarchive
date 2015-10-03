@@ -227,7 +227,7 @@
         "social": ["animal handling", "deception", "impersonation", "intimidation", "kinesics", "networking", "persuasion", "protocol"],
         "technical": ["demolitions", "hardware", "infosec", "interfacing", "medicine", "programming", "psychosurgery", "research"],
         "vehicle": ["pilot"],
-        "weapon": ["beam weapons", "blades", "clubs", "exotic melee weapon", "exotic ranged weapon", "kinetic weapons", "seeker weapons", "spray weapons", "throwing weapons"],
+        "weapon": ["beam weapons", "blades", "clubs", "exotic melee weapon", "exotic ranged weapon", "kinetic weapons", "seeker weapons", "spray weapons", "throwing weapons"]
     },
     "skills": {
         "type": "info",
@@ -686,7 +686,7 @@
     "backgrounds": {
         "ape uplift": {
             "skills": {"unarmed": 10, "intimidation": 20, "fray": 10},
-                "trait": ["brave", {"name": " social stigma", "spec": "agi"}],
+                "trait": ["brave", {"name": "social stigma", "spec": "agi"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -695,7 +695,7 @@
                 },
         "bonobo uplift": {
             "skills": {"networking": [10, 10], "persuasion": 10, "freerunning": 10, "kinesics": 10},
-                "trait": ["social animal", {"name": " addiction", "spec": "sex (level 1)"}, {"name": " social stigma", "spec": "uplift"}],
+                "trait": ["social animal", {"name": " addiction", "spec": "sex (level 1)"}, {"name": "social stigma", "spec": "uplift"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -704,7 +704,7 @@
                 },
         "catacean uplift": {
             "skills": {"networking": 10, "art": {"spec": "singing", "value": 20}, "swimming": 20},
-                "trait": ["social animal", {"name": " social stigma", "spec": "uplift"}],
+                "trait": ["social animal", {"name": "social stigma", "spec": "uplift"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -722,7 +722,7 @@
                 },
         "corvid uplift": {
             "skills": {"navigation": 10, "perception": 10, "flight": 20, "scrounging": 20},
-                "trait": ["hoarder", {"name": " social stigma", "spec": "uplift"}],
+                "trait": ["hoarder", {"name": "social stigma", "spec": "uplift"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -736,11 +736,11 @@
                 "credits": 0,
                 "morphs": "",
                 "moxie": 0,
-                "desc": "(ep p. 131) you were raised with a social grouping that remained on the move throughout the sol system. you are used to roaming space travel between habitats and stations, navigating the different customs, laws, and languages of the system with ease. you might have been part of an iterant work force or maybe a group facing social stigma of some sort that required frequent emmigration. for whatever reason, you have no real home to call your own. on the other hand, that means that every habitat and planet is equally home to you."
+                "desc": "(ep p. 131) you were raised with a social grouping that remained on the move throughout the sol system. you are used to roaming space travel between habitats and stations, navigating the different customs, laws, and languages of the system with ease. you might have been part of an iterant work force or maybe a group facingsocial stigma of some sort that required frequent emmigration. for whatever reason, you have no real home to call your own. on the other hand, that means that every habitat and planet is equally home to you."
                 },
         "emergent agi": {
             "skills": {"programming": 30, "infosec": 15, "interfacing": 30},
-                "trait": ["emotive blindness", " poorly socialised", " real wold naivete", {"name": " social stigma", "spec": "agi"}],
+                "trait": ["emotive blindness", " poorly socialised", " real wold naivete", {"name": "social stigma", "spec": "agi"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -758,7 +758,7 @@
                 },
         "feral uplift": {
             "skills": {"unarmed": 20, "perception": 10, "navigation": 10, "fray": 10},
-                "trait": ["heightened instinct", " poorly socialised", " real world naivete", {"name": " social stigma", "spec": "uplift"}],
+                "trait": ["heightened instinct", " poorly socialised", " real world naivete", {"name": "social stigma", "spec": "uplift"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -767,7 +767,7 @@
                 },
         "humanities infolife": {
             "skills": {"academics": 10, "research": 10, "networking": 10, "kinesics": 10, "interfacing": 20},
-                "trait": ["real wold naivete", {"name": " social stigma", "spec": "agi"}],
+                "trait": ["real wold naivete", {"name": "social stigma", "spec": "agi"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -794,7 +794,7 @@
                 },
         "infolife": {
             "skills": {"interfacing": 30},
-                "trait": ["real world naivete", {"name": " social stigma", "spec": "agi"}],
+                "trait": ["real world naivete", {"name": "social stigma", "spec": "agi"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -830,7 +830,7 @@
                 },
         "machine infolife": {
             "skills": {"programming": 20, "infosec": 10, "interfacing": 30},
-                "trait": ["machine intuition", " poorly socalised", " real world naivete", {"name": " social stigma", "spec": "agi"}],
+                "trait": ["machine intuition", " poorly socalised", " real world naivete", {"name": "social stigma", "spec": "agi"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -866,7 +866,7 @@
                 },
         "octopus uplift": {
             "skills": {"disguise": 10, "swimming": 10, "infiltration": 10, "deception": 10, "freefall": 10},
-                "trait": [{"name": "hardening", "spec": "isolation"}, " solitary", {"name": " social stigma", "spec": "uplift"}],
+                "trait": [{"name": "hardening", "spec": "isolation"}, " solitary", {"name": "social stigma", "spec": "uplift"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -884,7 +884,7 @@
                 },
         "parrot uplift": {
             "skills": {"impersonation": 20, "networking": 10, "flight": 10},
-                "trait": ["first impression", {"name": " social stigma", "spec": "uplift"}],
+                "trait": ["first impression", {"name": "social stigma", "spec": "uplift"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -893,7 +893,7 @@
                 },
         "pig uplift": {
             "skills": {"profession": 10, "perception": 10, "investigation": 10, "networking": 10, "scrounging": 20},
-                "trait": ["impared balance (level 1)", " oblivious", {"name": " social stigma", "spec": "agi"}],
+                "trait": ["impared balance (level 1)", " oblivious", {"name": "social stigma", "spec": "agi"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -911,7 +911,7 @@
                 },
         "research infolife": {
             "skills": {"academics": 20, "interfacing": 10, "research": 30},
-                "trait": ["real wold naivete", {"name": " social stigma", "spec": "agi"}],
+                "trait": ["real wold naivete", {"name": "social stigma", "spec": "agi"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",
@@ -1030,7 +1030,7 @@
                 },
         "exhuman": {
             "skills": {"medicine": 10, "psychosurgery": 10, "any": [{"value": 10, "choices": ["exotic melee", "exotic ranged"]}, {"category": "weapon", "value": 20}], "fray": 10},
-                "trait": ["mental disorder", " modified behavior (level 2)", {"name": " social stigma", "spec": "exhuman"}],
+                "trait": ["mental disorder", " modified behavior (level 2)", {"name": "social stigma", "spec": "exhuman"}],
                 "rep": 0,
                 "credits": 0,
                 "morphs": "",

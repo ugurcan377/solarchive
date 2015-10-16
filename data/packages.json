@@ -792,8 +792,7 @@
                     "profession": 30,
                     "pilot": 30,
                     "art": 20,
-                    "hardware": {"value": 40, "spec": "electronics"},
-                    "hardware": {"value": 20, "spec": "robotics"}
+                    "hardware": [{"value": 40, "spec": "electronics"}, {"value": 20, "spec": "robotics"}]
                     }
                 },
             "5": {
@@ -811,8 +810,7 @@
                     "research": 30,
                     "art": 30,
                     "flight": 30,
-                    "hardware": {"value": 40, "spec": "electronics"},
-                    "hardware": {"value": 30, "spec": "robotics"}
+                    "hardware": [{"value": 40, "spec": "electronics"}, {"value": 30, "spec": "robotics"}]
                 }
             }
         },
@@ -904,7 +902,6 @@
                     "free fall": 40,
                     "art": 40,
                     "hardware": 40,
-                    "free fall": 30,
                     "academics": 30,
                     "programming": 30,
                     "interest": 30,
@@ -1203,7 +1200,6 @@
                     "any": 40,
                     "interfacing": 50,
                     "profession": 40,
-                    "networking": 40,
                     "interest": [50, 40],
                     "infosec": 30,
                     "fray": 10,
@@ -1232,7 +1228,6 @@
                 "skills": {
                     "freerunning": 35,
                     "any combat": 40,
-                    "profession": 30,
                     "gunnery": 30,
                     "academics": 20,
                     "fray": 20,
@@ -1250,7 +1245,6 @@
                 "skills": {
                     "freerunning": 35,
                     "any combat": [40, 40],
-                    "profession": 30,
                     "gunnery": 30,
                     "academics": 30,
                     "language": 30,
@@ -1402,7 +1396,6 @@
                     "infiltration": 50,
                     "intimidation": 50,
                     "fray": 40,
-                    "intimidation": 40,
                     "interest": [40, 40, 40]
                 }
             }
@@ -2288,8 +2281,7 @@
                   "intimidation": 30,
                   "academics": [50, 40],
                   "unarmed": 50,
-                  "blades": 25,
-                  "academics": 30
+                  "blades": 25
                 }
             } 
         },
@@ -2565,7 +2557,6 @@
                     "profession": {"value": 50, "spec": "squad tactics"},
                     "psi assualt": 50,
                     "infiltration": 30,
-                    "perception": 20,
                     "spray weapons": 20,
                     "unarmed": 20,
                     "perception": 20,
@@ -2588,7 +2579,6 @@
                     "sense": 30,
                     "spray weapons": 40,
                     "unarmed": 30,
-                    "perception": 20,
                     "interest": 40,
                     "fray": 30
                 }
@@ -2905,7 +2895,6 @@
                     "investigation": 20,
                     "perception": 30,
                     "swimming": 30,
-                    "investigation": 20,
                     "climbing": 40,
                     "fray": 25,
                     "infiltration": 25,
@@ -3592,12 +3581,11 @@
                     "deception": 40,
                     "perception": 30,
                     "academics": 30,
-                    "interest": 30,
                     "fray": 30,
                     "kinesics": 25,
                     "protocol": 25,
                     "profession": {"value": 50, "spec": "smuggling"},
-                    "interest": {"value": 40, "spec": "black markets"},
+                    "interest": [{"value": 40, "spec": "black markets"}, 30],
                     "persuasion": 50
                 }
             }
@@ -3755,7 +3743,6 @@
             "3": {
                 "g-rep": 50,
                 "skills": {
-                    "infiltration": 30,
                     "climbing": 25,
                     "fray": 20,
                     "infosec": 20,
@@ -3772,7 +3759,6 @@
                 "g-rep": 50,
                 "aptitude": {"coo": 5},
                 "skills": {
-                    "infiltration": 40,
                     "language": 30,
                     "art": 30,
                     "climbing": 40,

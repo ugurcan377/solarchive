@@ -157,6 +157,7 @@ def get_gears(grouped):
         }
     return gears
 
+
 def get_backgrounds(grouped):
     backgrounds = {}
     for line in grouped["BACKGROUND"]:
@@ -171,6 +172,7 @@ def get_backgrounds(grouped):
             "rep": int(rep_mod),
         }
     return backgrounds
+
 
 def get_factions(grouped):
     factions = {}
@@ -187,6 +189,19 @@ def get_factions(grouped):
         }
     return factions
 
+
+def get_morphs(grouped):
+    morph_desc = {}
+    for line in grouped["MORPH"]:
+        name, desc = line[1], line[12]
+        morph_desc[name] = {"desc": desc}
+    from solarchive.data import morphs
+    for name in morph_desc:
+        morph_name = name.lower()
+        if morphs.get(morph_name):
+            morphs[morph_name].update(morph_desc[name])
+
+    return morphs
 
 def show_field(data_type, field):
     if data_type == "gear":
@@ -226,13 +241,14 @@ grouped_data = group(fc_data)
 gear_dict = get_gears(grouped_data)
 background_dict = get_backgrounds(grouped_data)
 faction_dict = get_factions(grouped_data)
+morph_dict = get_morphs(grouped_data)
 
-f = open("/home/sentinel/workspace/solarchive/gear.json", "w")
-f.write(generate_json(json_dict=gear_dict))
+f = open("/home/sentinel/workspace/solarchive/morphs.json", "w")
+f.write(generate_json(json_dict=morph_dict))
 f.close()
-f = open("/home/sentinel/workspace/solarchive/background.json", "w")
-f.write(generate_json(json_dict=background_dict))
-f.close()
-f = open("/home/sentinel/workspace/solarchive/faction.json", "w")
-f.write(generate_json(json_dict=faction_dict))
-f.close()
+# f = open("/home/sentinel/workspace/solarchive/background.json", "w")
+# f.write(generate_json(json_dict=background_dict))
+# f.close()
+# f = open("/home/sentinel/workspace/solarchive/faction.json", "w")
+# f.write(generate_json(json_dict=faction_dict))
+# f.close()

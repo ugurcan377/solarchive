@@ -13,6 +13,9 @@ general = get_data("general")
 lifepath = get_data("lifepath")
 packages = get_data("packages")
 morphs = get_data("morphs")
+gear = get_data("gear")
+psi = get_data("psi")
+traits = get_data("traits")
 targets = {"aptitudes": "packages",
            "languages": "ep",
            "background": "packages",

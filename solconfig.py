@@ -11,7 +11,11 @@ data_files = {
     "general": "ep.json",
     "lifepath": "lifepath.json",
     "packages": "packages.json",
-    "morphs": "morphs.json"
+    "morphs": "morphs.json",
+    "gear": "gear.json",
+    "psi": "psi.json",
+    "traits": "traits.json",
+
 }
 
 

@@ -3,6 +3,7 @@ from pprint import pprint
 import click
 from solarchive.lifepath import Lifepath
 from solarchive.application import app
+from solarchive.apiv10.app import api_bp
 
 @click.group()
 def cli():
@@ -27,6 +28,7 @@ def lifepath(debug, step):
 @cli.command()
 @click.option("--debug", is_flag=True, help="Start server with debug mode")
 def web(debug):
+    app.register_blueprint(api_bp, url_prefix="/api/v1.0")
     if debug:
         app.run(debug=True)
     else:

@@ -98,7 +98,7 @@
             "desc": "You've never said no to a dare, and your quick reactions haven't failed you so far. You may not always make the best decisions, but you usually manage to land on your feet. "
         }
     },
-    "background": {
+    "backgrounds": {
         "colonist command staff": {
             "desc": "You helped run one of the pre-Fall colonies, whether it was in Earth orbit, on Luna or Mars, or elsewhere in the system. ",
             "motivations": {
@@ -1453,7 +1453,7 @@
             }
         }
     },
-    "faction": {
+    "factions": {
        "anarchist": {
            "desc": "You've allied yourself with one of the many anarchist collectives working towards greater freedoms and independence. ",
             "motivations": {
@@ -3820,7 +3820,7 @@
             }
         }
     },
-    "customization": {
+    "customizations": {
         "artist": {
             "1":{
                 "skills": {

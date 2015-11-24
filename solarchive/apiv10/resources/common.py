@@ -1,19 +1,32 @@
 from flask_restful import Resource
+from flask_restful import reqparse
 
 from solarchive import data
 
 
+parser = reqparse.RequestParser()
+parser.add_argument("category", dest="category", help="Get items by given category")
+
 class ListItems(Resource):
     data_source = None
+    have_categories = False
 
     def get(self):
         items = self.data_source
+        args = parser.parse_args()
+        categorize = False
+        if args.category and self.have_categories:
+            args.category = args.category.replace("_", " ")
+            categorize = True
+
         if type(items) == dict:
             keys = items.keys()
             keys.sort()
             item_list = []
             for key in keys:
                 item = items[key]
+                if categorize and item["category"] != args.category:
+                    continue
                 item.update({"name": key})
                 item_list.append(item)
             items = item_list
@@ -36,6 +49,7 @@ class GetItems(Resource):
 
 class Skill(object):
     data_source = data.general["skills"]
+    have_categories = True
 
     def __init__(self):
         skills = {}
@@ -84,6 +98,7 @@ class GetFactions(GetItems):
 
 class ListMorphs(ListItems):
     data_source = data.morphs
+    have_categories = True
 
 
 class GetMorphs(GetItems):
@@ -92,6 +107,7 @@ class GetMorphs(GetItems):
 
 class ListTraits(ListItems):
     data_source = data.traits["traits"]
+    have_categories = True
 
 
 class GetTraits(GetItems):
@@ -100,6 +116,7 @@ class GetTraits(GetItems):
 
 class ListPsi(ListItems):
     data_source = data.psi["psi"]["sleights"]
+    have_categories = True
 
 
 class GetPsi(GetItems):

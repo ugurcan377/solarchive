@@ -10,7 +10,7 @@
         "advantages": {"skills": {"swimming": 10}, "aptitude": {"som": 10, "any": 5, "coo": 5}},
         "desc": "(GC p. 150) Aquanauts are adapted for underwater activities. They possess a swim bladder to control buoyancy. They can safely descend to 200m.",
         "cp": 50,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swimming": [2, 10], "normal": [4, 20]}
     },
     "arachnoid": {
@@ -24,7 +24,7 @@
         "advantages": {"armor": [8, 8], "aptitude": {"som": 10, "coo": 5}},
         "desc": "(EP p. 143) Arachnoids feature four pairs of 1.5-meterlong retractable limbs with built-in pneumatic systems for propelling the bot with small leaps.",
         "cp": 45,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 24], "thrust vector": [8, 40], "wheeled": [8, 40]}
     },
     "ariel": {
@@ -37,7 +37,7 @@
         "wt": 6,
         "advantages": {"aptitude": {"ref": 5, "any": [5, 5], "cog": 5}},
         "cp": 50,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"winged": [8, 40], "normal": [4, 20]}
     },
     "ayah": {
@@ -49,9 +49,9 @@
         "max_apt": 30,
         "wt": 7,
         "advantages": {"aptitude": {"sav": 10, "any": 5}},
-        "desc": "(TH p. 188) Despite the advances in biotechnology, the hyperelite still need caretakers for their children and infirm. The ayah pod morph is designed to fulfill all nurse and caretaker functions. Rather than trust lowerclass transhumans, hyperelites prefer AGI servants sleeved into ayah morphs, especially in polities where AGIs have few, if any, legal rights. Ayahs are almost always female with pleasant but not stunningly beautiful features. Most of the enhanced features of an ayah are built under the hood, so to speak. Their enhanced olfactory capabilities help them monitor the health and emotional state of their wards, as well as alert them to potential environmental dangers. Their ability to withstand temperature extremes and survive without air for short periods helps them protect and rescue their charges in an emergency, such as a hull breach or a fire. Ayahs are often modified with bioweave armor and implanted weapons so they can act as a last line of defense against potential attackers.",
+        "desc": "(TH p. 188) Despite the advances in biotechnology, the hyperelite still need caretakers for their children and infirm. The ayah pod morph is designed to fulfill all nurse and caretaker functions. Rather than trust lowercategory transhumans, hyperelites prefer AGI servants sleeved into ayah morphs, especially in polities where AGIs have few, if any, legal rights. Ayahs are almost always female with pleasant but not stunningly beautiful features. Most of the enhanced features of an ayah are built under the hood, so to speak. Their enhanced olfactory capabilities help them monitor the health and emotional state of their wards, as well as alert them to potential environmental dangers. Their ability to withstand temperature extremes and survive without air for short periods helps them protect and rescue their charges in an emergency, such as a hull breach or a fire. Ayahs are often modified with bioweave armor and implanted weapons so they can act as a last line of defense against potential attackers.",
         "cp": 25,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "basic pod": {
@@ -65,7 +65,7 @@
         "advantages": {"aptitude": {"any": 5}},
         "desc": "(TH p. 188) When pods were first introduced, non-specialized models were favored due to their low cost and quicker production time. Basic pods are essentially a lowercost pod version of a splicer morph. To keep expenses down, this pod has slightly more mechanical parts than most other pods. As a result, it has more obvious cybernetic components.",
         "cp": 5,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "biocore": {
@@ -79,7 +79,7 @@
         "advantages": {"armor": [6, 6], "aptitude": {"som": 5, "any": [5, 5]}},
         "desc": "(TH p. 188) Originally designed by a scum engineer who just wanted to see if it could be done, the biocore is a synthmorph with a biological brain. The design has since spread to those who wish to enjoy the advantages of sleeving in a synthmorph without the risk of brainhacking or who simply dislike the idea of using a cyberbrain (including some asyncs). Most models feature a stylized but transparent braincase, to show off the biocore's main feature, but others appear to be ordinary synthmorphs from the outside; only a detailed physical examination can determine that it actually contains a living brain.",
         "cp": 50,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20]}
     },
     "blackbird": {
@@ -93,7 +93,7 @@
         "advantages": {"skills": {"flight": 10, "infiltration": 10}, "armor": [2, 2], "beak claw attack": {"dv": {"bonus": 1, "dice": 1}, "ap": -1}, "aptitude": {"ref": 5, "any": 5, "coo": 5}},
         "desc": "(TH p. 189) When they're seen at all, these morphs resemble a matte gray neo-corvid with many odd, sharp angles. Blackbirds are consummate stealth morphs, designed to evade visual observation and radar during recon or infiltration. In part due to aesthetics, they're a favorite of neo-ravens.",
         "cp": 45,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [2, 16], "winged": [8, 40], "hopper": [4, 20]}
     },
     "bouncer": {
@@ -107,7 +107,7 @@
         "advantages": {"trait": "limber", "aptitude": {"som": 5, "any": 5, "coo": 5}},
         "desc": "(EP p. 140) Bouncers are humans genetically adapted for zero-G and microgravity environments, and their feet can grasp as well as their hands.",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "bruiser": {
@@ -121,7 +121,7 @@
         "advantages": {"skills": {"intimidation": 10}, "aptitude": {"ref": 5, "som": 15, "any": 5}},
         "desc": "(TH p. 189) This morph is specifically designed to be large, strong, and physically intimidating. Adopted early on by some sports performers, it quickly became a favorite among criminal cartels and thugs. At 2.5 meters tall, the morph may have difficulty moving comfortably in all but the most open and uncrowded of habitats. This morph's claws extend from its knuckles and are more like reinforced bone brass knuckles.",
         "cp": 60,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "case": {
@@ -135,7 +135,7 @@
         "advantages": {"armor": [4, 4]},
         "desc": "(EP p. 143) Cases are mass produced robotic shells intended to provide an affordable remorphing option for the millions of infugees created by the Fall. ",
         "cp": 5,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 16]}
     },
     "cetus": {
@@ -149,7 +149,7 @@
         "advantages": {"armor": [8, 8], "aptitude": {"som": 5, "any": 5, "coo": 5}},
         "desc": "(RW p. 185) The cetus, named after a mythological sea monster, was designed for deep sea activity and is capable of operating under extreme pressure and cold. It is a favored morph for use in the undersea domains of Ceres and Europa. Capable of moving quickly underwater, the morph can also operate outside of water in the atmospheric portion of habitats. Cetus morphs are slightly smaller than arachnoids.",
         "cp": 45,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20], "submarine": [4, 36]}
     },
     "chickcharnie": {
@@ -163,7 +163,7 @@
         "advantages": {"beak claw attack": {"dv": {"dice": 1}, "ap": -1}, "aptitude": {"int": 5, "ref": 10, "coo": 5}},
         "desc": "(PO p. 142) Chickcharnie are best described as a humanoid owl that stands slightly shorter than flats It is flightless but it incorporates a functional set of clawed hands.",
         "cp": 35,
-        "class": "pod",
+        "category": "pod",
         "movement": {"winged": [4, 20], "normal": [4, 20]}
     },
     "cloud skate": {
@@ -177,7 +177,7 @@
         "advantages": {"aptitude": {"som": 5, "ref": 5, "any": 5, "cog": 5}},
         "desc": "(TH p. 189) Like the surya and hulder morphs, the cloud skate is another biomorph that pushes the edge of what is possible. It is designed to be able to live in the atmospheres of gas giants, including Jupiter. This morph is shaped roughly like a tailless stingray with a pair of slender arms. The version of the swim bladder used by this morph provides neutral buoyancy in dense atmospheres, preventing it from sinking below a safe depth. Several small outer system collectives are planning to use these morphs to colonize the atmospheres of Saturn and Neptune and are also working on creating versions of animals and plants that can also live in these exotic environments.",
         "cp": 55,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"winged": [8, 40]}
     },
     "cloud skimmer": {
@@ -191,7 +191,7 @@
         "advantages": {"armor": [10, 10], "aptitude": {"ref": 5, "som": 10, "any": 5}},
         "desc": "(TH p. 189) This streamlined synthmorph is designed for exploring the atmospheres of gas giants, but its internal rocket also allows it to operate in vacuum. This morph can travel to and from a ship in orbit around a gas giant into the planet's atmosphere on its own. The morph is a flattened oval that can extend up to four flexible arms. The swim bladder acts much like a high pressure balloon to help keep the morph aloft in a gas giant's dense atmosphere.",
         "cp": 65,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"thrust vector": [8, 40]}
     },
     "courier": {
@@ -205,7 +205,7 @@
         "advantages": {"armor": [6, 6], "aptitude": {"int": 5, "ref": 5, "any": 5, "coo": 5}},
         "desc": "(RW p. 185) This synthmorph was specifically designed to fly between the many moons and habitats in the Saturnian system. It is used by both couriers and smugglers throughout the outer system. This morph appears to be a roughly humanoid head and torso set on a conical base, with a total height of 1.5 meters, that makes it look rather like a four-armed chess piece. This base contains both the morph's ionic propulsion system, which doubles as a plasma sail in space, and an internal rocket. This miniature metallic hydrogen rocket is specifically designed for low thrust. It provides an acceleration of up to 0.25 g, allowing the morph to take off and land on all moons and other small bodies in the solar system. This engine can operate for a total of one and a half hours before it requires refueling. The morph's four slender arms fold flat against its torso when it is in flight. Its extensive sensor suit is useful for both navigation and various covert purposes.",
         "cp": 0,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"thrust vector": [8, 40], "ionic": [12, 40]}
     },
     "crasher": {
@@ -219,7 +219,7 @@
         "advantages": {"armor": [2, 3], "aptitude": {"som": 10, "any": [5, 5, 5], "cog": 5}},
         "desc": "(GC p. 150) Crashers are rugged and durable morphs that are the ideal biomorph for gatecrashing and are popular among first-in teams.",
         "cp": 70,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "critter": {
@@ -233,7 +233,7 @@
         "advantages": {"aptitude": {"ref": 5, "coo": 5}},
         "desc": "(TH p. 190) Critters are pods either genetically hacked together from various animal species or simply biosculpted to appear as such. Originally popular among hyperelites who preferred smarter and distinctive AI-operated pets, they were also sometimes deployed on a covert basis as bodyguards or spies disguised as smart animals. Naturally these morphs were also embraced by people with a furry kink or who simply wanted to test-drive a body that was more bestial. Critter pods come in almost every conceivable type of animal shape, from cats to skunks to chimerical lizard-hyena hybrids. The vast majority are quadruped and stick close to the animal type's body plan, though anthropomorphic models are also popular and there is a great deal of bodysculpted variety. A model currently popular in the inner system is the bastet, a composite of several wild cat species that resembles a tawny panther or lion, often with intricate patterns based on Egyptian hieroglyphs in their fur. Some users prefer smaller models of this morph with the Reduced Size trait (p. 93).",
         "cp": 15,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "daitya": {
@@ -247,7 +247,7 @@
         "advantages": {"armor": [20, 20], "aptitude": {"som": 15, "any": 5}},
         "desc": "(TH p. 190) This huge, vaguely anthropomorphic synthmorph is designed for large construction projects and similar heavy industrial uses, such as moving large objects. At just under three-meters tall and with a mass of almost one ton, the daitya is essentially an industrial mech. Modified versions have occasionally been deployed for combat purposes.",
         "cp": 80,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [8, 40]}
     },
     "digger": {
@@ -261,7 +261,7 @@
         "advantages": {"aptitude": {"som": 10, "any": 5}},
         "desc": "(GC p. 150) Diggers are work pods that are used for surface surveys and excavation. Though their hands are modified digging claws they are still useful for fine manipulation.",
         "cp": 30,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "dragonfly": {
@@ -275,7 +275,7 @@
         "advantages": {"armor": [2, 2]},
         "desc": "(EP p. 144) Dragonflies take the shape of a meter long flexible shell with multiple wings and manipulator arms. Capable of near-silent turbofan-aided flight in Earth gravity.",
         "cp": 20,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"winged": [8, 32], "walker": [2, 16]}
     },
     "dvergr": {
@@ -288,7 +288,7 @@
         "wt": 9,
         "advantages": {"aptitude": {"som": 15, "any": 5}},
         "cp": 50,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "exalt": {
@@ -302,7 +302,7 @@
         "advantages": {"aptitude": {"any": [5, 5, 5], "cog": 5}},
         "desc": "(EP p. 139) Exalts are enhanced humans. They have been tweaked to be healthier, smarter, and more attractive. Their metabolism is predisposed towards staying fit and athletic.",
         "cp": 30,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "faust": {
@@ -316,7 +316,7 @@
         "advantages": {"trait": ["psi chameleon", "psi defense"], "iny": 5, "aptitude": {"wil": 10, "cog": 10}, "any": 5},
         "desc": "(TH p. 190) This morph is not a publicly known model. It was developed in secret by a small group of unaffiliated async genehackers. It is only available to individuals who discover a connection to this unnamed, underground async network and then download the template from one of several secret mesh sites. The faust is a modified menton morph. Even under the most thorough scans, it appears to be nothing more than a mildly personalized version of that morph. ",
         "cp": 85,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "fenrir": {
@@ -330,7 +330,7 @@
         "advantages": {"armor": [32, 32], "aptitude": {"som": 10, "ref": 5, "any": 5, "coo": 5}},
         "desc": "(RW p. 186) Named for the monstrous wolf of Norse legend, the fenrir is one of the most imposing combat morphs ever developed. It is found only in the armed forces of the Hyoden city-state on Callisto (though blackmarket blueprints/copies are rumored to be available elsewhere). A massive, squat quadrupedal morph designed to be operated by up to six egos simultaneously, the fenrir is more akin to a super-heavy tank than a regular morph. It is possible that a single ego could fill all six ego slots at once through the use of alpha forks, but this has never been tested. The most common weapons mounted are linked HEAP and/or plasmaburst seeker launchers, exoatmospheric plasma beam bolters, and machine railguns loaded with AP rounds.",
         "cp": -1,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20], "thrust vector": [4, 12]}
     },
     "fighting kite": {
@@ -345,7 +345,7 @@
         "desc": "(TH p. 190) Based on the kite morph (p. 150, Gatecrashing) popular with gatecrashers, this morph is somewhat more durable and better armored. It also includes a built-in laser as well as anti-detection measures. Its default mode is turbofan-driven rotorcraft; its light weight allows it to fly and hover, even in thin atmospheres and heavy gravities. In streamlined ionic mode, it can travel at high speeds and maneuver in hurricane-force winds. In vacuum, it can drive itself with thrust-vector nozzles. It is occasionally used for aerial reconnaissance, but is most popular with spies, thieves, and discrete bodyguards.",
         "cp": 35,
         "speed": 1,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [2, 8], "winged": [8, 32], "thrust vector": [8, 40], "ionic": [12, 40]}
     },
     "flat": {
@@ -359,7 +359,7 @@
         "advantages": {},
         "desc": "(EP p. 139) Flats are baseline unmodified humans, born with all of the natural defects, hereditary diseases, and other genetic mutations that evolution so lovingly applies. ",
         "cp": 0,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "flexbot": {
@@ -372,7 +372,7 @@
         "wt": 5,
         "advantages": {"armor": [4, 4], "aptitude": {"any": 5}},
         "cp": 20,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 16], "hover": [8, 40]}
     },
     "flying squid": {
@@ -386,7 +386,7 @@
         "advantages": {"skills": {"swimming": 30}, "trait": "limber (level 2)", "beak attack": {"dv": {"bonus": 1, "roll": 1}, "ap": -1}, "aptitude": {"som": 5, "any": 5, "coo": 5}},
         "desc": "(TH p. 191) Given the popularity of octomorphs even among nonmercurials, morph designers have sought out a similar morph that is operable in zero g and also designed for speed. Its streamlined form resembles a stylized squid and this morph can move swiftly in both water and air. It can suck either water or air into a cavity in its mantle and then expel it out a siphon in a chosen direction for fast, jet-like propulsion. While popular with neo-octopi, its speed and overall utility has made it an increasingly favorite option with others seeking an aquatic-adapted morph.",
         "cp": 55,
-        "class": "pod",
+        "category": "pod",
         "movement": {"submarine": [4, 36], "thrust vector": [4, 28]}
     },
     "freeman": {
@@ -400,7 +400,7 @@
         "advantages": {"aptitude": {"sav": 5, "any": 5}},
         "desc": "(TH p. 191) Many leaders want to ensure loyalty or at least obedience from their citizens, especially recently sleeved infugees. The freeman biomorph offers rulers (some would say tyrants or dictators) a chance to offer citizens a new life without worrying about dissidence. Based on the splicer morph, the freeman is genetically modified to be more obedient, which results in lower Willpower. More insidiously, freeman morphs are genetically modified with a protein that makes their neurons sensitive to light. When combined with an optogenetics module implant (p. 197), these neurons can be activated and deactivated remotely, enabling a monitoring muse or meshed overseer to control the ego's behavior. (The specific behavior affected is chosen with each optogenetics module implant.) The freeman comes with a specialized monitor AGI installed in a modified ghostrider module. The monitor, usually a modified fork of the tyrant's muse, watches and reports all suspicious actions taken by the primary ego. The purpose of this implant is often concealed. Citizens who sleeve into a freeman morph are told the implant is a security measure that helps prevent infection from TITAN technology or some similar lie. The module is designed to resist tampering and will report to headquarters the instant it detects a hacker's intrusion. The monitor muse can manipulate the ego's behavior or even take control of the morph via its puppet sock, but avoids doing that unless absolutely necessary. Dictators do not want to reveal that their citizens have spies implanted in their skulls, watching them. Surprisingly, some people voluntarily sleeve into freeman morphs, preferring to hand responsibility and decision-making over to other parties, such as the Sendero Luminoso Benevolent Dictatorship habitat in the Neptunian Trojans.",
         "cp": 10,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "fury": {
@@ -415,7 +415,7 @@
         "desc": "(EP p. 140) Furies are combat morphs. These transgenic human upgrades feature genetics tailored for endurance, strength, and reflexes They tend to be female.",
         "cp": 75,
         "speed": 1,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "futura": {
@@ -429,7 +429,7 @@
         "advantages": {"aptitude": {"wil": 10, "sav": 5, "cog": 5, "any": 5}},
         "desc": "(EP p. 140) Futura morphs were specially crafted for the Lost. Made for accelerated growth and adjusted for confidence, self-reliance, and adaptability.",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "galatea": {
@@ -443,7 +443,7 @@
         "advantages": {"armor": [6, 6], "aptitude": {"int": 5, "sav": 10, "cog": 5, "any": 5}},
         "desc": "(TH p. 192) A group of Lunar morph designers created this high-end synthmorph in an attempt to increase the social acceptance of synthmorphs by showcasing how attractive and versatile they can be. This elegant morph looks expensive and is designed to allow the user to master any social situation. A few media icons and socialites have already found that this morph's mixture of utility and novelty value has helped enhance their fame and reputation.",
         "cp": 65,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20]}
     },
     "gargoyle": {
@@ -457,7 +457,7 @@
         "advantages": {"armor": [6, 6], "aptitude": {"int": 5, "any": 5}},
         "desc": "(PO p. 142) Gargoyles are a humanoid morph designed as a mobile sensor unit. They stand taller than transhumans covered with quantum dot cameras.",
         "cp": 40,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20]}
     },
     "ghost": {
@@ -471,7 +471,7 @@
         "advantages": {"aptitude": {"wil": 5, "som": 5, "sav": 5, "coo": 10, "any": 5}},
         "desc": "(EP p. 140) Ghosts are partially designed for combat applications, but their primary focus is stealth and infiltration. Designed for speed, agility, and reflexes.",
         "cp": 70,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "grey": {
@@ -485,7 +485,7 @@
         "advantages": {"aptitude": {"wil": 5, "any": 5, "cog": 5}},
         "desc": "(TH p. 192) Originally created as part of a fad based on 20th-century images of aliens, the grey morph soon became popular with eccentric scientists and engineers. This morph's slender and weak-looking body stands only 1.5 meters tall, short compared to modern transhumans. Its distinctive large head and eyes strike many transhumans as disturbing.",
         "cp": 25,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "griefer": {
@@ -499,7 +499,7 @@
         "advantages": {"armor": [4, 4]},
         "desc": "(TH p. 192) Based on the case synthmorph design, griefers are used by vandals, terrorists, and dedicated trolls to harass enemies and antagonize the masses. Griefers have embedded sound and holographic display systems so they can easily harass an individual or an entire crowd. They are also typically equipped with numerous hacking tools and software aids, though they do not come with these by default. Most importantly, they are built without cortical stacks, so if they are destroyed, the ego cannot be interrogated through psychosurgery. Griefers are illegal in many habitats, especially in the Planetary Consortium, but DRM-free blueprints are easy to find in many darknets, thus making them a persistent annoyance in some systems. A few habitats have passed laws mandating that killing a griefer is not considered murder, assault, or even destruction of property.",
         "cp": 5,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 16]}
     },
     "guard": {
@@ -514,7 +514,7 @@
         "desc": "(TH p. 192) Everyone knows that synthmorphs are tougher and better equipped for serious combat than biomorphs. However, many people in the inner system are not comfortable with using hulking synthmorphs as bodyguards or security personnel. Instead, some choose this subtle and extremely deadly alternative. This morph's enhanced senses allow it to more easily detect any threats to the person the user is guarding, and the built-in weaponry and moderate armor make it highly resistant to damage. The synthetic mask disguises it quite effectively as an olympian or fury morph.",
         "cp": 60,
         "speed": 1,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20]}
     },
     "hazer": {
@@ -528,7 +528,7 @@
         "advantages": {"aptitude": {"wil": 5, "any": [5, 5], "coo": 5}},
         "desc": "(RW p. 186) Hazers are tall, fine-boned morphs, lightly muscled but heavily insulated against loss of body heat. Even with all of their augmentations, hazers can't survive exposure to the frigid atmosphere of Titan-but they can handle it slightly longer than other morphs. Hazers tend to be fair and slender, with chiseled features. Some have features so angular or elfin that their beauty is alien and unsettling to other human phenotypes. Striking Looks and Uncanny Valley are both common morph traits.",
         "cp": 35,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "hibernoid": {
@@ -541,7 +541,7 @@
         "wt": 7,
         "advantages": {"aptitude": {"int": 5, "any": 5}},
         "cp": 25,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "hulder": {
@@ -555,7 +555,7 @@
         "advantages": {"aptitude": {"wil": 10, "som": 5, "any": 5}},
         "desc": "(RW p. 186) Hulder are engineered for survival in the Titanian wilds. In silhouette, their bodies resemble a longlegged great auk, though viewed up close, the resemblance to a bird ends. Hulder have no feathers, but rather smooth, rubbery charcoal or black skin covering a thick layer of nano-augmented blubber. What resembles a thick bill from a distance is actually a seamless protrusion of the face, packed with sensory augmentations. Hulder stand 2 meters tall and weigh on average 135 kilograms. Their sensory organs, webbed feet, and fingers are all cybernetic. Hulder can only tolerate temperatures hospitable to baseline transhumans for short periods of time. In the open, they must balance their bodies' chemical reservoirs with other hulder and caribou once per month or with a chemical reserve pack. A typical band of 2-6 hulder and 10-20 caribou can go about a year before having to visit a hab or a station like Huvudsk?r to replenish chemical reserves.",
         "cp": 50,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "hyperbright": {
@@ -569,7 +569,7 @@
         "advantages": {"aptitude": {"int": 10, "wil": 5, "any": 5, "cog": 15}},
         "desc": "(RW p. 186) This morph is an attempt by a research team on Bright to create a successor to the menton, making it the most intelligence-enhanced morph ever created. Work on the hyperbright morph has been plagued with difficulties, as the designers attempt to push technical limits, creating a morph that can work at peak efficiency without distraction for long periods of time. In an effort to create a morph that proves their design and earns some positive reputation for their project, the creators took short cuts that caused the morph to have several distinctive and potentially annoying quirks, including an inherent need for drugs to stabilize its exotic neurochemistry. The result is a morph that is instantly recognizable by the brightly colored bony crest along the skull that helps cool its brain. Despite its quirks, the hyperbright has gained a small following among a number of scientists and engineers, especially since it has been optimized for use in the low-g environments of the outer system. When created or used on Bright, this morph is usually also fitted with the parallel processor nanoware (p. 189).",
         "cp": 70,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "hypergibbon": {
@@ -583,7 +583,7 @@
         "advantages": {"skills": {"freerunning": 20}, "trait": "limber", "aptitude": {"int": 5, "ref": 5}},
         "desc": "(PO p. 142) Hypergibbons stand about 1 meter tall, weigh 15 kg, and typically have black fur and skin. Their wrists feature a ball joint to enable swinging by the arms.",
         "cp": 30,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "infomorph": {
@@ -598,7 +598,7 @@
         "desc": "(EP p. 145) Infomorphs are digital only forms. Infomorphs are sometimes carried by other characters instead of a muse or in a ghostrider module.",
         "cp": 0,
         "speed": 3,
-        "class": "",
+        "category": "",
         "movement": {}
     },
     "jenkin": {
@@ -612,7 +612,7 @@
         "advantages": {"bite attack": {"dv": {"bonus": 1, "roll": 1}, "ap": -1}, "aptitude": {"int": 5, "som": 5, "ref": 5}},
         "desc": "(TH p. 193) The handiwork of scum genehacker Neville Orsonglass, the jenkin is a byproduct of desperate measures taken during the Fall. The original model was simply the designer's attempt to keep him and his crewmates alive on a ship with failing life support and recycling systems. From there, it has evolved into the ultimate survivor's morph, though the definition of survivor has now been extended to can take all of the drugs and still function sexually. This seems to be a selling point with the scum. Despite the morph's stooped posture, rat-like features, and pungent personal aroma, the implausibly sized secondary sexual characteristics make it the life of certain kinds of parties.",
         "cp": 20,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "kite": {
@@ -626,7 +626,7 @@
         "advantages": {"armor": [2, 2], "aptitude": {"any": 5}},
         "desc": "(GC p. 150) This small shape-shifting morph is popular due to their usefulness for aerial recon as it is capable of flight no matter the atmospheric environment or lack thereof.",
         "cp": 30,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [2, 8], "winged": [8, 32], "thrust vector": [8, 40], "ionic": [12, 40]}
     },
     "lunar flyer": {
@@ -639,7 +639,7 @@
         "wt": 6,
         "advantages": {"aptitude": {"coo": 5, "cog": 5, "any": [5, 5]}},
         "cp": 35,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"winged": [8, 40], "normal": [4, 20]}
     },
     "martian alpiner": {
@@ -653,7 +653,7 @@
         "advantages": {"skills": {"climbing": 10}, "aptitude": {"som": 5}},
         "desc": "(SW p. 162) Alpiners were a relatively common biomorph design on early frontier Mars. Avid rock climbers and outdoor types also favor this morph.",
         "cp": 30,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "menton": {
@@ -667,7 +667,7 @@
         "advantages": {"aptitude": {"int": 5, "wil": 5, "any": 5, "cog": 10}},
         "desc": "(EP p. 139) Mentons are genetically modified to increase cognitive abilities, particularly learning ability, creativity, attentiveness, and memory. ",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "mimic": {
@@ -681,7 +681,7 @@
         "advantages": {"armor": [4, 4], "aptitude": {"any": 5, "coo": 5}},
         "desc": "(TH p. 193) In its basic form, with its limbs retracted, a mimic morph resembles a spare (p. 151, Gatecrashing) and is only a bit larger than a human head. With its four pencil-thin telescoping legs fully extended, it can stand up to two meters tall, and its arms can also each reach up to two meters from the morph. These limbs can all be fully retracted and the user can also alter the morph's shape and appearance, causing it to look like almost any small object such as a briefcase, cleaning robot, or household appliance. This morph can easily fit through small spaces and hide itself with great ease and is ideal for infiltration and sabotage missions.",
         "cp": 25,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [5, 24]}
     },
     "nautiloid": {
@@ -695,7 +695,7 @@
         "advantages": {"armor": [20, 20], "aptitude": {"som": 5, "any": [5, 5]}},
         "desc": "(TH p. 193) Nautiloids are a hybrid of short-range spacecraft and submersible capable of holding up to six passengers and their gear. The morph is shaped like a van-sized nautilus, with crew space in the head and shell. A cluster of tentacular limbs mounted under the observation ports in the head provide both fine and brute force manipulation. Originally created for comet and asteroid mining, the design also proved useful for oceanic exploration by gatecrashing teams and Europans. The morph's interior includes a desktop cornucopia machine and a maker. It can deploy a pair of retractable pontoons for stability when floating on a liquid surface. A nautiloid's life support system can support its occupants for up to three months before replenishing-indefinitely if it has a source of hydrogen and oxygen. Nautiloids include radiation shielding, a small airlock, and a healing vat. The nautiloid is also available as a bot with no cyberbrain for the same cost. The bot version has no aptitude bonuses.",
         "cp": 155,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"submarine": [8, 40], "internal rocket": [8, 40]}
     },
     "neo avian": {
@@ -708,7 +708,7 @@
         "wt": 4,
         "advantages": {"beak claw attack": {"dv": {"bonus": 1, "roll": 1}, "ap": -1}, "aptitude": {"int": 5, "ref": 10, "any": 5}},
         "cp": 25,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"winged": [8, 40], "normal": [4, 20]}
     },
     "neo beluga": {
@@ -721,7 +721,7 @@
         "wt": 7,
         "advantages": {"skills": {"swimming": 40}, "aptitude": {"int": 5, "som": 5, "any": 5, "coo": 5}, "ramming attack": {"dv": {"bonus": 0, "roll": 1}, "ap": 0}},
         "cp": 45,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swim": [16, 40]}
     },
     "neo dolphin": {
@@ -734,7 +734,7 @@
         "wt": 6,
         "advantages": {"skills": {"swimming": 40}, "aptitude": {"int": 5, "som": 5, "any": 5, "coo": 5}, "ramming attack": {"dv": {"bonus": 0, "roll": 1}, "ap": 0}},
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swim": [16, 48]}
     },
     "neo gorilla": {
@@ -747,7 +747,7 @@
         "wt": 8,
         "advantages": {"aptitude": {"int": 5, "som": 10, "any": 5}},
         "cp": 35,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "neo hominid": {
@@ -760,7 +760,7 @@
         "wt": 6,
         "advantages": {"skills": {"climbing": 10}, "aptitude": {"int": 5, "som": 5, "any": 5}},
         "cp": 25,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "neo neanderthal": {
@@ -773,7 +773,7 @@
         "wt": 8,
         "advantages": {"aptitude": {"int": 5, "som": 10, "any": 5, "cog": 5}},
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "neo orca": {
@@ -786,7 +786,7 @@
         "wt": 8,
         "advantages": {"skills": {"unarmed": 20, "swimming": 40}, "bite attack": {"dv": {"bonus": 0, "roll": 2}, "ap": 0}, "aptitude": {"int": 5, "som": 10, "any": 5, "coo": 5}},
         "cp": 60,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swim": [16, 60]}
     },
     "neo pig": {
@@ -799,7 +799,7 @@
         "wt": 7,
         "advantages": {"aptitude": {"som": 5, "any": 5}},
         "cp": 20,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "neo porpoise": {
@@ -812,7 +812,7 @@
         "wt": 5,
         "advantages": {"skills": {"swimming": 50}, "aptitude": {"int": 5, "som": 5, "any": 5}, "ramming attack": {"dv": {"bonus": 0, "roll": 1}, "ap": 0}},
         "cp": 35,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swim": [16, 56]}
     },
     "neo whale": {
@@ -825,7 +825,7 @@
         "wt": 20,
         "advantages": {"skills": {"unarmed": 20, "swimming": 40}, "bite attack": {"dv": {"bonus": 0, "roll": 4}, "ap": 0}, "aptitude": {"int": 5, "som": 5, "any": 5, "coo": 5}, "ramming attack": {"dv": {"bonus": 0, "roll": 2}, "ap": 0}},
         "cp": 75,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swim": [16, 40]}
     },
     "neotenic": {
@@ -839,7 +839,7 @@
         "advantages": {"aptitude": {"int": 5, "ref": 5, "any": 5, "coo": 5}},
         "desc": "(EP p. 141) Neotenics are transhumans modified to retain a childlike form. They are smaller, more agile, inquisitive, and less resource depleting.",
         "cp": 25,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "nomad": {
@@ -853,7 +853,7 @@
         "advantages": {"aptitude": {"som": 5, "ref": 5, "any": 5}},
         "desc": "(TH p. 194) While synthmorphs are the first choice for many gatecrashers, morph designers have made great headway in creating biomorphs suitable for hazardous exoplanets. The nomad biomorph is optimized for operating in desert environments and takes many of its traits from the camel, prompting some observers to mistake the nomad for a pod morph. With an elongated face designed like a camel to trap water vapor in the nostrils as the morph exhales, nomads are clearly off-putting to many bioconservatives. Some models also have camel feet for better travels in sandy dune environments. Nomads are actually quite hefty under normal circumstances, as they are designed to be able to carry large amounts of fat tissue. Their fat tissue can be moved around their body to adapt to high or low temperatures. When nomads are in the field, however, they can become quite skinny, as they survive for months on their fat tissue alone.",
         "cp": 30,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "novacrab": {
@@ -867,7 +867,7 @@
         "advantages": {"armor": [11, 11], "claw attack": {"dv": {"bonus": 0, "roll": 2}, "ap": 0}, "aptitude": {"som": 10, "any": [5, 5]}},
         "desc": "(EP p. 142) Novacrabs are a pod design bioengineered from coconut crab and spider crab stock and grown to a human size. Novacrabs are ideal for hazardous work environments as well as vacworker, police, or bodyguard duties, given their ten 2-meter long legs, massive claws, and chitinous armor. They climb and handle microgravity well and can withstand a wide range of atmospheric pressure from vacuum to deep sea. Novacrabs feature compound eyes, gills, dexterous manipulatory digits on their fifth set of limbs, and transgenic vocal cords.",
         "cp": 60,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "observer": {
@@ -881,7 +881,7 @@
         "advantages": {"aptitude": {"int": 10, "ref": 5, "any": 5, "cog": 5}},
         "desc": "(TH p. 194) Observers have their minds enhanced to bolster intuitive, analytical, and investigative capabilities. They are favored by detectives and others with a mind towards details, puzzles, and thin-slicing.",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "octomorph": {
@@ -895,7 +895,7 @@
         "advantages": {"trait": ["360 degree vision", "limber (level 2)"], "beak attack": {"dv": {"bonus": 0, "roll": 1}, "ap": -1}, "aptitude": {"int": 5, "any": 5, "coo": 5}},
         "desc": "(EP p. 141) Octomorphs typically crawl along in zero gravity using their arm suckers and expelling air for propulsion and can even walk on two of their arms in low gravity. ",
         "cp": 50,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swim": [4, 24], "thrust vector": [2, 12], "normal": [2, 12]}
     },
     "olympian": {
@@ -909,7 +909,7 @@
         "advantages": {"aptitude": {"ref": 5, "som": 10, "any": 5, "cog": 5}},
         "desc": "(EP p. 140) Olympians are human upgrades with improved athletic capabilities like endurance, eye-hand coordination, and cardio-vascular functions.",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "opteryx": {
@@ -923,7 +923,7 @@
         "advantages": {"armor": [2, 2], "skills": {"climbing": 10, "flight": 10}, "aptitude": {"int": 5, "ref": 5, "coo": 5}},
         "desc": "(TH p. 194) This recon morph is designed to be a fast, lightweight runner, climber, and flyer. The opteryx looks like a one-meter-tall winged, synthetic dinosaur and adopts an almost horizontal body posture when running, its tail held out for balance. Its wings are fully functional arms equipped with claws. This morph is a favorite for gatecrashers and neo-avians in the dinosaur identity subculture. It comes equipped with cartography package (p. 199) software.",
         "cp": 40,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [8, 40], "winged": [8, 40]}
     },
     "pleasure pod": {
@@ -937,7 +937,7 @@
         "advantages": {"aptitude": {"int": 5, "sav": 5, "any": 5}},
         "desc": "(EP p. 142) Pleasure pods are exactly what they seem faux humans designed purely for intimate entertainment purposes they are capable of switching their sex at will.",
         "cp": 20,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "q morph": {
@@ -950,7 +950,7 @@
         "wt": 24,
         "advantages": {"armor": [18, 18], "trait": "high temperature operation", "claw attack": {"dv": {"bonus": 0, "roll": 2}, "ap": 0}, "aptitude": {"som": 10, "any": 5, "coo": -5}},
         "cp": 100,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [2, 4]}
     },
     "reaper": {
@@ -965,7 +965,7 @@
         "desc": "(EP p. 144) The reaper is a common combat bot that is infamous due to numerous war XPs, and bringing one into most habitats will undoubtedly raise eyebrows, if not get you arrested.",
         "cp": 100,
         "speed": 1,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20], "vectored thrust": [4, 20], "hopper": [4, 20], "ionic": [12, 40]}
     },
     "remade": {
@@ -979,7 +979,7 @@
         "advantages": {"aptitude": {"som": 10, "sav": 5, "cog": 10, "any": [5, 5]}},
         "desc": "(EP p. 141) The remade are humans 2.0. They have been optimized for good health, smarts, and longevity with numerous transgenic mods. ",
         "cp": 60,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "ring flyer": {
@@ -993,7 +993,7 @@
         "advantages": {"armor": [2, 3], "trait": "limber", "aptitude": {"ref": 5, "coo": 5, "cog": 5, "any": 5}},
         "desc": "(RW p. 187) Designed for use in Saturn's magnetic field, this exotic biomorph is also occasionally used around Jupiter, Uranus, and Neptune, as well as having limited use in the Jovian Trojans and Main Belt. Easily recognizable with its slender limbs and round-backed torso, this morph can survive indefinitely in space, acquiring oxygen, water, and trace organic materials from the particles of Saturn's rings. It can also maneuver around any planet with a magnetic field, flying swiftly and easily in any of these environments.",
         "cp": 70,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"thrust vector": [8, 40], "normal": [4, 20]}
     },
     "ripwing": {
@@ -1007,7 +1007,7 @@
         "advantages": {"beak claw attack": {"dv": {"bonus": 0, "roll": 1}, "ap": 0}, "aptitude": {"int": 5, "ref": 5, "coo": 5}},
         "desc": "(GC p. 151) Ripwings are transgenic amalgamations that are larger and sturdier than standard neo-avian morphs. Instead of feathers they feature tough leathery skin and scales. ",
         "cp": 40,
-        "class": "pod",
+        "category": "pod",
         "movement": {"winged": [4, 20], "normal": [4, 20]}
     },
     "rover": {
@@ -1022,7 +1022,7 @@
         "desc": "(TH p. 194) Rover morphs are a smaller, defense-oriented version of the sphere morph. Each rover is 0.6 meters in diameter and, with its limbs retracted, has the ominous appearance of a reflective, shiny, black globe. It can extrude three arms, each with a built-in weapon: extendable claws, a small laser, and a heavy rail pistol loaded with 200 rounds of ammunition. Rovers are stealthy and highly maneuverable and so favored for bodyguard and police purposes in some areas. They are often deployed via remote control.",
         "cp": 60,
         "speed": 1,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"thrust vector": [12, 40], "roller": [8, 32]}
     },
     "ruster": {
@@ -1035,7 +1035,7 @@
         "wt": 7,
         "advantages": {"aptitude": {"som": 5, "any": 5}},
         "cp": 25,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "salamander": {
@@ -1049,7 +1049,7 @@
         "advantages": {"trait": ["limber", "coronal adaptation"], "aptitude": {"int": 5, "any": 5, "coo": 5}},
         "desc": "(SW p. 163) Salamanders  are instead bio-engineered to survive in the protected vacuum of coronal habitats they have a wiry, streamlined, swept-back sort of look. ",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"thrust vector": [8, 40], "normal": [4, 20]}
     },
     "samsa": {
@@ -1064,7 +1064,7 @@
         "desc": "(TH p. 195) The samsa was the first attempt to create a combat pod model with a terrifying appearance. The samsa is an intimidating, two-meter-tall, four-armed, fourlegged, humanoid insect. Samsas are an unsettling sight to many transhumans. They are most commonly used by mercenaries and enforcers in the rim. Their armored carapace provides protection and the extra limbs allow a character to dual wield rifles or other two-handed weapons.",
         "cp": 60,
         "speed": 1,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "savant": {
@@ -1078,7 +1078,7 @@
         "advantages": {"armor": [8, 8], "aptitude": {"int": 5, "som": 5, "sav": 5, "cog": 10, "any": 5}},
         "desc": "(RW p. 187) This morph was developed on Ilmarinen as proof that synthmorphs can also be useful to scientists and engineers. This strangely elegant morph lacks the disturbing mimicry of humanity found in synth and steel morphs. Instead, the ovoid head with its elegantly minimalist face looks more like an artistic sculpture than a metal version of a real human head.",
         "cp": 65,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20]}
     },
     "scurrier": {
@@ -1092,7 +1092,7 @@
         "advantages": {"skills": {"climbing": 10, "freerunning": 10}, "trait": "limber", "aptitude": {"sav": 5, "coo": 10}},
         "desc": "(GC p. 151) Scurriers are pods developed from Sciurids (GC p. 172). They are similar to raccoon-sized flying squirrels with a lash-like manipulator rather than a fluffy tail.",
         "cp": 40,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "security pod": {
@@ -1106,7 +1106,7 @@
         "advantages": {"aptitude": {"som": 10, "any": 5}},
         "desc": "(TH p. 195) Originally developed for joint-nation peace-keeping missions and border/enclave security roles, security pods were essentially mass-produced AI-operated soldiers. For obvious reasons, they fell out of favor during the Fall, but they are slowly regaining acceptance. They are a favored morph by mercenaries for infiltration and guerrilla warfare purposes.",
         "cp": 30,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "selkie": {
@@ -1120,7 +1120,7 @@
         "advantages": {"skills": {"swimming": 10}, "aptitude": {"som": 10, "any": 5, "coo": 5}},
         "desc": "(RW p. 187) Selkies look like a human-seal hybrid, and in fact their genetics are aquanaut with heavy splices of seal traits. Their arms are standard human-shaped, but their legs are fused into a pair of hind flippers for powerful swimming. On land, they can stand but have difficulty moving, as they must flop, roll, or hop like a seal. They are adapted for the lack of air, deep cold, and crushing pressure of subcrustal seas.",
         "cp": 55,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"swim": [4, 20], "normal": [1, 4]}
     },
     "shaper": {
@@ -1134,7 +1134,7 @@
         "advantages": {"aptitude": {"int": 5, "sav": 5, "any": 5}},
         "desc": "(PO p. 144) Shapers are the ultimate disguise morph the default shaper look is intentionally generic, they can quickly change their outward appearance.",
         "cp": 45,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "slitheroid": {
@@ -1148,7 +1148,7 @@
         "advantages": {"armor": [8, 8], "aptitude": {"som": 5, "any": 5, "coo": 5}},
         "desc": "(EP p. 144) Slitheroid bots are synthetic shells taking the form of a 2-meterlong segmented metallic snake, with two retractable arms for tool use. ",
         "cp": 40,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"snake": [4, 16], "roller": [8, 32]}
     },
     "spare": {
@@ -1162,7 +1162,7 @@
         "advantages": {"armor": [2, 2]},
         "desc": "(GC p. 151) Spares are small, cheap, morphs made to be packed as a 15 cm disk weighing 2 kg, when activated they pop into a spherical shape with 6 slender 20 cm limbs.",
         "cp": 5,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [2, 8]}
     },
     "specialist pod": {
@@ -1176,7 +1176,7 @@
         "advantages": {"aptitude": {"any": [5, 10]}},
         "desc": "(TH p. 196) Designed specifically to compete with popular mid-range morphs like the menton and olympian, the specialist pod is cheaper and faster to create than a biomorph. It also offers the user a high degree of customization.",
         "cp": 25,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "sphere": {
@@ -1190,7 +1190,7 @@
         "advantages": {"armor": [6, 6], "aptitude": {"any": 5, "cog": 10}},
         "desc": "(TH p. 196) Popular with AGIs and synthmorph activists, this morph is a sphere approximately one meter in diameter. It can extend up to four flexible limbs as required, and typically hovers at approximately human eye level. The first tests of this morph revealed that the chameleon surface was necessary because it allows the user to display the image of a face, which made most transhumans both more comfortable talking with this morph and less likely to assume that it is a robot.",
         "cp": 65,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"roller": [8, 32]}
     },
     "splicer": {
@@ -1204,7 +1204,7 @@
         "advantages": {"aptitude": {"any": 5}},
         "desc": "(EP p. 139) Splicers are gene fixed humans. Their genome has been cleansed of hereditary diseases and optimized for looks and health, but has not otherwise been substantially upgraded.",
         "cp": 10,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "steel morph": {
@@ -1217,7 +1217,7 @@
         "wt": 8,
         "advantages": {"armor": [8, 8], "aptitude": {"som": 10, "any": 5, "cog": 5}},
         "cp": 50,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20]}
     },
     "sundiver": {
@@ -1232,7 +1232,7 @@
         "desc": "(SW p. 164) Sundivers look a little like ramjets, except for a pair of articulated arms that extend forward from the morph's pointed nose, allowing it to manipulate objects.",
         "cp": 70,
         "speed": 1,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"thrust vector": [12, 60]}
     },
     "surya": {
@@ -1246,7 +1246,7 @@
         "advantages": {"skills": {"skills": 10}, "trait": {"som": 5, "ref": 5, "coo": 10}},
         "desc": "(SW p. 164) Suryas swim freely in the sun's corona. Looking roughly like whales or orcas, suryas may reach lengths of ten meters or more. ",
         "cp": 50,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"thrust vector": [8, 40]}
     },
     "swarmanoid": {
@@ -1260,7 +1260,7 @@
         "advantages": {},
         "desc": "(EP p. 144) Swarmanoids are a swarm of hundreds of robotic micro drones with a controlling computer and sensor suite distributed throughout the swarm.",
         "cp": 25,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [2, 8], "rotor": [4, 32], "hopper": [4, 20]}
     },
     "sylph": {
@@ -1274,7 +1274,7 @@
         "advantages": {"trait": "stunning looks", "aptitude": {"any": 5, "coo": 5, "sav": 5}},
         "desc": "(EP p. 140) Sylphs are tailor made media icons, elite socialites, XP stars, models, and narcissists. Ethereal and elfin features are common, with slim and lithe bodies. ",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "synth": {
@@ -1288,7 +1288,7 @@
         "advantages": {"armor": [6, 6], "aptitude": {"som": 5, "any": 5}},
         "desc": "(EP p. 143) Synths are anthromorphic robotic shells that are cheaper than most morphs, they are commonly used for people who need a morph quickly and cheaply. ",
         "cp": 30,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20]}
     },
     "synthtaur": {
@@ -1302,7 +1302,7 @@
         "advantages": {"armor": [8, 8], "aptitude": {"som": 10, "any": [5, 5]}},
         "desc": "(TH p. 196) The synthtaur resembles an elegant mechanical centaur, but is a versatile and extremely durable synthmorph. The shape adjusting enhancement allows it to switch between being a two-armed quadruped standing 1.7 meters tall or a four-armed biped standing 2.4 meters high, as well as allowing it to fit into small spaces. Its telescoping legs even allow it to reduce its height to become a 2-meter-tall bipedal humanoid. This morph is popular with gatecrashers, people exploring ruined habitats, and anyone going into dangerous and remote situations.",
         "cp": 70,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20], "quadruped": [6, 40]}
     },
     "takko": {
@@ -1316,7 +1316,7 @@
         "advantages": {"skills": {"climbing": 10, "free fall": 10}, "armor": [8, 8], "beak attack": {"dv": {"bonus": 2, "roll": 1}, "ap": 0}, "aptitude": {"int": 5, "som": 5, "coo": 5}},
         "desc": "(PO p. 144) Takko are the first synthetic octopus morph. Though it lacks ink sacs, the takko features vectored-thrust jets for microgravity propulsion.",
         "cp": 60,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 24], "thrust vector": [8, 40]}
     },
     "theseus": {
@@ -1330,7 +1330,7 @@
         "advantages": {"aptitude": {"wil": 5, "som": 5, "any": 5}},
         "desc": "(TH p. 196) While there are no sanctioned explorations of Earth, a few daring or greedy transhumans defy the laws to salvage there. Some scavengers and explorers still scour the ruins of habitats that were destroyed during the Fall. Others look for wealth and secrets in the quarantined zones on Luna and Mars. Some simply seek out remaining TITAN machines to destroy, wherever they may be found. The theseus is a popular biomorph for this type of work. Its medichines and nanophages keep the morph protected from most attacks by exsurgent nanotech, and the lack of a cyberbrain makes it less vulnerable to mind hacking. An emergency farcaster allows the user to safely return from situations where both their morph and their cortical stack might be destroyed or corrupted.",
         "cp": 30,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "vacuum pod": {
@@ -1344,7 +1344,7 @@
         "advantages": {"trait": "limber", "aptitude": {"som": 5, "any": 5, "coo": 5}},
         "desc": "(TH p. 197) Optimized for vacwork, this pod is preferred in situations where novacrabs or synths don't fare as well socially. The vacuum pod is based on the bouncer morph and looks superficially identical to one.",
         "cp": 30,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "venusian glider": {
@@ -1358,7 +1358,7 @@
         "advantages": {"trait": "limber", "aptitude": {"som": 5, "ref": 5, "any": [5, 5]}},
         "desc": "(SW p. 164) Venusan glider is designed to survive for hours in Venus's unbreathable atmosphere. Tall and thin, with long, strong limbs and a lightweight build.",
         "cp": 40,
-        "class": "biomorph",
+        "category": "biomorph",
         "movement": {"normal": [4, 20]}
     },
     "whiplash": {
@@ -1372,7 +1372,7 @@
         "advantages": {"tendril attack": {"dv": {"bonus": "som/10", "roll": 1}, "ap": 0}, "aptitude": {"som": 10, "any": [5, 5], "coo": 5}},
         "desc": "(GC p. 151) A planimal pod morph from Sunrise (GC p. 130) able to blend in with the unique biodiversity of that world. They have walking tentacles, 2 limbs and a 2m long tongue.",
         "cp": 50,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "worker pod": {
@@ -1386,7 +1386,7 @@
         "advantages": {"aptitude": {"som": 10, "any": 5}},
         "desc": "(EP p. 142) Part exalt human, part machine, these pods are virtually indistinguishable from humans. Worker pods are often used in menial labor jobs where interaction with humans is necessary.",
         "cp": 20,
-        "class": "pod",
+        "category": "pod",
         "movement": {"normal": [4, 20]}
     },
     "xu fu": {
@@ -1400,7 +1400,7 @@
         "advantages": {"armor": [8, 8], "aptitude": {"som": 5, "coo": 5}},
         "desc": "(GC p. 151) Xu Fus are ideal exploration synthmorphs. With 6 legs, 2 standard arms and a third 2 m long sensor-equipped limb for reaching far distances.",
         "cp": 60,
-        "class": "synthmorph",
+        "category": "synthmorph",
         "movement": {"walker": [4, 20], "wheeled": [4, 32]}
         }
     }

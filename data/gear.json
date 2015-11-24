@@ -1,6 +1,6 @@
 {
     "360-degree vision": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -16,7 +16,7 @@
             "ammo": ""
             },
     "ar illusions": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -32,7 +32,7 @@
             "ammo": ""
             },
     "ablative patches": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -48,7 +48,7 @@
             "ammo": ""
             },
     "access jacks": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -64,7 +64,7 @@
             "ammo": ""
             },
     "accushot": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -80,7 +80,7 @@
             "ammo": ""
             },
     "acoustic spotter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -96,7 +96,7 @@
             "ammo": ""
             },
     "active countermeasures": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -112,7 +112,7 @@
             "ammo": ""
             },
     "active hyperspectral imager": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -128,7 +128,7 @@
             "ammo": ""
             },
     "active id protection": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -144,7 +144,7 @@
             "ammo": ""
             },
     "adaptive interface": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -160,7 +160,7 @@
             "ammo": ""
             },
     "adrenal boost": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -176,7 +176,7 @@
             "ammo": ""
             },
     "alpha": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -192,7 +192,7 @@
             "ammo": ""
             },
     "animal keeper ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -208,7 +208,7 @@
             "ammo": ""
             },
     "animal training": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -224,7 +224,7 @@
             "ammo": ""
             },
     "anonymous account": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -240,7 +240,7 @@
             "ammo": ""
             },
     "anti-glare": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -256,7 +256,7 @@
             "ammo": ""
             },
     "aquarium pet": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -272,7 +272,7 @@
             "ammo": ""
             },
     "arm slide": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -288,7 +288,7 @@
             "ammo": ""
             },
     "armor clothing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -304,7 +304,7 @@
             "ammo": ""
             },
     "armor vest": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -320,7 +320,7 @@
             "ammo": ""
             },
     "armor-piercing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -5,
@@ -336,7 +336,7 @@
             "ammo": ""
             },
     "atropine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -352,7 +352,7 @@
             "ammo": ""
             },
     "autodelete": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -368,7 +368,7 @@
             "ammo": ""
             },
     "automatic rifle": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -6,
@@ -384,7 +384,7 @@
             "ammo": "30"
             },
     "automech": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -400,7 +400,7 @@
             "ammo": ""
             },
     "btx": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -416,7 +416,7 @@
             "ammo": ""
             },
     "backup": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -432,7 +432,7 @@
             "ammo": ""
             },
     "backup insurance (budget)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -448,7 +448,7 @@
             "ammo": ""
             },
     "backup insurance (quality)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -464,7 +464,7 @@
             "ammo": ""
             },
     "backup insurance (low)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -480,7 +480,7 @@
             "ammo": ""
             },
     "backup insurance (mod)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -496,7 +496,7 @@
             "ammo": ""
             },
     "bananas furiosas": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -512,7 +512,7 @@
             "ammo": ""
             },
     "basic biomods": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -528,7 +528,7 @@
             "ammo": ""
             },
     "basic cold weather gear": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -544,7 +544,7 @@
             "ammo": ""
             },
     "basic mesh inserts": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -560,7 +560,7 @@
             "ammo": ""
             },
     "battle suit*": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -576,7 +576,7 @@
             "ammo": ""
             },
     "bedlam": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -592,7 +592,7 @@
             "ammo": ""
             },
     "bees and gardener wasps": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -608,7 +608,7 @@
             "ammo": ""
             },
     "behavioral psych": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -624,7 +624,7 @@
             "ammo": ""
             },
     "bio-defense swarm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -640,7 +640,7 @@
             "ammo": ""
             },
     "bio-defense unit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -656,7 +656,7 @@
             "ammo": ""
             },
     "bioware claws": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "unarmed",
             "durability": "",
             "ap": -1,
@@ -672,7 +672,7 @@
             "ammo": ""
             },
     "bioweave armor (heavy)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -688,7 +688,7 @@
             "ammo": ""
             },
     "bioweave armor (light)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -704,7 +704,7 @@
             "ammo": ""
             },
     "biter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -720,7 +720,7 @@
             "ammo": ""
             },
     "black wing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -736,7 +736,7 @@
             "ammo": ""
             },
     "blind spot/route": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -752,7 +752,7 @@
             "ammo": ""
             },
     "blue box portable gate control unit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -768,7 +768,7 @@
             "ammo": ""
             },
     "blueprints (high item)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -784,7 +784,7 @@
             "ammo": ""
             },
     "blueprints (low item)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -800,7 +800,7 @@
             "ammo": ""
             },
     "blueprints (moderate item)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -816,7 +816,7 @@
             "ammo": ""
             },
     "blueprints (trivial item)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -832,7 +832,7 @@
             "ammo": ""
             },
     "body armor (heavy)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -848,7 +848,7 @@
             "ammo": ""
             },
     "body armor (light)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -864,7 +864,7 @@
             "ammo": ""
             },
     "body bank": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -880,7 +880,7 @@
             "ammo": ""
             },
     "bodysculpting": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -896,7 +896,7 @@
             "ammo": ""
             },
     "bot/pod rental": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -912,7 +912,7 @@
             "ammo": ""
             },
     "bot/vehicle ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -928,7 +928,7 @@
             "ammo": ""
             },
     "brain box": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -944,7 +944,7 @@
             "ammo": ""
             },
     "brain box life support": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -960,7 +960,7 @@
             "ammo": ""
             },
     "brain print scanner": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -976,7 +976,7 @@
             "ammo": ""
             },
     "breadcrumb positioning": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -992,7 +992,7 @@
             "ammo": ""
             },
     "breadcrumb positioning system": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1008,7 +1008,7 @@
             "ammo": ""
             },
     "breather": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1024,7 +1024,7 @@
             "ammo": ""
             },
     "breather bladder": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1040,7 +1040,7 @@
             "ammo": ""
             },
     "breather w/ extra power": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1056,7 +1056,7 @@
             "ammo": ""
             },
     "bringit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1072,7 +1072,7 @@
             "ammo": ""
             },
     "bug": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 1,
@@ -1088,7 +1088,7 @@
             "ammo": ""
             },
     "bughunter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1104,7 +1104,7 @@
             "ammo": ""
             },
     "buzz": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1120,7 +1120,7 @@
             "ammo": ""
             },
     "buzzer": {
-        "firing_mode": "ss",
+            "firing_mode": "ss",
             "linked_skill": "spray weapons",
             "durability": "",
             "ap": 0,
@@ -1136,7 +1136,7 @@
             "ammo": "3"
             },
     "cr gas": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1152,7 +1152,7 @@
             "ammo": ""
             },
     "capsule": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 1,
@@ -1168,7 +1168,7 @@
             "ammo": ""
             },
     "carapace armor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1184,7 +1184,7 @@
             "ammo": ""
             },
     "caretaker": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1200,7 +1200,7 @@
             "ammo": ""
             },
     "cargo hauler": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1216,7 +1216,7 @@
             "ammo": ""
             },
     "cartography package": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1232,7 +1232,7 @@
             "ammo": ""
             },
     "cauterizer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1248,7 +1248,7 @@
             "ammo": ""
             },
     "chameleon cloak": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1264,7 +1264,7 @@
             "ammo": ""
             },
     "chameleon coating": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1280,7 +1280,7 @@
             "ammo": ""
             },
     "chameleon skin": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1296,7 +1296,7 @@
             "ammo": ""
             },
     "chemical sniffer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1312,7 +1312,7 @@
             "ammo": ""
             },
     "circadian regulation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1328,7 +1328,7 @@
             "ammo": ""
             },
     "clean metabolism": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1344,7 +1344,7 @@
             "ammo": ""
             },
     "cleaners": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1360,7 +1360,7 @@
             "ammo": ""
             },
     "club": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "clubs",
             "durability": "",
             "ap": 0,
@@ -1376,7 +1376,7 @@
             "ammo": ""
             },
     "cold weather gear": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1392,7 +1392,7 @@
             "ammo": ""
             },
     "cold weather gear (survival)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1408,7 +1408,7 @@
             "ammo": ""
             },
     "comfurt": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1424,7 +1424,7 @@
             "ammo": ""
             },
     "concussion": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -1440,7 +1440,7 @@
             "ammo": ""
             },
     "copylock": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1456,7 +1456,7 @@
             "ammo": ""
             },
     "cortical stack": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1472,7 +1472,7 @@
             "ammo": ""
             },
     "covert ops tool": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1488,7 +1488,7 @@
             "ammo": ""
             },
     "crash suit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1504,7 +1504,7 @@
             "ammo": ""
             },
     "crasher truck": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1520,7 +1520,7 @@
             "ammo": ""
             },
     "creepy": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1536,7 +1536,7 @@
             "ammo": ""
             },
     "cryonic protection": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1552,7 +1552,7 @@
             "ammo": ""
             },
     "cuffband": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1568,7 +1568,7 @@
             "ammo": ""
             },
     "cyberbrain": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1584,7 +1584,7 @@
             "ammo": ""
             },
     "cyberclaws": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "unarmed",
             "durability": "",
             "ap": -2,
@@ -1600,7 +1600,7 @@
             "ammo": ""
             },
     "cyberlimb": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1616,7 +1616,7 @@
             "ammo": ""
             },
     "cyberlimb plus (additional limb)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1632,7 +1632,7 @@
             "ammo": ""
             },
     "cyberlimb plus (first limb)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1648,7 +1648,7 @@
             "ammo": ""
             },
     "cyberlimb plus (second limb)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1664,7 +1664,7 @@
             "ammo": ""
             },
     "cycle": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1680,7 +1680,7 @@
             "ammo": ""
             },
     "ddr": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1696,7 +1696,7 @@
             "ammo": ""
             },
     "dmso": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1712,7 +1712,7 @@
             "ammo": ""
             },
     "dna chaff": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1728,7 +1728,7 @@
             "ammo": ""
             },
     "dazzler": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1744,7 +1744,7 @@
             "ammo": ""
             },
     "dead switch": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1760,7 +1760,7 @@
             "ammo": ""
             },
     "deep sea submarine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1776,7 +1776,7 @@
             "ammo": ""
             },
     "defense beacons": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1792,7 +1792,7 @@
             "ammo": ""
             },
     "defense platform": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1808,7 +1808,7 @@
             "ammo": ""
             },
     "degen": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1824,7 +1824,7 @@
             "ammo": ""
             },
     "densiplast gloves": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "unarmed",
             "durability": "",
             "ap": 0,
@@ -1840,7 +1840,7 @@
             "ammo": ""
             },
     "desktop cornucopia machine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1856,7 +1856,7 @@
             "ammo": ""
             },
     "device ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1872,7 +1872,7 @@
             "ammo": ""
             },
     "diamond ax": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "blades",
             "durability": "",
             "ap": -3,
@@ -1888,7 +1888,7 @@
             "ammo": ""
             },
     "digestive symbiotes": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1904,7 +1904,7 @@
             "ammo": ""
             },
     "digging claws": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "unarmed",
             "durability": "",
             "ap": -1,
@@ -1920,7 +1920,7 @@
             "ammo": ""
             },
     "digital veil": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1936,7 +1936,7 @@
             "ammo": ""
             },
     "direction sense": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1952,7 +1952,7 @@
             "ammo": ""
             },
     "disabler": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1968,7 +1968,7 @@
             "ammo": ""
             },
     "disassemblers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -1984,7 +1984,7 @@
             "ammo": ""
             },
     "disassembly tools": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2000,7 +2000,7 @@
             "ammo": ""
             },
     "disposable launcher (standard missile)": {
-        "firing_mode": "ss",
+            "firing_mode": "ss",
             "linked_skill": "seeker weapons",
             "durability": "",
             "ap": "per ammo",
@@ -2016,7 +2016,7 @@
             "ammo": "1"
             },
     "disruption": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2032,7 +2032,7 @@
             "ammo": ""
             },
     "diving exoskeleton": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2048,7 +2048,7 @@
             "ammo": ""
             },
     "diving sled": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2064,7 +2064,7 @@
             "ammo": ""
             },
     "dr. bot": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2080,7 +2080,7 @@
             "ammo": ""
             },
     "dream shells": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2096,7 +2096,7 @@
             "ammo": ""
             },
     "drive": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2112,7 +2112,7 @@
             "ammo": ""
             },
     "drug glands: alpha": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2128,7 +2128,7 @@
             "ammo": ""
             },
     "drug glands: bananas furiosas": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2144,7 +2144,7 @@
             "ammo": ""
             },
     "drug glands: bringit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2160,7 +2160,7 @@
             "ammo": ""
             },
     "drug glands: buzz": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2176,7 +2176,7 @@
             "ammo": ""
             },
     "drug glands: comfurt": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2192,7 +2192,7 @@
             "ammo": ""
             },
     "drug glands: degen": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2208,7 +2208,7 @@
             "ammo": ""
             },
     "drug glands: drive": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2224,7 +2224,7 @@
             "ammo": ""
             },
     "drug glands: grin": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2240,7 +2240,7 @@
             "ammo": ""
             },
     "drug glands: hither": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2256,7 +2256,7 @@
             "ammo": ""
             },
     "drug glands: hydra": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2272,7 +2272,7 @@
             "ammo": ""
             },
     "drug glands: inhibitor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2288,7 +2288,7 @@
             "ammo": ""
             },
     "drug glands: juice": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2304,7 +2304,7 @@
             "ammo": ""
             },
     "drug glands: kick": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2320,7 +2320,7 @@
             "ammo": ""
             },
     "drug glands: klar": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2336,7 +2336,7 @@
             "ammo": ""
             },
     "drug glands: kong": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2352,7 +2352,7 @@
             "ammo": ""
             },
     "drug glands: mrdr": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2368,7 +2368,7 @@
             "ammo": ""
             },
     "drug glands: mono no aware": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2384,7 +2384,7 @@
             "ammo": ""
             },
     "drug glands: neem": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2400,7 +2400,7 @@
             "ammo": ""
             },
     "drug glands: orbital hash": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2416,7 +2416,7 @@
             "ammo": ""
             },
     "drug glands: phlo": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2432,7 +2432,7 @@
             "ammo": ""
             },
     "drug glands: psi-opener": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2448,7 +2448,7 @@
             "ammo": ""
             },
     "drug glands: psikeout": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2464,7 +2464,7 @@
             "ammo": ""
             },
     "drug glands: raptor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2480,7 +2480,7 @@
             "ammo": ""
             },
     "drug glands: staste": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2496,7 +2496,7 @@
             "ammo": ""
             },
     "drug glands: trigger": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2512,7 +2512,7 @@
             "ammo": ""
             },
     "dust repellent": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2528,7 +2528,7 @@
             "ammo": ""
             },
     "dwarf": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2544,7 +2544,7 @@
             "ammo": ""
             },
     "emp": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -2560,7 +2560,7 @@
             "ammo": ""
             },
     "eva sled": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2576,7 +2576,7 @@
             "ammo": ""
             },
     "echolocation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2592,7 +2592,7 @@
             "ammo": ""
             },
     "ecto": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2608,7 +2608,7 @@
             "ammo": ""
             },
     "eelware": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "unarmed",
             "durability": "",
             "ap": 0,
@@ -2624,7 +2624,7 @@
             "ammo": ""
             },
     "efficient digestion": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2640,7 +2640,7 @@
             "ammo": ""
             },
     "ego bridge": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2656,7 +2656,7 @@
             "ammo": ""
             },
     "ego sharing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2672,7 +2672,7 @@
             "ammo": ""
             },
     "egocasting": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2688,7 +2688,7 @@
             "ammo": ""
             },
     "eidetic memory": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2704,7 +2704,7 @@
             "ammo": ""
             },
     "electrical sense": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2720,7 +2720,7 @@
             "ammo": ""
             },
     "electrogravitic net": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2736,7 +2736,7 @@
             "ammo": ""
             },
     "electrogravitics net": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2752,7 +2752,7 @@
             "ammo": ""
             },
     "electronic rope": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2768,7 +2768,7 @@
             "ammo": ""
             },
     "emergency backup": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2784,7 +2784,7 @@
             "ammo": ""
             },
     "emergency bubble": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2800,7 +2800,7 @@
             "ammo": ""
             },
     "emergency distress beacon": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2816,7 +2816,7 @@
             "ammo": ""
             },
     "emergency farcaster": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2832,7 +2832,7 @@
             "ammo": ""
             },
     "emergency rations": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2848,7 +2848,7 @@
             "ammo": ""
             },
     "emotional dampers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2864,7 +2864,7 @@
             "ammo": ""
             },
     "encryption": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2880,7 +2880,7 @@
             "ammo": ""
             },
     "endocrine control": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2896,7 +2896,7 @@
             "ammo": ""
             },
     "engineers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2912,7 +2912,7 @@
             "ammo": ""
             },
     "enhanced hearing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2928,7 +2928,7 @@
             "ammo": ""
             },
     "enhanced pheromones": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2944,7 +2944,7 @@
             "ammo": ""
             },
     "enhanced respiration": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2960,7 +2960,7 @@
             "ammo": ""
             },
     "enhanced smell": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2976,7 +2976,7 @@
             "ammo": ""
             },
     "enhanced vision": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -2992,7 +2992,7 @@
             "ammo": ""
             },
     "event reconstruction software": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3008,7 +3008,7 @@
             "ammo": ""
             },
     "exowalker": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3024,7 +3024,7 @@
             "ammo": ""
             },
     "exploit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3040,7 +3040,7 @@
             "ammo": ""
             },
     "explorenaut": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3056,7 +3056,7 @@
             "ammo": ""
             },
     "extendable baton": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "clubs",
             "durability": "",
             "ap": 0,
@@ -3072,7 +3072,7 @@
             "ammo": ""
             },
     "extended magazine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3088,7 +3088,7 @@
             "ammo": ""
             },
     "extra limb": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3104,7 +3104,7 @@
             "ammo": ""
             },
     "extreme heat shielding": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3120,7 +3120,7 @@
             "ammo": ""
             },
     "extreme pressure adaptation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3136,7 +3136,7 @@
             "ammo": ""
             },
     "fabber": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3152,7 +3152,7 @@
             "ammo": ""
             },
     "facial/image recognition": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3168,7 +3168,7 @@
             "ammo": ""
             },
     "fake brainprint plug-in": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3184,7 +3184,7 @@
             "ammo": ""
             },
     "fake ego id": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3200,7 +3200,7 @@
             "ammo": ""
             },
     "faraday container": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3216,7 +3216,7 @@
             "ammo": ""
             },
     "fat storage": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3232,7 +3232,7 @@
             "ammo": ""
             },
     "fiber camera": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3248,7 +3248,7 @@
             "ammo": ""
             },
     "fibereye": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3264,7 +3264,7 @@
             "ammo": ""
             },
     "fiberoptic cable": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3280,7 +3280,7 @@
             "ammo": ""
             },
     "fiberoptic microphone": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3296,7 +3296,7 @@
             "ammo": ""
             },
     "filter straw": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3312,7 +3312,7 @@
             "ammo": ""
             },
     "fireproofing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3328,7 +3328,7 @@
             "ammo": ""
             },
     "firewall": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3344,7 +3344,7 @@
             "ammo": ""
             },
     "fixers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3360,7 +3360,7 @@
             "ammo": ""
             },
     "fixor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3376,7 +3376,7 @@
             "ammo": ""
             },
     "flash suppressor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3392,7 +3392,7 @@
             "ammo": ""
             },
     "flashlight": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3408,7 +3408,7 @@
             "ammo": ""
             },
     "flat camera": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3424,7 +3424,7 @@
             "ammo": ""
             },
     "flayer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -3440,7 +3440,7 @@
             "ammo": ""
             },
     "flex cutter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "blades",
             "durability": "",
             "ap": -1,
@@ -3456,7 +3456,7 @@
             "ammo": ""
             },
     "flight": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3472,7 +3472,7 @@
             "ammo": ""
             },
     "flux": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "as ammo type",
@@ -3488,7 +3488,7 @@
             "ammo": ""
             },
     "flux car": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3504,7 +3504,7 @@
             "ammo": ""
             },
     "flux cycle": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3520,7 +3520,7 @@
             "ammo": ""
             },
     "flying car": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3536,7 +3536,7 @@
             "ammo": ""
             },
     "flying flux car": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3552,7 +3552,7 @@
             "ammo": ""
             },
     "flying vest": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3568,7 +3568,7 @@
             "ammo": ""
             },
     "fractal digits": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3584,7 +3584,7 @@
             "ammo": ""
             },
     "fractal gloves": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3600,7 +3600,7 @@
             "ammo": ""
             },
     "frag": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -4,
@@ -3616,7 +3616,7 @@
             "ammo": ""
             },
     "freezer": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "spray weapons",
             "durability": "",
             "ap": 0,
@@ -3632,7 +3632,7 @@
             "ammo": "20"
             },
     "frequency": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3648,7 +3648,7 @@
             "ammo": ""
             },
     "full helmet": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3664,7 +3664,7 @@
             "ammo": ""
             },
     "fur coat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3680,7 +3680,7 @@
             "ammo": ""
             },
     "gait masking": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3696,7 +3696,7 @@
             "ammo": ""
             },
     "gardeners": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3712,7 +3712,7 @@
             "ammo": ""
             },
     "gas jet system": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3728,7 +3728,7 @@
             "ammo": ""
             },
     "gas/smoke": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -3744,7 +3744,7 @@
             "ammo": ""
             },
     "gate probe": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3760,7 +3760,7 @@
             "ammo": ""
             },
     "general hive": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3776,7 +3776,7 @@
             "ammo": ""
             },
     "ghost imagers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3792,7 +3792,7 @@
             "ammo": ""
             },
     "ghostrider module": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3808,7 +3808,7 @@
             "ammo": ""
             },
     "gills": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3824,7 +3824,7 @@
             "ammo": ""
             },
     "gliding membrane": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3840,7 +3840,7 @@
             "ammo": ""
             },
     "gnat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3856,7 +3856,7 @@
             "ammo": ""
             },
     "go cycle": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3872,7 +3872,7 @@
             "ammo": ""
             },
     "gravy": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3888,7 +3888,7 @@
             "ammo": ""
             },
     "graybox": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3904,7 +3904,7 @@
             "ammo": ""
             },
     "grin": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3920,7 +3920,7 @@
             "ammo": ""
             },
     "grip pads": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3936,7 +3936,7 @@
             "ammo": ""
             },
     "grip tape": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3952,7 +3952,7 @@
             "ammo": ""
             },
     "ground car": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3968,7 +3968,7 @@
             "ammo": ""
             },
     "guard dog": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -3984,7 +3984,7 @@
             "ammo": ""
             },
     "guardian angel": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4000,7 +4000,7 @@
             "ammo": ""
             },
     "guardians": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4016,7 +4016,7 @@
             "ammo": ""
             },
     "gyromount": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4032,7 +4032,7 @@
             "ammo": ""
             },
     "hab repair bots": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4048,7 +4048,7 @@
             "ammo": ""
             },
     "hacking alert": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4064,7 +4064,7 @@
             "ammo": ""
             },
     "hand laser": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4080,7 +4080,7 @@
             "ammo": ""
             },
     "hard suit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4096,7 +4096,7 @@
             "ammo": ""
             },
     "hardened skeleton": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "5",
             "ap": "",
@@ -4112,7 +4112,7 @@
             "ammo": ""
             },
     "harvester drones": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4128,7 +4128,7 @@
             "ammo": ""
             },
     "healing pod": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4144,7 +4144,7 @@
             "ammo": ""
             },
     "healing vat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4160,7 +4160,7 @@
             "ammo": ""
             },
     "hearing filter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4176,7 +4176,7 @@
             "ammo": ""
             },
     "heavy combat armor [frame replacement]": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4192,7 +4192,7 @@
             "ammo": ""
             },
     "heavy pistol": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -4,
@@ -4208,7 +4208,7 @@
             "ammo": "10"
             },
     "hibernation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4224,7 +4224,7 @@
             "ammo": ""
             },
     "hibernation pod": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4240,7 +4240,7 @@
             "ammo": ""
             },
     "hidden compartment": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4256,7 +4256,7 @@
             "ammo": ""
             },
     "high gravity adaptation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "5",
             "ap": "",
@@ -4272,7 +4272,7 @@
             "ammo": ""
             },
     "high-explosive": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -4288,7 +4288,7 @@
             "ammo": ""
             },
     "high-explosive armor-piercing (heap)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -8,
@@ -4304,7 +4304,7 @@
             "ammo": ""
             },
     "high-qbit reservoir": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4320,7 +4320,7 @@
             "ammo": ""
             },
     "high-dive suit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4336,7 +4336,7 @@
             "ammo": ""
             },
     "hither": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4352,7 +4352,7 @@
             "ammo": ""
             },
     "hollow-point": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 2,
@@ -4368,7 +4368,7 @@
             "ammo": ""
             },
     "holographic projector": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4384,7 +4384,7 @@
             "ammo": ""
             },
     "holographic projectors": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4400,7 +4400,7 @@
             "ammo": ""
             },
     "homing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -4416,7 +4416,7 @@
             "ammo": ""
             },
     "hopper": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4432,7 +4432,7 @@
             "ammo": ""
             },
     "hovercraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4448,7 +4448,7 @@
             "ammo": ""
             },
     "hydra": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4464,7 +4464,7 @@
             "ammo": ""
             },
     "hydrostatic pressure adaptation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4480,7 +4480,7 @@
             "ammo": ""
             },
     "hyper linguist": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4496,7 +4496,7 @@
             "ammo": ""
             },
     "hyperdense exoskeleton": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4512,7 +4512,7 @@
             "ammo": ""
             },
     "hypersonic communicator": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4528,7 +4528,7 @@
             "ammo": ""
             },
     "hyperspectral flat camera": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4544,7 +4544,7 @@
             "ammo": ""
             },
     "hyperspectral microphone": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4560,7 +4560,7 @@
             "ammo": ""
             },
     "hyperspectral super-wide camera": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4576,7 +4576,7 @@
             "ammo": ""
             },
     "id scanner": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4592,7 +4592,7 @@
             "ammo": ""
             },
     "imaging scope": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4608,7 +4608,7 @@
             "ammo": ""
             },
     "immunogenic system": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4624,7 +4624,7 @@
             "ammo": ""
             },
     "impersonate": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4640,7 +4640,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: disruption": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4656,7 +4656,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: frequency": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4672,7 +4672,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: gravy": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4688,7 +4688,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: necrosis": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4704,7 +4704,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: neuropath": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4720,7 +4720,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: nutcracker": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4736,7 +4736,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: petals (high)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4752,7 +4752,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: petals (low)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4768,7 +4768,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: petals (moderate)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4784,7 +4784,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: petals (trivial)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4800,7 +4800,7 @@
             "ammo": ""
             },
     "implanted nanotoxin: schizo": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4816,7 +4816,7 @@
             "ammo": ""
             },
     "increased speed": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4832,7 +4832,7 @@
             "ammo": ""
             },
     "industrial armor [frame replacement]": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4848,7 +4848,7 @@
             "ammo": ""
             },
     "inflatable boat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4864,7 +4864,7 @@
             "ammo": ""
             },
     "inhibitor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4880,7 +4880,7 @@
             "ammo": ""
             },
     "injectors": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4896,7 +4896,7 @@
             "ammo": ""
             },
     "internal rocket": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4912,7 +4912,7 @@
             "ammo": ""
             },
     "invisibility": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4928,7 +4928,7 @@
             "ammo": ""
             },
     "invisibility cloak": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4944,7 +4944,7 @@
             "ammo": ""
             },
     "ionic": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4960,7 +4960,7 @@
             "ammo": ""
             },
     "jammer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -4976,7 +4976,7 @@
             "ammo": ""
             },
     "juice": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -4992,7 +4992,7 @@
             "ammo": ""
             },
     "kaos ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5008,7 +5008,7 @@
             "ammo": ""
             },
     "kick": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5024,7 +5024,7 @@
             "ammo": ""
             },
     "kinesics software": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5040,7 +5040,7 @@
             "ammo": ""
             },
     "klar": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5056,7 +5056,7 @@
             "ammo": ""
             },
     "knife": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "blades",
             "durability": "",
             "ap": -1,
@@ -5072,7 +5072,7 @@
             "ammo": ""
             },
     "kong": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5088,7 +5088,7 @@
             "ammo": ""
             },
     "large air mask": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5104,7 +5104,7 @@
             "ammo": ""
             },
     "large animal care": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5120,7 +5120,7 @@
             "ammo": ""
             },
     "large jet": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5136,7 +5136,7 @@
             "ammo": ""
             },
     "large oxygen candles": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5152,7 +5152,7 @@
             "ammo": ""
             },
     "laser pulser": {
-        "firing_mode": "sa or ss",
+            "firing_mode": "sa or ss",
             "linked_skill": "beam weapons",
             "durability": "",
             "ap": 0,
@@ -5168,7 +5168,7 @@
             "ammo": "50 (100 stun)"
             },
     "laser sight": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5184,7 +5184,7 @@
             "ammo": ""
             },
     "laser-guided": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -5200,7 +5200,7 @@
             "ammo": ""
             },
     "laser/microwave link": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5216,7 +5216,7 @@
             "ammo": ""
             },
     "lateral line": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5232,7 +5232,7 @@
             "ammo": ""
             },
     "lens crazer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5248,7 +5248,7 @@
             "ammo": ""
             },
     "lens spotter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5264,7 +5264,7 @@
             "ammo": ""
             },
     "lidar": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5280,7 +5280,7 @@
             "ammo": ""
             },
     "life recorder": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5296,7 +5296,7 @@
             "ammo": ""
             },
     "life support pack": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5312,7 +5312,7 @@
             "ammo": ""
             },
     "lifeboat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5328,7 +5328,7 @@
             "ammo": ""
             },
     "light combat armor [frame replacement]": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5344,7 +5344,7 @@
             "ammo": ""
             },
     "light helmet": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5360,7 +5360,7 @@
             "ammo": ""
             },
     "light pistol": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": 0,
@@ -5376,7 +5376,7 @@
             "ammo": "16"
             },
     "light smartfabric vacsuit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5392,7 +5392,7 @@
             "ammo": ""
             },
     "light vacsuit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5408,7 +5408,7 @@
             "ammo": ""
             },
     "linkstate": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5424,7 +5424,7 @@
             "ammo": ""
             },
     "liquid thermite": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5440,7 +5440,7 @@
             "ammo": ""
             },
     "long term life support": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5456,7 +5456,7 @@
             "ammo": ""
             },
     "lotus coating": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5472,7 +5472,7 @@
             "ammo": ""
             },
     "low pressure tolerance": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5488,7 +5488,7 @@
             "ammo": ""
             },
     "low-qbit reservoir": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5504,7 +5504,7 @@
             "ammo": ""
             },
     "mrdr": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5520,7 +5520,7 @@
             "ammo": ""
             },
     "machine gun": {
-        "firing_mode": "bf, fa",
+            "firing_mode": "bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -4,
@@ -5536,7 +5536,7 @@
             "ammo": "50"
             },
     "magnetic system": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5552,7 +5552,7 @@
             "ammo": ""
             },
     "maker (low)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5568,7 +5568,7 @@
             "ammo": ""
             },
     "maker (moderate)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5584,7 +5584,7 @@
             "ammo": ""
             },
     "manipulator cuff": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5600,7 +5600,7 @@
             "ammo": ""
             },
     "mapping missile": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5616,7 +5616,7 @@
             "ammo": ""
             },
     "mars buggy": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5632,7 +5632,7 @@
             "ammo": ""
             },
     "martian rover": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5648,7 +5648,7 @@
             "ammo": ""
             },
     "martian trike": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5664,7 +5664,7 @@
             "ammo": ""
             },
     "math boost": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5680,7 +5680,7 @@
             "ammo": ""
             },
     "medichines": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5696,7 +5696,7 @@
             "ammo": ""
             },
     "medium pistol": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -2,
@@ -5712,7 +5712,7 @@
             "ammo": "12"
             },
     "memory lock": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5728,7 +5728,7 @@
             "ammo": ""
             },
     "mental repair": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5744,7 +5744,7 @@
             "ammo": ""
             },
     "mental speed": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5760,7 +5760,7 @@
             "ammo": ""
             },
     "mental stability": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5776,7 +5776,7 @@
             "ammo": ""
             },
     "mercury suit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5792,7 +5792,7 @@
             "ammo": ""
             },
     "metal detector": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5808,7 +5808,7 @@
             "ammo": ""
             },
     "methane skiff": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5824,7 +5824,7 @@
             "ammo": ""
             },
     "microbug": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5840,7 +5840,7 @@
             "ammo": ""
             },
     "micrograv shoes": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5856,7 +5856,7 @@
             "ammo": ""
             },
     "microlight": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5872,7 +5872,7 @@
             "ammo": ""
             },
     "microwave agonizer": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "beam weapons",
             "durability": "",
             "ap": [0, -5],
@@ -5888,7 +5888,7 @@
             "ammo": "50 or 100"
             },
     "miniature radio farcaster": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5904,7 +5904,7 @@
             "ammo": ""
             },
     "mining aerostat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5920,7 +5920,7 @@
             "ammo": ""
             },
     "mission recorder": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5936,7 +5936,7 @@
             "ammo": ""
             },
     "mnemonic augmentation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5952,7 +5952,7 @@
             "ammo": ""
             },
     "mobile base": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5968,7 +5968,7 @@
             "ammo": ""
             },
     "mobile lab": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -5984,7 +5984,7 @@
             "ammo": ""
             },
     "mobility frame": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6000,7 +6000,7 @@
             "ammo": ""
             },
     "modular design": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6016,7 +6016,7 @@
             "ammo": ""
             },
     "monitor ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6032,7 +6032,7 @@
             "ammo": ""
             },
     "monitor module": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6048,7 +6048,7 @@
             "ammo": ""
             },
     "mono no aware": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6064,7 +6064,7 @@
             "ammo": ""
             },
     "monofilament sword": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "blades",
             "durability": "",
             "ap": -4,
@@ -6080,7 +6080,7 @@
             "ammo": ""
             },
     "monowire garrote": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": {"name": "exotic melee weapons", "spec": "monowire garrote"},
             "durability": "",
             "ap": -8,
@@ -6096,7 +6096,7 @@
             "ammo": ""
             },
     "motes": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6112,7 +6112,7 @@
             "ammo": ""
             },
     "motion detector": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6128,7 +6128,7 @@
             "ammo": ""
             },
     "multiple personalities": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6144,7 +6144,7 @@
             "ammo": ""
             },
     "multitasking": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6160,7 +6160,7 @@
             "ammo": ""
             },
     "muscle augmentation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6176,7 +6176,7 @@
             "ammo": ""
             },
     "nanobandage": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6192,7 +6192,7 @@
             "ammo": ""
             },
     "nanodetectors": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6208,7 +6208,7 @@
             "ammo": ""
             },
     "nanophage": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6224,7 +6224,7 @@
             "ammo": ""
             },
     "nanoscopic vision": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6240,7 +6240,7 @@
             "ammo": ""
             },
     "nanotat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6256,7 +6256,7 @@
             "ammo": ""
             },
     "nanotat eraser": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6272,7 +6272,7 @@
             "ammo": ""
             },
     "nanotat id flux": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6288,7 +6288,7 @@
             "ammo": ""
             },
     "necrosis": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6304,7 +6304,7 @@
             "ammo": ""
             },
     "neem": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6320,7 +6320,7 @@
             "ammo": ""
             },
     "neo-cetacean translation device": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6336,7 +6336,7 @@
             "ammo": ""
             },
     "neo-cetacean walker": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6352,7 +6352,7 @@
             "ammo": ""
             },
     "nervex": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6368,7 +6368,7 @@
             "ammo": ""
             },
     "neurachem (level 1)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6384,7 +6384,7 @@
             "ammo": ""
             },
     "neurachem (level 2)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6400,7 +6400,7 @@
             "ammo": ""
             },
     "neural enhancers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6416,7 +6416,7 @@
             "ammo": ""
             },
     "neuropath": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6432,7 +6432,7 @@
             "ammo": ""
             },
     "neutrino retreat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6448,7 +6448,7 @@
             "ammo": ""
             },
     "neutrino transceiver": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6464,7 +6464,7 @@
             "ammo": ""
             },
     "nightmare": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6480,7 +6480,7 @@
             "ammo": ""
             },
     "notwater": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6496,7 +6496,7 @@
             "ammo": ""
             },
     "nuclear battery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6512,7 +6512,7 @@
             "ammo": ""
             },
     "nutcracker": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6528,7 +6528,7 @@
             "ammo": ""
             },
     "offensive armor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6544,7 +6544,7 @@
             "ammo": ""
             },
     "optogenetics module": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6560,7 +6560,7 @@
             "ammo": ""
             },
     "oracles": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6576,7 +6576,7 @@
             "ammo": ""
             },
     "orbital hash": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6592,7 +6592,7 @@
             "ammo": ""
             },
     "outsystem hover": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6608,7 +6608,7 @@
             "ammo": ""
             },
     "outsystem skimmer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6624,7 +6624,7 @@
             "ammo": ""
             },
     "overload": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "avx2",
@@ -6640,7 +6640,7 @@
             "ammo": ""
             },
     "oxygen reserve": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6656,7 +6656,7 @@
             "ammo": ""
             },
     "oxytocin-a": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6672,7 +6672,7 @@
             "ammo": ""
             },
     "panopticon": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6688,7 +6688,7 @@
             "ammo": ""
             },
     "parallel processor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6704,7 +6704,7 @@
             "ammo": ""
             },
     "particle beam bolter": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "beam weapons",
             "durability": "",
             "ap": -2,
@@ -6720,7 +6720,7 @@
             "ammo": "50"
             },
     "passenger airship": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6736,7 +6736,7 @@
             "ammo": ""
             },
     "passenger balloon": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6752,7 +6752,7 @@
             "ammo": ""
             },
     "passive hyperspectral imager": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6768,7 +6768,7 @@
             "ammo": ""
             },
     "passive id protection": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6784,7 +6784,7 @@
             "ammo": ""
             },
     "persistance": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6800,7 +6800,7 @@
             "ammo": ""
             },
     "personal interaction sensor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6816,7 +6816,7 @@
             "ammo": ""
             },
     "personal power plant": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6832,7 +6832,7 @@
             "ammo": ""
             },
     "petals (high)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6848,7 +6848,7 @@
             "ammo": ""
             },
     "petals (low)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6864,7 +6864,7 @@
             "ammo": ""
             },
     "petals (moderate)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6880,7 +6880,7 @@
             "ammo": ""
             },
     "petals (trivial)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6896,7 +6896,7 @@
             "ammo": ""
             },
     "phlo": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6912,7 +6912,7 @@
             "ammo": ""
             },
     "piercings": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6928,7 +6928,7 @@
             "ammo": ""
             },
     "plasma rifle": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "beam weapons",
             "durability": "",
             "ap": -8,
@@ -6944,7 +6944,7 @@
             "ammo": "10"
             },
     "plasma sail": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6960,7 +6960,7 @@
             "ammo": ""
             },
     "plasma sail implant": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -6976,7 +6976,7 @@
             "ammo": ""
             },
     "plasmaburst": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -6,
@@ -6992,7 +6992,7 @@
             "ammo": ""
             },
     "plastic": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "avx2",
@@ -7008,7 +7008,7 @@
             "ammo": ""
             },
     "pneumatic limbs": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7024,7 +7024,7 @@
             "ammo": ""
             },
     "poison glands: atropine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7040,7 +7040,7 @@
             "ammo": ""
             },
     "poison glands: btx": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7056,7 +7056,7 @@
             "ammo": ""
             },
     "poison glands: cr gas": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7072,7 +7072,7 @@
             "ammo": ""
             },
     "poison glands: flight": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7088,7 +7088,7 @@
             "ammo": ""
             },
     "poison glands: nervex": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7104,7 +7104,7 @@
             "ammo": ""
             },
     "poison glands: oxytocin-a": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7120,7 +7120,7 @@
             "ammo": ""
             },
     "poison glands: twitch": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7136,7 +7136,7 @@
             "ammo": ""
             },
     "poisonous marmoset swarm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7152,7 +7152,7 @@
             "ammo": ""
             },
     "polarization vision": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7168,7 +7168,7 @@
             "ammo": ""
             },
     "police baboon": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7184,7 +7184,7 @@
             "ammo": ""
             },
     "portable plane": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7200,7 +7200,7 @@
             "ammo": ""
             },
     "portable qe comm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7216,7 +7216,7 @@
             "ammo": ""
             },
     "portable sensor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7232,7 +7232,7 @@
             "ammo": ""
             },
     "portable solarchive": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7248,7 +7248,7 @@
             "ammo": ""
             },
     "possum cache": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7264,7 +7264,7 @@
             "ammo": ""
             },
     "powersuit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7280,7 +7280,7 @@
             "ammo": ""
             },
     "prehensile feet": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7296,7 +7296,7 @@
             "ammo": ""
             },
     "prehensile tail": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7312,7 +7312,7 @@
             "ammo": ""
             },
     "pressure tent (2 person)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7328,7 +7328,7 @@
             "ammo": ""
             },
     "pressure tent (4 person)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7344,7 +7344,7 @@
             "ammo": ""
             },
     "prisoner mask": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7360,7 +7360,7 @@
             "ammo": ""
             },
     "privacy pod": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7376,7 +7376,7 @@
             "ammo": ""
             },
     "privacy suite": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7392,7 +7392,7 @@
             "ammo": ""
             },
     "private sensor feed": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7408,7 +7408,7 @@
             "ammo": ""
             },
     "probability mapping": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7424,7 +7424,7 @@
             "ammo": ""
             },
     "proteans": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7440,7 +7440,7 @@
             "ammo": ""
             },
     "proximity": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -1,
@@ -7456,7 +7456,7 @@
             "ammo": ""
             },
     "psi jammer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7472,7 +7472,7 @@
             "ammo": ""
             },
     "psi-opener": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7488,7 +7488,7 @@
             "ammo": ""
             },
     "psikeout": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7504,7 +7504,7 @@
             "ammo": ""
             },
     "psychosurgery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7520,7 +7520,7 @@
             "ammo": ""
             },
     "puppet sock": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7536,7 +7536,7 @@
             "ammo": ""
             },
     "quantum computer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7552,7 +7552,7 @@
             "ammo": ""
             },
     "quantum dot camera displays": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7568,7 +7568,7 @@
             "ammo": ""
             },
     "quantum microbug": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7584,7 +7584,7 @@
             "ammo": ""
             },
     "quantum radar": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7600,7 +7600,7 @@
             "ammo": ""
             },
     "radar absorbent": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7616,7 +7616,7 @@
             "ammo": ""
             },
     "radar cloak": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7632,7 +7632,7 @@
             "ammo": ""
             },
     "radar invisibility": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7648,7 +7648,7 @@
             "ammo": ""
             },
     "radar system": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7664,7 +7664,7 @@
             "ammo": ""
             },
     "radiation shielding": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7680,7 +7680,7 @@
             "ammo": ""
             },
     "radiation tolerance": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7696,7 +7696,7 @@
             "ammo": ""
             },
     "radiation sense": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7712,7 +7712,7 @@
             "ammo": ""
             },
     "radio beacon": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7728,7 +7728,7 @@
             "ammo": ""
             },
     "radio booster": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7744,7 +7744,7 @@
             "ammo": ""
             },
     "radio motion detector": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7760,7 +7760,7 @@
             "ammo": ""
             },
     "rail automatic rifle": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -9,
@@ -7776,7 +7776,7 @@
             "ammo": "30"
             },
     "rail heavy pistol": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -7,
@@ -7792,7 +7792,7 @@
             "ammo": "12"
             },
     "rail light pistol": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -3,
@@ -7808,7 +7808,7 @@
             "ammo": "16"
             },
     "rail machine gun": {
-        "firing_mode": "bf, fa",
+            "firing_mode": "bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -7,
@@ -7824,7 +7824,7 @@
             "ammo": "50"
             },
     "rail medium pistol": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -5,
@@ -7840,7 +7840,7 @@
             "ammo": "12"
             },
     "rail sniper rifle": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -15,
@@ -7856,7 +7856,7 @@
             "ammo": "12"
             },
     "rail submachine gun": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -5,
@@ -7872,7 +7872,7 @@
             "ammo": "20"
             },
     "raptor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7888,7 +7888,7 @@
             "ammo": ""
             },
     "reactive": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -2,
@@ -7904,7 +7904,7 @@
             "ammo": ""
             },
     "reactive armor-piercing (rap)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -6,
@@ -7920,7 +7920,7 @@
             "ammo": ""
             },
     "reactive coating": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7936,7 +7936,7 @@
             "ammo": ""
             },
     "recon flyer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7952,7 +7952,7 @@
             "ammo": ""
             },
     "recon flyer swarm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7968,7 +7968,7 @@
             "ammo": ""
             },
     "recon hopper": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -7984,7 +7984,7 @@
             "ammo": ""
             },
     "recon hopper swarm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8000,7 +8000,7 @@
             "ammo": ""
             },
     "recon snake": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8016,7 +8016,7 @@
             "ammo": ""
             },
     "reduced signature": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8032,7 +8032,7 @@
             "ammo": ""
             },
     "reflex booster": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8048,7 +8048,7 @@
             "ammo": ""
             },
     "refractive glazing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8064,7 +8064,7 @@
             "ammo": ""
             },
     "regular ammo": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -8080,7 +8080,7 @@
             "ammo": ""
             },
     "relationship mapping": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8096,7 +8096,7 @@
             "ammo": ""
             },
     "repair spray": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8112,7 +8112,7 @@
             "ammo": ""
             },
     "research aerostat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8128,7 +8128,7 @@
             "ammo": ""
             },
     "respirocytes": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "5",
             "ap": "",
@@ -8144,7 +8144,7 @@
             "ammo": ""
             },
     "retriever": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8160,7 +8160,7 @@
             "ammo": ""
             },
     "riot shield": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8176,7 +8176,7 @@
             "ammo": ""
             },
     "robomule": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8192,7 +8192,7 @@
             "ammo": ""
             },
     "rocket buggy": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8208,7 +8208,7 @@
             "ammo": ""
             },
     "rocket pack": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8224,7 +8224,7 @@
             "ammo": ""
             },
     "roller": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8240,7 +8240,7 @@
             "ammo": ""
             },
     "rotorcraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8256,7 +8256,7 @@
             "ammo": ""
             },
     "rust hound": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8272,7 +8272,7 @@
             "ammo": ""
             },
     "saboteurs": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8288,7 +8288,7 @@
             "ammo": ""
             },
     "safety system": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8304,7 +8304,7 @@
             "ammo": ""
             },
     "satnet in a can": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8320,7 +8320,7 @@
             "ammo": ""
             },
     "saucer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8336,7 +8336,7 @@
             "ammo": ""
             },
     "scarification": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8352,7 +8352,7 @@
             "ammo": ""
             },
     "scent alteration": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8368,7 +8368,7 @@
             "ammo": ""
             },
     "schizo": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8384,7 +8384,7 @@
             "ammo": ""
             },
     "scorcher": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8400,7 +8400,7 @@
             "ammo": ""
             },
     "scour rings": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8416,7 +8416,7 @@
             "ammo": ""
             },
     "scourers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8432,7 +8432,7 @@
             "ammo": ""
             },
     "scout missile": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8448,7 +8448,7 @@
             "ammo": ""
             },
     "scouts": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8464,7 +8464,7 @@
             "ammo": ""
             },
     "scrapper's gel": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8480,7 +8480,7 @@
             "ammo": ""
             },
     "second skin": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8496,7 +8496,7 @@
             "ammo": ""
             },
     "security ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8512,7 +8512,7 @@
             "ammo": ""
             },
     "seeker armband": {
-        "firing_mode": "ss",
+            "firing_mode": "ss",
             "linked_skill": "seeker weapons",
             "durability": "",
             "ap": "per ammo",
@@ -8528,7 +8528,7 @@
             "ammo": "4"
             },
     "seeker pistol (micromissile)": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "seeker weapons",
             "durability": "",
             "ap": "per ammo",
@@ -8544,7 +8544,7 @@
             "ammo": "8"
             },
     "seeker rifle (micromissile/minimissile)": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "seeker weapons",
             "durability": "",
             "ap": "per ammo",
@@ -8560,7 +8560,7 @@
             "ammo": "12 micromissile/6 minimissile"
             },
     "self-healing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8576,7 +8576,7 @@
             "ammo": ""
             },
     "sensor ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8592,7 +8592,7 @@
             "ammo": ""
             },
     "sensor concealment": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8608,7 +8608,7 @@
             "ammo": ""
             },
     "sensor motes": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8624,7 +8624,7 @@
             "ammo": ""
             },
     "sentry bot": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8640,7 +8640,7 @@
             "ammo": ""
             },
     "servitor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8656,7 +8656,7 @@
             "ammo": ""
             },
     "sex switch": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8672,7 +8672,7 @@
             "ammo": ""
             },
     "shape adjusting": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8688,7 +8688,7 @@
             "ammo": ""
             },
     "shard": {
-        "firing_mode": "sa,bf,sa",
+            "firing_mode": "sa,bf,sa",
             "linked_skill": "spray weapons",
             "durability": "",
             "ap": -10,
@@ -8704,7 +8704,7 @@
             "ammo": "100"
             },
     "shelter dome": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8720,7 +8720,7 @@
             "ammo": ""
             },
     "shock baton": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "clubs",
             "durability": "",
             "ap": 0,
@@ -8736,7 +8736,7 @@
             "ammo": ""
             },
     "shock gloves": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "unarmed",
             "durability": "",
             "ap": 0,
@@ -8752,7 +8752,7 @@
             "ammo": ""
             },
     "shock proof": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8768,7 +8768,7 @@
             "ammo": ""
             },
     "shock safety": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8784,7 +8784,7 @@
             "ammo": ""
             },
     "shredder": {
-        "firing_mode": "sa,bf,fa",
+            "firing_mode": "sa,bf,fa",
             "linked_skill": "spray weapons",
             "durability": "",
             "ap": -10,
@@ -8800,7 +8800,7 @@
             "ammo": "100"
             },
     "shroud": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8816,7 +8816,7 @@
             "ammo": ""
             },
     "shutter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8832,7 +8832,7 @@
             "ammo": ""
             },
     "siftrunner": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8848,7 +8848,7 @@
             "ammo": ""
             },
     "silencer/sound suppressor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8864,7 +8864,7 @@
             "ammo": ""
             },
     "simulspace (single use/1 day)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8880,7 +8880,7 @@
             "ammo": ""
             },
     "simulspace subscription": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8896,7 +8896,7 @@
             "ammo": ""
             },
     "skeletal disguise": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8912,7 +8912,7 @@
             "ammo": ""
             },
     "skillsoft: animal handling": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8928,7 +8928,7 @@
             "ammo": ""
             },
     "skillsoft: beam weapons": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8944,7 +8944,7 @@
             "ammo": ""
             },
     "skillsoft: blades": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8960,7 +8960,7 @@
             "ammo": ""
             },
     "skillsoft: climbing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8976,7 +8976,7 @@
             "ammo": ""
             },
     "skillsoft: clubs": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -8992,7 +8992,7 @@
             "ammo": ""
             },
     "skillsoft: control": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9008,7 +9008,7 @@
             "ammo": ""
             },
     "skillsoft: deception": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9024,7 +9024,7 @@
             "ammo": ""
             },
     "skillsoft: demolitions": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9040,7 +9040,7 @@
             "ammo": ""
             },
     "skillsoft: disguise": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9056,7 +9056,7 @@
             "ammo": ""
             },
     "skillsoft: exotic melee: beak ": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9072,7 +9072,7 @@
             "ammo": ""
             },
     "skillsoft: exotic melee: monowire garrote": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9088,7 +9088,7 @@
             "ammo": ""
             },
     "skillsoft: exotic melee: morning star": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9104,7 +9104,7 @@
             "ammo": ""
             },
     "skillsoft: exotic melee: spear": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9120,7 +9120,7 @@
             "ammo": ""
             },
     "skillsoft: exotic melee: whip": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9136,7 +9136,7 @@
             "ammo": ""
             },
     "skillsoft: exotic ranged: blowgun": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9152,7 +9152,7 @@
             "ammo": ""
             },
     "skillsoft: exotic ranged: crossbow": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9168,7 +9168,7 @@
             "ammo": ""
             },
     "skillsoft: exotic ranged: flamethrower": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9184,7 +9184,7 @@
             "ammo": ""
             },
     "skillsoft: exotic ranged: ink attack": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9200,7 +9200,7 @@
             "ammo": ""
             },
     "skillsoft: exotic ranged: vortex ring gun": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9216,7 +9216,7 @@
             "ammo": ""
             },
     "skillsoft: flight": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9232,7 +9232,7 @@
             "ammo": ""
             },
     "skillsoft: fray": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9248,7 +9248,7 @@
             "ammo": ""
             },
     "skillsoft: free fall": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9264,7 +9264,7 @@
             "ammo": ""
             },
     "skillsoft: freerunning": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9280,7 +9280,7 @@
             "ammo": ""
             },
     "skillsoft: gunnery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9296,7 +9296,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: aerospace": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9312,7 +9312,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: armorer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9328,7 +9328,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: electronics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9344,7 +9344,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: groundcraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9360,7 +9360,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: implants": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9376,7 +9376,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: industrial": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9392,7 +9392,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: nautical": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9408,7 +9408,7 @@
             "ammo": ""
             },
     "skillsoft: hardware: robotics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9424,7 +9424,7 @@
             "ammo": ""
             },
     "skillsoft: impersonation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9440,7 +9440,7 @@
             "ammo": ""
             },
     "skillsoft: infiltration": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9456,7 +9456,7 @@
             "ammo": ""
             },
     "skillsoft: infosec": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9472,7 +9472,7 @@
             "ammo": ""
             },
     "skillsoft: interfacing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9488,7 +9488,7 @@
             "ammo": ""
             },
     "skillsoft: intimidation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9504,7 +9504,7 @@
             "ammo": ""
             },
     "skillsoft: investigation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9520,7 +9520,7 @@
             "ammo": ""
             },
     "skillsoft: kinesics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9536,7 +9536,7 @@
             "ammo": ""
             },
     "skillsoft: kinetic weapons": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9552,7 +9552,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: biosculpting": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9568,7 +9568,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: exotic biomorphs": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9584,7 +9584,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: gene therapy": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9600,7 +9600,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: general practice": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9616,7 +9616,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: implant surgery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9632,7 +9632,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neanderthal": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9648,7 +9648,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-avian": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9664,7 +9664,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-beluga": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9680,7 +9680,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-dolphin": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9696,7 +9696,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-gorilla": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9712,7 +9712,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-hominid": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9728,7 +9728,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-orca": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9744,7 +9744,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-pig": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9760,7 +9760,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-porpoise": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9776,7 +9776,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; neo-whale": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9792,7 +9792,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; octomorph": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9808,7 +9808,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: mercurial; opteryx": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9824,7 +9824,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: nanomedicine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9840,7 +9840,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: paramedic": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9856,7 +9856,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: pods": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9872,7 +9872,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: psychiatry": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9888,7 +9888,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: remote surgery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9904,7 +9904,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: trauma surgery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9920,7 +9920,7 @@
             "ammo": ""
             },
     "skillsoft: medicine: veterinary": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9936,7 +9936,7 @@
             "ammo": ""
             },
     "skillsoft: navigation": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9952,7 +9952,7 @@
             "ammo": ""
             },
     "skillsoft: networking: autonomists": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9968,7 +9968,7 @@
             "ammo": ""
             },
     "skillsoft: networking: criminals": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -9984,7 +9984,7 @@
             "ammo": ""
             },
     "skillsoft: networking: ecologists": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10000,7 +10000,7 @@
             "ammo": ""
             },
     "skillsoft: networking: firewall": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10016,7 +10016,7 @@
             "ammo": ""
             },
     "skillsoft: networking: gatecrasher": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10032,7 +10032,7 @@
             "ammo": ""
             },
     "skillsoft: networking: hypercorps": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10048,7 +10048,7 @@
             "ammo": ""
             },
     "skillsoft: networking: media": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10064,7 +10064,7 @@
             "ammo": ""
             },
     "skillsoft: networking: scientists": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10080,7 +10080,7 @@
             "ammo": ""
             },
     "skillsoft: networking: ultimates": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10096,7 +10096,7 @@
             "ammo": ""
             },
     "skillsoft: palming": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10112,7 +10112,7 @@
             "ammo": ""
             },
     "skillsoft: perception": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10128,7 +10128,7 @@
             "ammo": ""
             },
     "skillsoft: persuasion": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10144,7 +10144,7 @@
             "ammo": ""
             },
     "skillsoft: pilot: aircraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10160,7 +10160,7 @@
             "ammo": ""
             },
     "skillsoft: pilot: anthroform": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10176,7 +10176,7 @@
             "ammo": ""
             },
     "skillsoft: pilot: exotic vehicle": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10192,7 +10192,7 @@
             "ammo": ""
             },
     "skillsoft: pilot: groundcraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10208,7 +10208,7 @@
             "ammo": ""
             },
     "skillsoft: pilot: spacecraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10224,7 +10224,7 @@
             "ammo": ""
             },
     "skillsoft: pilot: watercraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10240,7 +10240,7 @@
             "ammo": ""
             },
     "skillsoft: programming": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10256,7 +10256,7 @@
             "ammo": ""
             },
     "skillsoft: protocol": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10272,7 +10272,7 @@
             "ammo": ""
             },
     "skillsoft: psi assault": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10288,7 +10288,7 @@
             "ammo": ""
             },
     "skillsoft: psychosurgery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10304,7 +10304,7 @@
             "ammo": ""
             },
     "skillsoft: research": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10320,7 +10320,7 @@
             "ammo": ""
             },
     "skillsoft: scrounging": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10336,7 +10336,7 @@
             "ammo": ""
             },
     "skillsoft: seeker weapons": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10352,7 +10352,7 @@
             "ammo": ""
             },
     "skillsoft: sense": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10368,7 +10368,7 @@
             "ammo": ""
             },
     "skillsoft: spray weapons": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10384,7 +10384,7 @@
             "ammo": ""
             },
     "skillsoft: swimming": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10400,7 +10400,7 @@
             "ammo": ""
             },
     "skillsoft: throwing weapons": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10416,7 +10416,7 @@
             "ammo": ""
             },
     "skillsoft: unarmed combat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10432,7 +10432,7 @@
             "ammo": ""
             },
     "skillware": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10448,7 +10448,7 @@
             "ammo": ""
             },
     "skimmers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10464,7 +10464,7 @@
             "ammo": ""
             },
     "skin pocket": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10480,7 +10480,7 @@
             "ammo": ""
             },
     "skindyes": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10496,7 +10496,7 @@
             "ammo": ""
             },
     "skinflex": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10512,7 +10512,7 @@
             "ammo": ""
             },
     "skinlink": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10528,7 +10528,7 @@
             "ammo": ""
             },
     "sky mote": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10544,7 +10544,7 @@
             "ammo": ""
             },
     "sky mote swarm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10560,7 +10560,7 @@
             "ammo": ""
             },
     "slip": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10576,7 +10576,7 @@
             "ammo": ""
             },
     "small air mask": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10592,7 +10592,7 @@
             "ammo": ""
             },
     "small animal care": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10608,7 +10608,7 @@
             "ammo": ""
             },
     "small jet": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10624,7 +10624,7 @@
             "ammo": ""
             },
     "small oxygen candles": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10640,7 +10640,7 @@
             "ammo": ""
             },
     "smart anchors": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10656,7 +10656,7 @@
             "ammo": ""
             },
     "smart camel": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10672,7 +10672,7 @@
             "ammo": ""
             },
     "smart cat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10688,7 +10688,7 @@
             "ammo": ""
             },
     "smart clothing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10704,7 +10704,7 @@
             "ammo": ""
             },
     "smart dog": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10720,7 +10720,7 @@
             "ammo": ""
             },
     "smart dust": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10736,7 +10736,7 @@
             "ammo": ""
             },
     "smart hawk": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10752,7 +10752,7 @@
             "ammo": ""
             },
     "smart horse": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10768,7 +10768,7 @@
             "ammo": ""
             },
     "smart magazine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10784,7 +10784,7 @@
             "ammo": ""
             },
     "smart manipulators": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10800,7 +10800,7 @@
             "ammo": ""
             },
     "smart monkey": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10816,7 +10816,7 @@
             "ammo": ""
             },
     "smart plankton": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10832,7 +10832,7 @@
             "ammo": ""
             },
     "smart racoon": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10848,7 +10848,7 @@
             "ammo": ""
             },
     "smart rat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10864,7 +10864,7 @@
             "ammo": ""
             },
     "smart roach": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10880,7 +10880,7 @@
             "ammo": ""
             },
     "smart skin": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10896,7 +10896,7 @@
             "ammo": ""
             },
     "smart swarm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10912,7 +10912,7 @@
             "ammo": ""
             },
     "smart vac clothing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10928,7 +10928,7 @@
             "ammo": ""
             },
     "smart wings": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10944,7 +10944,7 @@
             "ammo": ""
             },
     "smart wolf": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10960,7 +10960,7 @@
             "ammo": ""
             },
     "smartlink": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10976,7 +10976,7 @@
             "ammo": ""
             },
     "smell filter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -10992,7 +10992,7 @@
             "ammo": ""
             },
     "snake": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11008,7 +11008,7 @@
             "ammo": ""
             },
     "sniffer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11024,7 +11024,7 @@
             "ammo": ""
             },
     "sniper rifle": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -12,
@@ -11040,7 +11040,7 @@
             "ammo": "12"
             },
     "solar recharger": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11056,7 +11056,7 @@
             "ammo": ""
             },
     "solar survival suits": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11072,7 +11072,7 @@
             "ammo": ""
             },
     "sound system": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11088,7 +11088,7 @@
             "ammo": ""
             },
     "space travel (long)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11104,7 +11104,7 @@
             "ammo": ""
             },
     "space travel (short)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11120,7 +11120,7 @@
             "ammo": ""
             },
     "spasm": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11136,7 +11136,7 @@
             "ammo": ""
             },
     "specialized hive": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11152,7 +11152,7 @@
             "ammo": ""
             },
     "specimen container": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11168,7 +11168,7 @@
             "ammo": ""
             },
     "speck": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11184,7 +11184,7 @@
             "ammo": ""
             },
     "specs": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11200,7 +11200,7 @@
             "ammo": ""
             },
     "spider hand": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11216,7 +11216,7 @@
             "ammo": ""
             },
     "spindle": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11232,7 +11232,7 @@
             "ammo": ""
             },
     "spindle climber": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11248,7 +11248,7 @@
             "ammo": ""
             },
     "splash": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,
@@ -11264,7 +11264,7 @@
             "ammo": ""
             },
     "spoof": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11280,7 +11280,7 @@
             "ammo": ""
             },
     "spray armor": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11296,7 +11296,7 @@
             "ammo": ""
             },
     "sprayer": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "spray weapons",
             "durability": "",
             "ap": "as chemical/drug",
@@ -11312,7 +11312,7 @@
             "ammo": "20"
             },
     "squidling": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11328,7 +11328,7 @@
             "ammo": ""
             },
     "standard battery": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11344,7 +11344,7 @@
             "ammo": ""
             },
     "standard muse": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11360,7 +11360,7 @@
             "ammo": ""
             },
     "standard smartfabric vacsuit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11376,7 +11376,7 @@
             "ammo": ""
             },
     "standard vacsuit": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11392,7 +11392,7 @@
             "ammo": ""
             },
     "staste": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11408,7 +11408,7 @@
             "ammo": ""
             },
     "stealth drone": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11424,7 +11424,7 @@
             "ammo": ""
             },
     "sticky grenades": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11440,7 +11440,7 @@
             "ammo": ""
             },
     "structural enhancement": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "10",
             "ap": "",
@@ -11456,7 +11456,7 @@
             "ammo": ""
             },
     "stunner": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "beam weapons",
             "durability": "",
             "ap": 0,
@@ -11472,7 +11472,7 @@
             "ammo": "200"
             },
     "subdermal implants": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11488,7 +11488,7 @@
             "ammo": ""
             },
     "submachine gun": {
-        "firing_mode": "sa, bf, fa",
+            "firing_mode": "sa, bf, fa",
             "linked_skill": "kinetic weapons",
             "durability": "",
             "ap": -2,
@@ -11504,7 +11504,7 @@
             "ammo": "20"
             },
     "submarine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11520,7 +11520,7 @@
             "ammo": ""
             },
     "super-wide camera": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11536,7 +11536,7 @@
             "ammo": ""
             },
     "superthermite charges": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11552,7 +11552,7 @@
             "ammo": ""
             },
     "surveillance aerostat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11568,7 +11568,7 @@
             "ammo": ""
             },
     "survival cold weather gear": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11584,7 +11584,7 @@
             "ammo": ""
             },
     "swarm cat": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11600,7 +11600,7 @@
             "ammo": ""
             },
     "swarm composition": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11616,7 +11616,7 @@
             "ammo": ""
             },
     "swim bladder": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11632,7 +11632,7 @@
             "ammo": ""
             },
     "synthetic mask": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11648,7 +11648,7 @@
             "ammo": ""
             },
     "t-ray emitter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11664,7 +11664,7 @@
             "ammo": ""
             },
     "tactical networks": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11680,7 +11680,7 @@
             "ammo": ""
             },
     "taggants": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11696,7 +11696,7 @@
             "ammo": ""
             },
     "technician ai": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11712,7 +11712,7 @@
             "ammo": ""
             },
     "telescoping limbs": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11728,7 +11728,7 @@
             "ammo": ""
             },
     "temperature tolerance: cold": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11744,7 +11744,7 @@
             "ammo": ""
             },
     "temperature tolerance: cryonic": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11760,7 +11760,7 @@
             "ammo": ""
             },
     "temperature tolerance: standard": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11776,7 +11776,7 @@
             "ammo": ""
             },
     "thermal dampening": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11792,7 +11792,7 @@
             "ammo": ""
             },
     "thermobaric": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": -10,
@@ -11808,7 +11808,7 @@
             "ammo": ""
             },
     "thrust vector": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11824,7 +11824,7 @@
             "ammo": ""
             },
     "thruster pack": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11840,7 +11840,7 @@
             "ammo": ""
             },
     "thumper": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11856,7 +11856,7 @@
             "ammo": ""
             },
     "titanian cargo copter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11872,7 +11872,7 @@
             "ammo": ""
             },
     "titanian caribou": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11888,7 +11888,7 @@
             "ammo": ""
             },
     "titanian muse upgrade": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11904,7 +11904,7 @@
             "ammo": ""
             },
     "tools (facility): aerospace": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11920,7 +11920,7 @@
             "ammo": ""
             },
     "tools (facility): armorer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11936,7 +11936,7 @@
             "ammo": ""
             },
     "tools (facility): electronics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11952,7 +11952,7 @@
             "ammo": ""
             },
     "tools (facility): groundcraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11968,7 +11968,7 @@
             "ammo": ""
             },
     "tools (facility): implants": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -11984,7 +11984,7 @@
             "ammo": ""
             },
     "tools (facility): industrial": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12000,7 +12000,7 @@
             "ammo": ""
             },
     "tools (facility): nautical": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12016,7 +12016,7 @@
             "ammo": ""
             },
     "tools (facility): robotics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12032,7 +12032,7 @@
             "ammo": ""
             },
     "tools (kit): aerospace": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12048,7 +12048,7 @@
             "ammo": ""
             },
     "tools (kit): armorer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12064,7 +12064,7 @@
             "ammo": ""
             },
     "tools (kit): electronics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12080,7 +12080,7 @@
             "ammo": ""
             },
     "tools (kit): groundcraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12096,7 +12096,7 @@
             "ammo": ""
             },
     "tools (kit): implants": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12112,7 +12112,7 @@
             "ammo": ""
             },
     "tools (kit): industrial": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12128,7 +12128,7 @@
             "ammo": ""
             },
     "tools (kit): nautical": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12144,7 +12144,7 @@
             "ammo": ""
             },
     "tools (kit): robotics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12160,7 +12160,7 @@
             "ammo": ""
             },
     "tools (shop): aerospace": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12176,7 +12176,7 @@
             "ammo": ""
             },
     "tools (shop): armorer": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12192,7 +12192,7 @@
             "ammo": ""
             },
     "tools (shop): electronics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12208,7 +12208,7 @@
             "ammo": ""
             },
     "tools (shop): groundcraft": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12224,7 +12224,7 @@
             "ammo": ""
             },
     "tools (shop): implants": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12240,7 +12240,7 @@
             "ammo": ""
             },
     "tools (shop): industrial": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12256,7 +12256,7 @@
             "ammo": ""
             },
     "tools (shop): nautical": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12272,7 +12272,7 @@
             "ammo": ""
             },
     "tools (shop): robotics": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12288,7 +12288,7 @@
             "ammo": ""
             },
     "torch": {
-        "firing_mode": "ss",
+            "firing_mode": "ss",
             "linked_skill": "spray weapons",
             "durability": "",
             "ap": -4,
@@ -12304,7 +12304,7 @@
             "ammo": "20"
             },
     "toxin filters": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12320,7 +12320,7 @@
             "ammo": ""
             },
     "tracked": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12336,7 +12336,7 @@
             "ammo": ""
             },
     "tracker dye": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12352,7 +12352,7 @@
             "ammo": ""
             },
     "tracking": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12368,7 +12368,7 @@
             "ammo": ""
             },
     "traction pads": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12384,7 +12384,7 @@
             "ammo": ""
             },
     "transporter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12400,7 +12400,7 @@
             "ammo": ""
             },
     "trigger": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12416,7 +12416,7 @@
             "ammo": ""
             },
     "trike": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12432,7 +12432,7 @@
             "ammo": ""
             },
     "twitch": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12448,7 +12448,7 @@
             "ammo": ""
             },
     "ultraviolet vision": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12464,7 +12464,7 @@
             "ammo": ""
             },
     "unarmed": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "unarmed",
             "durability": "",
             "ap": 0,
@@ -12480,7 +12480,7 @@
             "ammo": ""
             },
     "underbarrel seeker (micromissile)": {
-        "firing_mode": "sa",
+            "firing_mode": "sa",
             "linked_skill": "seeker weapons",
             "durability": "",
             "ap": "per ammo",
@@ -12496,7 +12496,7 @@
             "ammo": "6"
             },
     "utilitool": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12512,7 +12512,7 @@
             "ammo": ""
             },
     "utility helicopter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12528,7 +12528,7 @@
             "ammo": ""
             },
     "vacuum sealing": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12544,7 +12544,7 @@
             "ammo": ""
             },
     "venus suits": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12560,7 +12560,7 @@
             "ammo": ""
             },
     "venusan hauler": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12576,7 +12576,7 @@
             "ammo": ""
             },
     "vibroblade": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "blades",
             "durability": "",
             "ap": -2,
@@ -12592,7 +12592,7 @@
             "ammo": ""
             },
     "viewers": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12608,7 +12608,7 @@
             "ammo": ""
             },
     "vision filter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12624,7 +12624,7 @@
             "ammo": ""
             },
     "vortex ring gun": {
-        "firing_mode": "--",
+            "firing_mode": "--",
             "linked_skill": {"name": "exotic ranged weapon", "spec": "vortex ring gun"},
             "durability": "",
             "ap": "",
@@ -12640,7 +12640,7 @@
             "ammo": "--"
             },
     "walker": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12656,7 +12656,7 @@
             "ammo": ""
             },
     "wasp knife": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "blades",
             "durability": "",
             "ap": -1,
@@ -12672,7 +12672,7 @@
             "ammo": ""
             },
     "weapon mount: articulated": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12688,7 +12688,7 @@
             "ammo": ""
             },
     "weapon mount: concealed": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12704,7 +12704,7 @@
             "ammo": ""
             },
     "weapon mount: fixed": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12720,7 +12720,7 @@
             "ammo": ""
             },
     "weapon mount: swiveling": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12736,7 +12736,7 @@
             "ammo": ""
             },
     "wheeled": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12752,7 +12752,7 @@
             "ammo": ""
             },
     "white noise machine": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12768,7 +12768,7 @@
             "ammo": ""
             },
     "winged": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12784,7 +12784,7 @@
             "ammo": ""
             },
     "wings": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12800,7 +12800,7 @@
             "ammo": ""
             },
     "winterist": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12816,7 +12816,7 @@
             "ammo": ""
             },
     "wireless energy transmitter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12832,7 +12832,7 @@
             "ammo": ""
             },
     "wrist-mounted tools": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12848,7 +12848,7 @@
             "ammo": ""
             },
     "x-ray emitter": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12864,7 +12864,7 @@
             "ammo": ""
             },
     "xp": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12880,7 +12880,7 @@
             "ammo": ""
             },
     "xp (high)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12896,7 +12896,7 @@
             "ammo": ""
             },
     "xp (low)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12912,7 +12912,7 @@
             "ammo": ""
             },
     "xp (moderate)": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12928,7 +12928,7 @@
             "ammo": ""
             },
     "zap": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 2,
@@ -12944,7 +12944,7 @@
             "ammo": ""
             },
     "zephyr": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": "",
@@ -12960,7 +12960,7 @@
             "ammo": ""
             },
     "zero": {
-        "firing_mode": "",
+            "firing_mode": "",
             "linked_skill": "",
             "durability": "",
             "ap": 0,

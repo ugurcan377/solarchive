@@ -33,3 +33,14 @@ data_types = {
     "background": ["values", "desc", "package", "morph", "next"],
     "event": ["values", "table"]
 }
+
+css_classes = {
+    'active': 'red',
+    'knowledge': 'violet',
+    'any': 'grey',
+    'positive': 'green',
+    'negative': 'red',
+    'passive': 'green',
+    'chi': 'yellow',
+    'gamma': 'red',
+}

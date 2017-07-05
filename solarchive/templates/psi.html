@@ -1,0 +1,35 @@
+{% extends 'layout.html' %}
+{%- block content %}
+{%- include 'search_filter.html' %}
+<div class="ui divided items">
+  {%- for name, psi in data|dictsort %}
+    <div class="item element-item {{psi['category']}} {{psi['type']}}">
+      <div class="content">
+        <div class="header">{{name|title}}</div>
+        <div class="meta">
+          <span class="ui large {{css[psi['category']]}} label sol-popup" data-content="Category">
+            <i class="lightning icon"></i> {{psi['category']|title}}</span>
+          <span class="ui large basic {{css[psi['type']]}} label sol-popup" data-content="Type">
+            <i class="pie chart icon"></i> {{psi['type']|title}}</span>
+          <span class="ui large label sol-popup" data-content="Duration">
+            <i class="hourglass half icon"></i> {{psi['duration']|title}}</span>
+          <span class="ui large label sol-popup" data-content="Action">
+            <i class="icon"></i>{{psi['action']|title}}</span>
+          <span class="ui large label sol-popup" data-content="Range">
+            <i class="signal icon"></i> {{psi['range']|title}}</span>
+          <span class="ui large label sol-popup" data-content="Strain">
+            <i class="red warning circle icon"></i> {{psi['strain']}}</span>
+        </div>
+        <div class="description">{{psi['desc']}}</div>
+        <div class="extra">
+          {%- if 'skill' in psi %}
+            <div class="ui label">Psi Skill
+              <div class="detail">{{psi['skill']|capitalize}}</div>
+            </div>
+          {%- endif %}
+        </div>
+      </div>
+    </div>
+  {%- endfor %}
+</div>
+{%- endblock %}

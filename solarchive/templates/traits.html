@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{%- block content %}
+{%- include 'search_filter.html' %}
+<div class="ui divided items">
+  {%- for name, trait in data|dictsort %}
+    <div class="item element-item {{trait['category'][0]}} {{trait['category'][1]}}">
+      <div class="content">
+        <div class="header">{{name|title}}</div>
+        <div class="meta">
+          <div class="ui {{css[trait['category'][0]]}} large basic label">{{trait['category'][0]|capitalize}}
+            <div class="detail">{{trait['category'][1]|capitalize}}</div>
+          </div>
+        </div>
+        <div class="description">{{trait['desc']}}</div>
+      </div>
+    </div>
+  {%- endfor %}
+</div>
+{%- endblock %}

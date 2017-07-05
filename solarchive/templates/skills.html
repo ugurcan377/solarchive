@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{%- block content %}
+{%- include 'search_filter.html' %}
+<div class="ui divided items">
+  {%- for name, skill in data|dictsort %}
+    <div class="item element-item {{skill['category']}}">
+      <div class="content">
+        <div class="header">{{name|title}}</div>
+        <div class="meta">
+          <div class="ui tag large {{css[skill['category']]}} label">{{skill['category']|capitalize}}</div>
+          <div class="ui large teal label">{{skill['linked']|upper}}</div>
+          {%- if skill.get('nodefault') %}
+          <div class="ui label red center aligned large">NO DEFAULT</div>
+          {%- endif %}
+        </div>
+        <div class="description">
+          <p>{{skill['desc']['desc']|capitalize}}</p>
+          <div class="ui basic label pointing below">Usage</div>
+          <p>{{skill['desc']['usage']|capitalize}}</p>
+        </div>
+        <div class="extra content">
+          <div class="ui basic label right pointing">Specifications</div>
+          <span>{{skill['desc']['spec']|title}}</span>
+        </div>
+      </div>
+    </div>
+  {%- endfor %}
+</div>
+{%- endblock %}

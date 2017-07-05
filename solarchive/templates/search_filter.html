@@ -1,0 +1,14 @@
+<div>
+  <div class="ui search-input fluid action input">
+    <input class="quicksearch" placeholder="Search for entries" type="text">
+    <button class="ui clear-button button">Clear</button>
+  </div>
+  {%- if categories %}
+  <div class="ui text fluid grid centered menu filter-menu large">
+    <div class="header item">Filter By</div>
+      {%- for cat, selector in categories %}
+      <a class="item sol-filter" data-filter="{{selector}}">{{cat|title}}</a>
+      {%- endfor %}
+  </div>
+  {%- endif %}
+</div>

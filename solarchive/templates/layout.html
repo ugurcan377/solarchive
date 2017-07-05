@@ -1,10 +1,53 @@
 <html>
-  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/semantic.min.css') }}">
-  <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/semantic.min.js') }}"></script>
-  <script src="{{ url_for('static', filename='js/react.js') }}"></script>
-  <body>
-    <div id="app"></div>
-  </body>
-  <script src="{{ url_for('static', filename='app/js/build/app.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/semantic.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/app.css') }}">
+<script src="{{ url_for('static', filename='js/jquery-3.2.0.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/semantic.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/isotope.pkgd.min.js') }}"></script>
+<head><title>{{title}} - Solarchive</title></head>
+<body>
+  <div class="main container">
+    <a href="/"><img class="ui centered huge image" src="{{ url_for('static', filename='assets/solarchive.png') }}"></a>
+  </div>
+  <div class="ui two column grid">
+    <div class="two wide column">
+      <div class="ui secondary vertical menu sticky">
+        <a href="/skills" class="item {{act_skills}}">Skills</a>
+        <a href="/traits" class="item {{act_traist}}">Traits</a>
+        <a href="/backgrounds" class="item {{act_backgrounds}}">Backgrounds</a>
+        <a href="/factions" class="item {{act_factions}}">Factions</a>
+        <a href="/gear" class="item {{act_gear}}">Gear</a>
+        <a href="/psi" class="item {{act_psi}}">Psi</a>
+        <div class="ui dropdown item">
+          Field Skills
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="/field_skills/academics" class="item {{act_academics}}">Academics</a>
+            <a href="/field_skills/places" class="item {{act_places}}">Places</a>
+            <a href="/field_skills/hardware" class="item {{act_hardware}}">Hardware</a>
+            <a href="/field_skills/art" class="item {{act_art}}">Art</a>
+            <a href="/field_skills/interest" class="item {{act_interest}}">Interest</a>
+            <a href="/field_skills/profession" class="item {{act_profession}}">Profession</a>
+            <a href="/field_skills/medicine" class="item {{act_medicine}}">Medicine</a>
+            <a href="/field_skills/factions" class="item {{act_factions}}">Factions</a>
+            <a href="/field_skills/pilot" class="item {{act_pilot}}">Pilot</a>
+            <a href="/field_skills/language" class="item {{act_language}}">Language</a>
+          </div>
+        </div>
+        <div class="ui dropdown item">
+          Other
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <a href="/other/motivations" class="item {{act_motivations}}">Motivations</a>
+            <a href="/other/languages" class="item {{act_languages}}">Languages</a>
+            <a href="/other/disorder" class="item {{act_disorder}}">Disorders</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="main-column" class="column">{% block content %}{% endblock %}</div>
+  </div>
+</body>
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
 </html>
+

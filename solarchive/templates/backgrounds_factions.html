@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+{%- block content %}
+{%- include 'search_filter.html' %}
+<div class="ui divided items">
+  {%- for name,item in data|dictsort %}
+  <div class="item element-item">
+    <div class="content">
+      <div class="header">{{name|title}}</div>
+      <div class="meta">
+        {%- for key in ['rep', 'moxie', 'credits'] %}
+          {%- if item[key] %}
+        <span>{{key|capitalize}}: {{item[key]}}</span>
+          {%- endif %}
+        {%- endfor %}
+      </div>
+      <div class="description">{{item['desc']}}</div>
+      <div class="extra">
+        {%- for skill_desc, value, skill_type in skill_dict[name] %}
+        <div class="ui {{css[skill_type]}} label">{{skill_desc|title}}
+          <div class="detail">{{value}}
+          </div>
+        </div>
+        {%- endfor %}
+        {%- for trait_desc, nature, trait_type in trait_dict[name] %}
+        <div class="ui {{css[nature]}} basic label">{{trait_desc|title}}
+          <div class="detail">{{trait_type|capitalize}}</div>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+  </div>
+  {%- endfor %}
+</div>
+{%- endblock %}

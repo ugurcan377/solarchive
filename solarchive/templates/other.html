@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+{%- block content %}
+{%- include 'search_filter.html' %}
+<div class="ui divided items">
+  {% for item in data['table'] %}
+  <div class="item element-item">
+    <div class="content">
+      <div class="header">{{item|title}}</div>
+      <div class="meta">
+        <div class="ui basic label right pointing">Dice Range</div>
+        <span>
+          {%- if data['values'][loop.index0] is iterable %}
+            {{"%s - %s"|format(data['values'][loop.index0][0], data['values'][loop.index0][1])}}
+          {%- else %}
+            {{data['values'][loop.index0]}}
+          {%- endif %}
+        </span>
+      </div>
+    </div>
+  </div>
+  {%- endfor %}
+</div>
+{%- endblock %}

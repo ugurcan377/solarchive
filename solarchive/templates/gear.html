@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{%- block content %}
+{%- include 'search_filter.html' %}
+<div class="ui divided items">
+  {%- for name, gear in data|dictsort %}
+    <div class="item element-item {{gear['category']|join(' ')}}">
+      <div class="content">
+        <div class="header">{{name|title}}</div>
+        <div class="meta">
+          <div class="ui large label sol-popup" data-content="Category">
+            <i class="pie chart icon"></i> {{gear['category'][0]|title}}</div>
+          <div class="ui basic large label sol-popup" data-content="Cost">
+            <i class="money icon"></i> {{gear['cost']|capitalize}}</div>
+        </div>
+        <div class="description">{{gear['desc']}}</div>
+        <div class="extra">
+          {%- for field in gear_fields[gear['category'][0]] %}
+            {%- if gear[field] %}
+            <div class="ui label">
+              {%- if field in gear_texts %}
+                {{gear_texts[field]}}
+              {%- else %}
+                {{field|capitalize}}
+              {%- endif %}
+              <div class="detail">
+                {%- if gear[field] is iterable and gear[field] is not string %}
+                  {{gear[field]|join(', ')|title}}
+                {%- else %}
+                  {{gear[field]|title}}
+                {%- endif %}
+              </div>
+            </div>
+            {%- endif %}
+          {%- endfor %}
+        </div>
+      </div>
+    </div>
+  {%- endfor %}
+</div>
+{%- endblock %}

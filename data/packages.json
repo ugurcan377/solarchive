@@ -410,7 +410,7 @@
             "5": {
                 "moxie": 2,
                 "aptitude": {"wil": 5},
-                "trait": "neural damage",
+                "traits": ["neural damage"],
                 "skills": {
                     "profession": [{"value": 30, "spec": "post-apocalyptic survival"}, 40],
                     "freerunning": 30,
@@ -603,7 +603,7 @@
                 "aptitude": {"sav": 5},
                 "rep": 50,
                 "credits": 50000,
-                "trait": "patron",
+                "traits": ["patron"],
                 "skills": {
                     "academics": 40,
                     "kinesics": 50,
@@ -673,7 +673,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["anamalous mind", "real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["anamalous mind", "real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 40,
                     "infosec": 25,
@@ -683,7 +683,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": ["anamalous mind", "real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["anamalous mind", "real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "academics": 30,
                     "interfacing": 50,
@@ -700,7 +700,7 @@
                 "moxie": 2,
                 "aptitude": {"cog": 5},
                 "rep": 50,
-                 "trait": ["anamalous mind", "real word naivite", {"name": "social stigma", "spec": "agi"}],
+                 "traits": ["anamalous mind", "real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "any": [30, 30],
                     "academics": [40, 40],
@@ -723,7 +723,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 40,
                     "kinesics": 35,
@@ -732,7 +732,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 50,
                     "kinesics": 40,
@@ -749,7 +749,7 @@
                 "moxie": 1,
                 "aptitude": {"sav": 5},
                 "rep": 50,
-                 "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                 "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 50,
                     "kinesics": 50,
@@ -774,7 +774,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 40,
                     "programming": 35,
@@ -783,7 +783,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 50,
                     "programming": 40,
@@ -799,7 +799,7 @@
                 "moxie": 1,
                 "aptitude": {"ref": 5},
                 "rep": 50,
-                 "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                 "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 50,
                     "programming": 50,
@@ -822,7 +822,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "research": 40,
                     "interfacing": 35,
@@ -831,7 +831,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 40,
                     "programming": 30,
@@ -847,7 +847,7 @@
                 "moxie": 1,
                 "aptitude": {"cog": 5},
                 "rep": 50,
-                 "trait": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
+                 "traits": ["real word naivite", {"name": "social stigma", "spec": "agi"}],
                 "skills": {
                     "interfacing": 40,
                     "programming": 40,
@@ -893,7 +893,7 @@
                 "moxie": 1,
                 "aptitude": {"value": 5, "choices": ["int", "wil"]},
                 "rep": 50,
-                 "trait": ["real word naivite"],
+                 "traits": ["real word naivite"],
                 "skills": {
                     "animal handling": 25,
                     "fray": 20,
@@ -968,7 +968,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
                     "real world naivite"],
                 "psi": {"gamma": 2},
                 "skills": {
@@ -979,7 +979,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
                     "real world naivite"],
                 "psi": {"gamma": 3, "chi": 1},
                 "skills": {
@@ -998,7 +998,7 @@
                 "moxie": 1,
                 "aptitude": {"wil": 5},
                 "rep": 50,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run",
                     "real world naivite"],
                 "psi": {"gamma": 5, "chi": 2},
                 "skills": {
@@ -1025,7 +1025,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["psi", "mental disorder", "mental disorder"],
+                "traits": ["psi", "mental disorder", "mental disorder"],
                 "psi": {"chi": 2},
                 "skills": {
                     "persuasion": 35,
@@ -1034,7 +1034,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": ["psi", "mental disorder", "mental disorder"],
+                "traits": ["psi", "mental disorder", "mental disorder"],
                 "psi": {"chi": 4},
                 "skills": {
                     "persuasion": 50,
@@ -1049,7 +1049,7 @@
             "5": {
                 "moxie": 1,
                 "rep": 50,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder", "on the run"],
                 "psi": {"chi": 4, "gamma": 2},
                 "skills": {
                     "persuasion": 50,
@@ -1145,7 +1145,7 @@
                 "moxie": 2,
                 "rep": 50,
                 "aptitude": {"int": 5},
-                "trait": "edited memories",
+                "traits": ["edited memories"],
                 "skills": {
                     "any": 50,
                     "academics": 40,
@@ -1193,7 +1193,7 @@
                 "moxie": 2,
                 "rep": 50,
                 "aptitude": {"cog": 5},
-                "trait": "edited memories",
+                "traits": ["edited memories"],
                 "skills": {
                     "programming": 45,
                     "networking": 40,
@@ -1241,7 +1241,7 @@
                 "moxie": 2,
                 "rep": 50,
                 "aptitude": {"int": 5},
-                "trait": "edited memories",
+                "traits": ["edited memories"],
                 "skills": {
                     "freerunning": 35,
                     "any combat": [40, 40],
@@ -1314,7 +1314,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": {"name": "social stigma", "spec": "uplift"},
+                "traits": {"name": "social stigma", "spec": "uplift"},
                 "skills": {
                     "climbing": 40,
                     "interest": 30,
@@ -1323,7 +1323,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": [{"name": "social stigma", "spec": "uplift"}, "on the run"],
+                "traits": [{"name": "social stigma", "spec": "uplift"}, "on the run"],
                 "skills": {
                     "climbing": 45,
                     "infiltration": 50,
@@ -1339,7 +1339,7 @@
                 "moxie": 1,
                 "rep": 50,
                 "aptitude": {"sav": 5},
-                "trait": [{"name": "social stigma", "spec": "uplift"}, "on the run"],
+                "traits": [{"name": "social stigma", "spec": "uplift"}, "on the run"],
                 "skills": {
                     "climbing": 50,
                     "infiltration": 50,
@@ -1364,7 +1364,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": [{"name": "social stigma", "spec": "uplift"}, "anamalous mind", "heightened instinct"],
+                "traits": [{"name": "social stigma", "spec": "uplift"}, "anamalous mind", "heightened instinct"],
                 "skills": {
                     "climbing": 40,
                     "interest": 30,
@@ -1373,7 +1373,7 @@
                 },
             "3": {
                 "moxie": 2,
-                "trait": [{"name": "social stigma", "spec": "uplift"}, "anamalous mind", "heightened instinct"],
+                "traits": [{"name": "social stigma", "spec": "uplift"}, "anamalous mind", "heightened instinct"],
                 "skills": {
                     "climbing": 50,
                     "unarmed": 50,
@@ -1386,7 +1386,7 @@
             "5": {
                 "moxie": 2,
                 "aptitude": {"ref": 5},
-                "trait": [{"name": "social stigma", "spec": "uplift"}, "anamalous mind", "heightened instinct"],
+                "traits": [{"name": "social stigma", "spec": "uplift"}, "anamalous mind", "heightened instinct"],
                 "skills": {
                     "climbing": 50,
                     "art": 30,
@@ -1408,7 +1408,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": {"name": "social stigma", "spec": "uplift"},
+                "traits": {"name": "social stigma", "spec": "uplift"},
                 "skills": {
                     "climbing": 45,
                     "academics": 30,
@@ -1417,7 +1417,7 @@
                 },
             "3": {
                 "moxie": 1,
-                "trait": {"name": "social stigma", "spec": "uplift"},
+                "traits": {"name": "social stigma", "spec": "uplift"},
                 "skills": {
                     "academics": 40,
                     "interfacing": 30,
@@ -1434,7 +1434,7 @@
                 "moxie": 1,
                 "rep": 50,
                 "aptitude": {"coo": 5},
-                "trait": {"name": "social stigma", "spec": "uplift"},
+                "traits": {"name": "social stigma", "spec": "uplift"},
                 "skills": {
                     "academics": 40,
                     "interfacing": 30,
@@ -2542,7 +2542,7 @@
                 "negative": ["bloodlust"]
             },
             "1": {
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 3,
                 "skills": {
                     "profession": {"value": 30, "spec": "squad tactics"},
@@ -2551,7 +2551,7 @@
                 },
             "3": {
                 "rep": 50,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 4,
                 "skills": {
                     "profession": {"value": 50, "spec": "squad tactics"},
@@ -2566,7 +2566,7 @@
                 },
             "5": {
                 "rep": 50,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 8,
                 "skills": {
                     "profession": {"value": 50, "spec": "squad tactics"},
@@ -2638,7 +2638,7 @@
             },
             "1": {
                 "moxie": 1,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 3,
                 "skills": {
                     "academics": {"value": 30, "spec": "psychology"},
@@ -2647,7 +2647,7 @@
                 },
             "3": {
                 "rep": 50,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 4,
                 "skills": {
                     "academics": {"value": 40, "spec": "psychology"},
@@ -2662,7 +2662,7 @@
             "5": {
                 "rep": 50,
                 "aptitude": {"wil": 5},
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder", "mental disorder"],
                 "psi": 6,
                 "skills": {
                     "academics": {"value": 40, "spec": "psychology"},
@@ -3323,7 +3323,7 @@
             },
             "1": {
 
-                "trait": ["psi", "mental disorder"],
+                "traits": ["psi", "mental disorder"],
                 "psi": 4,
                 "skills": {
                     "academics": 30,
@@ -3333,7 +3333,7 @@
             "3": {
                 "moxie": 1, 
                 "rep": 50,
-                "trait": ["psi", "mental disorder"],
+                "traits": ["psi", "mental disorder"],
                 "psi": 5,
                 "skills": {
                     "academics": 40,
@@ -3349,7 +3349,7 @@
                 "rep": 50,
                 "moxie": 1,
                 "aptitude": {"cog": 5},
-                "trait": ["psi", "mental disorder"],
+                "traits": ["psi", "mental disorder"],
                 "psi": 5,
                 "skills": {
                     "academics": 40,
@@ -3373,7 +3373,7 @@
                 "negative": []
             },
             "1": {
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder"],
                 "psi": 3,
                 "skills": {
                     "academics": 30,
@@ -3382,7 +3382,7 @@
                 },
             "3": {
                 "rep": 50,
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder"],
                 "psi": 4,
                 "skills": {
                     "academics": 30,
@@ -3397,7 +3397,7 @@
                 "rep": 50,
                 "moxie": 1,
                 "aptitude": {"int": 5},
-                "trait": ["psi (level 2)", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder"],
                 "psi": 6,
                 "skills": {
                     "academics": 40,
@@ -3832,7 +3832,7 @@
         },
         "async": {
             "1":{
-                "trait": ["psi", "mental disorder", "psi chameleon"],
+                "traits": ["psi", "mental disorder", "psi chameleon"],
                 "psi": {"chi": 5},
                 "skills": {
                     "interest": 45
@@ -3841,7 +3841,7 @@
         },
         "async adept": {
             "1":{
-                "trait": ["psi (level 2)", "mental disorder", "mental disorder"],
+                "traits": ["psi (level 2)", "mental disorder", "mental disorder"],
                 "psi": 7,
                 "skills": {
                     "psi related": 40
@@ -3868,7 +3868,7 @@
         },
         "connected": {
             "1":{
-                "trait": {"choices": ["allies", "patron"]},
+                "traits": {"choices": ["allies", "patron"]},
                 "credits": 30000,
                 "skills": {
                     "networking": 40

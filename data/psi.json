@@ -291,7 +291,6 @@
                 "duration": "constant",
                 "range": "self",
                 "action": "automatic",
-                "skill": "",
                 "type": "passive",
                 "desc": "Psi Shield bolsters the async's mind to psi attack and manipulation. If the async is hit by a psi attack, they receive WIL/5 (round up) points of armor, reducing the amount of damage inflicted. They also receive a +10 modifier when resisting any other sleights."
             },
@@ -329,7 +328,6 @@
                 "duration": "constant",
                 "range": "self",
                 "action": "automatic",
-                "skill": "",
                 "type": "passive",
                 "desc": "Scramble allows the async using the sleight to hide from another async using the Ego Sense or Omni Awareness sleights. Apply a +30 modifier to the defending async's Opposed Test."
             },
@@ -378,7 +376,6 @@
                 "duration": "sustained",
                 "range": "close",
                 "action": "complex",
-                "skill": "",
                 "type": "active",
                 "desc": "The async generates an anti-psi jamming field, impeding any use of ranged sleights within their range. All such ranged sleights suffer a -30 modifier. This sleight has no effect on self or touch-range sleights."
             },

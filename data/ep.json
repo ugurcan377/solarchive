@@ -9,12 +9,11 @@
         "values": [[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12], [13, 14], [15, 16], [17, 18], [19, 20], [21, 22], [23, 24], [25, 26], [27, 28], [29, 30], [31, 32], [33, 34], [35, 36], [37, 38], [39, 40], [41, 42], [43, 44], [45, 46], [47, 48], [49, 50], [51, 52], [53, 54], [55, 56], [57, 58], [59, 60], 
             [61, 62], [63, 64], [65, 66], [67, 68], [69, 70], [71, 72], [73, 74], [75, 76], [77, 78], [79, 80], [81, 82], [83, 84], [85, 86], [87, 88], [89, 90], [91, 92], [93, 94], [95, 96], [97, 98], [99, 100]],
         "table": ["acceptance/assimilation", "alien contact", "anarchism", "artistic expression", "authority/leadership", "biochauvinism", "bioconservatism", "destroying the titans", "diy", "education", "exploration", "fame", "family", "fascism", "hard work", "hedonism", "hypercapitalism", "immortality", "independence", 
-            "individualism", "law and order", "libertarianism", "martian liberation", "morphological freedom", "nano-ecology", "neurodiversity", "open source", "personal career", "personal development", "philanthropy", "preservationism", "reclaiming earth", "religion", "research", "(agi/indenture/infomorph/pod/uplift) rights",
-            "science!", "self reliance", "(agi/indenture/infomorph/pod/uplift) slavery", "socialism", "sousveillance", "stability", "survival", "thrill seeking", "technoprogressivism", "transparency", "vengeance", "venusian sovereignty", "vice", "wealth", "x-risks"
+            "individualism", "law and order", "libertarianism", "martian liberation", "morphological freedom", "nano-ecology", "neurodiversity", "open source", "personal career", "personal development", "philanthropy", "preservationism", "reclaiming earth", "religion", "research", "(identity) rights",
+            "science!", "self reliance", "(identity) slavery", "socialism", "sousveillance", "stability", "survival", "thrill seeking", "technoprogressivism", "transparency", "vengeance", "venusian sovereignty", "vice", "wealth", "x-risks"
         ]
     },
     "field skills": {
-        "type": "info",
         "academics": {
             "values": [[1, 3], [4, 7], [8, 10], [11, 16], [17, 19], [20, 24], [25, 26], [27, 29], [30, 33], [34, 36], [37, 38], [39, 40], [41, 44], [45, 47], [48, 50], [51, 53], [54, 56], [57, 59], [60, 63], [64, 66], [67, 68], [69, 71], [72, 75], [76, 79], [80, 82], [83, 88], [89, 91], [92, 95], [96, 97], [98, 100]],
             "table": ["anthropology", "(xeno)archeology", "astronomy", "(astro)biology", "(xeno)botany", "chemistry", "climatology", "cognitive science", "computer science", "cryptography", "ecology", "economics", "engineering", "(xeno)genetics", "geology", "(pre-fall/post-fall) history", "(xeno)linguistics", "mathematics",
@@ -234,7 +233,6 @@
         "weapon": ["beam weapons", "blades", "clubs", "exotic melee weapon", "exotic ranged weapon", "kinetic weapons", "seeker weapons", "spray weapons", "throwing weapons"]
     },
     "skills": {
-        "type": "info",
         "academics": {
             "category": "knowledge",
             "linked": "cog",
@@ -475,9 +473,9 @@
             "category": "social",
             "linked": "sav",
             "desc": {
-                "usage": "kinesics is the art of empathy and nonvocal communication.",
+                "desc": "kinesics is the art of empathy and nonvocal communication.",
                 "spec": "judge intent, nonvocal communication",
-                "desc": "use kinesics to read body language, tells, social cues, and other subconscious indicators. it can also be used to emote more effectively. kinesics is used defensively whenever someone is trying to deceive you; make an opposed test against that person’s deception or impersonation skill. though synthetic morphs are also designed to emote, reading them is not as easy. apply a –30 modifier when judging a synthetic morph inhabited by a character or agi. likewise, standard ais are also difficult to read; apply a –60 modifier when judging a synthetic morph or pod operated by an ai."
+                "usage": "use kinesics to read body language, tells, social cues, and other subconscious indicators. it can also be used to emote more effectively. kinesics is used defensively whenever someone is trying to deceive you; make an opposed test against that person’s deception or impersonation skill. though synthetic morphs are also designed to emote, reading them is not as easy. apply a –30 modifier when judging a synthetic morph inhabited by a character or agi. likewise, standard ais are also difficult to read; apply a –60 modifier when judging a synthetic morph or pod operated by an ai."
             }
         },
         "kinetic weapons": {
@@ -690,7 +688,7 @@
     "backgrounds": {
         "ape uplift": {
             "skills": {"unarmed": 10, "intimidation": 20, "fray": 10},
-            "trait": ["brave", {"name": "social stigma", "spec": "agi"}],
+            "traits": ["brave", {"name": "social stigma", "spec": "agi"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -699,7 +697,7 @@
         },
         "bonobo uplift": {
             "skills": {"networking": [10, 10], "persuasion": 10, "freerunning": 10, "kinesics": 10},
-            "trait": ["social animal", {"name": " addiction", "spec": "sex (level 1)"}, {"name": "social stigma", "spec": "uplift"}],
+            "traits": ["social animal", {"name": "addiction", "spec": "sex (level 1)"}, {"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -708,7 +706,7 @@
         },
         "catacean uplift": {
             "skills": {"networking": 10, "art": {"spec": "singing", "value": 20}, "swimming": 20},
-            "trait": ["social animal", {"name": "social stigma", "spec": "uplift"}],
+            "traits": ["social animal", {"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -717,7 +715,7 @@
         },
         "chimp uplift": {
             "skills": {"climbing": 10, "networking": {"spec": "hypercorps", "value": 10}, "freerunning": 10, "fray": 10},
-            "trait": {"name": "social stigma", "spec": "uplift"},
+            "traits": [{"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -726,7 +724,7 @@
         },
         "corvid uplift": {
             "skills": {"navigation": 10, "perception": 10, "flight": 20, "scrounging": 20},
-            "trait": ["hoarder", {"name": "social stigma", "spec": "uplift"}],
+            "traits": ["hoarder", {"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -735,7 +733,7 @@
         },
         "drifter": {
             "skills": {"networking": 10, "navigation": 10, "pilot": {"spec": "spacecraft", "value": 20}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -744,7 +742,7 @@
         },
         "emergent agi": {
             "skills": {"programming": 30, "infosec": 15, "interfacing": 30},
-            "trait": ["emotive blindness", " poorly socialised", " real wold naivete", {"name": "social stigma", "spec": "agi"}],
+            "traits": ["emotive blindness", "poorly socialized", "real world naivete", {"name": "social stigma", "spec": "agi"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -753,7 +751,7 @@
         },
         "fall evacuee": {
             "skills": {"networking": 10, "pilot": {"spec": "groundcraft", "value": 10}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": -2500,
             "morphs": "",
@@ -762,7 +760,7 @@
         },
         "feral uplift": {
             "skills": {"unarmed": 20, "perception": 10, "navigation": 10, "fray": 10},
-            "trait": ["heightened instinct", " poorly socialised", " real world naivete", {"name": "social stigma", "spec": "uplift"}],
+            "traits": ["heightened instinct", "poorly socialized", "real world naivete", {"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -771,7 +769,7 @@
         },
         "humanities infolife": {
             "skills": {"academics": 10, "research": 10, "networking": 10, "kinesics": 10, "interfacing": 20},
-            "trait": ["real wold naivete", {"name": "social stigma", "spec": "agi"}],
+            "traits": ["real world naivete", {"name": "social stigma", "spec": "agi"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -780,7 +778,7 @@
         },
         "hyperelite": {
             "skills": {"networking": {"spec": "hypercorps", "value": 20}, "protocol": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 10000,
             "morphs": ["exalt", "menton", "olympian", "sylph", "bouncer", "fury", "futura", "ghost", "hibernoids", "neotenic", "remade", "premium ruster", "lunar flier", "martian alpiner", "salamander", "surya", "venusian glider", "regular ruster", "aquanaut", "crasher", "dverger", "hazer", "hulder", "hyperbright", "ring flyer", "selkie", "cerean aquanaut", "europan aquanaut", "titanian flier", "titanian olympian", "ariel", "bruiser", "cloud skate", "faust", "freeman", "grey", "nomad", "observer", "theseus"],
@@ -789,7 +787,7 @@
         },
         "indenture": {
             "skills": {"profession": 20, "networking": {"spec": "hypercorp", "value": 10}, "any": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -798,7 +796,7 @@
         },
         "infolife": {
             "skills": {"interfacing": 30},
-            "trait": ["real world naivete", {"name": "social stigma", "spec": "agi"}],
+            "traits": ["real world naivete", {"name": "social stigma", "spec": "agi"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -807,7 +805,7 @@
         },
         "isolate": {
             "skills": {"any": [20, 20]},
-            "trait": "",
+            "traits": [],
             "rep": -10,
             "credits": 0,
             "morphs": "",
@@ -816,7 +814,7 @@
         },
         "lost": {
             "skills": {"any": [{"category": "knowledge", "value": 20}, {"category": "knowledge", "value": 20}]},
-            "trait": ["psi (level 1)", " mental disorder"],
+            "traits": [{"name": "psi", "spec": "level 1"}, "mental disorder"],
             "rep": 0,
             "credits": 0,
             "morphs": ["futura", "faust"],
@@ -825,7 +823,7 @@
         },
         "lunar colonist": {
             "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": {"value": 10, "choices": ["technical", "academics", "profession"]}, "pilot": {"spec": "groundcraft", "value": 10}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -834,7 +832,7 @@
         },
         "machine infolife": {
             "skills": {"programming": 20, "infosec": 10, "interfacing": 30},
-            "trait": ["machine intuition", " poorly socalised", " real world naivete", {"name": "social stigma", "spec": "agi"}],
+            "traits": ["machine intuition", "poorly socialized", "real world naivete", {"name": "social stigma", "spec": "agi"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -843,7 +841,7 @@
         },
         "maker nomad": {
             "skills": {"hardware": 10, "academics": 10, "profession": {"spec": "teraforming", "value": 10}, "scrounging": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -852,7 +850,7 @@
         },
         "martian": {
             "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": {"value": 10, "choices": ["technical", "academics", "profession"]}, "pilot": {"spec": "groundcraft", "value": 10}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -861,7 +859,7 @@
         },
         "neanderthal uplift": {
             "skills": {"freerunning": 10, "networking": 10, "art": {"spec": "music", "value": 20}, "profession": 10},
-            "trait": {"name": "social stigma", "spec": "uplift"},
+            "traits": [{"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -870,7 +868,7 @@
         },
         "octopus uplift": {
             "skills": {"disguise": 10, "swimming": 10, "infiltration": 10, "deception": 10, "freefall": 10},
-            "trait": [{"name": "hardening", "spec": "isolation"}, " solitary", {"name": "social stigma", "spec": "uplift"}],
+            "traits": [{"name": "hardening", "spec": "isolation"}, "solitary", {"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -879,7 +877,7 @@
         },
         "original space colonist": {
             "skills": {"networking": 20, "any": [{"value": 10, "choices": ["technical", "academics", "profession"]}, {"value": 10, "choices": ["freefall", "pilot=spacecraft"]}]},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -888,7 +886,7 @@
         },
         "parrot uplift": {
             "skills": {"impersonation": 20, "networking": 10, "flight": 10},
-            "trait": ["first impression", {"name": "social stigma", "spec": "uplift"}],
+            "traits": ["first impression", {"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -897,7 +895,7 @@
         },
         "pig uplift": {
             "skills": {"profession": 10, "perception": 10, "investigation": 10, "networking": 10, "scrounging": 20},
-            "trait": ["impared balance (level 1)", " oblivious", {"name": "social stigma", "spec": "agi"}],
+            "traits": [{"name": "impaired balance", "spec": "level 1"}, "oblivious", {"name": "social stigma", "spec": "agi"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -906,7 +904,7 @@
         },
         "re-instantiated": {
             "skills": {"networking": 10, "pilot": {"spec": "groundcraft", "value": 10}},
-            "trait": "edited memories",
+            "traits": ["edited memories"],
             "rep": 0,
             "credits": -5000,
             "morphs": "",
@@ -915,7 +913,7 @@
         },
         "research infolife": {
             "skills": {"academics": 20, "interfacing": 10, "research": 30},
-            "trait": ["real wold naivete", {"name": "social stigma", "spec": "agi"}],
+            "traits": ["real world naivete", {"name": "social stigma", "spec": "agi"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -924,7 +922,7 @@
         },
         "scumborn": {
             "skills": {"networking": {"spec": "autonomists", "value": 20}, "scrounging": 10, "any": {"value": 10, "choices": ["deception", "persuasion"]}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -933,7 +931,7 @@
         },
         "sufi nomad": {
             "skills": {"art": 10, "navigation": 10, "infiltration": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -942,7 +940,7 @@
         },
         "titanian hulder": {
             "skills": {"profession": {"spec": "prospecting", "value": 10}, "animal handling": 10, "scrounging": 10, "academics": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -951,7 +949,7 @@
         },
         "uplift": {
             "skills": {"perception": 10, "any": [{"category": "knowledge", "value": 20}, {"category": "knowledge", "value": 20}], "fray": 10},
-            "trait": {"name": "social stigma", "spec": "uplift"},
+            "traits": [{"name": "social stigma", "spec": "uplift"}],
             "rep": 0,
             "credits": 0,
             "morphs": ["neo-avian", "neo-hominid", "octomorph", "neanderthal", "chickcharnie", "hypergibbon", "neo-beluga", "neo-dolphin", "neo-gorilla", "neo-orca", "neo-pig", "neo-porpoise", "neo-whale", "takko", "cerean beluga", "cerean dolphin", "cerean orca", "cerean porpoise", "cerean whale", "cerean octomorph", "cerean takko", "europan beluga", "europan dolphin", "europan orca", "europan porpoise", "europan whale", "europan octomorph", "europan takko", "critter", "flying squid", "opteryx"],
@@ -962,7 +960,7 @@
     "factions": {
         "anarchist": {
             "skills": {"networking": {"spec": "autonomists", "value": 30}, "any": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -971,7 +969,7 @@
         },
         "argonaut": {
             "skills": {"networking": {"spec": "scientists", "value": 20}, "any": [{"value": 10, "choices": ["technical", "academics", "profession"]}, {"value": 10, "choices": ["technical", "academics", "profession"]}]},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -980,7 +978,7 @@
         },
         "barsoomian": {
             "skills": {"networking": {"spec": "autonomists", "value": 20}, "freerunning": 10, "any": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -989,7 +987,7 @@
         },
         "belter": {
             "skills": {"freefall": 10, "networking": [10, 10], "profession": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -998,7 +996,7 @@
         },
         "bioconservative": {
             "skills": {"profession": 20, "networking": {"spec": "hypercorps", "value": 10}, "pilot": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1007,7 +1005,7 @@
         },
         "brinker": {
             "skills": {"networking": 20, "any": 10, "pilot": {"spec": "spacecraft", "value": 10}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1016,7 +1014,7 @@
         },
         "criminal": {
             "skills": {"networking": {"spec": "criminals", "value": 30}, "intimidation": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1025,7 +1023,7 @@
         },
         "europan": {
             "skills": {"academics": 10, "swimming": 20, "pilot": {"spec": "watercraft", "value": 10}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1034,7 +1032,7 @@
         },
         "exhuman": {
             "skills": {"medicine": 10, "psychosurgery": 10, "any": [{"value": 10, "choices": ["exotic melee", "exotic ranged"]}, {"category": "weapon", "value": 20}], "fray": 10},
-            "trait": ["mental disorder", " modified behavior (level 2)", {"name": "social stigma", "spec": "exhuman"}],
+            "traits": ["mental disorder", {"name": "modified behavior", "spec": "level 2"}, {"name": "social stigma", "spec": "exhuman"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1043,7 +1041,7 @@
         },
         "extropian": {
             "skills": {"persuasion": 10, "networking": [{"spec": "autonomists", "value": 20}, {"spec": "hypercorps", "value": 10}]},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1052,7 +1050,7 @@
         },
         "hypercorp": {
             "skills": {"networking": [{"spec": "hypercorps", "value": 20}, 10], "protocol": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1061,7 +1059,7 @@
         },
         "jovian": {
             "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": [{"category": "weapon", "value": 10}, {"category": "weapon", "value": 10}], "fray": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": ["flat", "splicer"],
@@ -1070,7 +1068,7 @@
         },
         "lunar": {
             "skills": {"networking": [{"spec": "hypercorps", "value": 20}, {"spec": "ecologists", "value": 10}], "language": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1079,7 +1077,7 @@
         },
         "mercurial": {
             "skills": {"networking": 20, "any": [10, 10]},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1088,7 +1086,7 @@
         },
         "orbital": {
             "skills": {"freefall": 10, "networking": [10, 10], "pilot": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1097,7 +1095,7 @@
         },
         "outster": {
             "skills": {"freefall": 20, "pilot": {"spec": "spacecraft", "value": 10}, "interfacing": 10},
-            "trait": "shut in",
+            "traits": ["shut-in"],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1106,7 +1104,7 @@
         },
         "precautionist": {
             "skills": {"academics": 10, "networking": [10, 10], "profession": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1115,7 +1113,7 @@
         },
         "reclaimer": {
             "skills": {"networking": {"spec": "ecologists", "value": 20}, "language": 10, "pilot": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1124,7 +1122,7 @@
         },
         "ringer": {
             "skills": {"networking": 10, "flight": 20, "pilot": {"spec": "spacecraft", "value": 10}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1133,7 +1131,7 @@
         },
         "sapient": {
             "skills": {"profession": 10, "networking": 10, "protocol": 10, "any": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1142,7 +1140,7 @@
         },
         "scum": {
             "skills": {"freefall": 10, "networking": {"spec": "autonomists", "value": 20}, "any": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1151,7 +1149,7 @@
         },
         "sifter": {
             "skills": {"networking": 10, "profession": {"spec": "mining", "value": 20}, "pilot": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1160,7 +1158,7 @@
         },
         "singularity seeker": {
             "skills": {"psychosurgery": 20, "networking": {"spec": "criminals", "value": 10}, "interest": {"spec": "titans", "value": 10}, "interfacing": 10},
-            "trait": {"name": "social stigma", "spec": "singularity seeker"},
+            "traits": [{"name": "social stigma", "spec": "singularity seeker"}],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1169,7 +1167,7 @@
         },
         "skimmer": {
             "skills": {"networking": 10, "flight": 10, "pilot": {"spec": "aircraft", "value": 20}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1178,7 +1176,7 @@
         },
         "socialite": {
             "skills": {"networking": {"spec": "media", "value": 20}, "persuasion": 10, "protocol": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": ["splicer", "exalt", "menton", "olympian", "sylph", "bouncer", "fury", "futura", "ghost", "hibernoids", "neotenic", "remade", "premium ruster", "lunar flier", "martian alpiner", "salamander", "surya", "venusian glider", "regular ruster", "aquanaut", "crasher", "dverger", "hazer", "hulder", "hyperbright", "ring flyer", "selkie", "cerean aquanaut", "europan aquanaut", "titanian flier", "titanian olympian", "ariel", "bruiser", "cloud skate", "faust", "freeman", "grey", "nomad", "observer", "theseus"],
@@ -1187,7 +1185,7 @@
         },
         "solarian": {
             "skills": {"freefall": 20, "perception": 10, "navigation": 10},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1196,7 +1194,7 @@
         },
         "titanian": {
             "skills": {"networking": {"spec": "autonomists", "value": 20}, "any": [{"value": 10, "choices": ["technical", "academics", "profession"]}, {"value": 10, "choices": ["technical", "academics", "profession"]}]},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
@@ -1205,7 +1203,7 @@
         },
         "ultimate": {
             "skills": {"networking": 20, "any": [10, 10]},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": ["exalt", "menton", "olympian", "sylph", "bouncer", "fury", "futura", "ghost", "hibernoids", "neotenic", "remade", "premium ruster", "lunar flier", "martian alpiner", "salamander", "surya", "venusian glider", "regular ruster", "aquanaut", "crasher", "dverger", "hazer", "hulder", "hyperbright", "ring flyer", "selkie", "cerean aquanaut", "europan aquanaut", "titanian flier", "titanian olympian", "ariel ", "bruiser", "cloud skate", "faust", "freeman", "grey", "nomad", "observer", "theseus", "synth", "arachnoid", "dragonfly", "reaper", "slitheroid", "swarmanoid", "q-morph", "steel", "masked steel", "liquid steel", "sundiver", "kite", "spare", "xu fu", "gargoyle", "skulker", "cetus", "courier", "fenrir", "savant", "biocore", "blackbird", "cloud skimmer", "daitya", "fighting kite", "galatea", "guard", "guard deluxe", "mimic", "nautiloid", "opteryx", "rover", "rover: space fighter", "smart swarm", "sphere", "synthtaur", "apiary", "beekeeper", "bouba", "crafter", "fighter", "grimoire", "longbow", "picklock", "rogue", "sapper", "wizard", "yeoman"],
@@ -1214,7 +1212,7 @@
         },
         "venusian": {
             "skills": {"networking": {"spec": "hypercorps", "value": 20}, "any": 10, "pilot": {"spec": "aircraft", "value": 10}},
-            "trait": "",
+            "traits": [],
             "rep": 0,
             "credits": 0,
             "morphs": "",
